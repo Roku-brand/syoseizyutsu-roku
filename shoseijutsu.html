@@ -22,77 +22,22 @@
 
   <main class="container">
     <section class="section">
-      <h2>一覧</h2>
-      <p>目的別に使える処世術を、5つの領域に整理しています。</p>
-      <div class="grid">
-        <div class="card">
-          <div class="badge">人生</div>
-          <h3>人生の処世術群</h3>
-          <ul>
-            <li>長期視点の目標設計</li>
-            <li>後悔を減らす意思決定</li>
-            <li>自分の軸を守る習慣</li>
-          </ul>
-        </div>
-        <div class="card">
-          <div class="badge">思考</div>
-          <h3>思考の処世術群</h3>
-          <ul>
-            <li>情報過多を整理する思考術</li>
-            <li>認知バイアスとの距離の取り方</li>
-            <li>「迷い」を可視化するノート術</li>
-          </ul>
-        </div>
-        <div class="card">
-          <div class="badge">対人</div>
-          <h3>対人の処世術群</h3>
-          <ul>
-            <li>人たらしの基本</li>
-            <li>会話のテンポ設計</li>
-            <li>境界線を守る交渉術</li>
-          </ul>
-        </div>
-        <div class="card">
-          <div class="badge">スキル</div>
-          <h3>スキルの処世術群</h3>
-          <ul>
-            <li>学習の再現性を上げる習慣</li>
-            <li>フィードバック活用法</li>
-            <li>成果を見せるアウトプット術</li>
-          </ul>
-        </div>
-        <div class="card">
-          <div class="badge">達成</div>
-          <h3>達成の処世術群</h3>
-          <ul>
-            <li>やり抜くための小さな設計</li>
-            <li>集中を守る環境づくり</li>
-            <li>習慣化を支えるトリガー設定</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>索引</h2>
-      <p>キーワードとタグで必要な処世術を探せる入口です。</p>
+      <h2>処世術カード</h2>
+      <p>dataフォルダーにある処世術群を横断検索できるように整理しています。</p>
       <div class="search-box">
-        <input type="text" placeholder="キーワードで検索" aria-label="キーワード検索" />
-        <input type="text" placeholder="タグで検索" aria-label="タグ検索" />
+        <input id="technique-keyword" type="text" placeholder="キーワードで検索" aria-label="キーワード検索" />
+        <input id="technique-tag" type="text" placeholder="根拠タグで検索 (例: B-001)" aria-label="根拠タグ検索" />
       </div>
-      <div class="tag-list">
-        <span class="tag">人間関係</span>
-        <span class="tag">集中力</span>
-        <span class="tag">意思決定</span>
-        <span class="tag">交渉</span>
-        <span class="tag">習慣化</span>
-        <span class="tag">メタ認知</span>
-      </div>
+      <div class="tag-list" id="technique-area-filters"></div>
+      <p class="helper-text" id="technique-count"></p>
+      <div class="card-grid" id="technique-results"></div>
+      <p class="notice is-hidden" id="technique-empty">該当する処世術が見つかりませんでした。</p>
     </section>
   </main>
 
   <footer class="container">
     <p>処世術は「場面・背景・感情」まで揃えることで、再現性が高まります。</p>
   </footer>
+  <script type="module" src="scripts/shoseijutsu.js"></script>
 </body>
 </html>

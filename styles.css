@@ -144,6 +144,17 @@ main {
   font-size: 14px;
 }
 
+.tab-button {
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.tab-button[aria-pressed="true"] {
+  background: #1f2430;
+  color: #ffffff;
+  border-color: #1f2430;
+}
+
 .search-box {
   display: flex;
   gap: 12px;
@@ -159,6 +170,12 @@ main {
   border: 1px solid #d7dce8;
 }
 
+.helper-text {
+  margin: 8px 0 0;
+  font-size: 13px;
+  color: #6c7385;
+}
+
 .tag-list {
   display: flex;
   gap: 10px;
@@ -171,6 +188,116 @@ main {
   border-radius: 999px;
   border: 1px solid #d7dce8;
   font-size: 12px;
+}
+
+.tag-button {
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.tag-button[aria-pressed="true"] {
+  background: #1f2430;
+  color: #ffffff;
+  border-color: #1f2430;
+}
+
+.tag--small {
+  padding: 4px 10px;
+  font-size: 11px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.card-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-subtitle {
+  margin: 0;
+  color: #3d4964;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.card-meta {
+  margin: 0;
+  font-size: 12px;
+  color: #6c7385;
+}
+
+.card-tags {
+  margin-top: auto;
+}
+
+.detail-grid {
+  display: grid;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.detail-card {
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #e2e6f0;
+  padding: 16px 20px;
+}
+
+.detail-card summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+}
+
+.detail-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.detail-title {
+  font-size: 16px;
+}
+
+.detail-card[open] {
+  box-shadow: 0 10px 24px rgba(31, 36, 48, 0.08);
+}
+
+.detail-body {
+  margin-top: 16px;
+  display: grid;
+  gap: 12px;
+  color: #3d4964;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.detail-body h4 {
+  margin: 0 0 6px;
+  font-size: 14px;
+  color: #1f2430;
+}
+
+.detail-body ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.detail-summary {
+  margin: 0;
+  color: #1f2430;
+  font-weight: 600;
+}
+
+.is-hidden {
+  display: none;
 }
 
 .notice {

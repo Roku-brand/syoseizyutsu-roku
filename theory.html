@@ -27,51 +27,19 @@
     </section>
 
     <section class="section">
-      <div class="tabs">
-        <span class="tab">索引</span>
-        <span class="tab">認知・感情の原理</span>
-        <span class="tab">行動・意思決定の原理</span>
-        <span class="tab">対人・影響の原理</span>
-        <span class="tab">構造・制度の原理</span>
-        <span class="tab">経験則の知恵</span>
+      <div class="search-box">
+        <input id="foundation-search" type="text" placeholder="キーワードで検索" aria-label="理論カード検索" />
       </div>
-      <div class="grid">
-        <div class="card">
-          <div class="badge">索引</div>
-          <h3>キーワード辞典</h3>
-          <p>バイアス、意思決定、学習理論などの用語を素早く検索できる索引を作成予定です。</p>
-        </div>
-        <div class="card">
-          <div class="badge">認知・感情</div>
-          <h3>心の仕組みを理解する</h3>
-          <p>認知的不協和、感情のラベリング、ストレス反応などを整理します。</p>
-        </div>
-        <div class="card">
-          <div class="badge">行動・意思決定</div>
-          <h3>行動を生む原理</h3>
-          <p>目標設定理論、プロスペクト理論、ナッジの設計などをまとめます。</p>
-        </div>
-        <div class="card">
-          <div class="badge">対人・影響</div>
-          <h3>影響のメカニズム</h3>
-          <p>社会的証明、返報性、信頼形成などの原理を辞書化します。</p>
-        </div>
-        <div class="card">
-          <div class="badge">構造・制度</div>
-          <h3>環境と制度の設計</h3>
-          <p>ルール設計、評価制度、権限構造などの影響を整理します。</p>
-        </div>
-        <div class="card">
-          <div class="badge">経験則</div>
-          <h3>現場の知恵</h3>
-          <p>実務や生活の中で蓄積された経験則を構造化します。</p>
-        </div>
-      </div>
+      <div class="tabs" id="foundation-tabs"></div>
+      <p class="helper-text" id="foundation-count"></p>
+      <div class="detail-grid" id="foundation-results"></div>
+      <p class="notice is-hidden" id="foundation-empty">該当する理論カードが見つかりませんでした。</p>
     </section>
   </main>
 
   <footer class="container">
     <p>理論の理解は、処世術を「信念」から「技術」に変えます。</p>
   </footer>
+  <script type="module" src="scripts/theory.js"></script>
 </body>
 </html>
