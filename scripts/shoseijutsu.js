@@ -32,6 +32,7 @@ const techniques = Object.entries(shoseijutsuData.techniques).flatMap(
 const keywordInput = document.getElementById("technique-keyword");
 const tagInput = document.getElementById("technique-tag");
 const filterContainer = document.getElementById("technique-area-filters");
+const groupFilterContainer = document.getElementById("technique-group-filters");
 const resultsContainer = document.getElementById("technique-results");
 const emptyState = document.getElementById("technique-empty");
 const countLabel = document.getElementById("technique-count");
@@ -41,7 +42,18 @@ const filterOptions = [
   ...Object.entries(areaLabels).map(([key, label]) => ({ key, label })),
 ];
 
+const groupOptions = Object.entries(shoseijutsuData.techniques).flatMap(
+  ([areaKey, section]) =>
+    section.items.map((group) => ({
+      key: `${areaKey}:${group.name}`,
+      label: `${areaLabels[areaKey] ?? section.title}・${group.name}`,
+      areaKey,
+      groupName: group.name,
+    }))
+);
+
 let activeArea = "all";
+let activeGroup = "all";
 
 const normalize = (value) => value.toLowerCase().trim();
 
@@ -57,14 +69,61 @@ const renderFilters = () => {
     button.addEventListener("click", () => {
       activeArea = option.key;
       renderFilters();
+      renderGroupFilters();
       renderCards();
     });
     filterContainer.appendChild(button);
   });
 };
 
+const renderGroupFilters = () => {
+  groupFilterContainer.innerHTML = "";
+  const visibleOptions =
+    activeArea === "all"
+      ? groupOptions
+      : groupOptions.filter((option) => option.areaKey === activeArea);
+
+  if (!visibleOptions.some((option) => option.key === activeGroup)) {
+    activeGroup = "all";
+  }
+
+  const allButton = document.createElement("button");
+  allButton.type = "button";
+  allButton.className = "tag tag-button tag--compact";
+  allButton.dataset.group = "all";
+  allButton.setAttribute("aria-pressed", activeGroup === "all" ? "true" : "false");
+  allButton.textContent = "すべて";
+  allButton.addEventListener("click", () => {
+    activeGroup = "all";
+    renderGroupFilters();
+    renderCards();
+  });
+  groupFilterContainer.appendChild(allButton);
+
+  visibleOptions.forEach((option) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "tag tag-button tag--compact";
+    button.dataset.group = option.key;
+    button.setAttribute("aria-pressed", option.key === activeGroup ? "true" : "false");
+    button.textContent = option.label;
+    button.addEventListener("click", () => {
+      activeGroup = option.key;
+      renderGroupFilters();
+      renderCards();
+    });
+    groupFilterContainer.appendChild(button);
+  });
+};
+
 const matchesFilter = (item, keyword, tag) => {
   if (activeArea !== "all" && item.areaKey !== activeArea) {
+    return false;
+  }
+  if (
+    activeGroup !== "all" &&
+    `${item.areaKey}:${item.groupName}` !== activeGroup
+  ) {
     return false;
   }
   const searchable = [
@@ -159,4 +218,5 @@ keywordInput.addEventListener("input", handleInput);
 tagInput.addEventListener("input", handleInput);
 
 renderFilters();
+renderGroupFilters();
 renderCards();
