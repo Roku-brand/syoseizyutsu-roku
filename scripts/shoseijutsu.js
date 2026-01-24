@@ -8,34 +8,7 @@ const areaLabels = {
   achievement: "達成",
 };
 
-const techniques = Object.entries(shoseijutsuData.techniques).flatMap(
-  ([areaKey, section]) =>
-    section.items.flatMap((group) =>
-      group.details.map((detail) => {
-        const foundationTags = (detail.foundations ?? [])
-          .flatMap((entry) => entry.split(/\s+/))
-          .filter(Boolean);
-        return {
-          id: `${areaKey}-${group.name}-${detail.id}`,
-          areaKey,
-          areaLabel: areaLabels[areaKey] ?? section.title,
-          sectionTitle: section.title,
-          groupName: group.name,
-          title: detail.title,
-          subtitle: detail.subtitle,
-          foundations: foundationTags,
-        };
-      })
-    )
-);
-
-const keywordInput = document.getElementById("technique-keyword");
-const tagInput = document.getElementById("technique-tag");
 const groupBoardContainer = document.getElementById("technique-group-board");
-const resetButton = document.getElementById("technique-reset");
-const resultsContainer = document.getElementById("technique-results");
-const emptyState = document.getElementById("technique-empty");
-const countLabel = document.getElementById("technique-count");
 
 const groupOptions = Object.entries(shoseijutsuData.techniques).flatMap(
   ([areaKey, section]) =>
@@ -50,7 +23,6 @@ const groupOptions = Object.entries(shoseijutsuData.techniques).flatMap(
 let activeArea = "all";
 let activeGroup = "all";
 
-const normalize = (value) => value.toLowerCase().trim();
 const groupParam = new URLSearchParams(window.location.search).get("group");
 const applyGroupFromUrl = () => {
   if (!groupParam) {
@@ -82,7 +54,7 @@ const renderGroupBoard = () => {
       .forEach((option) => {
         const button = document.createElement("button");
         button.type = "button";
-        button.className = "tag tag-button tag--compact group-button";
+        button.className = "tag tag-button group-button group-button--hero";
         button.dataset.group = option.key;
         button.setAttribute("aria-pressed", option.key === activeGroup ? "true" : "false");
         button.textContent = option.groupName;
@@ -99,116 +71,5 @@ const renderGroupBoard = () => {
   });
 };
 
-const matchesFilter = (item, keyword, tag) => {
-  if (activeArea !== "all" && item.areaKey !== activeArea) {
-    return false;
-  }
-  if (
-    activeGroup !== "all" &&
-    `${item.areaKey}:${item.groupName}` !== activeGroup
-  ) {
-    return false;
-  }
-  const searchable = [
-    item.title,
-    item.subtitle,
-    item.groupName,
-    item.sectionTitle,
-    item.areaLabel,
-    item.foundations.join(" "),
-  ]
-    .filter(Boolean)
-    .join(" ");
-
-  const normalized = normalize(searchable);
-  const keywordMatch = keyword ? normalized.includes(keyword) : true;
-  const tagMatch = tag
-    ? normalize(item.foundations.join(" ")).includes(tag) || normalized.includes(tag)
-    : true;
-
-  return keywordMatch && tagMatch;
-};
-
-const renderCards = () => {
-  const keyword = normalize(keywordInput.value);
-  const tag = normalize(tagInput.value);
-  const filtered = techniques.filter((item) => matchesFilter(item, keyword, tag));
-
-  const grouped = new Map();
-  filtered.forEach((item) => {
-    const key = `${item.areaKey}-${item.groupName}`;
-    if (!grouped.has(key)) {
-      grouped.set(key, {
-        label: item.groupName,
-        areaLabel: item.areaLabel,
-        sectionTitle: item.sectionTitle,
-        items: [],
-      });
-    }
-    grouped.get(key).items.push(item);
-  });
-
-  resultsContainer.innerHTML = Array.from(grouped.values())
-    .map((group) => {
-      const cardsHtml = group.items
-        .map((item) => {
-          const foundationsHtml = item.foundations.length
-            ? `<div class="tag-list card-tags">${item.foundations
-                .map((tagItem) => `<span class="tag tag--small">${tagItem}</span>`)
-                .join("")}</div>`
-            : "";
-
-          return `
-            <article class="card card-detail">
-              <div class="badge">${item.areaLabel}</div>
-              <h3>${item.title}</h3>
-              ${item.subtitle ? `<p class="card-subtitle">${item.subtitle}</p>` : ""}
-              <p class="card-meta">${item.groupName} / ${item.sectionTitle}</p>
-              ${foundationsHtml}
-            </article>
-          `;
-        })
-        .join("");
-
-      return `
-        <section class="card-group">
-          <div class="card-group-header">
-            <div>
-              <h3>${group.label}</h3>
-              <p class="card-group-meta">${group.areaLabel} / ${group.sectionTitle}</p>
-            </div>
-            <span class="card-group-count">${group.items.length}件</span>
-          </div>
-          <div class="card-grid">
-            ${cardsHtml}
-          </div>
-        </section>
-      `;
-    })
-    .join("");
-
-  const hasResults = filtered.length > 0;
-  resultsContainer.classList.toggle("is-hidden", !hasResults);
-  emptyState.classList.toggle("is-hidden", hasResults);
-  countLabel.textContent = `表示件数: ${filtered.length}件 / グループ: ${grouped.size}件`;
-};
-
-const handleInput = () => {
-  renderCards();
-};
-
-keywordInput.addEventListener("input", handleInput);
-tagInput.addEventListener("input", handleInput);
-resetButton.addEventListener("click", () => {
-  activeArea = "all";
-  activeGroup = "all";
-  const nextUrl = new URL(window.location.href);
-  nextUrl.searchParams.delete("group");
-  window.history.replaceState({}, "", nextUrl.toString());
-  renderGroupBoard();
-  renderCards();
-});
-
 applyGroupFromUrl();
 renderGroupBoard();
-renderCards();

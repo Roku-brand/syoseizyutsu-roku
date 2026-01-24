@@ -208,6 +208,33 @@ main {
   gap: 12px;
 }
 
+.group-board-hero {
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.group-board--hero .group-board-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.group-board--hero .group-column {
+  padding: 16px;
+  border-radius: 20px;
+  gap: 12px;
+}
+
+.group-board--hero .group-column-title {
+  font-size: 15px;
+}
+
+.group-button--hero {
+  padding: 8px 14px;
+  font-size: 13px;
+}
+
 .group-board-actions {
   display: flex;
   justify-content: flex-end;

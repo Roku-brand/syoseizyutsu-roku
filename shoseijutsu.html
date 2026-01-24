@@ -21,27 +21,12 @@
   </header>
 
   <main class="container">
-    <section class="section">
-      <h2>処世術カード</h2>
-      <p>dataフォルダーにある処世術群を横断検索できるように整理しています。</p>
-      <div class="search-box">
-        <input id="technique-keyword" type="text" placeholder="キーワードで検索" aria-label="キーワード検索" />
-        <input id="technique-tag" type="text" placeholder="根拠タグで検索 (例: B-001)" aria-label="根拠タグ検索" />
+    <section class="section group-board-hero">
+      <h2>処世術群</h2>
+      <p>知恵を俯瞰しやすいよう、処世術群のボタンだけを並べています。</p>
+      <div class="group-board group-board--hero">
+        <div class="group-board-grid" id="technique-group-board"></div>
       </div>
-      <div class="filter-stack">
-        <div class="filter-row filter-row--top">
-          <span class="filter-label">処世術群</span>
-          <div class="group-board">
-            <div class="group-board-actions">
-              <button class="tag tag-button tag--small" type="button" id="technique-reset">すべて表示</button>
-            </div>
-            <div class="group-board-grid" id="technique-group-board"></div>
-          </div>
-        </div>
-      </div>
-      <p class="helper-text" id="technique-count"></p>
-      <div class="card-group-list" id="technique-results"></div>
-      <p class="notice is-hidden" id="technique-empty">該当する処世術が見つかりませんでした。</p>
     </section>
   </main>
 
