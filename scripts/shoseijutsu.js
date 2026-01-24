@@ -44,7 +44,7 @@ const renderGroupBoard = () => {
 
     const title = document.createElement("div");
     title.className = "group-column-title";
-    title.textContent = label;
+    title.textContent = `≪${label}≫`;
     column.appendChild(title);
 
     const list = document.createElement("div");

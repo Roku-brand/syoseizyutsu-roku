@@ -1,7 +1,7 @@
 :root {
   color-scheme: light;
   font-family: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", "Segoe UI", sans-serif;
-  background-color: #f1f3f7;
+  background-color: #f8f1e7;
   color: #1c2230;
 }
 
@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  background: #f1f3f7;
+  background: #f8f1e7;
   font-size: 17px;
   line-height: 1.7;
 }
@@ -225,13 +225,18 @@ main {
 }
 
 .group-board--hero .group-column {
-  padding: 18px;
-  border-radius: 22px;
-  gap: 14px;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  background: transparent;
+  gap: 12px;
 }
 
 .group-board--hero .group-column-title {
-  font-size: 16px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #1f2430;
+  letter-spacing: 0.08em;
 }
 
 .group-button--hero {
