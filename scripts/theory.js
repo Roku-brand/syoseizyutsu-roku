@@ -77,35 +77,16 @@ const renderCards = () => {
 
   resultsContainer.innerHTML = filtered
     .map((item) => {
-      const listSection = (title, entries) => {
-        if (!entries || entries.length === 0) {
-          return "";
-        }
-        return `
-          <section>
-            <h4>${title}</h4>
-            <ul>
-              ${entries.map((entry) => `<li>${entry}</li>`).join("")}
-            </ul>
-          </section>
-        `;
-      };
-
+      const encodedTag = encodeURIComponent(item.tagId);
       return `
-        <details class="detail-card">
-          <summary>
+        <a class="detail-card link-card" href="theory-card.html?tag=${encodedTag}">
+          <div class="link-card-head">
             <span class="badge">${item.categoryTitle}</span>
             <span class="detail-title">${item.tagId} ${item.title}</span>
-          </summary>
-          <div class="detail-body">
-            <p class="detail-summary">${item.summary}</p>
-            <p>${item.definition}</p>
-            ${listSection("要点", item.keyPoints)}
-            ${listSection("落とし穴", item.pitfalls)}
-            ${listSection("実装ヒント", item.strategies)}
-            ${listSection("適用場面", item.applicationConditions)}
           </div>
-        </details>
+          <p class="detail-summary">${item.summary}</p>
+          <p class="link-card-meta">クリックして詳細を見る</p>
+        </a>
       `;
     })
     .join("");
