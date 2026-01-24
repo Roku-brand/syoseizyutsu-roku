@@ -14,12 +14,12 @@ const resultsContainer = document.getElementById("foundation-results");
 const emptyState = document.getElementById("foundation-empty");
 const countLabel = document.getElementById("foundation-count");
 
-const tabOptions = [
-  { key: "all", label: "索引" },
-  ...categories.map((category) => ({ key: category.id, label: category.title })),
-];
+const tabOptions = categories.map((category) => ({
+  key: category.id,
+  label: category.title,
+}));
 
-let activeCategory = "all";
+let activeCategory = tabOptions[0]?.key ?? "";
 
 const normalize = (value) => value.toLowerCase().trim();
 
@@ -42,7 +42,7 @@ const renderTabs = () => {
 };
 
 const matchesFilter = (item, keyword) => {
-  if (activeCategory !== "all" && item.categoryId !== activeCategory) {
+  if (activeCategory && item.categoryId !== activeCategory) {
     return false;
   }
   if (!keyword) {
