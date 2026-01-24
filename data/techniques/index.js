@@ -8,7 +8,10 @@ import { thinkingTechniques as thinkingCards } from "./thinking.js";
 export const techniqueCards = {
   achievement: achievementCards,
   life: lifeCards,
-  people: [...peopleCardsPart1, ...peopleCardsPart2],
+  people: {
+    title: "対人術",
+    items: [...peopleCardsPart1.items, ...peopleCardsPart2.items],
+  },
   skill: skillCards,
   thinking: thinkingCards,
 };
