@@ -1,4 +1,4 @@
-export const achievementTechniques = {
+export const achievementCards = {
   "title": "達成術",
   "items": [
     {
