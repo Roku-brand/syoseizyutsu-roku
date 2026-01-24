@@ -9,19 +9,25 @@ const categories = orderedCategoryIds
   .filter(Boolean);
 
 const searchInput = document.getElementById("foundation-search");
+const searchBox = document.getElementById("foundation-search-box");
 const tabsContainer = document.getElementById("foundation-tabs");
 const resultsContainer = document.getElementById("foundation-results");
 const emptyState = document.getElementById("foundation-empty");
 const countLabel = document.getElementById("foundation-count");
 
-const tabOptions = categories.map((category) => ({
-  key: category.id,
-  label: category.title,
-}));
+const tabOptions = [
+  { key: "index", label: "索引" },
+  ...categories.map((category) => ({
+    key: category.id,
+    label: category.title,
+  })),
+];
 
-let activeCategory = tabOptions[0]?.key ?? "";
+let activeCategory = "index";
 
 const normalize = (value) => value.toLowerCase().trim();
+
+const isIndexActive = () => activeCategory === "index";
 
 const renderTabs = () => {
   tabsContainer.innerHTML = "";
@@ -34,18 +40,29 @@ const renderTabs = () => {
     button.textContent = option.label;
     button.addEventListener("click", () => {
       activeCategory = option.key;
+      if (!isIndexActive()) {
+        searchInput.value = "";
+      }
       renderTabs();
       renderCards();
     });
     tabsContainer.appendChild(button);
   });
+
+  if (isIndexActive()) {
+    searchBox.classList.remove("is-hidden");
+    searchInput.disabled = false;
+  } else {
+    searchBox.classList.add("is-hidden");
+    searchInput.disabled = true;
+  }
 };
 
 const matchesFilter = (item, keyword) => {
-  if (activeCategory && item.categoryId !== activeCategory) {
+  if (!isIndexActive() && activeCategory && item.categoryId !== activeCategory) {
     return false;
   }
-  if (!keyword) {
+  if (!keyword || !isIndexActive()) {
     return true;
   }
   const searchable = [

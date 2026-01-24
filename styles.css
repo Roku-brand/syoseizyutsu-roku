@@ -139,6 +139,18 @@ main {
   margin-bottom: 20px;
 }
 
+.tabs-toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.tabs-toolbar .tabs,
+.tabs-toolbar .search-box {
+  margin-bottom: 0;
+}
+
 .tab {
   padding: 12px 22px;
   border-radius: 999px;
