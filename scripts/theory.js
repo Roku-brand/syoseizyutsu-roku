@@ -1,6 +1,12 @@
 import { shoseijutsuData } from "../data/index.js";
 
-const categories = Object.values(shoseijutsuData.foundation);
+const categoryMap = new Map(
+  Object.values(shoseijutsuData.foundation).map((category) => [category.id, category])
+);
+const orderedCategoryIds = ["cognition", "behavior", "social", "structure", "wisdom"];
+const categories = orderedCategoryIds
+  .map((id) => categoryMap.get(id))
+  .filter(Boolean);
 
 const searchInput = document.getElementById("foundation-search");
 const tabsContainer = document.getElementById("foundation-tabs");
@@ -9,7 +15,7 @@ const emptyState = document.getElementById("foundation-empty");
 const countLabel = document.getElementById("foundation-count");
 
 const tabOptions = [
-  { key: "all", label: "すべて" },
+  { key: "all", label: "索引" },
   ...categories.map((category) => ({ key: category.id, label: category.title })),
 ];
 
@@ -107,7 +113,7 @@ const renderCards = () => {
   const hasResults = filtered.length > 0;
   resultsContainer.classList.toggle("is-hidden", !hasResults);
   emptyState.classList.toggle("is-hidden", hasResults);
-  countLabel.textContent = `表示件数: ${filtered.length}件`;
+  countLabel.textContent = `全${filtered.length}件`;
 };
 
 searchInput.addEventListener("input", renderCards);
