@@ -244,7 +244,7 @@ main {
   border-radius: 0;
   border: none;
   background: transparent;
-  gap: 12px;
+  gap: 8px;
 }
 
 .group-board--hero .group-column-title {
@@ -255,7 +255,7 @@ main {
 }
 
 .group-button--hero {
-  padding: 14px 18px;
+  padding: 10px 14px;
   font-size: 16px;
   font-weight: 700;
   border-width: 2px;
@@ -272,17 +272,17 @@ main {
 .group-board-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 14px;
+  gap: 10px;
 }
 
 .group-column {
   background: #ffffff;
   border: 1px solid #e2e6f0;
   border-radius: 18px;
-  padding: 14px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 8px;
 }
 
 .group-column-title {
@@ -294,7 +294,7 @@ main {
 .group-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
 }
 
 .group-button {
