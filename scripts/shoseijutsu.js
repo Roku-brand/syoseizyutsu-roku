@@ -51,6 +51,18 @@ let activeArea = "all";
 let activeGroup = "all";
 
 const normalize = (value) => value.toLowerCase().trim();
+const groupParam = new URLSearchParams(window.location.search).get("group");
+const applyGroupFromUrl = () => {
+  if (!groupParam) {
+    return;
+  }
+  const match = groupOptions.find((option) => option.key === groupParam);
+  if (!match) {
+    return;
+  }
+  activeArea = match.areaKey;
+  activeGroup = match.key;
+};
 
 const renderGroupBoard = () => {
   groupBoardContainer.innerHTML = "";
@@ -75,10 +87,9 @@ const renderGroupBoard = () => {
         button.setAttribute("aria-pressed", option.key === activeGroup ? "true" : "false");
         button.textContent = option.groupName;
         button.addEventListener("click", () => {
-          activeArea = areaKey;
-          activeGroup = option.key;
-          renderGroupBoard();
-          renderCards();
+          const nextUrl = new URL(window.location.href);
+          nextUrl.searchParams.set("group", option.key);
+          window.location.assign(nextUrl.toString());
         });
         list.appendChild(button);
       });
@@ -191,9 +202,13 @@ tagInput.addEventListener("input", handleInput);
 resetButton.addEventListener("click", () => {
   activeArea = "all";
   activeGroup = "all";
+  const nextUrl = new URL(window.location.href);
+  nextUrl.searchParams.delete("group");
+  window.history.replaceState({}, "", nextUrl.toString());
   renderGroupBoard();
   renderCards();
 });
 
+applyGroupFromUrl();
 renderGroupBoard();
 renderCards();
