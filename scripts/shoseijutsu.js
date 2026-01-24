@@ -92,22 +92,55 @@ const renderCards = () => {
   const tag = normalize(tagInput.value);
   const filtered = techniques.filter((item) => matchesFilter(item, keyword, tag));
 
-  resultsContainer.innerHTML = filtered
-    .map((item) => {
-      const foundationsHtml = item.foundations.length
-        ? `<div class="tag-list card-tags">${item.foundations
-            .map((tagItem) => `<span class="tag tag--small">${tagItem}</span>`)
-            .join("")}</div>`
-        : "";
+  const grouped = new Map();
+  filtered.forEach((item) => {
+    const key = `${item.areaKey}-${item.groupName}`;
+    if (!grouped.has(key)) {
+      grouped.set(key, {
+        label: item.groupName,
+        areaLabel: item.areaLabel,
+        sectionTitle: item.sectionTitle,
+        items: [],
+      });
+    }
+    grouped.get(key).items.push(item);
+  });
+
+  resultsContainer.innerHTML = Array.from(grouped.values())
+    .map((group) => {
+      const cardsHtml = group.items
+        .map((item) => {
+          const foundationsHtml = item.foundations.length
+            ? `<div class="tag-list card-tags">${item.foundations
+                .map((tagItem) => `<span class="tag tag--small">${tagItem}</span>`)
+                .join("")}</div>`
+            : "";
+
+          return `
+            <article class="card card-detail">
+              <div class="badge">${item.areaLabel}</div>
+              <h3>${item.title}</h3>
+              ${item.subtitle ? `<p class="card-subtitle">${item.subtitle}</p>` : ""}
+              <p class="card-meta">${item.groupName} / ${item.sectionTitle}</p>
+              ${foundationsHtml}
+            </article>
+          `;
+        })
+        .join("");
 
       return `
-        <article class="card card-detail">
-          <div class="badge">${item.areaLabel}</div>
-          <h3>${item.title}</h3>
-          ${item.subtitle ? `<p class="card-subtitle">${item.subtitle}</p>` : ""}
-          <p class="card-meta">${item.groupName} / ${item.sectionTitle}</p>
-          ${foundationsHtml}
-        </article>
+        <section class="card-group">
+          <div class="card-group-header">
+            <div>
+              <h3>${group.label}</h3>
+              <p class="card-group-meta">${group.areaLabel} / ${group.sectionTitle}</p>
+            </div>
+            <span class="card-group-count">${group.items.length}件</span>
+          </div>
+          <div class="card-grid">
+            ${cardsHtml}
+          </div>
+        </section>
       `;
     })
     .join("");
@@ -115,7 +148,7 @@ const renderCards = () => {
   const hasResults = filtered.length > 0;
   resultsContainer.classList.toggle("is-hidden", !hasResults);
   emptyState.classList.toggle("is-hidden", hasResults);
-  countLabel.textContent = `表示件数: ${filtered.length}件`;
+  countLabel.textContent = `表示件数: ${filtered.length}件 / グループ: ${grouped.size}件`;
 };
 
 const handleInput = () => {
