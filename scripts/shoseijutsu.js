@@ -31,16 +31,11 @@ const techniques = Object.entries(shoseijutsuData.techniques).flatMap(
 
 const keywordInput = document.getElementById("technique-keyword");
 const tagInput = document.getElementById("technique-tag");
-const filterContainer = document.getElementById("technique-area-filters");
-const groupFilterContainer = document.getElementById("technique-group-filters");
+const groupBoardContainer = document.getElementById("technique-group-board");
+const resetButton = document.getElementById("technique-reset");
 const resultsContainer = document.getElementById("technique-results");
 const emptyState = document.getElementById("technique-empty");
 const countLabel = document.getElementById("technique-count");
-
-const filterOptions = [
-  { key: "all", label: "すべて" },
-  ...Object.entries(areaLabels).map(([key, label]) => ({ key, label })),
-];
 
 const groupOptions = Object.entries(shoseijutsuData.techniques).flatMap(
   ([areaKey, section]) =>
@@ -57,62 +52,39 @@ let activeGroup = "all";
 
 const normalize = (value) => value.toLowerCase().trim();
 
-const renderFilters = () => {
-  filterContainer.innerHTML = "";
-  filterOptions.forEach((option) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "tag tag-button";
-    button.dataset.area = option.key;
-    button.setAttribute("aria-pressed", option.key === activeArea ? "true" : "false");
-    button.textContent = option.label;
-    button.addEventListener("click", () => {
-      activeArea = option.key;
-      renderFilters();
-      renderGroupFilters();
-      renderCards();
-    });
-    filterContainer.appendChild(button);
-  });
-};
+const renderGroupBoard = () => {
+  groupBoardContainer.innerHTML = "";
+  Object.entries(areaLabels).forEach(([areaKey, label]) => {
+    const column = document.createElement("div");
+    column.className = "group-column";
 
-const renderGroupFilters = () => {
-  groupFilterContainer.innerHTML = "";
-  const visibleOptions =
-    activeArea === "all"
-      ? groupOptions
-      : groupOptions.filter((option) => option.areaKey === activeArea);
+    const title = document.createElement("div");
+    title.className = "group-column-title";
+    title.textContent = label;
+    column.appendChild(title);
 
-  if (!visibleOptions.some((option) => option.key === activeGroup)) {
-    activeGroup = "all";
-  }
+    const list = document.createElement("div");
+    list.className = "group-list";
+    groupOptions
+      .filter((option) => option.areaKey === areaKey)
+      .forEach((option) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "tag tag-button tag--compact group-button";
+        button.dataset.group = option.key;
+        button.setAttribute("aria-pressed", option.key === activeGroup ? "true" : "false");
+        button.textContent = option.groupName;
+        button.addEventListener("click", () => {
+          activeArea = areaKey;
+          activeGroup = option.key;
+          renderGroupBoard();
+          renderCards();
+        });
+        list.appendChild(button);
+      });
 
-  const allButton = document.createElement("button");
-  allButton.type = "button";
-  allButton.className = "tag tag-button tag--compact";
-  allButton.dataset.group = "all";
-  allButton.setAttribute("aria-pressed", activeGroup === "all" ? "true" : "false");
-  allButton.textContent = "すべて";
-  allButton.addEventListener("click", () => {
-    activeGroup = "all";
-    renderGroupFilters();
-    renderCards();
-  });
-  groupFilterContainer.appendChild(allButton);
-
-  visibleOptions.forEach((option) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "tag tag-button tag--compact";
-    button.dataset.group = option.key;
-    button.setAttribute("aria-pressed", option.key === activeGroup ? "true" : "false");
-    button.textContent = option.label;
-    button.addEventListener("click", () => {
-      activeGroup = option.key;
-      renderGroupFilters();
-      renderCards();
-    });
-    groupFilterContainer.appendChild(button);
+    column.appendChild(list);
+    groupBoardContainer.appendChild(column);
   });
 };
 
@@ -216,7 +188,12 @@ const handleInput = () => {
 
 keywordInput.addEventListener("input", handleInput);
 tagInput.addEventListener("input", handleInput);
+resetButton.addEventListener("click", () => {
+  activeArea = "all";
+  activeGroup = "all";
+  renderGroupBoard();
+  renderCards();
+});
 
-renderFilters();
-renderGroupFilters();
+renderGroupBoard();
 renderCards();

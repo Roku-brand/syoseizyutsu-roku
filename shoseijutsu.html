@@ -29,13 +29,14 @@
         <input id="technique-tag" type="text" placeholder="根拠タグで検索 (例: B-001)" aria-label="根拠タグ検索" />
       </div>
       <div class="filter-stack">
-        <div class="filter-row">
-          <span class="filter-label">領域</span>
-          <div class="tag-list" id="technique-area-filters"></div>
-        </div>
-        <div class="filter-row">
+        <div class="filter-row filter-row--top">
           <span class="filter-label">処世術群</span>
-          <div class="tag-list tag-list--compact" id="technique-group-filters"></div>
+          <div class="group-board">
+            <div class="group-board-actions">
+              <button class="tag tag-button tag--small" type="button" id="technique-reset">すべて表示</button>
+            </div>
+            <div class="group-board-grid" id="technique-group-board"></div>
+          </div>
         </div>
       </div>
       <p class="helper-text" id="technique-count"></p>
