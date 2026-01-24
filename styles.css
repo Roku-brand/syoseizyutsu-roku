@@ -1,7 +1,7 @@
 :root {
   color-scheme: light;
   font-family: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", "Segoe UI", sans-serif;
-  background-color: #f8f1e7;
+  background-color: #ffffff;
   color: #1c2230;
 }
 
@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  background: #f8f1e7;
+  background: #ffffff;
   font-size: 17px;
   line-height: 1.7;
 }
