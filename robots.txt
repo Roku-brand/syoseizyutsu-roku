@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://syoseizyutsu.github.io/sitemap.xml
