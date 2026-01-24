@@ -398,6 +398,40 @@ main {
   padding: 16px 20px;
 }
 
+.detail-card--page {
+  padding: 24px 28px;
+}
+
+.detail-header h2 {
+  margin: 12px 0 8px;
+  font-size: 24px;
+}
+
+.link-card {
+  display: grid;
+  gap: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.link-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(31, 36, 48, 0.12);
+}
+
+.link-card-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+}
+
+.link-card-meta {
+  margin: 0;
+  font-size: 12px;
+  color: #6c7385;
+}
+
 .detail-card summary {
   list-style: none;
   cursor: pointer;
@@ -443,6 +477,20 @@ main {
   margin: 0;
   color: #1f2430;
   font-weight: 600;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #3d4964;
+  margin-bottom: 16px;
+}
+
+.theory-detail {
+  display: grid;
+  gap: 16px;
 }
 
 .is-hidden {
