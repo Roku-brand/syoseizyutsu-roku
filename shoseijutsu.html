@@ -28,7 +28,16 @@
         <input id="technique-keyword" type="text" placeholder="キーワードで検索" aria-label="キーワード検索" />
         <input id="technique-tag" type="text" placeholder="根拠タグで検索 (例: B-001)" aria-label="根拠タグ検索" />
       </div>
-      <div class="tag-list" id="technique-area-filters"></div>
+      <div class="filter-stack">
+        <div class="filter-row">
+          <span class="filter-label">領域</span>
+          <div class="tag-list" id="technique-area-filters"></div>
+        </div>
+        <div class="filter-row">
+          <span class="filter-label">処世術群</span>
+          <div class="tag-list tag-list--compact" id="technique-group-filters"></div>
+        </div>
+      </div>
       <p class="helper-text" id="technique-count"></p>
       <div class="card-group-list" id="technique-results"></div>
       <p class="notice is-hidden" id="technique-empty">該当する処世術が見つかりませんでした。</p>
