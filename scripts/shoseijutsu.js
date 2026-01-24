@@ -59,7 +59,7 @@ const renderGroupBoard = () => {
         button.setAttribute("aria-pressed", option.key === activeGroup ? "true" : "false");
         button.textContent = option.groupName;
         button.addEventListener("click", () => {
-          const nextUrl = new URL(window.location.href);
+          const nextUrl = new URL("group.html", window.location.href);
           nextUrl.searchParams.set("group", option.key);
           window.location.assign(nextUrl.toString());
         });
