@@ -29,6 +29,11 @@ const parseGroupParam = () => {
   return { areaKey, groupName };
 };
 
+const renderFoundationLink = (tag) => {
+  const encodedTag = encodeURIComponent(tag);
+  return `<a class="foundation-link" href="theory-card.html?tag=${encodedTag}">${tag}</a>`;
+};
+
 const renderDetails = (group) => {
   detailsContainer.innerHTML = group.details
     .map((detail) => {
@@ -39,7 +44,9 @@ const renderDetails = (group) => {
           <section>
             <h4>関連理論</h4>
             <ul>
-              ${foundations.map((foundation) => `<li>${foundation}</li>`).join("")}
+              ${foundations
+                .map((foundation) => `<li>${renderFoundationLink(foundation)}</li>`)
+                .join("")}
             </ul>
           </section>
         `
