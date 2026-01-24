@@ -26,6 +26,12 @@ const tabOptions = [
 let activeCategory = "index";
 
 const normalize = (value) => value.toLowerCase().trim();
+const compactTitle = (value) =>
+  value
+    .replace(/（[^）]*）/g, "")
+    .replace(/\([^)]*\)/g, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
 
 const isIndexActive = () => activeCategory === "index";
 
@@ -95,14 +101,14 @@ const renderCards = () => {
   resultsContainer.innerHTML = filtered
     .map((item) => {
       const encodedTag = encodeURIComponent(item.tagId);
+      const shortTitle = compactTitle(item.title);
       return `
         <a class="detail-card link-card theory-card theory-card--${item.categoryId}" href="theory-card.html?tag=${encodedTag}">
           <div class="theory-card-head">
             <span class="theory-card-tag">${item.tagId}</span>
-            <span class="theory-card-title">${item.title}</span>
+            <span class="theory-card-title">${shortTitle}</span>
           </div>
           <p class="detail-summary theory-card-summary">${item.summary}</p>
-          <p class="link-card-meta">クリックして詳細を見る</p>
         </a>
       `;
     })
