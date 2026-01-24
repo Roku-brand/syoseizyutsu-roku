@@ -96,13 +96,12 @@ const renderCards = () => {
     .map((item) => {
       const encodedTag = encodeURIComponent(item.tagId);
       return `
-        <a class="detail-card link-card" href="theory-card.html?tag=${encodedTag}">
+        <a class="detail-card link-card theory-card theory-card--${item.categoryId}" href="theory-card.html?tag=${encodedTag}">
           <div class="theory-card-head">
-            <span class="badge">${item.categoryTitle}</span>
             <span class="theory-card-tag">${item.tagId}</span>
           </div>
           <div class="theory-card-title">${item.title}</div>
-          <p class="detail-summary">${item.summary}</p>
+          <p class="detail-summary theory-card-summary">${item.summary}</p>
           <p class="link-card-meta">クリックして詳細を見る</p>
         </a>
       `;
