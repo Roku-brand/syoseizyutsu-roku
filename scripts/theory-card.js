@@ -28,6 +28,7 @@ const findCard = () => {
     if (item) {
       return {
         ...item,
+        categoryId: category.id,
         categoryTitle: category.title,
       };
     }
@@ -44,11 +45,10 @@ if (!card) {
   document.title = `処世術禄 | ${card.tagId} ${card.title}`;
   emptyState.classList.add("is-hidden");
   detailContainer.innerHTML = `
-    <div class="detail-card detail-card--page">
+    <div class="detail-card detail-card--page theory-card theory-card--${card.categoryId}">
       <div class="detail-header">
-        <span class="badge">${card.categoryTitle}</span>
         <h2>${card.tagId} ${card.title}</h2>
-        <p class="detail-summary">${card.summary}</p>
+        <p class="detail-summary theory-card-summary">${card.summary}</p>
       </div>
       <div class="detail-body">
         <p>${card.definition}</p>

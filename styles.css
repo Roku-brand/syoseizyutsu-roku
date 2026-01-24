@@ -524,6 +524,38 @@ main {
   font-weight: 600;
 }
 
+.theory-card {
+  border: 2px solid var(--theory-card-accent, #d7dce8);
+  box-shadow: 0 8px 18px rgba(31, 36, 48, 0.08);
+}
+
+.theory-card--cognition {
+  --theory-card-accent: #5b8ff9;
+}
+
+.theory-card--behavior {
+  --theory-card-accent: #4ecdc4;
+}
+
+.theory-card--social {
+  --theory-card-accent: #f7b267;
+}
+
+.theory-card--structure {
+  --theory-card-accent: #a88bff;
+}
+
+.theory-card--wisdom {
+  --theory-card-accent: #6dd3a5;
+}
+
+.theory-card-summary {
+  color: #7b8296;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
 .back-link {
   display: inline-flex;
   align-items: center;
