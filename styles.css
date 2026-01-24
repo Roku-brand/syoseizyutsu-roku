@@ -460,19 +460,23 @@ main {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
 .theory-card-tag {
   font-weight: 700;
-  font-size: 15px;
-  color: var(--muted-blue-gray);
+  font-size: 13px;
+  color: #ffffff;
+  background: #4f6d8a;
+  padding: 6px 12px;
+  border-radius: 8px;
+  letter-spacing: 0.02em;
 }
 
 .theory-card-title {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 700;
-  color: var(--muted-blue-gray);
+  color: #2f343f;
 }
 
 .link-card-meta {
@@ -540,8 +544,9 @@ main {
 }
 
 .theory-card {
-  border: 2px solid var(--theory-card-accent, #d7dce8);
-  box-shadow: 0 8px 18px rgba(31, 36, 48, 0.08);
+  border: 1px solid #e4e8f1;
+  box-shadow: 0 6px 14px rgba(31, 36, 48, 0.08);
+  padding: 20px 24px;
 }
 
 .theory-card--cognition {
@@ -568,7 +573,8 @@ main {
   color: #7b8296;
   font-size: 13px;
   font-weight: 500;
-  line-height: 1.6;
+  line-height: 1.7;
+  margin-top: 6px;
 }
 
 .back-link {
