@@ -74,58 +74,86 @@ header {
 }
 
 main {
-  padding: 56px 0 88px;
+  padding: 0 0 88px;
 }
 
 .hero {
-  background: #ffffff;
-  border-radius: 24px;
-  padding: 72px 32px 78px;
-  color: #1f1f1f;
+  background: radial-gradient(circle at top, #ffffff 0%, #f3f5fb 55%, #e9edf6 100%);
+  padding: 72px 0 86px;
+  color: #1f2430;
+}
+
+.hero-card {
   text-align: center;
+  display: grid;
+  gap: 24px;
+  align-items: center;
 }
 
 .hero h1 {
   margin: 0 auto;
-  max-width: 860px;
-  font-size: clamp(22px, 2.8vw, 36px);
+  max-width: 820px;
+  font-size: clamp(22px, 2.6vw, 34px);
   line-height: 1.9;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
 }
 
 .hero-title {
   display: inline-block;
-  text-decoration-line: underline;
-  text-decoration-style: double;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 8px;
 }
 
 .hero-subtitle {
   display: block;
-  margin-top: 12px;
-  font-size: clamp(13px, 1.6vw, 18px);
+  margin-top: 14px;
+  font-size: clamp(13px, 1.5vw, 18px);
   font-weight: 500;
-  letter-spacing: 0.04em;
+  color: #586073;
+  letter-spacing: 0.03em;
 }
 
-.hero p {
-  margin: 0;
-  font-size: 10px;
-  line-height: 1.9;
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.hero-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  background: #ffffff;
+  border-radius: 999px;
+  border: 1px solid #e2e6f0;
+  box-shadow: 0 10px 20px rgba(31, 36, 48, 0.08);
+  font-size: 14px;
+  color: #3c4558;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hero-pill:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 24px rgba(31, 36, 48, 0.12);
+}
+
+.hero-pill-icon {
+  font-size: 16px;
+}
+
+.hero-pill-arrow {
+  font-size: 18px;
+  color: #7b8498;
 }
 
 .elements-section {
-  margin-top: 40px;
-  padding: 36px 24px 40px;
-  border-radius: 24px;
-  background: radial-gradient(circle at top, #ffffff 0%, #f4f6fb 55%, #f1f3f8 100%);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  margin-top: 42px;
+  padding: 0 24px;
 }
 
 .elements-title {
-  margin: 0 0 24px;
+  margin: 0 0 32px;
   text-align: center;
   font-size: 22px;
   color: #59627a;
@@ -134,22 +162,24 @@ main {
 
 .elements-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
 }
 
 .elements-card {
   background: #ffffff;
-  border-radius: 18px;
-  padding: 22px 18px;
+  border-radius: 20px;
+  padding: 28px 24px;
   text-align: center;
-  box-shadow: 0 12px 24px rgba(31, 36, 48, 0.08);
-  border: 1px solid rgba(227, 231, 240, 0.8);
+  box-shadow: 0 16px 28px rgba(31, 36, 48, 0.08);
+  border: 1px solid #e5e9f2;
+  display: grid;
+  gap: 14px;
 }
 
 .elements-card h3 {
-  margin: 0 0 6px;
-  font-size: 18px;
+  margin: 0;
+  font-size: 19px;
   color: #1c2230;
 }
 
@@ -157,12 +187,13 @@ main {
   margin: 0;
   font-size: 14px;
   color: #6a7285;
+  line-height: 1.7;
 }
 
 .elements-icon {
-  width: 54px;
-  height: 54px;
-  margin: 0 auto 12px;
+  width: 58px;
+  height: 58px;
+  margin: 0 auto;
   border-radius: 50%;
   border: 1px solid #cbd3e4;
   display: grid;
@@ -178,6 +209,30 @@ main {
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.elements-button {
+  margin: 8px auto 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 24px;
+  border-radius: 999px;
+  background: var(--muted-blue-gray);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 12px 24px rgba(31, 36, 48, 0.12);
+  transition: background 0.2s ease;
+}
+
+.elements-button span {
+  font-size: 16px;
+}
+
+.elements-button:hover {
+  background: #3f4d67;
 }
 
 .section {
@@ -1158,7 +1213,7 @@ footer {
 
 @media (max-width: 700px) {
   .hero {
-    padding: 40px 16px 44px;
+    padding: 48px 0 56px;
   }
 
   .hero h1 {
@@ -1166,8 +1221,13 @@ footer {
     letter-spacing: 0.06em;
   }
 
-  .hero p {
-    font-size: 9px;
+  .hero-actions {
+    gap: 12px;
+  }
+
+  .hero-pill {
+    width: 100%;
+    justify-content: center;
   }
 
   .group-board--hero .group-board-grid {
