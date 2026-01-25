@@ -9,140 +9,168 @@
 <body>
   <header>
     <div class="container nav">
-      <div class="brand">処世術禄</div>
-      <nav class="nav-links">
-        <a class="nav-link" href="index.html">トップ</a>
-        <a class="nav-link" href="shoseijutsu.html">処世術集</a>
-        <a class="nav-link" href="theory.html">理論集</a>
-        <a class="nav-link active" href="hub.html">みんなの処世術</a>
-        <a class="nav-link" href="about.html">処世術禄とは</a>
-      </nav>
+      <div class="brand">
+        <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <path d="M3 11.5L12 4l9 7.5v8a1 1 0 0 1-1 1h-5.5v-6H9.5v6H4a1 1 0 0 1-1-1v-8Z" />
+          </svg>
+        </span>
+        処世術禄
+      </div>
+      <div class="nav-right">
+        <nav class="nav-links">
+          <a class="nav-link" href="index.html">トップ</a>
+          <a class="nav-link" href="shoseijutsu.html">処世術集</a>
+          <a class="nav-link" href="theory.html">理論集</a>
+          <a class="nav-link active" href="hub.html">みんなの処世術</a>
+        </nav>
+        <div class="nav-icons">
+          <button class="nav-icon" type="button" aria-label="検索">
+            <svg viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="7" />
+              <path d="m20 20-3.5-3.5" />
+            </svg>
+          </button>
+          <button class="nav-icon" type="button" aria-label="メニュー">
+            <svg viewBox="0 0 24 24">
+              <path d="M4 6h16" />
+              <path d="M4 12h16" />
+              <path d="M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
     </div>
   </header>
 
-  <main>
-    <section class="hub-hero">
-      <div class="container hub-hero-inner">
-        <div class="hub-hero-content">
-          <h2>みんなの処世術</h2>
-          <p>他者の経験から判断のヒントを深めます。</p>
-          <p>みんなの具体的な処世術事例を集めて、気軽に投稿もできます。</p>
-        </div>
-        <a class="hub-hero-button" href="hub-create.html">
-          <span class="hub-hero-button-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24">
-              <path d="M12 20h9" />
-              <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z" />
-            </svg>
-          </span>
-          処世術を投稿する
-          <span class="hub-hero-button-arrow" aria-hidden="true">›</span>
-        </a>
-      </div>
-    </section>
+  <main class="hub-page">
+    <section class="hub-shell" id="hub-list">
+      <div class="container hub-shell-inner">
+        <aside class="hub-sidebar">
+          <div class="hub-sidebar-hero">
+            <h2>みんなの処世術</h2>
+            <p>他者の経験から判断のヒントを深めます。</p>
+            <p>みんなの具体的な処世術事例を集めて、気軽に投稿もできます。</p>
+          </div>
+          <article class="hub-trend-card">
+            <h3>トレンド</h3>
+            <ol class="hub-trend-list">
+              <li><span>1.</span>#開場の処世術</li>
+              <li><span>2.</span>#上司攻略法</li>
+              <li><span>3.</span>#会話のコツ</li>
+            </ol>
+          </article>
+          <article class="hub-trend-card hub-trend-card--mini">
+            <h3>トレンド</h3>
+            <ol class="hub-trend-list">
+              <li><span>1.</span>#開場の処世術</li>
+              <li><span>2.</span>#上司攻略法</li>
+              <li><span>3.</span>#会話のコツ</li>
+            </ol>
+            <div class="hub-sidebar-links">
+              <a href="about.html">利用規約</a>
+              <a href="about.html">プライバシー</a>
+              <a href="about.html">お問い合わせ</a>
+            </div>
+          </article>
+        </aside>
 
-    <section class="section hub-board-section" id="hub-list">
-      <div class="container">
-        <div class="hub-tabs" role="tablist">
-          <button class="hub-tab" type="button">新着 ›</button>
-          <button class="hub-tab" type="button">人気 ›</button>
-          <button class="hub-tab" type="button">保存済み ›</button>
-        </div>
-        <div class="hub-board">
-          <div class="hub-board-main">
-            <article class="hub-entry hub-entry--large">
-              <div class="hub-entry-header">
-                <div class="hub-entry-avatar"></div>
-                <div>
-                  <p class="hub-entry-name">りき</p>
-                  <p class="hub-entry-meta">2週間前</p>
-                  <p class="hub-entry-title">会話には「1つ、2つ、3つ」のルールを意識する。</p>
+        <section class="hub-feed">
+          <div class="hub-feed-input">
+            <div class="hub-feed-avatar" aria-hidden="true"></div>
+            <input type="text" placeholder="気づいた処世術を共有しましょう..." />
+            <a class="hub-feed-button" href="hub-create.html">
+              処世術を投稿する
+              <span aria-hidden="true">›</span>
+            </a>
+          </div>
+          <div class="hub-feed-tabs" role="tablist">
+            <div class="hub-feed-tab-list">
+              <button class="hub-feed-tab is-active" type="button">おすすめ</button>
+              <button class="hub-feed-tab" type="button">新着</button>
+              <button class="hub-feed-tab" type="button">トレンド</button>
+            </div>
+            <button class="hub-feed-filter" type="button" aria-label="フィルター">
+              <svg viewBox="0 0 24 24">
+                <path d="M4 7h16" />
+                <path d="M8 12h8" />
+                <path d="M10 17h4" />
+              </svg>
+            </button>
+          </div>
+          <div class="hub-feed-list">
+            <article class="hub-feed-item">
+              <div class="hub-feed-item-header">
+                <div class="hub-feed-avatar"></div>
+                <div class="hub-feed-item-meta">
+                  <p class="hub-feed-name">りき <span>5分前</span></p>
+                  <p class="hub-feed-title">会話では「1、2、3」のルールを意識する。</p>
                 </div>
-                <span class="hub-entry-menu">•••</span>
+                <span class="hub-feed-menu">•••</span>
               </div>
-              <div class="hub-entry-tags">
-                <span class="hub-entry-tag">伝え方</span>
-                <span class="hub-entry-tag">会話</span>
-              </div>
-              <div class="hub-entry-footer">
-                <span class="hub-entry-chip">● 仕事</span>
-                <span class="hub-entry-chip">人間関係</span>
-                <div class="hub-entry-stats">
-                  <span>♡ 8</span>
-                  <span>💬 2</span>
-                  <span>🔖 2</span>
-                </div>
+              <div class="hub-feed-stats">
+                <span>💬 12</span>
+                <span>♡ 38</span>
               </div>
             </article>
-            <article class="hub-entry hub-entry--large">
-              <div class="hub-entry-header">
-                <div class="hub-entry-avatar"></div>
-                <div>
-                  <p class="hub-entry-name">takeshi</p>
-                  <p class="hub-entry-meta">3日前</p>
-                  <p class="hub-entry-title">上司には「頼んでよかった」と言わせる仕事の頼み方。</p>
+            <article class="hub-feed-item">
+              <div class="hub-feed-item-header">
+                <div class="hub-feed-avatar is-primary"></div>
+                <div class="hub-feed-item-meta">
+                  <p class="hub-feed-name">takeshi <span>3日前</span></p>
+                  <p class="hub-feed-title">上司には「頼んでよかった」と言わせる仕事の頼み方。</p>
                 </div>
-                <span class="hub-entry-menu">•••</span>
+                <span class="hub-feed-menu">•••</span>
               </div>
-              <div class="hub-entry-tags">
-                <span class="hub-entry-tag">依頼</span>
-                <span class="hub-entry-tag">評価される頼み方</span>
+              <div class="hub-feed-stats">
+                <span>💬 8</span>
+                <span>♡ 27</span>
               </div>
-              <div class="hub-entry-footer">
-                <span class="hub-entry-chip">● 仕事</span>
-                <div class="hub-entry-stats">
-                  <span>♡ 12</span>
-                  <span>💬 4</span>
-                  <span>🔖 4</span>
+            </article>
+            <article class="hub-feed-item">
+              <div class="hub-feed-item-header">
+                <div class="hub-feed-avatar is-accent"></div>
+                <div class="hub-feed-item-meta">
+                  <p class="hub-feed-name">takeshi <span>3日前</span></p>
+                  <p class="hub-feed-title">仕事で信頼を築くためのコミュニケーション術。</p>
                 </div>
+                <span class="hub-feed-menu">•••</span>
+              </div>
+              <div class="hub-feed-stats">
+                <span>💬 9</span>
+                <span>♡ 24</span>
+              </div>
+            </article>
+            <article class="hub-feed-item">
+              <div class="hub-feed-item-header">
+                <div class="hub-feed-avatar"></div>
+                <div class="hub-feed-item-meta">
+                  <p class="hub-feed-name">takeshi <span>3日前</span></p>
+                  <p class="hub-feed-title">聞き上手になるための傾聴テクニック。</p>
+                </div>
+                <span class="hub-feed-menu">•••</span>
+              </div>
+              <div class="hub-feed-stats">
+                <span>💬 4</span>
+                <span>♡ 18</span>
+              </div>
+            </article>
+            <article class="hub-feed-item">
+              <div class="hub-feed-item-header">
+                <div class="hub-feed-avatar"></div>
+                <div class="hub-feed-item-meta">
+                  <p class="hub-feed-name">takeshi <span>3日前</span></p>
+                  <p class="hub-feed-title">部下をやる気にさせる話し方のポイント。</p>
+                </div>
+                <span class="hub-feed-menu">•••</span>
+              </div>
+              <div class="hub-feed-stats">
+                <span>💬 2</span>
+                <span>♡ 11</span>
               </div>
             </article>
           </div>
-          <aside class="hub-board-side">
-            <article class="hub-entry hub-entry--small">
-              <div class="hub-entry-header">
-                <div class="hub-entry-avatar"></div>
-                <div>
-                  <p class="hub-entry-name">takeshi</p>
-                  <p class="hub-entry-meta">3日前</p>
-                  <p class="hub-entry-title">上司には「頼んでよかった」と言わせる仕事の頼み方。</p>
-                </div>
-              </div>
-              <div class="hub-entry-tags">
-                <span class="hub-entry-tag">仕事</span>
-                <span class="hub-entry-tag">評価される頼み方</span>
-              </div>
-              <div class="hub-entry-footer">
-                <span class="hub-entry-chip">● 仕事</span>
-                <div class="hub-entry-stats">
-                  <span>♡ 12</span>
-                  <span>💬 4</span>
-                </div>
-              </div>
-            </article>
-            <article class="hub-entry hub-entry--small">
-              <div class="hub-entry-header">
-                <div class="hub-entry-avatar"></div>
-                <div>
-                  <p class="hub-entry-name">あや</p>
-                  <p class="hub-entry-meta">5日前</p>
-                  <p class="hub-entry-title">沈黙した相手には、自分が追いかける。</p>
-                </div>
-              </div>
-              <div class="hub-entry-tags">
-                <span class="hub-entry-tag">恋愛</span>
-                <span class="hub-entry-tag">心の距離感</span>
-              </div>
-              <div class="hub-entry-footer">
-                <span class="hub-entry-chip">● 対人関係</span>
-                <div class="hub-entry-stats">
-                  <span>♡ 15</span>
-                  <span>💬 6</span>
-                </div>
-              </div>
-            </article>
-          </aside>
-        </div>
+        </section>
       </div>
     </section>
   </main>
