@@ -37,8 +37,6 @@ const compactTitle = (value) =>
     .trim();
 
 const isIndexActive = () => activeCategory === "index";
-const resolveDetailPath = (tagId) =>
-  tagId.startsWith("W-") ? `wisdom/${tagId}/` : `theories/${tagId}/`;
 
 const renderTabs = () => {
   tabsContainer.innerHTML = "";
@@ -105,10 +103,11 @@ const renderCards = () => {
 
   resultsContainer.innerHTML = filtered
     .map((item) => {
+      const encodedTag = encodeURIComponent(item.tagId);
       const shortTitle = compactTitle(item.title);
-      const detailPath = resolveDetailPath(item.tagId);
+      const backTarget = encodeURIComponent(`theory.html?tab=${encodeURIComponent(activeCategory)}`);
       return `
-        <a class="detail-card link-card theory-card theory-card--${item.categoryId}" href="${detailPath}">
+        <a class="detail-card link-card theory-card theory-card--${item.categoryId}" href="theory-card.html?tag=${encodedTag}&back=${backTarget}">
           <div class="theory-card-head">
             <span class="theory-card-tag">${item.tagId}</span>
             <span class="theory-card-title">${shortTitle}</span>
