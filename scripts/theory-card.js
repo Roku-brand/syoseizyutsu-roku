@@ -2,6 +2,7 @@ import { shoseijutsuData } from "../data/index.js";
 
 const detailContainer = document.getElementById("theory-detail");
 const emptyState = document.getElementById("theory-empty");
+const backLink = document.getElementById("theory-back-link");
 
 const categories = Object.values(shoseijutsuData.foundation);
 
@@ -21,6 +22,11 @@ const listSection = (title, entries) => {
 
 const params = new URLSearchParams(window.location.search);
 const tagId = params.get("tag");
+const backTarget = params.get("back");
+
+if (backLink && backTarget) {
+  backLink.href = backTarget;
+}
 
 const findCard = () => {
   for (const category of categories) {

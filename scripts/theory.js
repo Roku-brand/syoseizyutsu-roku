@@ -23,7 +23,10 @@ const tabOptions = [
   })),
 ];
 
-let activeCategory = "index";
+const params = new URLSearchParams(window.location.search);
+const initialTab = params.get("tab");
+const isValidTab = (value) => tabOptions.some((option) => option.key === value);
+let activeCategory = isValidTab(initialTab) ? initialTab : "index";
 
 const normalize = (value) => value.toLowerCase().trim();
 const compactTitle = (value) =>
@@ -102,8 +105,9 @@ const renderCards = () => {
     .map((item) => {
       const encodedTag = encodeURIComponent(item.tagId);
       const shortTitle = compactTitle(item.title);
+      const backTarget = encodeURIComponent(`theory.html?tab=${encodeURIComponent(activeCategory)}`);
       return `
-        <a class="detail-card link-card theory-card theory-card--${item.categoryId}" href="theory-card.html?tag=${encodedTag}">
+        <a class="detail-card link-card theory-card theory-card--${item.categoryId}" href="theory-card.html?tag=${encodedTag}&back=${backTarget}">
           <div class="theory-card-head">
             <span class="theory-card-tag">${item.tagId}</span>
             <span class="theory-card-title">${shortTitle}</span>
