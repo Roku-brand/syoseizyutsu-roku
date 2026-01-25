@@ -556,6 +556,14 @@ main {
   min-height: 220px;
 }
 
+.hub-card-grid {
+  grid-template-columns: 1fr;
+}
+
+.hub-card-grid .hub-card {
+  min-height: 160px;
+}
+
 .hub-card-link {
   display: grid;
   text-decoration: none;
