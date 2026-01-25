@@ -148,16 +148,8 @@ main {
 }
 
 .elements-section {
-  margin-top: 42px;
+  margin-top: 24px;
   padding: 0 24px;
-}
-
-.elements-title {
-  margin: 0 0 32px;
-  text-align: center;
-  font-size: 22px;
-  color: #59627a;
-  letter-spacing: 0.08em;
 }
 
 .elements-grid {
