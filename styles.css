@@ -190,6 +190,155 @@ main {
   color: var(--muted-blue-gray);
 }
 
+.hub-hero {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+  align-items: center;
+  background: #f6f8fc;
+  border-radius: 28px;
+  padding: 32px;
+  border: 1px solid #e2e6f0;
+}
+
+.hub-hero-content p {
+  margin: 0 0 20px;
+  color: #4a5264;
+}
+
+.hub-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.cta-button,
+.ghost-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.cta-button {
+  background: var(--muted-blue-gray);
+  color: #ffffff;
+  box-shadow: 0 12px 24px rgba(31, 36, 48, 0.12);
+}
+
+.cta-button:hover {
+  background: #3f4d67;
+}
+
+.ghost-button {
+  background: #ffffff;
+  border-color: #d7dce8;
+  color: #3f4d67;
+}
+
+.ghost-button:hover {
+  background: #eef1f8;
+}
+
+.hub-hero-panel {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hub-hero-card {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 24px;
+  box-shadow: 0 16px 32px rgba(31, 36, 48, 0.08);
+  display: grid;
+  gap: 12px;
+}
+
+.hub-hero-eyebrow {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #7b8498;
+}
+
+.hub-hero-card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #1c2230;
+}
+
+.hub-hero-text {
+  margin: 0;
+  color: #556077;
+  font-size: 14px;
+}
+
+.hub-hero-list {
+  margin: 0;
+  padding-left: 18px;
+  color: #4a5264;
+  font-size: 14px;
+}
+
+.hub-list-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.hub-list-lead {
+  margin: 0;
+  color: #5b6477;
+}
+
+.hub-card {
+  display: grid;
+  gap: 10px;
+  min-height: 220px;
+}
+
+.hub-card-summary {
+  margin: 0;
+  color: #576176;
+  font-size: 15px;
+}
+
+.hub-card-meta {
+  margin: 0;
+  font-size: 13px;
+  color: #7a8396;
+}
+
+.hub-card-tags {
+  margin-top: auto;
+}
+
+.hub-create {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  background: #ffffff;
+  border: 1px solid #e2e6f0;
+  border-radius: 24px;
+  padding: 28px 32px;
+  box-shadow: 0 12px 28px rgba(31, 36, 48, 0.08);
+}
+
+.hub-create-content p {
+  margin: 0;
+  color: #59627a;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
