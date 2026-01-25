@@ -607,7 +607,7 @@ main {
 .hub-card {
   display: grid;
   gap: 10px;
-  min-height: 220px;
+  min-height: auto;
 }
 
 .hub-card-grid {
@@ -615,13 +615,30 @@ main {
 }
 
 .hub-card-grid .hub-card {
-  min-height: 160px;
+  min-height: auto;
 }
 
 .hub-card-link {
   display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: 20px;
+  row-gap: 8px;
   text-decoration: none;
   color: inherit;
+}
+
+.hub-card-link > h3,
+.hub-card-link > .hub-card-summary,
+.hub-card-link > .hub-card-meta {
+  grid-column: 1;
+}
+
+.hub-card-tags {
+  grid-column: 2;
+  grid-row: 1 / -1;
+  align-self: center;
+  margin-top: 0;
 }
 
 .hub-card-link:hover {
@@ -689,10 +706,6 @@ main {
   color: #ffffff;
   font-size: 12px;
   letter-spacing: 0.02em;
-}
-
-.hub-card-tags {
-  margin-top: auto;
 }
 
 .hub-card--user {
@@ -1233,6 +1246,10 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 18px;
   margin-top: 20px;
+}
+
+.card-grid.hub-card-grid {
+  grid-template-columns: 1fr;
 }
 
 .card-group-list {
