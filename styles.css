@@ -78,17 +78,20 @@ main {
 }
 
 .hero {
-  background: linear-gradient(135deg, #1f2430 0%, #39405a 100%);
-  border-radius: 14px;
-  padding: 28px;
-  color: #ffffff;
-  box-shadow: 0 12px 24px rgba(31, 36, 48, 0.2);
+  background: #f8f4ef;
+  border-radius: 24px;
+  padding: 72px 32px 78px;
+  color: #1f1f1f;
+  text-align: center;
 }
 
 .hero h1 {
-  margin: 0 0 16px;
-  font-size: 20px;
-  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 860px;
+  font-size: clamp(22px, 2.8vw, 36px);
+  line-height: 1.9;
+  font-weight: 600;
+  letter-spacing: 0.08em;
 }
 
 .hero p {
@@ -866,11 +869,12 @@ footer {
 
 @media (max-width: 700px) {
   .hero {
-    padding: 16px;
+    padding: 40px 16px 44px;
   }
 
   .hero h1 {
-    font-size: 14px;
+    font-size: clamp(18px, 4.8vw, 24px);
+    letter-spacing: 0.06em;
   }
 
   .hero p {
