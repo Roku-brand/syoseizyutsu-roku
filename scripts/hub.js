@@ -61,20 +61,6 @@ const saveReactions = (reactions) => {
 
 const getPostKey = (post) => `${post.source}-${post.id}`;
 
-const buildCommentItem = (comment) => {
-  const item = document.createElement('li');
-  item.className = 'hub-comment';
-  const text = document.createElement('p');
-  text.textContent = comment.text;
-  const meta = document.createElement('span');
-  meta.className = 'hub-comment-meta';
-  meta.textContent = comment.createdAt
-    ? new Date(comment.createdAt).toLocaleDateString('ja-JP')
-    : '今さっき';
-  item.append(text, meta);
-  return item;
-};
-
 const buildCardSocial = (post, reactions) => {
   const postKey = getPostKey(post);
   const state = reactions[postKey] ?? { likes: 0, comments: [] };
@@ -101,52 +87,12 @@ const buildCardSocial = (post, reactions) => {
   likeButton.type = 'button';
   likeButton.className = 'hub-action';
 
-  const commentButton = document.createElement('button');
-  commentButton.type = 'button';
-  commentButton.className = 'hub-action hub-action--secondary';
-  commentButton.textContent = 'コメントする';
-
-  actions.append(likeButton, commentButton);
-
-  const commentSection = document.createElement('div');
-  commentSection.className = 'hub-comment-section';
-
-  const commentList = document.createElement('ul');
-  commentList.className = 'hub-comment-list';
-
-  const emptyNote = document.createElement('p');
-  emptyNote.className = 'hub-comment-empty';
-  emptyNote.textContent = '最初のコメントを追加しましょう。';
-
-  const commentForm = document.createElement('form');
-  commentForm.className = 'hub-comment-form';
-
-  const commentInput = document.createElement('textarea');
-  commentInput.className = 'hub-comment-input';
-  commentInput.rows = 2;
-  commentInput.placeholder = 'コメントを書く（例：私も似た状況で助かりました）';
-
-  const commentSubmit = document.createElement('button');
-  commentSubmit.type = 'submit';
-  commentSubmit.className = 'hub-comment-submit';
-  commentSubmit.textContent = '送信';
-
-  commentForm.append(commentInput, commentSubmit);
-  commentSection.append(commentList, emptyNote, commentForm);
+  actions.append(likeButton);
 
   const updateReactions = () => {
     likeCount.textContent = `いいね ${state.likes}`;
     commentCount.textContent = `コメント ${state.comments.length}`;
     likeButton.textContent = state.likes ? `いいね済み ${state.likes}` : 'いいね';
-    commentList.innerHTML = '';
-    if (state.comments.length) {
-      emptyNote.classList.add('is-hidden');
-      state.comments.slice(-3).forEach((comment) => {
-        commentList.append(buildCommentItem(comment));
-      });
-    } else {
-      emptyNote.classList.remove('is-hidden');
-    }
   };
 
   likeButton.addEventListener('click', () => {
@@ -155,24 +101,8 @@ const buildCardSocial = (post, reactions) => {
     saveReactions(reactions);
   });
 
-  commentButton.addEventListener('click', () => {
-    commentInput.focus();
-  });
-
-  commentForm.addEventListener('submit', (event) => {
-    event.preventDefault();
-    const value = commentInput.value.trim();
-    if (!value) {
-      return;
-    }
-    state.comments.push({ text: value, createdAt: new Date().toISOString() });
-    commentInput.value = '';
-    updateReactions();
-    saveReactions(reactions);
-  });
-
   updateReactions();
-  social.append(reactionRow, actions, commentSection);
+  social.append(reactionRow, actions);
   return social;
 };
 
