@@ -6,7 +6,7 @@ export const wisdomData = {
   title: '経験則の知恵',
   prefix: 'W',
   items: [
-    { { tagId: 'W-001', legacyTagId: 'W-001', title: "パレート原則" },
+    { tagId: 'W-001', legacyTagId: 'W-001', title: "パレート原則" },
     { tagId: 'W-002', legacyTagId: 'W-024', title: "楽観性（Optimism）" },
     { tagId: 'W-003', legacyTagId: 'W-025', title: "評価懸念（Evaluation Apprehension）" },
     { tagId: 'W-004', legacyTagId: 'W-029', title: "価値合理性（Value-Rationality）" },
@@ -267,4 +267,3 @@ export const wisdomData = {
     
   ],
 };
-
