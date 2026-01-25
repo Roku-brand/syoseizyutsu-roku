@@ -20,29 +20,44 @@
     </div>
   </header>
 
-  <main class="container">
-    <section class="section">
-      <h2>理論集</h2>
-      <p>心理学・行動科学・経験則を辞書的に整理し、処世術の根拠を明確にします。</p>
-      <p class="helper-text">気になる理論カードをクリックすると、個別ページで詳細を確認できます。</p>
-    </section>
-
-    <section class="section">
-      <div class="tabs-toolbar">
-        <div class="tabs" id="foundation-tabs"></div>
-        <div class="search-box" id="foundation-search-box">
-          <input
-            id="foundation-search"
-            type="text"
-            placeholder="思想カードを検索（タイトル、タグ、処世術など）..."
-            aria-label="理論カード検索"
-          />
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <h1 class="page-hero-title">理論集</h1>
+        <p class="page-hero-lead">
+          処世術の背景にある心理学・行動科学・経験則を、辞書的に参照できる形で整理しています。
+        </p>
+        <div class="page-hero-actions">
+          <a class="page-hero-pill" href="#foundation-toolbar">理論カードを探す <span>›</span></a>
+          <a class="page-hero-pill" href="#foundation-search-box">キーワード検索へ <span>›</span></a>
         </div>
       </div>
-      <p class="helper-text" id="foundation-count"></p>
-      <div class="detail-grid detail-grid--two" id="foundation-results"></div>
-      <p class="notice is-hidden" id="foundation-empty">該当する理論カードが見つかりませんでした。</p>
     </section>
+
+    <div class="container">
+      <section class="section">
+        <h2>理論集</h2>
+        <p>心理学・行動科学・経験則を辞書的に整理し、処世術の根拠を明確にします。</p>
+        <p class="helper-text">気になる理論カードをクリックすると、個別ページで詳細を確認できます。</p>
+      </section>
+
+      <section class="section">
+        <div class="tabs-toolbar" id="foundation-toolbar">
+          <div class="tabs" id="foundation-tabs"></div>
+          <div class="search-box" id="foundation-search-box">
+            <input
+              id="foundation-search"
+              type="text"
+              placeholder="思想カードを検索（タイトル、タグ、処世術など）..."
+              aria-label="理論カード検索"
+            />
+          </div>
+        </div>
+        <p class="helper-text" id="foundation-count"></p>
+        <div class="detail-grid detail-grid--two" id="foundation-results"></div>
+        <p class="notice is-hidden" id="foundation-empty">該当する理論カードが見つかりませんでした。</p>
+      </section>
+    </div>
   </main>
 
   <footer class="container">
