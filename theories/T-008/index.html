@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>処世術禄 | T-008 バッチ処理</title>
+  <meta name="description" content="作業をまとめて処理し、段取り替えや切替の頻度を減らす運用方法" />
+  <link rel="stylesheet" href="../../styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">処世術禄</div>
+      <nav class="nav-links">
+        <a class="nav-link" href="../../index.html">トップ</a>
+        <a class="nav-link" href="../../shoseijutsu.html">処世術集</a>
+        <a class="nav-link" href="../../theory.html">理論集</a>
+        <a class="nav-link" href="../../hub.html">みんなの処世術</a>
+        <a class="nav-link" href="../../about.html">処世術禄とは</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <a class="back-link" href="../../theory.html">← 理論集に戻る</a>
+      <div class="detail-card detail-card--page theory-card theory-card--structure">
+        <div class="detail-header">
+          <h2>T-008 バッチ処理</h2>
+          <p class="detail-summary theory-card-summary">作業をまとめて処理し、段取り替えや切替の頻度を減らす運用方法</p>
+        </div>
+        <div class="detail-body">
+          <p>類似作業をまとめて処理し、段取り替え・切替コスト・割り込みを減らして総コストを下げる運用手法（Batching）。</p>
+          
+    <section>
+      <h4>要点</h4>
+      <ul>
+        <li>切替コストが高いほどバッチ効果が大きい。</li><li>ただしバッチが大きすぎると待ちが増え、遅延が出る。</li><li>頻度・サイズの設計が核心（最適バッチ）。</li><li>品質チェックも同様にまとめると漏れが減る。</li>
+      </ul>
+    </section>
+  
+          
+    <section>
+      <h4>落とし穴</h4>
+      <ul>
+        <li>バッチが肥大化し、レスポンスが遅くなる。</li><li>緊急対応が混ざり、結局割り込み地獄になる。</li><li>まとめることでミスが連鎖し、影響範囲が広がる。</li>
+      </ul>
+    </section>
+  
+          
+    <section>
+      <h4>実装ヒント</h4>
+      <ul>
+        <li>メール/事務処理などを“時間枠”でまとめる（例：1日2回）。</li><li>緊急枠を別に作り、通常バッチを守る。</li><li>バッチ単位にチェックリストを用意し、品質を固定する。</li><li>バッチサイズは“遅延許容”から逆算して決める。</li>
+      </ul>
+    </section>
+  
+          
+    <section>
+      <h4>適用場面</h4>
+      <ul>
+        <li>切替が頻繁で集中が切れやすい業務（連絡対応/事務）。</li><li>即時性より効率が重要な処理（定型のまとめ作業）。</li><li>緊急度の高い案件を分離できる運用。</li>
+      </ul>
+    </section>
+  
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>理論の理解は、処世術を「信念」から「技術」に変えます。</p>
+  </footer>
+</body>
+</html>

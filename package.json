@@ -1,0 +1,8 @@
+{
+  "name": "syoseizyutsu-roku",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:pages": "node scripts/generate-pages-and-sitemap.mjs"
+  }
+}
