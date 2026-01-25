@@ -20,57 +20,72 @@
     </div>
   </header>
 
-  <main class="container">
-    <section class="section">
-      <h2>処世術集</h2>
-      <p>ケースに合わせてどう対処するべきか過不足なく体系化された処世術集を提供</p>
-    </section>
-
-    <section class="section tab-section">
-      <div class="tabs" role="tablist" aria-label="処世術集の表示切替">
-        <button class="tab tab-button" type="button" role="tab" aria-pressed="true" data-view="list">
-          一覧
-        </button>
-        <button class="tab tab-button" type="button" role="tab" aria-pressed="false" data-view="index">
-          索引
-        </button>
-      </div>
-    </section>
-
-    <section class="section group-board-hero">
-      <div data-view-panel="list">
-        <h2>処世術群</h2>
-        <div class="group-board group-board--hero">
-          <div class="group-board-grid" id="technique-group-board"></div>
-        </div>
-      </div>
-
-      <div class="index-panel is-hidden" data-view-panel="index">
-        <h2>索引</h2>
-        <p>検索バーとタグで、目的の処世術をすばやく探せます。</p>
-        <div class="index-search">
-          <label class="index-search-label" for="technique-search">キーワード検索</label>
-          <input
-            class="index-search-input"
-            id="technique-search"
-            type="search"
-            placeholder="例：会話、仕事、断る、迷い"
-            autocomplete="off"
-          />
-          <p class="helper-text" id="technique-result-count"></p>
-        </div>
-        <div class="index-tags">
-          <p class="index-tags-title">タグ検索</p>
-          <div class="tag-list" id="technique-tag-list"></div>
-        </div>
-        <div class="index-results">
-          <ul class="index-result-list" id="technique-index-results"></ul>
-          <p class="notice is-hidden" id="technique-index-empty">
-            該当する処世術が見つかりませんでした。
-          </p>
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <h1 class="page-hero-title">処世術集</h1>
+        <p class="page-hero-lead">
+          判断に迷う場面ごとに、必要な処世術をすばやく見つけられるよう整理しています。
+        </p>
+        <div class="page-hero-actions">
+          <a class="page-hero-pill" href="#technique-tabs">処世術群を眺める <span>›</span></a>
+          <a class="page-hero-pill" href="#technique-tabs">索引で探す <span>›</span></a>
         </div>
       </div>
     </section>
+
+    <div class="container">
+      <section class="section">
+        <h2>処世術集</h2>
+        <p>ケースに合わせてどう対処するべきか過不足なく体系化された処世術集を提供</p>
+      </section>
+
+      <section class="section tab-section" id="technique-tabs">
+        <div class="tabs" role="tablist" aria-label="処世術集の表示切替">
+          <button class="tab tab-button" type="button" role="tab" aria-pressed="true" data-view="list">
+            一覧
+          </button>
+          <button class="tab tab-button" type="button" role="tab" aria-pressed="false" data-view="index">
+            索引
+          </button>
+        </div>
+      </section>
+
+      <section class="section group-board-hero">
+        <div data-view-panel="list">
+          <h2>処世術群</h2>
+          <div class="group-board group-board--hero">
+            <div class="group-board-grid" id="technique-group-board"></div>
+          </div>
+        </div>
+
+        <div class="index-panel is-hidden" data-view-panel="index">
+          <h2>索引</h2>
+          <p>検索バーとタグで、目的の処世術をすばやく探せます。</p>
+          <div class="index-search">
+            <label class="index-search-label" for="technique-search">キーワード検索</label>
+            <input
+              class="index-search-input"
+              id="technique-search"
+              type="search"
+              placeholder="例：会話、仕事、断る、迷い"
+              autocomplete="off"
+            />
+            <p class="helper-text" id="technique-result-count"></p>
+          </div>
+          <div class="index-tags">
+            <p class="index-tags-title">タグ検索</p>
+            <div class="tag-list" id="technique-tag-list"></div>
+          </div>
+          <div class="index-results">
+            <ul class="index-result-list" id="technique-index-results"></ul>
+            <p class="notice is-hidden" id="technique-index-empty">
+              該当する処世術が見つかりませんでした。
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
   </main>
 
   <footer class="container">
