@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>処世術禄 | T-003 TOC（制約理論）</title>
+  <meta name="description" content="システム全体の制約（ボトルネック）を特定・活用し、全体最適で改善する理論" />
+  <link rel="stylesheet" href="../../styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">処世術禄</div>
+      <nav class="nav-links">
+        <a class="nav-link" href="../../index.html">トップ</a>
+        <a class="nav-link" href="../../shoseijutsu.html">処世術集</a>
+        <a class="nav-link" href="../../theory.html">理論集</a>
+        <a class="nav-link" href="../../hub.html">みんなの処世術</a>
+        <a class="nav-link" href="../../about.html">処世術禄とは</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <a class="back-link" href="../../theory.html">← 理論集に戻る</a>
+      <div class="detail-card detail-card--page theory-card theory-card--structure">
+        <div class="detail-header">
+          <h2>T-003 TOC（制約理論）</h2>
+          <p class="detail-summary theory-card-summary">システム全体の制約（ボトルネック）を特定・活用し、全体最適で改善する理論</p>
+        </div>
+        <div class="detail-body">
+          <p>制約（ボトルネック）が全体スループットを決めるという前提で、制約の特定→活用→従属→強化→再探索を回し、全体最適を狙う管理原理（TOC）。</p>
+          
+    <section>
+      <h4>要点</h4>
+      <ul>
+        <li>局所最適ではなく“流れ（Throughput）”を最大化する。</li><li>ボトルネックは常に1つとは限らないが、支配的制約はある。</li><li>制約以外を速くしても在庫/待ちが増えるだけ。</li><li>制約の前後にバッファを置き、詰まりを吸収する。</li>
+      </ul>
+    </section>
+  
+          
+    <section>
+      <h4>落とし穴</h4>
+      <ul>
+        <li>ボトルネックを誤認し、改善投資が空振りする。</li><li>非制約工程を頑張りすぎてWIPが増え、リードタイムが悪化。</li><li>制約を強化したら次の制約に移ることを忘れる。</li>
+      </ul>
+    </section>
+  
+          
+    <section>
+      <h4>実装ヒント</h4>
+      <ul>
+        <li>現場観察で『待ち行列・滞留・再作業』を可視化し制約を特定。</li><li>制約工程の稼働を守る（割り込み排除・段取り改善）。</li><li>前後工程は制約に合わせて投入量を調整（従属）。</li><li>制約が固定なら、能力増強・外注・自動化で強化する。</li>
+      </ul>
+    </section>
+  
+          
+    <section>
+      <h4>適用場面</h4>
+      <ul>
+        <li>工程が連結し、待ち/滞留がコストになる業務（開発・制作・事務）。</li><li>スループット/リードタイムを改善したい組織運用。</li><li>優先順位衝突が起きやすい環境（複数案件並行）。</li>
+      </ul>
+    </section>
+  
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>理論の理解は、処世術を「信念」から「技術」に変えます。</p>
+  </footer>
+</body>
+</html>
