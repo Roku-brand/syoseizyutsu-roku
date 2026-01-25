@@ -305,6 +305,22 @@ main {
   min-height: 220px;
 }
 
+.hub-card-link {
+  display: grid;
+  text-decoration: none;
+  color: inherit;
+}
+
+.hub-card-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(31, 36, 48, 0.12);
+}
+
+.hub-card-link:focus-visible {
+  outline: 3px solid rgba(79, 109, 138, 0.4);
+  outline-offset: 4px;
+}
+
 .hub-card-summary {
   margin: 0;
   color: #576176;
@@ -337,6 +353,41 @@ main {
 .hub-create-content p {
   margin: 0;
   color: #59627a;
+}
+
+.hub-detail-hero {
+  display: grid;
+  gap: 24px;
+}
+
+.hub-detail-back {
+  justify-self: flex-start;
+}
+
+.hub-detail-card .detail-header {
+  display: grid;
+  gap: 8px;
+}
+
+.hub-detail-eyebrow {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #7b8498;
+}
+
+.hub-detail-meta {
+  margin: 0;
+  font-size: 13px;
+  color: #7a8396;
+}
+
+.hub-technique-list {
+  margin: 0;
+  padding-left: 20px;
+  display: grid;
+  gap: 6px;
 }
 
 .grid {
