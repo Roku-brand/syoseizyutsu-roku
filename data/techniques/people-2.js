@@ -11,7 +11,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-026",
             "S-025",
-            "W-130"
+            "W-007"
           ]
         },
         {
@@ -20,8 +20,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "信頼が積み上がる",
           "foundations": [
             "S-032",
-            "W-201",
-            "W-202"
+            "W-028",
+            "S-123"
           ]
         },
         {
@@ -31,7 +31,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-005",
             "S-008",
-            "W-203"
+            "S-124"
           ]
         },
         {
@@ -41,7 +41,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-034",
             "S-032",
-            "W-204"
+            "W-029"
           ]
         },
         {
@@ -51,7 +51,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "B-009",
             "S-024",
-            "W-205"
+            "C-093"
           ]
         },
         {
@@ -61,7 +61,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-032",
             "S-034",
-            "W-191"
+            "C-091"
           ]
         },
         {
@@ -70,8 +70,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "権威があると信頼されやすい",
           "foundations": [
             "S-057",
-            "W-206",
-            "W-207"
+            "S-125",
+            "T-054"
           ]
         },
         {
@@ -81,7 +81,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-054",
             "T-044",
-            "W-146"
+            "B-083"
           ]
         },
         {
@@ -91,7 +91,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "C-033",
             "S-079",
-            "W-199"
+            "W-027"
           ]
         },
         {
@@ -101,7 +101,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-057",
             "S-053",
-            "W-208"
+            "W-030"
           ]
         },
         {
@@ -111,7 +111,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-079",
             "B-016",
-            "W-157"
+            "C-076"
           ]
         },
         {
@@ -119,9 +119,9 @@ export const peopleTechniquesPart2 = {
           "title": "要求には代替案を添える",
           "subtitle": "関係が崩れにくくなる",
           "foundations": [
-            "W-209",
-            "W-210",
-            "W-211"
+            "S-126",
+            "W-031",
+            "C-082"
           ]
         },
         {
@@ -139,9 +139,9 @@ export const peopleTechniquesPart2 = {
           "title": "頼みごとに条件を付ける",
           "subtitle": "消耗を防げると行動が続き成果が出る",
           "foundations": [
-            "W-006",
-            "W-212",
-            "W-213"
+            "B-068",
+            "S-127",
+            "T-060"
           ]
         },
         {
@@ -150,8 +150,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "主導権が保てる",
           "foundations": [
             "S-008",
-            "W-214",
-            "W-215"
+            "S-128",
+            "B-090"
           ]
         },
         {
@@ -160,8 +160,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "場を壊さず線を引ける",
           "foundations": [
             "S-029",
-            "W-216",
-            "W-217"
+            "W-032",
+            "W-033"
           ]
         },
         {
@@ -170,8 +170,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "尊重されやすくなる",
           "foundations": [
             "S-034",
-            "W-012",
-            "W-191"
+            "C-053",
+            "C-091"
           ]
         },
         {
@@ -180,8 +180,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "限界を理解されやすい",
           "foundations": [
             "S-033",
-            "W-218",
-            "W-219"
+            "B-091",
+            "C-094"
           ]
         }
       ]
@@ -195,8 +195,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "安心感が増え、話が進む",
           "foundations": [
             "S-034",
-            "W-220",
-            "W-221"
+            "C-083",
+            "W-034"
           ]
         },
         {
@@ -204,9 +204,9 @@ export const peopleTechniquesPart2 = {
           "title": "期待値を下げて関係を続ける",
           "subtitle": "失望を避け、安定した評価を得る",
           "foundations": [
-            "W-157",
-            "W-222",
-            "W-177"
+            "C-076",
+            "W-035",
+            "C-079"
           ]
         },
         {
@@ -214,9 +214,9 @@ export const peopleTechniquesPart2 = {
           "title": "関わる頻度を調整",
           "subtitle": "関係が崩れにくくなる",
           "foundations": [
-            "W-006",
+            "B-068",
             "S-041",
-            "W-223"
+            "T-055"
           ]
         },
         {
@@ -226,7 +226,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "C-033",
             "S-078",
-            "W-216"
+            "W-032"
           ]
         },
         {
@@ -235,8 +235,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "安心感が増え、話が進む",
           "foundations": [
             "S-034",
-            "W-224",
-            "W-225"
+            "W-036",
+            "W-037"
           ]
         },
         {
@@ -246,7 +246,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "T-022",
             "C-019",
-            "W-226"
+            "T-061"
           ]
         },
         {
@@ -255,8 +255,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "重さを避け、長く続く",
           "foundations": [
             "S-035",
-            "W-227",
-            "W-171"
+            "W-038",
+            "B-085"
           ]
         },
         {
@@ -284,9 +284,9 @@ export const peopleTechniquesPart2 = {
           "title": "義務感で会わない",
           "subtitle": "相手の警戒が下がる",
           "foundations": [
-            "W-012",
-            "W-228",
-            "W-229"
+            "C-053",
+            "C-095",
+            "W-039"
           ]
         },
         {
@@ -296,7 +296,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "T-033",
             "T-032",
-            "W-006"
+            "B-068"
           ]
         },
         {
@@ -315,8 +315,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "自然に距離が縮まる",
           "foundations": [
             "S-049",
-            "W-230",
-            "W-231"
+            "W-040",
+            "W-041"
           ]
         },
         {
@@ -325,8 +325,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "揉めずに距離が取れる",
           "foundations": [
             "S-029",
-            "W-217",
-            "W-232"
+            "W-033",
+            "S-129"
           ]
         },
         {
@@ -334,9 +334,9 @@ export const peopleTechniquesPart2 = {
           "title": "連絡頻度を調整",
           "subtitle": "消耗を減らせる",
           "foundations": [
-            "W-157",
-            "W-233",
-            "W-198"
+            "C-076",
+            "W-042",
+            "C-081"
           ]
         },
         {
@@ -344,9 +344,9 @@ export const peopleTechniquesPart2 = {
           "title": "会う頻度を下げる",
           "subtitle": "関係が軽くなる",
           "foundations": [
-            "W-006",
-            "W-234",
-            "W-235"
+            "B-068",
+            "W-043",
+            "W-044"
           ]
         }
       ]
@@ -360,8 +360,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "摩擦を抑えつつ境界線を守れる",
           "foundations": [
             "S-032",
-            "W-225",
-            "W-236"
+            "W-037",
+            "S-130"
           ]
         },
         {
@@ -370,8 +370,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "相手の警戒が下がる",
           "foundations": [
             "S-008",
-            "W-237",
-            "W-238"
+            "B-092",
+            "S-131"
           ]
         },
         {
@@ -381,7 +381,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-034",
             "C-033",
-            "W-239"
+            "W-045"
           ]
         },
         {
@@ -389,9 +389,9 @@ export const peopleTechniquesPart2 = {
           "title": "代替案を出すか選ぶ",
           "subtitle": "安心感が増え、話が進む",
           "foundations": [
-            "W-240",
-            "W-211",
-            "W-210"
+            "S-132",
+            "C-082",
+            "W-031"
           ]
         },
         {
@@ -401,7 +401,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "B-006",
             "S-039",
-            "W-241"
+            "B-093"
           ]
         },
         {
@@ -420,8 +420,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "摩擦を抑えつつ境界線を守れる",
           "foundations": [
             "S-033",
-            "W-242",
-            "W-167"
+            "B-094",
+            "C-088"
           ]
         },
         {
@@ -431,7 +431,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "C-039",
             "C-016",
-            "W-243"
+            "T-056"
           ]
         },
         {
@@ -441,7 +441,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "T-037",
             "T-036",
-            "W-244"
+            "S-133"
           ]
         },
         {
@@ -451,7 +451,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-005",
             "S-008",
-            "W-245"
+            "W-046"
           ]
         },
         {
@@ -471,7 +471,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "C-047",
             "C-041",
-            "W-246"
+            "W-047"
           ]
         },
         {
@@ -481,7 +481,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-032",
             "S-030",
-            "W-247"
+            "S-134"
           ]
         },
         {
@@ -490,8 +490,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "関係が崩れにくい",
           "foundations": [
             "S-049",
-            "W-248",
-            "W-211"
+            "S-135",
+            "C-082"
           ]
         },
         {
@@ -499,9 +499,9 @@ export const peopleTechniquesPart2 = {
           "title": "即答せず持ち帰る",
           "subtitle": "判断がぶれにくい",
           "foundations": [
-            "W-249",
-            "W-215",
-            "W-250"
+            "W-048",
+            "B-090",
+            "S-136"
           ]
         },
         {
@@ -511,7 +511,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "B-006",
             "S-033",
-            "W-251"
+            "C-096"
           ]
         }
       ]
@@ -525,8 +525,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "関係が崩れにくくなる",
           "foundations": [
             "S-064",
-            "W-252",
-            "W-253"
+            "S-137",
+            "S-096"
           ]
         },
         {
@@ -535,8 +535,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "権威があると信頼されやすい",
           "foundations": [
             "T-039",
-            "W-254",
-            "W-255"
+            "S-138",
+            "S-139"
           ]
         },
         {
@@ -545,8 +545,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "信頼が積み上がる",
           "foundations": [
             "T-036",
-            "W-256",
-            "W-147"
+            "W-049",
+            "C-074"
           ]
         },
         {
@@ -556,7 +556,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-049",
             "T-041",
-            "W-113"
+            "C-067"
           ]
         },
         {
@@ -566,7 +566,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-074",
             "S-073",
-            "W-257"
+            "W-050"
           ]
         },
         {
@@ -586,7 +586,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-078",
             "T-024",
-            "W-258"
+            "T-057"
           ]
         },
         {
@@ -595,8 +595,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "対立を整理すると協力に戻せる",
           "foundations": [
             "S-079",
-            "W-259",
-            "W-200"
+            "W-051",
+            "S-122"
           ]
         },
         {
@@ -616,7 +616,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-071",
             "S-072",
-            "W-060"
+            "C-054"
           ]
         },
         {
@@ -626,7 +626,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "T-022",
             "S-075",
-            "W-260"
+            "S-097"
           ]
         },
         {
@@ -645,8 +645,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "居場所ができ、楽になる",
           "foundations": [
             "S-039",
-            "W-261",
-            "W-262"
+            "S-140",
+            "S-098"
           ]
         },
         {
@@ -655,8 +655,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "敵を作りにくい",
           "foundations": [
             "S-029",
-            "W-263",
-            "W-147"
+            "T-062",
+            "C-074"
           ]
         },
         {
@@ -665,8 +665,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "影響力が増える",
           "foundations": [
             "S-075",
-            "W-184",
-            "W-264"
+            "S-115",
+            "S-141"
           ]
         },
         {
@@ -676,7 +676,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-077",
             "S-076",
-            "W-060"
+            "C-054"
           ]
         },
         {
@@ -685,8 +685,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "信頼が早く回る",
           "foundations": [
             "S-049",
-            "W-113",
-            "W-265"
+            "C-067",
+            "S-142"
           ]
         },
         {
@@ -695,8 +695,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "信用が落ちにくい",
           "foundations": [
             "S-064",
-            "W-120",
-            "W-148"
+            "C-070",
+            "C-086"
           ]
         }
       ]
@@ -711,7 +711,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "C-012",
             "B-059",
-            "W-266"
+            "B-095"
           ]
         },
         {
@@ -720,8 +720,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "関係が崩れにくくなる",
           "foundations": [
             "S-054",
-            "W-267",
-            "W-268"
+            "B-096",
+            "B-097"
           ]
         },
         {
@@ -729,9 +729,9 @@ export const peopleTechniquesPart2 = {
           "title": "得意と不得意の場面を観察",
           "subtitle": "相手の警戒が下がる",
           "foundations": [
-            "W-269",
-            "W-270",
-            "W-271"
+            "C-084",
+            "S-099",
+            "S-100"
           ]
         },
         {
@@ -740,7 +740,7 @@ export const peopleTechniquesPart2 = {
           "subtitle": "関係が崩れにくくなる",
           "foundations": [
             "C-004",
-            "W-272"
+            "B-089"
           ]
         },
         {
@@ -748,9 +748,9 @@ export const peopleTechniquesPart2 = {
           "title": "環境変化時の反応を見る",
           "subtitle": "信頼が積み上がる",
           "foundations": [
-            "W-013",
-            "W-273",
-            "W-274"
+            "C-054",
+            "C-097",
+            "C-085"
           ]
         },
         {
@@ -780,7 +780,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-054",
             "T-044",
-            "W-146"
+            "B-083"
           ]
         },
         {
@@ -790,7 +790,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-079",
             "C-033",
-            "W-275"
+            "W-052"
           ]
         },
         {
@@ -800,7 +800,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "T-042",
             "T-043",
-            "W-276"
+            "T-063"
           ]
         },
         {
@@ -809,8 +809,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "安心感が増え、話が進む",
           "foundations": [
             "S-057",
-            "W-036",
-            "W-277"
+            "C-065",
+            "W-053"
           ]
         },
         {
@@ -820,7 +820,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "C-009",
             "B-027",
-            "W-278"
+            "C-098"
           ]
         },
         {
@@ -829,8 +829,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "言動が読めて楽になる",
           "foundations": [
             "B-058",
-            "W-279",
-            "W-280"
+            "W-054",
+            "W-055"
           ]
         },
         {
@@ -838,9 +838,9 @@ export const peopleTechniquesPart2 = {
           "title": "価値観より利害を見る",
           "subtitle": "現実的に対処できる",
           "foundations": [
-            "W-113",
-            "W-281",
-            "W-282"
+            "C-067",
+            "W-056",
+            "W-057"
           ]
         },
         {
@@ -850,7 +850,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "C-001",
             "C-003",
-            "W-283"
+            "C-099"
           ]
         },
         {
@@ -860,7 +860,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-054",
             "T-044",
-            "W-155"
+            "W-018"
           ]
         },
         {
@@ -869,8 +869,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "本性が見えやすい",
           "foundations": [
             "S-079",
-            "W-284",
-            "W-272"
+            "W-058",
+            "B-089"
           ]
         },
         {
@@ -879,8 +879,8 @@ export const peopleTechniquesPart2 = {
           "subtitle": "承認欲求の癖が見える",
           "foundations": [
             "S-059",
-            "W-285",
-            "W-286"
+            "S-101",
+            "S-102"
           ]
         }
       ]

@@ -18,8 +18,8 @@ export const lifeTechniques = {
           "subtitle": "余計な迷いが減り、動ける",
           "foundations": [
             "C-041",
-            "W-015",
-            "W-016"
+            "C-056",
+            "C-057"
           ]
         },
         {
@@ -51,9 +51,9 @@ export const lifeTechniques = {
           "title": "資産形成を早期に始める",
           "subtitle": "複利が効き、長期の差が広がる",
           "foundations": [
-            "C-014 W-007",
-            "W-017",
-            "W-018"
+            "C-014 B-069",
+            "T-048",
+            "T-049"
           ]
         },
         {
@@ -62,7 +62,7 @@ export const lifeTechniques = {
           "subtitle": "土台が安定し、継続力が上がる",
           "foundations": [
             "T-028 B-002 C-037",
-            "W-019"
+            "T-050"
           ]
         },
         {
@@ -79,8 +79,8 @@ export const lifeTechniques = {
           "subtitle": "機会損失が減り、打ち手が増える",
           "foundations": [
             "B-053",
-            "W-020",
-            "W-021"
+            "B-073",
+            "C-058"
           ]
         },
         {
@@ -104,7 +104,7 @@ export const lifeTechniques = {
           "title": "収入と支出を見える化",
           "subtitle": "状況が把握でき、判断が速くなる",
           "foundations": [
-            "C-014 W-007 B-021"
+            "C-014 B-069 B-021"
           ]
         },
         {
@@ -120,7 +120,7 @@ export const lifeTechniques = {
           "title": "捨てる領域を決める",
           "subtitle": "迷いが減り、集中が作れる",
           "foundations": [
-            "B-062 W-006 B-041"
+            "B-062 B-068 B-041"
           ]
         },
         {
@@ -136,7 +136,7 @@ export const lifeTechniques = {
           "title": "生活コストを把握",
           "subtitle": "不安が減り、攻めに回れる",
           "foundations": [
-            "W-007 C-014 B-021"
+            "B-069 C-014 B-021"
           ]
         },
         {
@@ -145,7 +145,7 @@ export const lifeTechniques = {
           "subtitle": "盲点が減り、意思決定が安定する",
           "foundations": [
             "S-060 S-071",
-            "W-022"
+            "S-093"
           ]
         },
         {
@@ -153,7 +153,7 @@ export const lifeTechniques = {
           "title": "優先順位を資源で決める",
           "subtitle": "選択が速くなり、後悔が減る",
           "foundations": [
-            "T-003 W-007 B-062"
+            "T-003 B-069 B-062"
           ]
         }
       ]
@@ -167,8 +167,8 @@ export const lifeTechniques = {
           "subtitle": "視座が上がり、挑戦が選びやすい",
           "foundations": [
             "B-055",
-            "W-021",
-            "W-023"
+            "C-058",
+            "C-059"
           ]
         },
         {
@@ -177,8 +177,8 @@ export const lifeTechniques = {
           "subtitle": "初動が軽くなり、行動量が増える",
           "foundations": [
             "C-048",
-            "W-023",
-            "W-024"
+            "C-059",
+            "C-051"
           ]
         },
         {
@@ -187,8 +187,8 @@ export const lifeTechniques = {
           "subtitle": "評価が安定しやすい",
           "foundations": [
             "S-034",
-            "W-015",
-            "W-025"
+            "C-056",
+            "T-046"
           ]
         },
         {
@@ -197,8 +197,8 @@ export const lifeTechniques = {
           "subtitle": "熱量を守り、継続しやすい",
           "foundations": [
             "B-018",
-            "W-026",
-            "W-027"
+            "C-060",
+            "B-074"
           ]
         },
         {
@@ -207,8 +207,8 @@ export const lifeTechniques = {
           "subtitle": "停滞を破り、成長機会を作れる",
           "foundations": [
             "B-061",
-            "W-028",
-            "W-020"
+            "C-061",
+            "B-073"
           ]
         },
         {
@@ -217,7 +217,7 @@ export const lifeTechniques = {
           "subtitle": "飛躍の意思決定が可能になる",
           "foundations": [
             "B-041 C-001",
-            "W-029"
+            "T-047"
           ]
         },
         {
@@ -234,8 +234,8 @@ export const lifeTechniques = {
           "subtitle": "停滞を破り、成長機会を作れる",
           "foundations": [
             "B-048",
-            "W-030",
-            "W-020"
+            "C-062",
+            "B-073"
           ]
         },
         {
@@ -243,7 +243,7 @@ export const lifeTechniques = {
           "title": "夢を理由に今を壊さない",
           "subtitle": "基盤を守り、遠くまで行ける",
           "foundations": [
-            "B-020 B-037 W-012"
+            "B-020 B-037 C-053"
           ]
         },
         {
@@ -252,8 +252,8 @@ export const lifeTechniques = {
           "subtitle": "計画倒れを避け、試行が続く",
           "foundations": [
             "B-054",
-            "W-031",
-            "W-020"
+            "B-075",
+            "B-073"
           ]
         },
         {
@@ -261,8 +261,8 @@ export const lifeTechniques = {
           "title": "失敗を前提に挑戦",
           "subtitle": "停滞を破り、成長機会を作れる",
           "foundations": [
-            "C-048 W-013",
-            "W-032"
+            "C-048 C-054",
+            "C-063"
           ]
         },
         {
@@ -271,8 +271,8 @@ export const lifeTechniques = {
           "subtitle": "柔軟に更新でき、停滞しない",
           "foundations": [
             "T-029",
-            "W-033",
-            "W-034"
+            "C-064",
+            "B-076"
           ]
         },
         {
@@ -280,9 +280,9 @@ export const lifeTechniques = {
           "title": "夢を達成基準より評価基準に",
           "subtitle": "行動が止まらず、積み上がる",
           "foundations": [
-            "W-035",
-            "W-015",
-            "W-036"
+            "B-077",
+            "C-056",
+            "C-065"
           ]
         },
         {
@@ -291,8 +291,8 @@ export const lifeTechniques = {
           "subtitle": "焦りが減り、今に集中できる",
           "foundations": [
             "T-030",
-            "W-037",
-            "W-038"
+            "B-078",
+            "B-079"
           ]
         },
         {
@@ -300,7 +300,7 @@ export const lifeTechniques = {
           "title": "夢と挑戦は同時でなくていい",
           "subtitle": "負荷が減り、続けやすい",
           "foundations": [
-            "W-007 T-003 W-012"
+            "B-069 T-003 C-053"
           ]
         },
         {
@@ -309,8 +309,8 @@ export const lifeTechniques = {
           "subtitle": "失敗コストを抑え、前に進める",
           "foundations": [
             "S-071",
-            "W-031",
-            "W-039"
+            "B-075",
+            "B-080"
           ]
         },
         {
@@ -319,7 +319,7 @@ export const lifeTechniques = {
           "subtitle": "ブレずに継続できる",
           "foundations": [
             "B-029 B-016",
-            "W-040"
+            "B-081"
           ]
         },
         {
@@ -328,8 +328,8 @@ export const lifeTechniques = {
           "subtitle": "選択肢が広がり、迷いが減る",
           "foundations": [
             "T-034",
-            "W-021",
-            "W-023"
+            "C-058",
+            "C-059"
           ]
         }
       ]
@@ -343,8 +343,8 @@ export const lifeTechniques = {
           "subtitle": "納得感が増え、迷いが減る",
           "foundations": [
             "C-041",
-            "W-015",
-            "W-030"
+            "C-056",
+            "C-062"
           ]
         },
         {
@@ -353,8 +353,8 @@ export const lifeTechniques = {
           "subtitle": "判断が軽くなり、選びやすい",
           "foundations": [
             "C-017",
-            "W-030",
-            "W-041"
+            "C-062",
+            "C-066"
           ]
         },
         {
@@ -363,7 +363,7 @@ export const lifeTechniques = {
           "subtitle": "余計な迷いが減り、動ける",
           "foundations": [
             "S-044 S-042",
-            "W-042"
+            "T-051"
           ]
         },
         {
@@ -372,7 +372,7 @@ export const lifeTechniques = {
           "subtitle": "先延ばしが減り、機会を掴める",
           "foundations": [
             "B-038 B-006",
-            "W-043"
+            "B-082"
           ]
         },
         {
@@ -381,7 +381,7 @@ export const lifeTechniques = {
           "subtitle": "土台が安定し、継続力が上がる",
           "foundations": [
             "T-028 B-002",
-            "W-019"
+            "T-050"
           ]
         },
         {
@@ -389,9 +389,9 @@ export const lifeTechniques = {
           "title": "他人の評価に振り回されない",
           "subtitle": "自分軸が戻り、心が安定する",
           "foundations": [
-            "W-044",
-            "W-045",
-            "W-046"
+            "S-094",
+            "C-067",
+            "B-067"
           ]
         },
         {
@@ -400,8 +400,8 @@ export const lifeTechniques = {
           "subtitle": "偶発の機会を拾いやすい",
           "foundations": [
             "B-053",
-            "W-020",
-            "W-047"
+            "B-073",
+            "B-068"
           ]
         },
         {
@@ -410,7 +410,7 @@ export const lifeTechniques = {
           "subtitle": "同じミスを避けやすくなる",
           "foundations": [
             "C-017 B-050",
-            "W-030"
+            "C-062"
           ]
         },
         {
@@ -419,7 +419,7 @@ export const lifeTechniques = {
           "subtitle": "後から取り返せない損を減らす",
           "foundations": [
             "S-060 S-042",
-            "W-048"
+            "C-068"
           ]
         },
         {
@@ -436,8 +436,8 @@ export const lifeTechniques = {
           "subtitle": "振り返りが資産になりやすい",
           "foundations": [
             "C-009",
-            "W-049",
-            "W-050"
+            "C-069",
+            "C-070"
           ]
         },
         {
@@ -446,7 +446,7 @@ export const lifeTechniques = {
           "subtitle": "機会損失に気づきやすい",
           "foundations": [
             "B-038 B-061",
-            "W-043"
+            "B-082"
           ]
         },
         {
@@ -463,7 +463,7 @@ export const lifeTechniques = {
           "subtitle": "自由度を失いにくい",
           "foundations": [
             "B-002 C-037",
-            "W-051"
+            "C-071"
           ]
         },
         {
@@ -480,8 +480,8 @@ export const lifeTechniques = {
           "subtitle": "記憶と関係が残りやすい",
           "foundations": [
             "B-037",
-            "W-052",
-            "W-048"
+            "B-069",
+            "C-068"
           ]
         }
       ]
@@ -495,8 +495,8 @@ export const lifeTechniques = {
           "subtitle": "変化に振り回されにくい",
           "foundations": [
             "S-071",
-            "W-053",
-            "W-020"
+            "B-070",
+            "B-073"
           ]
         },
         {
@@ -537,7 +537,7 @@ export const lifeTechniques = {
           "subtitle": "早合点を避け、精度が上がる",
           "foundations": [
             "B-044 B-040",
-            "W-054"
+            "B-071"
           ]
         },
         {
@@ -561,9 +561,9 @@ export const lifeTechniques = {
           "title": "変化に強い生活コストを維持",
           "subtitle": "納得感が増え、前に進める",
           "foundations": [
-            "W-055",
-            "W-018",
-            "W-056"
+            "C-052",
+            "T-049",
+            "B-072"
           ]
         },
         {
@@ -572,7 +572,7 @@ export const lifeTechniques = {
           "subtitle": "消耗が減り、関係が健全化する",
           "foundations": [
             "T-033 T-032",
-            "W-057"
+            "C-053"
           ]
         },
         {
@@ -581,8 +581,8 @@ export const lifeTechniques = {
           "subtitle": "不安を煽らず、落ち着いて進める",
           "foundations": [
             "B-018",
-            "W-046",
-            "W-058"
+            "B-067",
+            "C-072"
           ]
         },
         {
@@ -591,8 +591,8 @@ export const lifeTechniques = {
           "subtitle": "軸が保て、折れにくい",
           "foundations": [
             "B-009",
-            "W-059",
-            "W-060"
+            "C-073",
+            "C-054"
           ]
         },
         {
@@ -601,8 +601,8 @@ export const lifeTechniques = {
           "subtitle": "手遅れになりにくい",
           "foundations": [
             "B-045",
-            "W-061",
-            "W-062"
+            "C-055",
+            "C-056"
           ]
         },
         {
@@ -619,7 +619,7 @@ export const lifeTechniques = {
           "subtitle": "失敗を学びに変えやすい",
           "foundations": [
             "B-023 T-004",
-            "W-031"
+            "B-075"
           ]
         },
         {
@@ -636,8 +636,8 @@ export const lifeTechniques = {
           "subtitle": "努力が報われやすくなる",
           "foundations": [
             "T-031",
-            "W-063",
-            "W-064"
+            "C-057",
+            "B-083"
           ]
         },
         {
@@ -691,8 +691,8 @@ export const lifeTechniques = {
           "subtitle": "当たりを引く確率が上がる",
           "foundations": [
             "B-044",
-            "W-020",
-            "W-047"
+            "B-073",
+            "B-068"
           ]
         },
         {
@@ -700,8 +700,8 @@ export const lifeTechniques = {
           "title": "運に左右されない最低ラインを作る",
           "subtitle": "下振れに耐え、折れにくい",
           "foundations": [
-            "W-013 B-047",
-            "W-056"
+            "C-054 B-047",
+            "B-072"
           ]
         },
         {
@@ -718,8 +718,8 @@ export const lifeTechniques = {
           "subtitle": "学びが残り、改善が進む",
           "foundations": [
             "C-014",
-            "W-065",
-            "W-066"
+            "C-074",
+            "C-075"
           ]
         },
         {
@@ -759,9 +759,9 @@ export const lifeTechniques = {
           "title": "偶然を拾う余白を作る",
           "subtitle": "機会が増え、流れが変わる",
           "foundations": [
-            "W-020",
-            "W-058",
-            "W-047"
+            "B-073",
+            "C-072",
+            "B-068"
           ]
         },
         {
@@ -770,7 +770,7 @@ export const lifeTechniques = {
           "subtitle": "当たりに出会う確率が上がる",
           "foundations": [
             "B-044 T-032",
-            "W-067"
+            "T-048"
           ]
         },
         {
@@ -779,8 +779,8 @@ export const lifeTechniques = {
           "subtitle": "信頼を失いにくい",
           "foundations": [
             "S-039",
-            "W-068",
-            "W-069"
+            "S-095",
+            "T-049"
           ]
         },
         {
@@ -789,8 +789,8 @@ export const lifeTechniques = {
           "subtitle": "一発で終わらず積み上がる",
           "foundations": [
             "C-048",
-            "W-070",
-            "W-023"
+            "C-076",
+            "C-059"
           ]
         }
       ]
