@@ -14,6 +14,7 @@ const tabsContainer = document.getElementById("foundation-tabs");
 const resultsContainer = document.getElementById("foundation-results");
 const emptyState = document.getElementById("foundation-empty");
 const countLabel = document.getElementById("foundation-count");
+const reactionKey = "theoryReactions";
 
 const tabOptions = [
   { key: "index", label: "索引" },
@@ -37,6 +38,19 @@ const compactTitle = (value) =>
     .trim();
 
 const isIndexActive = () => activeCategory === "index";
+
+const loadReactions = () => {
+  const raw = window.localStorage.getItem(reactionKey);
+  if (!raw) {
+    return {};
+  }
+  try {
+    const parsed = JSON.parse(raw);
+    return parsed && typeof parsed === "object" ? parsed : {};
+  } catch (error) {
+    return {};
+  }
+};
 
 const renderTabs = () => {
   tabsContainer.innerHTML = "";
@@ -100,19 +114,24 @@ const renderCards = () => {
   );
 
   const filtered = allItems.filter((item) => matchesFilter(item, keyword));
+  const reactions = loadReactions();
 
   resultsContainer.innerHTML = filtered
     .map((item) => {
       const encodedTag = encodeURIComponent(item.tagId);
       const shortTitle = compactTitle(item.title);
       const backTarget = encodeURIComponent(`theory.html?tab=${encodeURIComponent(activeCategory)}`);
+      const reaction = reactions[item.tagId] ?? { likes: 0, comments: 0 };
       return `
         <a class="detail-card link-card theory-card theory-card--${item.categoryId}" href="theory-card.html?tag=${encodedTag}&back=${backTarget}">
           <div class="theory-card-head">
             <span class="theory-card-tag">${item.tagId}</span>
             <span class="theory-card-title">${shortTitle}</span>
           </div>
-          <p class="detail-summary theory-card-summary">${item.summary}</p>
+          <div class="theory-card-reactions">
+            <span>いいね ${reaction.likes}</span>
+            <span>コメント ${reaction.comments}</span>
+          </div>
         </a>
       `;
     })
