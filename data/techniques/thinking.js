@@ -10,7 +10,7 @@ export const thinkingTechniques = {
           "subtitle": "自尊心が満たされ、信頼が増す",
           "foundations": [
             "C-009 B-021",
-            "W-016"
+            "C-057"
           ]
         },
         {
@@ -18,9 +18,9 @@ export const thinkingTechniques = {
           "title": "他人と比較しない",
           "subtitle": "比較を減らすと心が安定する",
           "foundations": [
-            "W-044",
-            "W-045",
-            "W-025"
+            "S-094",
+            "C-067",
+            "T-046"
           ]
         },
         {
@@ -28,9 +28,9 @@ export const thinkingTechniques = {
           "title": "小さな成功を祝う",
           "subtitle": "消耗が減り、余裕が戻る",
           "foundations": [
-            "W-071",
-            "W-023",
-            "W-072"
+            "B-084",
+            "C-059",
+            "T-050"
           ]
         },
         {
@@ -47,8 +47,8 @@ export const thinkingTechniques = {
           "subtitle": "思考が整理され、落ち着く",
           "foundations": [
             "C-033",
-            "W-023",
-            "W-050"
+            "C-059",
+            "C-070"
           ]
         },
         {
@@ -57,7 +57,7 @@ export const thinkingTechniques = {
           "subtitle": "思考の偏りに気づくと判断が整う",
           "foundations": [
             "C-044 B-022",
-            "W-073"
+            "B-073"
           ]
         },
         {
@@ -66,7 +66,7 @@ export const thinkingTechniques = {
           "subtitle": "運動で自己肯定感が高まる",
           "foundations": [
             "B-005 C-037",
-            "W-074"
+            "B-085"
           ]
         },
         {
@@ -75,8 +75,8 @@ export const thinkingTechniques = {
           "subtitle": "自分にも感謝すると肯定感が上がる",
           "foundations": [
             "C-049",
-            "W-075",
-            "W-076"
+            "C-077",
+            "C-058"
           ]
         },
         {
@@ -85,7 +85,7 @@ export const thinkingTechniques = {
           "subtitle": "消耗が減り、余裕が戻る",
           "foundations": [
             "C-041 B-016",
-            "W-015"
+            "C-056"
           ]
         },
         {
@@ -94,7 +94,7 @@ export const thinkingTechniques = {
           "subtitle": "評価せず受け入れると自己肯定が増す",
           "foundations": [
             "C-047 C-041",
-            "W-077"
+            "C-078"
           ]
         },
         {
@@ -111,8 +111,8 @@ export const thinkingTechniques = {
           "subtitle": "役に立つ実感が自信につながる",
           "foundations": [
             "S-060",
-            "W-078",
-            "W-079"
+            "B-086",
+            "C-079"
           ]
         },
         {
@@ -121,8 +121,8 @@ export const thinkingTechniques = {
           "subtitle": "心が安定し、行動が増える",
           "foundations": [
             "B-003",
-            "W-044",
-            "W-058"
+            "S-094",
+            "C-072"
           ]
         },
         {
@@ -131,8 +131,8 @@ export const thinkingTechniques = {
           "subtitle": "自信が再現可能になる",
           "foundations": [
             "C-009",
-            "W-051",
-            "W-023"
+            "C-071",
+            "C-059"
           ]
         },
         {
@@ -141,8 +141,8 @@ export const thinkingTechniques = {
           "subtitle": "失敗しても崩れにくい",
           "foundations": [
             "T-022",
-            "W-045",
-            "W-080"
+            "C-067",
+            "C-080"
           ]
         },
         {
@@ -151,8 +151,8 @@ export const thinkingTechniques = {
           "subtitle": "自己信頼が増える",
           "foundations": [
             "B-004",
-            "W-081",
-            "W-023"
+            "S-093",
+            "C-059"
           ]
         }
       ]
@@ -165,7 +165,7 @@ export const thinkingTechniques = {
           "title": "ストレスを成長の糧と捉える",
           "subtitle": "成長と捉えると耐性が高まる",
           "foundations": [
-            "C-038 C-048 W-013"
+            "C-038 C-048 C-054"
           ]
         },
         {
@@ -174,7 +174,7 @@ export const thinkingTechniques = {
           "subtitle": "呼吸を整えると落ち着く",
           "foundations": [
             "C-037 C-033",
-            "W-082"
+            "T-052"
           ]
         },
         {
@@ -190,9 +190,9 @@ export const thinkingTechniques = {
           "title": "逆境を乗り越えた経験を思い出す",
           "subtitle": "成功経験が自信を強める",
           "foundations": [
-            "W-013",
-            "W-023",
-            "W-050"
+            "C-054",
+            "C-059",
+            "C-070"
           ]
         },
         {
@@ -224,8 +224,8 @@ export const thinkingTechniques = {
           "title": "回復の時間を確保",
           "subtitle": "思考が整理され、落ち着く",
           "foundations": [
-            "W-009 W-012",
-            "W-083"
+            "B-071 C-053",
+            "C-059"
           ]
         },
         {
@@ -233,7 +233,7 @@ export const thinkingTechniques = {
           "title": "意味を見出す",
           "subtitle": "思考が整理され、落ち着く",
           "foundations": [
-            "C-050 W-013"
+            "C-050 C-054"
           ]
         },
         {
@@ -250,7 +250,7 @@ export const thinkingTechniques = {
           "subtitle": "基盤を整えると回復力が上がる",
           "foundations": [
             "C-037 B-020",
-            "W-084"
+            "B-087"
           ]
         },
         {
@@ -267,7 +267,7 @@ export const thinkingTechniques = {
           "subtitle": "耐性の土台が安定する",
           "foundations": [
             "C-037 B-040",
-            "W-084"
+            "B-087"
           ]
         },
         {
@@ -275,7 +275,7 @@ export const thinkingTechniques = {
           "title": "回復のルーティンを作る",
           "subtitle": "立て直しが早くなる",
           "foundations": [
-            "W-009 B-002 B-003"
+            "B-071 B-002 B-003"
           ]
         },
         {
@@ -284,7 +284,7 @@ export const thinkingTechniques = {
           "subtitle": "不安が整理され軽くなる",
           "foundations": [
             "C-032 C-033",
-            "W-085"
+            "W-002"
           ]
         },
         {
@@ -293,7 +293,7 @@ export const thinkingTechniques = {
           "subtitle": "失望を減らし折れにくい",
           "foundations": [
             "B-055 C-034",
-            "W-086"
+            "W-003"
           ]
         },
         {
@@ -302,7 +302,7 @@ export const thinkingTechniques = {
           "subtitle": "継続しやすくなる",
           "foundations": [
             "C-007 C-003",
-            "W-087"
+            "B-088"
           ]
         },
         {
@@ -311,7 +311,7 @@ export const thinkingTechniques = {
           "subtitle": "追い詰められにくい",
           "foundations": [
             "B-047 B-053",
-            "W-060"
+            "C-054"
           ]
         }
       ]
@@ -333,7 +333,7 @@ export const thinkingTechniques = {
           "subtitle": "呼吸リズムで緊張が落ち着く",
           "foundations": [
             "C-037 C-033",
-            "W-088"
+            "T-053"
           ]
         },
         {
@@ -366,7 +366,7 @@ export const thinkingTechniques = {
           "subtitle": "消耗が減り、余裕が戻る",
           "foundations": [
             "C-037 C-033",
-            "W-089"
+            "C-060"
           ]
         },
         {
@@ -375,7 +375,7 @@ export const thinkingTechniques = {
           "subtitle": "全体像が見え、判断が楽になる",
           "foundations": [
             "C-009 B-022",
-            "W-051"
+            "C-071"
           ]
         },
         {
@@ -392,7 +392,7 @@ export const thinkingTechniques = {
           "subtitle": "今に集中すると冷静になる",
           "foundations": [
             "C-006 C-033",
-            "W-090"
+            "C-081"
           ]
         },
         {
@@ -401,8 +401,8 @@ export const thinkingTechniques = {
           "subtitle": "感情が落ち着き衝動が減る",
           "foundations": [
             "C-033",
-            "W-091",
-            "W-092"
+            "B-074",
+            "C-061"
           ]
         },
         {
@@ -418,7 +418,7 @@ export const thinkingTechniques = {
           "title": "情報を整理して優先度をつける",
           "subtitle": "全体像が見え、判断が楽になる",
           "foundations": [
-            "C-007 T-003 W-007"
+            "C-007 T-003 B-069"
           ]
         },
         {
@@ -443,7 +443,7 @@ export const thinkingTechniques = {
           "subtitle": "感情論に流れにくい",
           "foundations": [
             "S-075 C-007",
-            "W-093"
+            "W-004"
           ]
         },
         {
@@ -473,7 +473,7 @@ export const thinkingTechniques = {
           "subtitle": "思考が整理され、落ち着く",
           "foundations": [
             "C-044 C-012",
-            "W-054"
+            "B-071"
           ]
         },
         {
@@ -482,7 +482,7 @@ export const thinkingTechniques = {
           "subtitle": "リスクを抑えて試せる",
           "foundations": [
             "C-044 C-033",
-            "W-094"
+            "T-054"
           ]
         },
         {
@@ -491,8 +491,8 @@ export const thinkingTechniques = {
           "subtitle": "衝動が減り、冷静を保てる",
           "foundations": [
             "S-034",
-            "W-044",
-            "W-045"
+            "S-094",
+            "C-067"
           ]
         },
         {
@@ -509,7 +509,7 @@ export const thinkingTechniques = {
           "subtitle": "不安が下がり、準備が進む",
           "foundations": [
             "S-078 C-044",
-            "W-095"
+            "C-062"
           ]
         },
         {
@@ -518,7 +518,7 @@ export const thinkingTechniques = {
           "subtitle": "衝動が減り、冷静を保てる",
           "foundations": [
             "B-058 C-044",
-            "W-096"
+            "B-075"
           ]
         },
         {
@@ -527,7 +527,7 @@ export const thinkingTechniques = {
           "subtitle": "判断が安定し、消耗が減る",
           "foundations": [
             "B-058 B-022",
-            "W-094"
+            "T-054"
           ]
         },
         {
@@ -536,7 +536,7 @@ export const thinkingTechniques = {
           "subtitle": "消耗が減り、余裕が戻る",
           "foundations": [
             "C-044 C-012",
-            "W-097"
+            "C-082"
           ]
         },
         {
@@ -545,7 +545,7 @@ export const thinkingTechniques = {
           "subtitle": "感情に飲まれにくくなる",
           "foundations": [
             "B-022 C-041",
-            "W-098"
+            "C-063"
           ]
         },
         {
@@ -554,7 +554,7 @@ export const thinkingTechniques = {
           "subtitle": "消耗が減り、余裕が戻る",
           "foundations": [
             "B-040 C-003",
-            "W-099"
+            "C-064"
           ]
         },
         {
@@ -563,7 +563,7 @@ export const thinkingTechniques = {
           "subtitle": "改善が回り、継続が楽になる",
           "foundations": [
             "C-044 B-022",
-            "W-051"
+            "C-071"
           ]
         },
         {
@@ -572,7 +572,7 @@ export const thinkingTechniques = {
           "subtitle": "選択肢が増え、詰みにくい",
           "foundations": [
             "C-044 C-012",
-            "W-094"
+            "T-054"
           ]
         },
         {
@@ -581,7 +581,7 @@ export const thinkingTechniques = {
           "subtitle": "不安が減り、行動が戻る",
           "foundations": [
             "C-044 C-012",
-            "W-100"
+            "C-083"
           ]
         },
         {
@@ -598,7 +598,7 @@ export const thinkingTechniques = {
           "subtitle": "自己評価が壊れにくい",
           "foundations": [
             "C-044 B-022",
-            "W-101"
+            "B-076"
           ]
         },
         {
@@ -607,7 +607,7 @@ export const thinkingTechniques = {
           "subtitle": "思い込みが薄まる",
           "foundations": [
             "C-044 C-021",
-            "W-102"
+            "B-077"
           ]
         },
         {
@@ -616,7 +616,7 @@ export const thinkingTechniques = {
           "subtitle": "バランスが戻る",
           "foundations": [
             "C-012 C-021",
-            "W-103"
+            "T-055"
           ]
         }
       ]
@@ -662,8 +662,8 @@ export const thinkingTechniques = {
           "subtitle": "重さを避け、長く続く",
           "foundations": [
             "S-034",
-            "W-015",
-            "W-046"
+            "C-056",
+            "B-067"
           ]
         },
         {
@@ -680,7 +680,7 @@ export const thinkingTechniques = {
           "subtitle": "消耗が減り、余裕が戻る",
           "foundations": [
             "B-040 C-003",
-            "W-083"
+            "C-059"
           ]
         },
         {
@@ -697,7 +697,7 @@ export const thinkingTechniques = {
           "subtitle": "感情が落ち着き衝動が減る",
           "foundations": [
             "C-033 C-001",
-            "W-091"
+            "B-074"
           ]
         },
         {
@@ -722,7 +722,7 @@ export const thinkingTechniques = {
           "subtitle": "消耗が減り、余裕が戻る",
           "foundations": [
             "C-047 B-053",
-            "W-030"
+            "C-062"
           ]
         },
         {
@@ -739,7 +739,7 @@ export const thinkingTechniques = {
           "subtitle": "比較が楽になり決めやすい",
           "foundations": [
             "B-063 B-041",
-            "W-104"
+            "C-065"
           ]
         },
         {
@@ -748,7 +748,7 @@ export const thinkingTechniques = {
           "subtitle": "先延ばしが減る",
           "foundations": [
             "B-061 B-042",
-            "W-105"
+            "B-078"
           ]
         },
         {
@@ -757,7 +757,7 @@ export const thinkingTechniques = {
           "subtitle": "行動が動きやすい",
           "foundations": [
             "B-062 B-037",
-            "W-043"
+            "B-082"
           ]
         }
       ]

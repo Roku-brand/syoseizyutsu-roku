@@ -11,7 +11,7 @@ export const skillTechniques = {
           "foundations": [
             "S-003",
             "S-005",
-            "W-112"
+            "S-094"
           ]
         },
         {
@@ -30,7 +30,7 @@ export const skillTechniques = {
           "subtitle": "上達が速くなり、成果が出る",
           "foundations": [
             "C-010",
-            "W-287",
+            "C-100",
             "C-024"
           ]
         },
@@ -40,7 +40,7 @@ export const skillTechniques = {
           "subtitle": "親近感が増え、距離が縮まる",
           "foundations": [
             "S-021",
-            "W-288",
+            "W-059",
             "S-007"
           ]
         },
@@ -49,7 +49,7 @@ export const skillTechniques = {
           "title": "自分の話は短く",
           "subtitle": "話す量を減らすと聞いてもらえる",
           "foundations": [
-            "W-289",
+            "S-143",
             "C-007",
             "S-006"
           ]
@@ -59,7 +59,7 @@ export const skillTechniques = {
           "title": "ユーモアを適度に入れる",
           "subtitle": "学びが定着しやすい",
           "foundations": [
-            "W-290",
+            "W-060",
             "S-038",
             "S-025"
           ]
@@ -70,7 +70,7 @@ export const skillTechniques = {
           "subtitle": "上達が速くなり、成果が出る",
           "foundations": [
             "S-002",
-            "W-173",
+            "W-021",
             "C-032"
           ]
         },
@@ -79,8 +79,8 @@ export const skillTechniques = {
           "title": "話を膨らませる",
           "subtitle": "学びが定着しやすい",
           "foundations": [
-            "W-291",
-            "W-134",
+            "W-061",
+            "W-011",
             "S-007"
           ]
         },
@@ -90,7 +90,7 @@ export const skillTechniques = {
           "subtitle": "相手の発話が増え、深さが出る",
           "foundations": [
             "S-005",
-            "W-292",
+            "S-144",
             "S-008"
           ]
         },
@@ -99,7 +99,7 @@ export const skillTechniques = {
           "title": "話題を上手に切り替える",
           "subtitle": "上達が速くなり、成果が出る",
           "foundations": [
-            "W-293",
+            "S-145",
             "S-030",
             "S-012"
           ]
@@ -110,7 +110,7 @@ export const skillTechniques = {
           "subtitle": "理解を示すと安心感が増す",
           "foundations": [
             "S-001",
-            "W-294",
+            "S-103",
             "S-007"
           ]
         },
@@ -120,8 +120,8 @@ export const skillTechniques = {
           "subtitle": "基礎が固まり、伸びやすい",
           "foundations": [
             "S-041",
-            "W-081",
-            "W-295"
+            "S-093",
+            "W-062"
           ]
         },
         {
@@ -130,7 +130,7 @@ export const skillTechniques = {
           "subtitle": "会話が途切れにくい",
           "foundations": [
             "S-024",
-            "W-296",
+            "S-146",
             "C-007"
           ]
         },
@@ -139,9 +139,9 @@ export const skillTechniques = {
           "title": "質問を連発しない",
           "subtitle": "尋問感が減ると行動が続き成果が出る",
           "foundations": [
-            "W-297",
-            "W-060",
-            "W-298"
+            "S-104",
+            "C-054",
+            "W-063"
           ]
         },
         {
@@ -150,7 +150,7 @@ export const skillTechniques = {
           "subtitle": "理解された感が増える",
           "foundations": [
             "S-002",
-            "W-173",
+            "W-021",
             "C-033"
           ]
         },
@@ -159,7 +159,7 @@ export const skillTechniques = {
           "title": "結論やオチを急がない",
           "subtitle": "空気が柔らかく続く",
           "foundations": [
-            "W-299",
+            "S-147",
             "S-028",
             "S-041"
           ]
@@ -224,9 +224,9 @@ export const skillTechniques = {
           "title": "相手の利益を強調",
           "subtitle": "互恵が回り、協力が返ってくる",
           "foundations": [
-            "W-300",
-            "W-113",
-            "W-301"
+            "C-101",
+            "C-067",
+            "W-064"
           ]
         },
         {
@@ -254,7 +254,7 @@ export const skillTechniques = {
           "title": "選択肢を限定",
           "subtitle": "選択肢が多いと決断が難しくなる",
           "foundations": [
-            "W-302",
+            "W-065",
             "B-065",
             "B-040"
           ]
@@ -274,9 +274,9 @@ export const skillTechniques = {
           "title": "反論を先取り",
           "subtitle": "良い点と課題を示すと説得力が増す",
           "foundations": [
-            "W-303",
-            "W-304",
-            "W-305"
+            "C-086",
+            "S-105",
+            "S-148"
           ]
         },
         {
@@ -294,7 +294,7 @@ export const skillTechniques = {
           "title": "希少性を伝える",
           "subtitle": "上達が速くなり、成果が出る",
           "foundations": [
-            "W-306",
+            "C-102",
             "B-061",
             "B-062"
           ]
@@ -304,9 +304,9 @@ export const skillTechniques = {
           "title": "コミットメントを引き出す",
           "subtitle": "宣言すると行動を合わせやすい",
           "foundations": [
-            "W-081",
-            "W-108",
-            "W-110"
+            "S-093",
+            "B-081",
+            "T-051"
           ]
         },
         {
@@ -314,8 +314,8 @@ export const skillTechniques = {
           "title": "論点を箇条書きで整理",
           "subtitle": "全体像が見え、判断が楽になる",
           "foundations": [
-            "W-307",
-            "W-308",
+            "T-058",
+            "C-103",
             "T-017"
           ]
         },
@@ -324,8 +324,8 @@ export const skillTechniques = {
           "title": "相手の理解度を確認しながら進める",
           "subtitle": "確認すると納得が深まる",
           "foundations": [
-            "W-309",
-            "W-310",
+            "S-149",
+            "W-066",
             "S-007"
           ]
         },
@@ -335,7 +335,7 @@ export const skillTechniques = {
           "subtitle": "伝達が速くなる",
           "foundations": [
             "T-018",
-            "W-311",
+            "C-104",
             "T-035"
           ]
         },
@@ -344,8 +344,8 @@ export const skillTechniques = {
           "title": "抽象と具体を往復",
           "subtitle": "理解が深まり誤解が減る",
           "foundations": [
-            "W-312",
-            "W-313",
+            "W-067",
+            "S-106",
             "B-035"
           ]
         },
@@ -374,9 +374,9 @@ export const skillTechniques = {
           "title": "前提を言語化する",
           "subtitle": "すれ違いが減る",
           "foundations": [
-            "W-314",
+            "C-105",
             "S-007",
-            "W-157"
+            "C-076"
           ]
         },
         {
@@ -385,8 +385,8 @@ export const skillTechniques = {
           "subtitle": "論点が散らばらない",
           "foundations": [
             "T-016",
-            "W-315",
-            "W-316"
+            "W-068",
+            "W-069"
           ]
         }
       ]
@@ -399,8 +399,8 @@ export const skillTechniques = {
           "title": "BATNAを持つ",
           "subtitle": "基礎が固まり、伸びやすい",
           "foundations": [
-            "W-317",
-            "W-318",
+            "S-107",
+            "S-150",
             "S-044"
           ]
         },
@@ -409,9 +409,9 @@ export const skillTechniques = {
           "title": "相手の利益を理解",
           "subtitle": "互恵が回り、協力が返ってくる",
           "foundations": [
-            "W-319",
-            "W-320",
-            "W-178"
+            "S-151",
+            "W-070",
+            "C-080"
           ]
         },
         {
@@ -420,8 +420,8 @@ export const skillTechniques = {
           "subtitle": "最初の情報が判断基準になる",
           "foundations": [
             "B-009",
-            "W-321",
-            "W-322"
+            "W-071",
+            "S-152"
           ]
         },
         {
@@ -429,8 +429,8 @@ export const skillTechniques = {
           "title": "Win-Winを目指す",
           "subtitle": "学びが定着しやすい",
           "foundations": [
-            "W-323",
-            "W-211",
+            "S-153",
+            "C-082",
             "S-044"
           ]
         },
@@ -441,7 +441,7 @@ export const skillTechniques = {
           "foundations": [
             "S-005",
             "S-008",
-            "W-324"
+            "S-108"
           ]
         },
         {
@@ -449,9 +449,9 @@ export const skillTechniques = {
           "title": "譲歩は小出しに",
           "subtitle": "上達が速くなり、成果が出る",
           "foundations": [
-            "W-325",
+            "S-154",
             "S-049",
-            "W-157"
+            "C-076"
           ]
         },
         {
@@ -461,7 +461,7 @@ export const skillTechniques = {
           "foundations": [
             "C-033",
             "C-032",
-            "W-326"
+            "S-155"
           ]
         },
         {
@@ -469,9 +469,9 @@ export const skillTechniques = {
           "title": "複数の論点を作る",
           "subtitle": "複数条件で交換すると合意しやすい",
           "foundations": [
-            "W-327",
+            "W-072",
             "W-001",
-            "W-323"
+            "S-153"
           ]
         },
         {
@@ -499,8 +499,8 @@ export const skillTechniques = {
           "subtitle": "無理が減り、続けやすい",
           "foundations": [
             "B-010",
-            "W-328",
-            "W-315"
+            "B-098",
+            "W-068"
           ]
         },
         {
@@ -518,9 +518,9 @@ export const skillTechniques = {
           "title": "相手の目的を聞く",
           "subtitle": "落とし所が見える",
           "foundations": [
-            "W-329",
-            "W-330",
-            "W-331"
+            "T-059",
+            "T-064",
+            "S-109"
           ]
         },
         {
@@ -528,9 +528,9 @@ export const skillTechniques = {
           "title": "譲れる点を先に決める",
           "subtitle": "交渉が安定する",
           "foundations": [
-            "W-332",
+            "S-156",
             "S-044",
-            "W-157"
+            "C-076"
           ]
         },
         {
@@ -539,7 +539,7 @@ export const skillTechniques = {
           "subtitle": "合意が取りやすい",
           "foundations": [
             "B-065",
-            "W-333",
+            "C-087",
             "C-007"
           ]
         },
@@ -558,9 +558,9 @@ export const skillTechniques = {
           "title": "数字より条件で詰める",
           "subtitle": "納得が残りやすい",
           "foundations": [
-            "W-334",
-            "W-335",
-            "W-323"
+            "S-157",
+            "S-110",
+            "S-153"
           ]
         },
         {
@@ -569,8 +569,8 @@ export const skillTechniques = {
           "subtitle": "後の揉め事が減る",
           "foundations": [
             "T-044",
-            "W-336",
-            "W-337"
+            "S-111",
+            "W-073"
           ]
         },
         {
@@ -578,8 +578,8 @@ export const skillTechniques = {
           "title": "BATNAを用意する",
           "subtitle": "不利な妥協を避けられる",
           "foundations": [
-            "W-338",
-            "W-339",
+            "C-088",
+            "S-158",
             "S-044"
           ]
         },
@@ -588,9 +588,9 @@ export const skillTechniques = {
           "title": "感情を分離して扱う",
           "subtitle": "破談を減らせる",
           "foundations": [
-            "W-340",
-            "W-326",
-            "W-341"
+            "C-106",
+            "S-155",
+            "S-112"
           ]
         }
       ]
@@ -603,9 +603,9 @@ export const skillTechniques = {
           "title": "ビジョンを語る",
           "subtitle": "学びが定着しやすい",
           "foundations": [
-            "W-342",
-            "W-014",
-            "W-343"
+            "S-159",
+            "C-055",
+            "B-099"
           ]
         },
         {
@@ -614,7 +614,7 @@ export const skillTechniques = {
           "subtitle": "行動で示すと信頼される",
           "foundations": [
             "T-034",
-            "W-344",
+            "S-160",
             "S-049"
           ]
         },
@@ -624,7 +624,7 @@ export const skillTechniques = {
           "subtitle": "上達が速くなり、成果が出る",
           "foundations": [
             "T-026",
-            "W-191",
+            "C-091",
             "T-020"
           ]
         },
@@ -634,7 +634,7 @@ export const skillTechniques = {
           "subtitle": "具体的に伝えると成長につながる",
           "foundations": [
             "B-025",
-            "W-218",
+            "B-091",
             "B-016"
           ]
         },
@@ -643,9 +643,9 @@ export const skillTechniques = {
           "title": "傾聴を実践",
           "subtitle": "安心感が生まれ、信頼が立ち上がる",
           "foundations": [
-            "W-060",
+            "C-054",
             "S-001",
-            "W-173"
+            "W-021"
           ]
         },
         {
@@ -653,9 +653,9 @@ export const skillTechniques = {
           "title": "心理的安全性を作る",
           "subtitle": "安心感があると挑戦しやすい",
           "foundations": [
-            "W-060",
+            "C-054",
             "B-028",
-            "W-345"
+            "C-107"
           ]
         },
         {
@@ -674,7 +674,7 @@ export const skillTechniques = {
           "subtitle": "学びが定着しやすい",
           "foundations": [
             "S-044",
-            "W-346",
+            "B-100",
             "C-016"
           ]
         },
@@ -683,9 +683,9 @@ export const skillTechniques = {
           "title": "チームの多様性を活かす",
           "subtitle": "多様性を尊重すると力が引き出せる",
           "foundations": [
-            "W-347",
+            "B-101",
             "S-072",
-            "W-060"
+            "C-054"
           ]
         },
         {
@@ -694,8 +694,8 @@ export const skillTechniques = {
           "subtitle": "自己管理で信頼が高まる",
           "foundations": [
             "C-004",
-            "W-348",
-            "W-349"
+            "S-161",
+            "B-102"
           ]
         },
         {
@@ -705,7 +705,7 @@ export const skillTechniques = {
           "foundations": [
             "T-022",
             "B-016",
-            "W-350"
+            "C-089"
           ]
         },
         {
@@ -714,8 +714,8 @@ export const skillTechniques = {
           "subtitle": "対話で信頼と成長が進む",
           "foundations": [
             "T-027",
-            "W-060",
-            "W-036"
+            "C-054",
+            "C-065"
           ]
         },
         {
@@ -735,7 +735,7 @@ export const skillTechniques = {
           "foundations": [
             "T-022",
             "S-070",
-            "W-351"
+            "S-113"
           ]
         },
         {
@@ -754,7 +754,7 @@ export const skillTechniques = {
           "subtitle": "士気が落ちにくい",
           "foundations": [
             "S-058",
-            "W-352",
+            "W-074",
             "S-041"
           ]
         },
@@ -764,8 +764,8 @@ export const skillTechniques = {
           "subtitle": "意思決定が速くなり停滞しない",
           "foundations": [
             "T-020",
-            "W-353",
-            "W-354"
+            "B-103",
+            "W-075"
           ]
         },
         {
@@ -775,7 +775,7 @@ export const skillTechniques = {
           "foundations": [
             "S-078",
             "S-079",
-            "W-060"
+            "C-054"
           ]
         }
       ]
@@ -789,7 +789,7 @@ export const skillTechniques = {
           "subtitle": "全体像が見え、判断が楽になる",
           "foundations": [
             "C-044",
-            "W-355",
+            "W-076",
             "B-022"
           ]
         },
@@ -799,8 +799,8 @@ export const skillTechniques = {
           "subtitle": "強度が分かると対処が選べる",
           "foundations": [
             "B-021",
-            "W-356",
-            "W-357"
+            "B-104",
+            "B-105"
           ]
         },
         {
@@ -809,7 +809,7 @@ export const skillTechniques = {
           "subtitle": "状況が把握でき、判断が速くなる",
           "foundations": [
             "S-031",
-            "W-358",
+            "B-106",
             "C-044"
           ]
         },
@@ -820,7 +820,7 @@ export const skillTechniques = {
           "foundations": [
             "B-005",
             "B-019",
-            "W-167"
+            "C-088"
           ]
         },
         {
@@ -828,9 +828,9 @@ export const skillTechniques = {
           "title": "段階的な暴露プランを作る",
           "subtitle": "基礎が固まり、伸びやすい",
           "foundations": [
-            "W-359",
-            "W-360",
-            "W-361"
+            "T-065",
+            "S-114",
+            "C-108"
           ]
         },
         {
@@ -840,7 +840,7 @@ export const skillTechniques = {
           "foundations": [
             "B-006",
             "C-007",
-            "W-362"
+            "W-077"
           ]
         },
         {
@@ -848,9 +848,9 @@ export const skillTechniques = {
           "title": "身体の緊張を先にほぐす",
           "subtitle": "学びが定着しやすい",
           "foundations": [
-            "W-363",
+            "W-078",
             "S-026",
-            "W-364"
+            "W-079"
           ]
         },
         {
@@ -868,9 +868,9 @@ export const skillTechniques = {
           "title": "安全行動を減らす実験を",
           "subtitle": "頼りすぎを減らし自信を回復する",
           "foundations": [
-            "W-365",
-            "W-366",
-            "W-167"
+            "B-107",
+            "B-108",
+            "C-088"
           ]
         },
         {
@@ -878,8 +878,8 @@ export const skillTechniques = {
           "title": "失敗時のリカバリ手順を決める",
           "subtitle": "備えがあると不安が落ち着く",
           "foundations": [
-            "W-367",
-            "W-013",
+            "B-109",
+            "C-054",
             "S-027"
           ]
         },
@@ -898,8 +898,8 @@ export const skillTechniques = {
           "subtitle": "負担が分散し、持久力が増す",
           "foundations": [
             "S-060",
-            "W-368",
-            "W-369"
+            "W-080",
+            "W-081"
           ]
         },
         {
@@ -907,7 +907,7 @@ export const skillTechniques = {
           "title": "不安を前提に動く",
           "subtitle": "回避が減り経験が積める",
           "foundations": [
-            "W-370",
+            "W-082",
             "C-041",
             "S-031"
           ]
@@ -917,9 +917,9 @@ export const skillTechniques = {
           "title": "場数を小さく増やす",
           "subtitle": "慣れが作れると行動が続き成果が出る",
           "foundations": [
-            "W-371",
-            "W-372",
-            "W-167"
+            "W-083",
+            "W-084",
+            "C-088"
           ]
         },
         {
@@ -939,7 +939,7 @@ export const skillTechniques = {
           "foundations": [
             "C-048",
             "C-047",
-            "W-373"
+            "W-085"
           ]
         }
       ]
@@ -963,7 +963,7 @@ export const skillTechniques = {
           "subtitle": "学びが定着しやすい",
           "foundations": [
             "B-035",
-            "W-374",
+            "S-115",
             "B-031"
           ]
         },
@@ -973,7 +973,7 @@ export const skillTechniques = {
           "subtitle": "余計な負担が減り、集中できる",
           "foundations": [
             "C-007",
-            "W-316",
+            "W-069",
             "W-001"
           ]
         },
@@ -982,7 +982,7 @@ export const skillTechniques = {
           "title": "完璧主義を切り捨てる",
           "subtitle": "余計な負担が減り、集中できる",
           "foundations": [
-            "W-375",
+            "C-109",
             "C-048",
             "C-047"
           ]
@@ -993,8 +993,8 @@ export const skillTechniques = {
           "subtitle": "上達が速くなり、成果が出る",
           "foundations": [
             "T-028",
-            "W-376",
-            "W-377"
+            "C-110",
+            "C-090"
           ]
         },
         {
@@ -1003,7 +1003,7 @@ export const skillTechniques = {
           "subtitle": "上達が速くなり、成果が出る",
           "foundations": [
             "C-011",
-            "W-378"
+            "C-111"
           ]
         },
         {
@@ -1011,7 +1011,7 @@ export const skillTechniques = {
           "title": "学習単位を小さく刻む",
           "subtitle": "着手ハードルが下がり、前に進める",
           "foundations": [
-            "W-379",
+            "S-116",
             "B-015",
             "B-014"
           ]
@@ -1033,7 +1033,7 @@ export const skillTechniques = {
           "foundations": [
             "B-034",
             "B-033",
-            "W-380"
+            "S-117"
           ]
         },
         {
@@ -1041,9 +1041,9 @@ export const skillTechniques = {
           "title": "教材より人を選ぶ",
           "subtitle": "上達が速くなり、成果が出る",
           "foundations": [
-            "W-381",
-            "W-310",
-            "W-382"
+            "C-112",
+            "W-066",
+            "W-086"
           ]
         },
         {
@@ -1051,9 +1051,9 @@ export const skillTechniques = {
           "title": "学び続ける人の近くにいる",
           "subtitle": "学びが定着しやすい",
           "foundations": [
-            "W-383",
-            "W-384",
-            "W-385"
+            "S-162",
+            "S-118",
+            "S-119"
           ]
         },
         {
@@ -1062,7 +1062,7 @@ export const skillTechniques = {
           "subtitle": "学びが定着しやすい",
           "foundations": [
             "C-005",
-            "W-006",
+            "B-068",
             "B-062"
           ]
         },
@@ -1071,7 +1071,7 @@ export const skillTechniques = {
           "title": "目的から逆算する",
           "subtitle": "無駄学習が減る",
           "foundations": [
-            "W-386",
+            "C-091",
             "B-030",
             "B-017"
           ]
@@ -1082,8 +1082,8 @@ export const skillTechniques = {
           "subtitle": "記憶が定着しやすい",
           "foundations": [
             "B-033",
-            "W-349",
-            "W-387"
+            "B-102",
+            "W-087"
           ]
         },
         {
@@ -1092,8 +1092,8 @@ export const skillTechniques = {
           "subtitle": "迷いが減り進む",
           "foundations": [
             "C-007",
-            "W-388",
-            "W-389"
+            "C-092",
+            "W-088"
           ]
         },
         {
@@ -1123,7 +1123,7 @@ export const skillTechniques = {
           "foundations": [
             "B-021",
             "B-022",
-            "W-390"
+            "W-089"
           ]
         }
       ]
@@ -1136,9 +1136,9 @@ export const skillTechniques = {
           "title": "努力より成果で語る",
           "subtitle": "基礎が固まり、伸びやすい",
           "foundations": [
-            "W-391",
-            "W-392",
-            "W-393"
+            "S-120",
+            "S-121",
+            "W-090"
           ]
         },
         {
@@ -1146,9 +1146,9 @@ export const skillTechniques = {
           "title": "相手の評価軸を把握",
           "subtitle": "学びが定着しやすい",
           "foundations": [
-            "W-157",
+            "C-076",
             "T-019",
-            "W-394"
+            "W-091"
           ]
         },
         {
@@ -1168,7 +1168,7 @@ export const skillTechniques = {
           "foundations": [
             "T-035",
             "C-007",
-            "W-395"
+            "S-122"
           ]
         },
         {
@@ -1176,9 +1176,9 @@ export const skillTechniques = {
           "title": "比較対象を意識",
           "subtitle": "焦りが減り、自己評価が安定する",
           "foundations": [
-            "W-044",
-            "W-321",
-            "W-396"
+            "S-094",
+            "W-071",
+            "W-092"
           ]
         },
         {
@@ -1186,7 +1186,7 @@ export const skillTechniques = {
           "title": "見た目と構成に手を入れる",
           "subtitle": "基礎が固まり、伸びやすい",
           "foundations": [
-            "W-397",
+            "S-163",
             "C-024",
             "S-057"
           ]
@@ -1196,8 +1196,8 @@ export const skillTechniques = {
           "title": "使われる場面を想定",
           "subtitle": "不確実性に強くなり、柔軟に動ける",
           "foundations": [
-            "W-398",
-            "W-399",
+            "S-123",
+            "S-124",
             "B-051"
           ]
         },
@@ -1207,8 +1207,8 @@ export const skillTechniques = {
           "subtitle": "基礎が固まり、伸びやすい",
           "foundations": [
             "T-001",
-            "W-400",
-            "W-060"
+            "W-093",
+            "C-054"
           ]
         },
         {
@@ -1216,9 +1216,9 @@ export const skillTechniques = {
           "title": "未完成でも区切って出す",
           "subtitle": "上達が速くなり、成果が出る",
           "foundations": [
-            "W-401",
-            "W-315",
-            "W-402"
+            "B-110",
+            "W-068",
+            "C-093"
           ]
         },
         {
@@ -1226,9 +1226,9 @@ export const skillTechniques = {
           "title": "他人に見せて調整",
           "subtitle": "学びが定着しやすい",
           "foundations": [
-            "W-403",
-            "W-404",
-            "W-405"
+            "S-164",
+            "S-125",
+            "C-113"
           ]
         },
         {
@@ -1236,8 +1236,8 @@ export const skillTechniques = {
           "title": "成果物を蓄積",
           "subtitle": "学びが定着しやすい",
           "foundations": [
-            "W-008",
-            "W-167",
+            "B-070",
+            "C-088",
             "S-057"
           ]
         },
@@ -1247,7 +1247,7 @@ export const skillTechniques = {
           "subtitle": "学びが定着しやすい",
           "foundations": [
             "B-058",
-            "W-406",
+            "B-111",
             "B-022"
           ]
         },
@@ -1256,8 +1256,8 @@ export const skillTechniques = {
           "title": "要件を一枚にまとめる",
           "subtitle": "手戻りが減ると行動が続き成果が出る",
           "foundations": [
-            "W-407",
-            "W-315",
+            "W-094",
+            "W-068",
             "C-007"
           ]
         },
@@ -1268,7 +1268,7 @@ export const skillTechniques = {
           "foundations": [
             "T-006",
             "T-005",
-            "W-408"
+            "W-095"
           ]
         },
         {
@@ -1276,9 +1276,9 @@ export const skillTechniques = {
           "title": "締切を先に置く",
           "subtitle": "完成率が上がる",
           "foundations": [
-            "W-003",
+            "T-046",
             "B-010",
-            "W-002"
+            "C-051"
           ]
         },
         {
@@ -1287,8 +1287,8 @@ export const skillTechniques = {
           "subtitle": "品質基準が定まる",
           "foundations": [
             "T-019",
-            "W-409",
-            "W-410"
+            "S-126",
+            "W-096"
           ]
         },
         {
@@ -1296,7 +1296,7 @@ export const skillTechniques = {
           "title": "フィードバックを取る",
           "subtitle": "改善が速くなる",
           "foundations": [
-            "W-400",
+            "W-093",
             "B-024",
             "T-004"
           ]
@@ -1306,8 +1306,8 @@ export const skillTechniques = {
           "title": "最後に整える時間を取る",
           "subtitle": "完成度が上がる",
           "foundations": [
-            "W-411",
-            "W-412",
+            "W-097",
+            "S-127",
             "C-007"
           ]
         }
