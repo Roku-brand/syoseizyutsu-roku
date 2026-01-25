@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>処世術禄 | 処世術を投稿</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">処世術禄</div>
+      <nav class="nav-links">
+        <a class="nav-link" href="index.html">トップ</a>
+        <a class="nav-link" href="shoseijutsu.html">処世術集</a>
+        <a class="nav-link" href="theory.html">理論基盤集</a>
+        <a class="nav-link active" href="hub.html">処世術ハブ</a>
+        <a class="nav-link" href="about.html">処世術禄とは</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <div class="hub-form-header">
+        <div>
+          <h2>みんなの処世術を投稿</h2>
+          <p>気づきや経験を共有して、処世術ハブの知恵を増やしましょう。</p>
+        </div>
+        <a class="ghost-button" href="hub.html#hub-list">一覧に戻る</a>
+      </div>
+      <form class="hub-form" id="hub-create-form">
+        <div class="hub-form-grid">
+          <label class="hub-form-field">
+            <span class="hub-form-label">作成者名</span>
+            <input
+              class="hub-form-input"
+              type="text"
+              name="creator"
+              placeholder="例：山田 太郎"
+              required
+            />
+          </label>
+          <label class="hub-form-field">
+            <span class="hub-form-label">タイトル</span>
+            <input
+              class="hub-form-input"
+              type="text"
+              name="title"
+              placeholder="例：会議で沈黙した時の切り替え術"
+              required
+            />
+          </label>
+          <label class="hub-form-field hub-form-field--full">
+            <span class="hub-form-label">箇条書き式の処世術</span>
+            <textarea
+              class="hub-form-input"
+              name="bullets"
+              rows="6"
+              placeholder="例：\n・最初に相手の発言を要約する\n・補足があれば短く添える\n・次の質問を一つだけ投げる"
+              required
+            ></textarea>
+            <span class="hub-form-hint">1行ごとに1つの項目を書くと、自動的に箇条書きとして保存されます。</span>
+          </label>
+          <label class="hub-form-field">
+            <span class="hub-form-label">タグ</span>
+            <input
+              class="hub-form-input"
+              type="text"
+              name="tags"
+              placeholder="例：会話, 仕事, チーム"
+              required
+            />
+          </label>
+          <label class="hub-form-field">
+            <span class="hub-form-label">作成者からひと言</span>
+            <textarea
+              class="hub-form-input"
+              name="note"
+              rows="3"
+              placeholder="例：焦らずに場を整えるための小さなコツです。"
+              required
+            ></textarea>
+          </label>
+        </div>
+        <div class="hub-form-actions">
+          <button class="cta-button" type="submit">投稿する</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>処世術は共有されるほど、誰かの助けになります。</p>
+  </footer>
+  <script type="module" src="scripts/hub-create.js"></script>
+</body>
+</html>
