@@ -626,6 +626,7 @@ main {
   row-gap: 8px;
   text-decoration: none;
   color: inherit;
+  width: 100%;
 }
 
 .hub-card-link > h3,
@@ -706,6 +707,80 @@ main {
   color: #ffffff;
   font-size: 12px;
   letter-spacing: 0.02em;
+  border: none;
+  cursor: pointer;
+}
+
+.hub-action--secondary {
+  background: #ffffff;
+  color: #1f232d;
+  border: 1px solid rgba(31, 35, 45, 0.15);
+}
+
+.hub-comment-section {
+  display: grid;
+  gap: 10px;
+}
+
+.hub-comment-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.hub-comment {
+  display: grid;
+  gap: 2px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid rgba(222, 228, 240, 0.9);
+  font-size: 13px;
+  color: #3f4a5f;
+}
+
+.hub-comment p {
+  margin: 0;
+}
+
+.hub-comment-meta {
+  font-size: 11px;
+  color: #7a8396;
+}
+
+.hub-comment-empty {
+  margin: 0;
+  font-size: 12px;
+  color: #7a8396;
+}
+
+.hub-comment-form {
+  display: grid;
+  gap: 8px;
+}
+
+.hub-comment-input {
+  resize: vertical;
+  min-height: 70px;
+  border-radius: 12px;
+  border: 1px solid rgba(188, 198, 214, 0.8);
+  padding: 10px 12px;
+  font-family: inherit;
+  font-size: 13px;
+  color: #2c3446;
+}
+
+.hub-comment-submit {
+  justify-self: flex-start;
+  border: none;
+  border-radius: 999px;
+  padding: 6px 14px;
+  background: #2f3b52;
+  color: #ffffff;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 .hub-card--user {
