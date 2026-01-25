@@ -388,6 +388,51 @@ main {
   color: #7a8396;
 }
 
+.hub-card-social {
+  display: grid;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(240, 244, 252, 0.7);
+  border: 1px solid rgba(220, 228, 242, 0.9);
+}
+
+.hub-card-reactions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+  color: #4a566d;
+}
+
+.hub-reaction {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #ffffff;
+  border: 1px solid rgba(222, 228, 240, 0.9);
+}
+
+.hub-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.hub-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #1f232d;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+}
+
 .hub-card-tags {
   margin-top: auto;
 }
