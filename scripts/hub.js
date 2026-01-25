@@ -1,5 +1,7 @@
+import { hubDefaultPosts } from './hub-data.js';
+
 const storageKey = 'hubUserPosts';
-const list = document.querySelector('.card-grid');
+const list = document.querySelector('#hub-card-grid');
 
 const formatDate = (value) => {
   if (!value) {
@@ -40,20 +42,26 @@ const buildTagList = (tags) => {
 };
 
 const buildCard = (post) => {
-  const card = document.createElement('article');
-  card.className = 'card hub-card hub-card--user';
+  const card = document.createElement('a');
+  card.className = 'card hub-card hub-card-link';
+  card.href = post.source === 'user' ? `hub-detail.html?id=${post.id}` : `hub-detail.html?topic=${post.id}`;
 
   const title = document.createElement('h3');
   title.textContent = post.title;
 
   const summary = document.createElement('p');
   summary.className = 'hub-card-summary';
-  summary.textContent = post.note || post.bullets?.[0] || '新しい処世術が投稿されました。';
+  summary.textContent =
+    post.summary || post.note || post.bullets?.[0] || '新しい処世術が投稿されました。';
 
   const meta = document.createElement('p');
   meta.className = 'hub-card-meta';
-  const dateText = formatDate(post.createdAt);
-  meta.textContent = `投稿者：${post.creator}${dateText ? `／${dateText}` : ''}`;
+  if (post.source === 'user') {
+    const dateText = formatDate(post.createdAt);
+    meta.textContent = `投稿者：${post.creator}${dateText ? `／${dateText}` : ''}`;
+  } else {
+    meta.textContent = post.meta || 'みんなの処世術';
+  }
 
   card.append(title, summary, meta);
 
@@ -69,9 +77,13 @@ const renderPosts = () => {
     return;
   }
 
-  const posts = loadPosts();
+  const userPosts = loadPosts().map((post) => ({ ...post, source: 'user' }));
+  const defaultPosts = hubDefaultPosts.map((post) => ({ ...post, source: 'default' }));
+  const posts = [...userPosts, ...defaultPosts];
+
+  list.innerHTML = '';
   posts.forEach((post) => {
-    list.prepend(buildCard(post));
+    list.append(buildCard(post));
   });
 };
 
