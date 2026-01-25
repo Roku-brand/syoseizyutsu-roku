@@ -264,5 +264,7 @@ export const wisdomData = {
     { tagId: 'W-256', legacyTagId: 'W-496', title: "自己制御資源" },
     { tagId: 'W-257', legacyTagId: 'W-497', title: "コンテクスト更新" },
     { tagId: 'W-258', legacyTagId: 'W-498', title: "再開摩擦の低減" },
-]
-  
+    
+  ],
+};
+
