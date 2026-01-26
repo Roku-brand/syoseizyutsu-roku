@@ -9,7 +9,7 @@ export const lifeTechniques = {
           "title": "理想の人生を見える化",
           "subtitle": "状況が把握でき、判断が速くなる",
           "foundations": [
-            "C-009 B-021 B-022"
+            "C-054 B-021 B-022"
           ]
         },
         {
@@ -96,7 +96,7 @@ export const lifeTechniques = {
           "title": "ライフイベント年表を作る",
           "subtitle": "全体像が見え、判断がぶれにくい",
           "foundations": [
-            "C-009 B-021 B-039"
+            "C-054 B-021 B-039"
           ]
         },
         {
@@ -176,7 +176,7 @@ export const lifeTechniques = {
           "title": "根拠のない自信を否定しない",
           "subtitle": "初動が軽くなり、行動量が増える",
           "foundations": [
-            "C-048",
+            "C-006",
             "C-059",
             "C-051"
           ]
@@ -216,7 +216,7 @@ export const lifeTechniques = {
           "title": "合理性を超える決断を許容",
           "subtitle": "飛躍の意思決定が可能になる",
           "foundations": [
-            "B-041 C-001",
+            "B-041 C-071",
             "T-047"
           ]
         },
@@ -243,7 +243,7 @@ export const lifeTechniques = {
           "title": "夢を理由に今を壊さない",
           "subtitle": "基盤を守り、遠くまで行ける",
           "foundations": [
-            "B-020 B-037 C-053"
+            "B-020 B-037 C-008"
           ]
         },
         {
@@ -261,7 +261,7 @@ export const lifeTechniques = {
           "title": "失敗を前提に挑戦",
           "subtitle": "停滞を破り、成長機会を作れる",
           "foundations": [
-            "C-048 C-054",
+            "C-006 C-009",
             "C-063"
           ]
         },
@@ -300,7 +300,7 @@ export const lifeTechniques = {
           "title": "夢と挑戦は同時でなくていい",
           "subtitle": "負荷が減り、続けやすい",
           "foundations": [
-            "B-069 T-003 C-053"
+            "B-069 T-003 C-008"
           ]
         },
         {
@@ -354,7 +354,7 @@ export const lifeTechniques = {
           "foundations": [
             "C-017",
             "C-062",
-            "C-066"
+            "C-010"
           ]
         },
         {
@@ -427,7 +427,7 @@ export const lifeTechniques = {
           "title": "未完了を溜めない",
           "subtitle": "心的負荷が下がり、余裕が戻る",
           "foundations": [
-            "C-029 C-007 C-003"
+            "C-029 C-050 C-030"
           ]
         },
         {
@@ -435,7 +435,7 @@ export const lifeTechniques = {
           "title": "写真と記録を残す",
           "subtitle": "振り返りが資産になりやすい",
           "foundations": [
-            "C-009",
+            "C-054",
             "C-069",
             "C-070"
           ]
@@ -463,7 +463,7 @@ export const lifeTechniques = {
           "subtitle": "自由度を失いにくい",
           "foundations": [
             "B-002 C-037",
-            "C-071"
+            "C-001"
           ]
         },
         {
@@ -545,7 +545,7 @@ export const lifeTechniques = {
           "title": "情報過多の中で判断を遅らせる",
           "subtitle": "誤判断を避け、納得して動ける",
           "foundations": [
-            "C-008 B-041 B-040"
+            "C-053 B-041 B-040"
           ]
         },
         {
@@ -572,7 +572,7 @@ export const lifeTechniques = {
           "subtitle": "消耗が減り、関係が健全化する",
           "foundations": [
             "T-033 T-032",
-            "C-053"
+            "C-008"
           ]
         },
         {
@@ -592,7 +592,7 @@ export const lifeTechniques = {
           "foundations": [
             "B-009",
             "C-073",
-            "C-054"
+            "C-009"
           ]
         },
         {
@@ -700,7 +700,7 @@ export const lifeTechniques = {
           "title": "運に左右されない最低ラインを作る",
           "subtitle": "下振れに耐え、折れにくい",
           "foundations": [
-            "C-054 B-047",
+            "C-009 B-047",
             "B-072"
           ]
         },
@@ -788,7 +788,7 @@ export const lifeTechniques = {
           "title": "運を努力に変換する",
           "subtitle": "一発で終わらず積み上がる",
           "foundations": [
-            "C-048",
+            "C-006",
             "C-076",
             "C-059"
           ]

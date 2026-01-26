@@ -29,7 +29,7 @@ export const skillTechniques = {
           "title": "話題のストックを持つ",
           "subtitle": "上達が速くなり、成果が出る",
           "foundations": [
-            "C-010",
+            "C-066",
             "C-100",
             "C-024"
           ]
@@ -50,7 +50,7 @@ export const skillTechniques = {
           "subtitle": "話す量を減らすと聞いてもらえる",
           "foundations": [
             "S-143",
-            "C-007",
+            "C-050",
             "S-006"
           ]
         },
@@ -131,7 +131,7 @@ export const skillTechniques = {
           "foundations": [
             "S-024",
             "S-146",
-            "C-007"
+            "C-050"
           ]
         },
         {
@@ -140,7 +140,7 @@ export const skillTechniques = {
           "subtitle": "尋問感が減ると行動が続き成果が出る",
           "foundations": [
             "S-104",
-            "C-054",
+            "C-009",
             "W-063"
           ]
         },
@@ -179,7 +179,7 @@ export const skillTechniques = {
           "title": "自分の話を短く切る",
           "subtitle": "聞き疲れを防げる",
           "foundations": [
-            "C-007",
+            "C-050",
             "S-006",
             "S-025"
           ]
@@ -201,7 +201,7 @@ export const skillTechniques = {
           "foundations": [
             "S-041",
             "S-030",
-            "C-030"
+            "C-003"
           ]
         }
       ]
@@ -215,8 +215,8 @@ export const skillTechniques = {
           "subtitle": "学びが定着しやすい",
           "foundations": [
             "T-018",
-            "C-007",
-            "C-005"
+            "C-050",
+            "C-047"
           ]
         },
         {
@@ -355,7 +355,7 @@ export const skillTechniques = {
           "subtitle": "イメージが揃う",
           "foundations": [
             "C-026",
-            "C-007",
+            "C-050",
             "S-007"
           ]
         },
@@ -364,7 +364,7 @@ export const skillTechniques = {
           "title": "一文を短くする",
           "subtitle": "理解が速くなる",
           "foundations": [
-            "C-007",
+            "C-050",
             "C-025",
             "C-024"
           ]
@@ -510,7 +510,7 @@ export const skillTechniques = {
           "foundations": [
             "S-054",
             "S-041",
-            "C-003"
+            "C-030"
           ]
         },
         {
@@ -540,7 +540,7 @@ export const skillTechniques = {
           "foundations": [
             "B-065",
             "C-087",
-            "C-007"
+            "C-050"
           ]
         },
         {
@@ -643,7 +643,7 @@ export const skillTechniques = {
           "title": "傾聴を実践",
           "subtitle": "安心感が生まれ、信頼が立ち上がる",
           "foundations": [
-            "C-054",
+            "C-009",
             "S-001",
             "W-021"
           ]
@@ -653,7 +653,7 @@ export const skillTechniques = {
           "title": "心理的安全性を作る",
           "subtitle": "安心感があると挑戦しやすい",
           "foundations": [
-            "C-054",
+            "C-009",
             "B-028",
             "C-107"
           ]
@@ -685,7 +685,7 @@ export const skillTechniques = {
           "foundations": [
             "B-101",
             "S-072",
-            "C-054"
+            "C-009"
           ]
         },
         {
@@ -693,7 +693,7 @@ export const skillTechniques = {
           "title": "自らを律",
           "subtitle": "自己管理で信頼が高まる",
           "foundations": [
-            "C-004",
+            "C-045",
             "S-161",
             "B-102"
           ]
@@ -714,7 +714,7 @@ export const skillTechniques = {
           "subtitle": "対話で信頼と成長が進む",
           "foundations": [
             "T-027",
-            "C-054",
+            "C-009",
             "C-065"
           ]
         },
@@ -723,7 +723,7 @@ export const skillTechniques = {
           "title": "目的を一文にする",
           "subtitle": "迷いが減り動きやすい",
           "foundations": [
-            "C-007",
+            "C-050",
             "T-016",
             "S-007"
           ]
@@ -775,7 +775,7 @@ export const skillTechniques = {
           "foundations": [
             "S-078",
             "S-079",
-            "C-054"
+            "C-009"
           ]
         }
       ]
@@ -839,7 +839,7 @@ export const skillTechniques = {
           "subtitle": "不確実性に強くなり、柔軟に動ける",
           "foundations": [
             "B-006",
-            "C-007",
+            "C-050",
             "W-077"
           ]
         },
@@ -879,7 +879,7 @@ export const skillTechniques = {
           "subtitle": "備えがあると不安が落ち着く",
           "foundations": [
             "B-109",
-            "C-054",
+            "C-009",
             "S-027"
           ]
         },
@@ -928,7 +928,7 @@ export const skillTechniques = {
           "subtitle": "当日の負担が減る",
           "foundations": [
             "B-007",
-            "C-007",
+            "C-050",
             "B-006"
           ]
         },
@@ -937,8 +937,8 @@ export const skillTechniques = {
           "title": "失敗の許容幅を広げる",
           "subtitle": "萎縮が減り場数を踏める",
           "foundations": [
-            "C-048",
-            "C-047",
+            "C-006",
+            "C-005",
             "W-085"
           ]
         }
@@ -972,7 +972,7 @@ export const skillTechniques = {
           "title": "捨てる知識を決める",
           "subtitle": "余計な負担が減り、集中できる",
           "foundations": [
-            "C-007",
+            "C-050",
             "W-069",
             "W-001"
           ]
@@ -983,8 +983,8 @@ export const skillTechniques = {
           "subtitle": "余計な負担が減り、集中できる",
           "foundations": [
             "C-109",
-            "C-048",
-            "C-047"
+            "C-006",
+            "C-005"
           ]
         },
         {
@@ -1061,7 +1061,7 @@ export const skillTechniques = {
           "title": "学ばない選択も持つ",
           "subtitle": "学びが定着しやすい",
           "foundations": [
-            "C-005",
+            "C-047",
             "B-068",
             "B-062"
           ]
@@ -1091,7 +1091,7 @@ export const skillTechniques = {
           "title": "教材を一つに絞る",
           "subtitle": "迷いが減り進む",
           "foundations": [
-            "C-007",
+            "C-050",
             "C-092",
             "W-088"
           ]
@@ -1167,7 +1167,7 @@ export const skillTechniques = {
           "subtitle": "基礎が固まり、伸びやすい",
           "foundations": [
             "T-035",
-            "C-007",
+            "C-050",
             "S-122"
           ]
         },
@@ -1208,7 +1208,7 @@ export const skillTechniques = {
           "foundations": [
             "T-001",
             "W-093",
-            "C-054"
+            "C-009"
           ]
         },
         {
@@ -1258,7 +1258,7 @@ export const skillTechniques = {
           "foundations": [
             "W-094",
             "W-068",
-            "C-007"
+            "C-050"
           ]
         },
         {
@@ -1308,7 +1308,7 @@ export const skillTechniques = {
           "foundations": [
             "W-097",
             "S-127",
-            "C-007"
+            "C-050"
           ]
         }
       ]
