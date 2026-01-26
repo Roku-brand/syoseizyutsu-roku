@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>処世術禄 | 総合検索</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">処世術禄</div>
+      <nav class="nav-links">
+        <a class="nav-link" href="index.html">トップ</a>
+        <a class="nav-link" href="shoseijutsu.html">処世術集</a>
+        <a class="nav-link" href="theory.html">理論集</a>
+        <a class="nav-link" href="hub.html">みんなの処世術</a>
+        <a class="nav-link" href="about.html">処世術禄とは</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="nav-icon-button" href="search.html" aria-label="総合検索">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2" />
+            <path d="M16.5 16.5L21 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <h1 class="page-hero-title">総合検索</h1>
+        <p class="page-hero-lead">
+          処世術カードと思想カードを横断して、必要な情報をすばやく見つけられます。
+        </p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="tabs" role="tablist" aria-label="検索対象の切り替え">
+        <button class="tab tab-button" type="button" aria-pressed="true" data-search-type="technique">
+          処世術カード
+        </button>
+        <button class="tab tab-button" type="button" aria-pressed="false" data-search-type="theory">
+          思想カード
+        </button>
+      </div>
+
+      <div class="search-box">
+        <input
+          id="global-search-input"
+          type="search"
+          placeholder="例：会話、仕事、断る、迷い"
+          autocomplete="off"
+          aria-label="総合検索"
+        />
+      </div>
+      <p class="helper-text" id="global-search-count"></p>
+
+      <div class="global-search-panels">
+        <div data-search-panel="technique">
+          <ul class="index-result-list" id="global-technique-results"></ul>
+        </div>
+        <div class="is-hidden" data-search-panel="theory">
+          <div class="detail-grid detail-grid--two" id="global-theory-results"></div>
+        </div>
+      </div>
+      <p class="notice is-hidden" id="global-search-empty">該当するカードが見つかりませんでした。</p>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>迷ったときは、カードを横断して読み比べてみてください。</p>
+  </footer>
+  <script type="module" src="scripts/global-search.js"></script>
+</body>
+</html>

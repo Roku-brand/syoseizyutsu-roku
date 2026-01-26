@@ -42,6 +42,8 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 22px 0;
+  gap: 18px;
+  flex-wrap: wrap;
 }
 
 .brand {
@@ -71,6 +73,42 @@ header {
 .nav-link.active {
   background: var(--muted-blue-gray);
   color: #ffffff;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-icon-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #e2e6f0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  color: #3c4558;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.nav-icon-button:hover {
+  background: #eef1f8;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(31, 36, 48, 0.12);
+}
+
+.nav-icon-button svg {
+  width: 20px;
+  height: 20px;
+}
+
+.global-search-panels {
+  margin-top: 10px;
+  display: grid;
+  gap: 16px;
 }
 
 main {
