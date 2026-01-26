@@ -111,6 +111,7 @@ const renderCards = () => {
             <span class="theory-card-tag">${item.tagId}</span>
             <span class="theory-card-title">${shortTitle}</span>
           </div>
+          <p class="theory-card-summary">${item.summary}</p>
         </a>
       `;
     })
