@@ -69,7 +69,7 @@ export const achievementCards = {
           "title": "一度に一つに集中",
           "subtitle": "判断が続くと質が落ちるため負荷を減らす",
           "foundations": [
-            "C-005",
+            "C-047",
             "T-011",
             "B-040"
           ]
@@ -80,8 +80,8 @@ export const achievementCards = {
           "subtitle": "失敗を糧に立ち上がれる",
           "foundations": [
             "B-013",
-            "C-047",
-            "C-048"
+            "C-005",
+            "C-006"
           ]
         },
         {
@@ -181,7 +181,7 @@ export const achievementCards = {
           "foundations": [
             "B-115",
             "B-006",
-            "C-047"
+            "C-005"
           ]
         },
         {
@@ -214,9 +214,9 @@ export const achievementCards = {
           "title": "シングルタスクを徹底",
           "subtitle": "一つに集中すると質が上がる",
           "foundations": [
-            "C-005",
+            "C-047",
             "T-011",
-            "C-007"
+            "C-050"
           ]
         },
         {
@@ -284,7 +284,7 @@ export const achievementCards = {
           "title": "没入状態を意識",
           "subtitle": "没入すると成果が伸びる",
           "foundations": [
-            "C-031",
+            "C-002",
             "W-105",
             "C-118"
           ]
@@ -345,7 +345,7 @@ export const achievementCards = {
           "subtitle": "切替が減り集中が深まる",
           "foundations": [
             "T-011",
-            "C-005",
+            "C-047",
             "T-007"
           ]
         },
@@ -384,7 +384,7 @@ export const achievementCards = {
           "title": "集中の邪魔をメモる",
           "subtitle": "妨害が減り集中が整う",
           "foundations": [
-            "C-009",
+            "C-054",
             "B-022",
             "W-106"
           ]
@@ -411,7 +411,7 @@ export const achievementCards = {
           "foundations": [
             "B-090",
             "B-072",
-            "C-005"
+            "C-047"
           ]
         },
         {
@@ -441,7 +441,7 @@ export const achievementCards = {
           "foundations": [
             "T-008",
             "T-011",
-            "C-007"
+            "C-050"
           ]
         },
         {
@@ -481,7 +481,7 @@ export const achievementCards = {
           "foundations": [
             "T-008",
             "T-010",
-            "C-005"
+            "C-047"
           ]
         },
         {
@@ -521,7 +521,7 @@ export const achievementCards = {
           "foundations": [
             "W-108",
             "T-007",
-            "C-005"
+            "C-047"
           ]
         },
         {
@@ -551,7 +551,7 @@ export const achievementCards = {
           "foundations": [
             "B-068",
             "B-062",
-            "C-005"
+            "C-047"
           ]
         },
         {
@@ -560,7 +560,7 @@ export const achievementCards = {
           "subtitle": "成果が出やすい",
           "foundations": [
             "B-072",
-            "C-005",
+            "C-047",
             "B-090"
           ]
         },
@@ -591,7 +591,7 @@ export const achievementCards = {
           "foundations": [
             "T-010",
             "T-008",
-            "C-005"
+            "C-047"
           ]
         }
       ]
@@ -664,8 +664,8 @@ export const achievementCards = {
           "title": "マインドマップを活用",
           "subtitle": "図にすると理解が速い",
           "foundations": [
-            "C-010",
-            "C-009",
+            "C-066",
+            "C-054",
             "S-131"
           ]
         },
@@ -755,7 +755,7 @@ export const achievementCards = {
           "subtitle": "着手しやすいと定着が進み再現できる",
           "foundations": [
             "S-116",
-            "C-007",
+            "C-050",
             "W-088"
           ]
         },
@@ -789,8 +789,8 @@ export const achievementCards = {
           "title": "完璧な継続を目指さない",
           "subtitle": "迷いが減り、実行できる",
           "foundations": [
-            "C-047",
-            "C-048",
+            "C-005",
+            "C-006",
             "S-133"
           ]
         },
@@ -841,7 +841,7 @@ export const achievementCards = {
           "foundations": [
             "S-166",
             "C-129",
-            "C-047"
+            "C-005"
           ]
         },
         {
@@ -849,9 +849,9 @@ export const achievementCards = {
           "title": "停滞期間を失敗と定義しない",
           "subtitle": "行動が続き、成果が出る",
           "foundations": [
-            "C-048",
+            "C-006",
             "C-041",
-            "C-047"
+            "C-005"
           ]
         },
         {
@@ -929,9 +929,9 @@ export const achievementCards = {
           "title": "自分を責めない",
           "subtitle": "回復が早く再挑戦できる",
           "foundations": [
-            "C-047",
+            "C-005",
             "B-058",
-            "C-054"
+            "C-009"
           ]
         },
         {
@@ -1004,8 +1004,8 @@ export const achievementCards = {
           "title": "全否定に飛ばない",
           "subtitle": "迷いが減り、実行できる",
           "foundations": [
-            "C-045",
-            "C-047",
+            "C-004",
+            "C-005",
             "S-137"
           ]
         },
@@ -1016,7 +1016,7 @@ export const achievementCards = {
           "foundations": [
             "B-071",
             "C-135",
-            "C-047"
+            "C-005"
           ]
         },
         {
@@ -1104,7 +1104,7 @@ export const achievementCards = {
           "title": "やることを半分にする",
           "subtitle": "負荷が下がり戻れる",
           "foundations": [
-            "C-007",
+            "C-050",
             "B-119",
             "B-071"
           ]

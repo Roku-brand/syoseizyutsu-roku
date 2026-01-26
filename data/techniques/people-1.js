@@ -21,7 +21,7 @@ export const peopleTechniquesPart1 = {
           "foundations": [
             "C-042",
             "C-043",
-            "C-054"
+            "C-009"
           ]
         },
         {
@@ -70,7 +70,7 @@ export const peopleTechniquesPart1 = {
           "subtitle": "関与が生まれ、関係が一段進む",
           "foundations": [
             "B-081",
-            "C-066",
+            "C-010",
             "T-051"
           ]
         },
@@ -131,7 +131,7 @@ export const peopleTechniquesPart1 = {
           "foundations": [
             "S-096",
             "C-069",
-            "C-054"
+            "C-009"
           ]
         },
         {
@@ -151,7 +151,7 @@ export const peopleTechniquesPart1 = {
           "foundations": [
             "S-054",
             "S-093",
-            "C-071"
+            "C-001"
           ]
         },
         {
@@ -346,7 +346,7 @@ export const peopleTechniquesPart1 = {
           "foundations": [
             "S-049",
             "C-084",
-            "C-054"
+            "C-009"
           ]
         }
       ]
@@ -478,7 +478,7 @@ export const peopleTechniquesPart1 = {
           "title": "言ったことをやり切る",
           "subtitle": "評価が安定して上がる",
           "foundations": [
-            "C-066",
+            "C-010",
             "T-051",
             "B-083"
           ]
@@ -675,7 +675,7 @@ export const peopleTechniquesPart1 = {
           "foundations": [
             "C-084",
             "W-021",
-            "C-054"
+            "C-009"
           ]
         },
         {
@@ -714,7 +714,7 @@ export const peopleTechniquesPart1 = {
           "subtitle": "安心が積み上がる",
           "foundations": [
             "S-106",
-            "C-066",
+            "C-010",
             "B-083"
           ]
         }
@@ -829,7 +829,7 @@ export const peopleTechniquesPart1 = {
           "subtitle": "承認が安心感につながる",
           "foundations": [
             "S-058",
-            "C-048",
+            "C-006",
             "S-041"
           ]
         },

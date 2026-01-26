@@ -170,7 +170,7 @@ export const peopleTechniquesPart2 = {
           "subtitle": "尊重されやすくなる",
           "foundations": [
             "S-034",
-            "C-053",
+            "C-008",
             "C-091"
           ]
         },
@@ -284,7 +284,7 @@ export const peopleTechniquesPart2 = {
           "title": "義務感で会わない",
           "subtitle": "相手の警戒が下がる",
           "foundations": [
-            "C-053",
+            "C-008",
             "C-095",
             "W-039"
           ]
@@ -305,7 +305,7 @@ export const peopleTechniquesPart2 = {
           "subtitle": "相手の警戒が下がる",
           "foundations": [
             "C-034",
-            "C-047",
+            "C-005",
             "S-046"
           ]
         },
@@ -469,7 +469,7 @@ export const peopleTechniquesPart2 = {
           "title": "自分を守る断りを正当化",
           "subtitle": "安心感が増え、話が進む",
           "foundations": [
-            "C-047",
+            "C-005",
             "C-041",
             "W-047"
           ]
@@ -616,7 +616,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-071",
             "S-072",
-            "C-054"
+            "C-009"
           ]
         },
         {
@@ -635,7 +635,7 @@ export const peopleTechniquesPart2 = {
           "subtitle": "見える化で協力が続く",
           "foundations": [
             "B-010",
-            "C-009",
+            "C-054",
             "S-077"
           ]
         },
@@ -676,7 +676,7 @@ export const peopleTechniquesPart2 = {
           "foundations": [
             "S-077",
             "S-076",
-            "C-054"
+            "C-009"
           ]
         },
         {
@@ -739,7 +739,7 @@ export const peopleTechniquesPart2 = {
           "title": "強みより弱い場面を見る",
           "subtitle": "関係が崩れにくくなる",
           "foundations": [
-            "C-004",
+            "C-045",
             "B-089"
           ]
         },
@@ -748,7 +748,7 @@ export const peopleTechniquesPart2 = {
           "title": "環境変化時の反応を見る",
           "subtitle": "信頼が積み上がる",
           "foundations": [
-            "C-054",
+            "C-009",
             "C-097",
             "C-085"
           ]
@@ -818,7 +818,7 @@ export const peopleTechniquesPart2 = {
           "title": "期待と実態の差を記録",
           "subtitle": "改善が回り、継続が楽になる",
           "foundations": [
-            "C-009",
+            "C-054",
             "B-027",
             "C-098"
           ]
@@ -848,8 +848,8 @@ export const peopleTechniquesPart2 = {
           "title": "反応速度を観察する",
           "subtitle": "本音が出やすい",
           "foundations": [
-            "C-001",
-            "C-003",
+            "C-071",
+            "C-030",
             "C-099"
           ]
         },
