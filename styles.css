@@ -1313,6 +1313,11 @@ main {
   align-items: start;
 }
 
+.group-board--hero .group-column:not(:last-child) {
+  border-bottom: 1px solid #dfe4f0;
+  padding-bottom: 22px;
+}
+
 .group-board--hero .group-column-title {
   font-size: 19px;
   font-weight: 700;
@@ -1322,13 +1327,14 @@ main {
 }
 
 .group-button--hero {
-  padding: 14px 18px;
-  font-size: 17px;
+  padding: 18px 24px;
+  font-size: 18px;
   font-weight: 700;
   border-width: 2px;
   background: #f4f6fb;
   color: #1f2430;
   box-shadow: 0 8px 18px rgba(31, 36, 48, 0.08);
+  min-height: 52px;
 }
 
 .group-board--hero .group-list {
