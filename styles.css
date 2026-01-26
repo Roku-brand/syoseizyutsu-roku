@@ -1449,34 +1449,32 @@ main {
 
 .group-board--hero .group-board-grid {
   display: grid;
-  gap: 36px;
+  gap: 28px;
 }
 
 .group-area {
   display: grid;
-  gap: 18px;
+  grid-template-columns: minmax(140px, 200px) 1fr;
+  gap: 20px;
+  align-items: start;
 }
 
 .group-area-title {
   margin: 0;
-  font-size: 22px;
+  font-size: 18px;
   color: #2b3245;
-  letter-spacing: 0.06em;
-}
-
-.group-area-title span {
-  color: #6b7487;
-  font-weight: 500;
-  margin-left: 8px;
+  letter-spacing: 0.08em;
+  padding-top: 12px;
 }
 
 .group-card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 16px;
 }
 
 .group-card {
+  flex: 0 1 220px;
   text-align: left;
   padding: 18px 18px 16px;
   border-radius: 18px;
@@ -2044,7 +2042,19 @@ footer {
     justify-content: center;
   }
 
+  .group-area {
+    grid-template-columns: 1fr;
+  }
+
+  .group-area-title {
+    padding-top: 0;
+  }
+
   .group-card-grid {
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    flex-direction: column;
+  }
+
+  .group-card {
+    flex: 1 1 auto;
   }
 }

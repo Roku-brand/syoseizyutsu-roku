@@ -123,7 +123,7 @@ const renderGroupBoard = () => {
 
     const title = document.createElement("h2");
     title.className = "group-area-title";
-    title.innerHTML = `処世術群 <span>≪${label}≫</span>`;
+    title.textContent = label;
     areaSection.appendChild(title);
 
     const grid = document.createElement("div");
