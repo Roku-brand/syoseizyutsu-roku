@@ -1292,8 +1292,8 @@ main {
 }
 
 .group-board--hero .group-board-grid {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 20px;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
 }
 
 .group-board--hero .group-column {
@@ -1301,7 +1301,10 @@ main {
   border-radius: 0;
   border: none;
   background: transparent;
-  gap: 8px;
+  gap: 16px;
+  display: grid;
+  grid-template-columns: minmax(80px, 140px) minmax(0, 1fr);
+  align-items: start;
 }
 
 .group-board--hero .group-column-title {
@@ -1309,6 +1312,7 @@ main {
   font-weight: 700;
   color: #1f2430;
   letter-spacing: 0.08em;
+  padding-top: 8px;
 }
 
 .group-button--hero {
@@ -1319,6 +1323,12 @@ main {
   background: #f4f6fb;
   color: #1f2430;
   box-shadow: 0 8px 18px rgba(31, 36, 48, 0.08);
+}
+
+.group-board--hero .group-list {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .group-board-actions {
