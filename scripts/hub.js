@@ -3,6 +3,7 @@ import { hubDefaultPosts } from './hub-data.js';
 const storageKey = 'hubUserPosts';
 const reactionKey = 'hubReactions';
 const list = document.querySelector('#hub-card-grid');
+const emptyState = document.querySelector('#hub-empty');
 
 const formatDate = (value) => {
   if (!value) {
@@ -140,6 +141,10 @@ const renderPosts = () => {
   posts.forEach((post) => {
     list.append(buildCard(post, reactions));
   });
+
+  if (emptyState) {
+    emptyState.classList.toggle('is-hidden', posts.length > 0);
+  }
 };
 
 renderPosts();
