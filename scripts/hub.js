@@ -55,22 +55,15 @@ const loadReactions = () => {
   }
 };
 
-const saveReactions = (reactions) => {
-  window.localStorage.setItem(reactionKey, JSON.stringify(reactions));
-};
-
 const getPostKey = (post) => `${post.source}-${post.id}`;
 
-const buildCardSocial = (post, reactions) => {
+const buildCardReactions = (post, reactions) => {
   const postKey = getPostKey(post);
   const state = reactions[postKey] ?? { likes: 0, comments: [] };
   reactions[postKey] = state;
 
-  const social = document.createElement('div');
-  social.className = 'hub-card-social';
-
   const reactionRow = document.createElement('div');
-  reactionRow.className = 'hub-card-reactions';
+  reactionRow.className = 'hub-card-reactions hub-card-reactions--inline';
 
   const likeCount = document.createElement('span');
   likeCount.className = 'hub-reaction';
@@ -80,30 +73,13 @@ const buildCardSocial = (post, reactions) => {
 
   reactionRow.append(likeCount, commentCount);
 
-  const actions = document.createElement('div');
-  actions.className = 'hub-card-actions';
-
-  const likeButton = document.createElement('button');
-  likeButton.type = 'button';
-  likeButton.className = 'hub-action';
-
-  actions.append(likeButton);
-
   const updateReactions = () => {
     likeCount.textContent = `いいね ${state.likes}`;
     commentCount.textContent = `コメント ${state.comments.length}`;
-    likeButton.textContent = state.likes ? `いいね済み ${state.likes}` : 'いいね';
   };
 
-  likeButton.addEventListener('click', () => {
-    state.likes += 1;
-    updateReactions();
-    saveReactions(reactions);
-  });
-
   updateReactions();
-  social.append(reactionRow, actions);
-  return social;
+  return reactionRow;
 };
 
 const buildCard = (post, reactions) => {
@@ -125,6 +101,9 @@ const buildCard = (post, reactions) => {
   summary.textContent =
     post.summary || post.note || post.bullets?.[0] || '新しい処世術が投稿されました。';
 
+  const metaRow = document.createElement('div');
+  metaRow.className = 'hub-card-meta-row';
+
   const meta = document.createElement('p');
   meta.className = 'hub-card-meta';
   if (post.source === 'user') {
@@ -134,14 +113,15 @@ const buildCard = (post, reactions) => {
     meta.textContent = post.meta || 'みんなの処世術';
   }
 
-  link.append(title, summary, meta);
+  const reactionsRow = buildCardReactions(post, reactions);
+  metaRow.append(meta, reactionsRow);
+  link.append(title, summary, metaRow);
 
   if (post.tags?.length) {
     link.append(buildTagList(post.tags));
   }
 
-  const social = buildCardSocial(post, reactions);
-  card.append(link, social);
+  card.append(link);
 
   return card;
 };
