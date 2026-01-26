@@ -596,6 +596,12 @@ main {
   color: #5b6477;
 }
 
+.hub-list-actions {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 .hub-card {
   display: grid;
   gap: 8px;
@@ -649,6 +655,122 @@ main {
   margin: 0;
   color: #576176;
   font-size: 14px;
+}
+
+.admin-section {
+  padding-top: 16px;
+}
+
+.admin-panel {
+  background: #ffffff;
+  border-radius: 28px;
+  border: 1px solid #e2e6f0;
+  padding: 24px;
+  box-shadow: 0 16px 28px rgba(31, 36, 48, 0.08);
+}
+
+.admin-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.admin-panel-header h2 {
+  margin: 0 0 6px;
+  font-size: 20px;
+}
+
+.admin-panel-header p {
+  margin: 0;
+  color: #5b6477;
+}
+
+.admin-card-list {
+  display: grid;
+  gap: 16px;
+}
+
+.admin-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 16px;
+  border-radius: 20px;
+  border: 1px solid #e2e6f0;
+  padding: 18px 20px;
+  background: #fbfcff;
+}
+
+.admin-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.admin-card-header h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #1f2430;
+}
+
+.admin-card-badge {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: #eef1f9;
+  color: #4a5264;
+}
+
+.admin-card-meta {
+  margin: 6px 0 10px;
+  font-size: 12px;
+  color: #7a8396;
+}
+
+.admin-card-summary {
+  margin: 0 0 12px;
+  color: #4b5670;
+  font-size: 14px;
+}
+
+.admin-card-actions {
+  display: flex;
+  align-items: flex-start;
+}
+
+.danger-button {
+  border: none;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: #f05758;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(240, 87, 88, 0.2);
+}
+
+.danger-button:hover {
+  background: #d94646;
+}
+
+.danger-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+@media (max-width: 720px) {
+  .admin-card {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-card-actions {
+    justify-content: flex-end;
+  }
 }
 
 .hub-card-meta-row {

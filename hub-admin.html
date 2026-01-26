@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>処世術禄 | みんなの処世術 管理</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">処世術禄</div>
+      <nav class="nav-links">
+        <a class="nav-link" href="index.html">トップ</a>
+        <a class="nav-link" href="shoseijutsu.html">処世術集</a>
+        <a class="nav-link" href="theory.html">理論集</a>
+        <a class="nav-link" href="hub.html">みんなの処世術</a>
+        <a class="nav-link active" href="hub-admin.html">管理者</a>
+        <a class="nav-link" href="about.html">処世術禄とは</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <h1 class="page-hero-title">みんなの処世術 管理</h1>
+        <p class="page-hero-lead">
+          投稿された処世術カードを一覧し、削除を含む管理操作ができます。
+        </p>
+        <div class="page-hero-actions">
+          <a class="page-hero-pill" href="hub.html">処世術カードへ戻る <span>›</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section admin-section">
+      <div class="container">
+        <div class="admin-panel">
+          <div class="admin-panel-header">
+            <div>
+              <h2>処世術カード管理</h2>
+              <p>削除ボタンを使って投稿済みの処世術カードを整理できます。</p>
+            </div>
+            <button class="ghost-button" type="button" id="admin-clear">すべて削除</button>
+          </div>
+          <p class="notice is-hidden" id="admin-empty">まだ投稿がありません。</p>
+          <div class="admin-card-list" id="admin-card-list"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>必要に応じて古い投稿を整理し、最新の事例を保ちましょう。</p>
+  </footer>
+  <script type="module" src="scripts/hub-admin.js"></script>
+</body>
+</html>
