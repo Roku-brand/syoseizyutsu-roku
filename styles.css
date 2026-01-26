@@ -17,6 +17,14 @@ body {
   line-height: 1.7;
 }
 
+.theory-page {
+  background: radial-gradient(circle at top, #ffffff 0%, #f3f6fc 50%, #e8eef8 100%);
+}
+
+.theory-page main {
+  background: radial-gradient(circle at 15% 20%, rgba(255, 255, 255, 0.9), rgba(236, 242, 252, 0.6) 45%, rgba(226, 234, 248, 0.9) 100%);
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -304,6 +312,19 @@ main {
   pointer-events: none;
 }
 
+.page-hero--theory::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 80% 55%, rgba(179, 197, 231, 0.35), transparent 55%),
+    radial-gradient(circle at 90% 50%, rgba(255, 255, 255, 0.8), transparent 48%),
+    radial-gradient(circle at 65% 35%, rgba(255, 255, 255, 0.6), transparent 45%);
+  opacity: 0.75;
+  pointer-events: none;
+  z-index: 0;
+}
+
 .page-hero--collection .page-hero-inner {
   position: relative;
   z-index: 1;
@@ -333,7 +354,7 @@ main {
 }
 
 .page-hero--collection .page-hero-title {
-  font-size: clamp(30px, 3.4vw, 40px);
+  font-size: clamp(28px, 3.6vw, 40px);
   letter-spacing: 0.05em;
   font-weight: 700;
   color: #1f2534;
@@ -359,6 +380,7 @@ main {
     radial-gradient(circle at center, rgba(255, 255, 255, 0.85), rgba(226, 234, 248, 0.2) 55%, transparent 70%),
     url("assets/compass-hero.svg") center/contain no-repeat;
   filter: drop-shadow(0 18px 30px rgba(63, 77, 102, 0.25));
+  opacity: 0.92;
 }
 
 .page-hero-title {
@@ -1330,6 +1352,15 @@ main {
   margin-bottom: 20px;
 }
 
+.theory-toolbar {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 28px;
+  padding: 16px 18px 20px;
+  border: 1px solid #e3e8f3;
+  box-shadow: 0 16px 30px rgba(33, 40, 56, 0.08);
+  backdrop-filter: blur(6px);
+}
+
 .tabs-toolbar .tabs,
 .tabs-toolbar .search-box {
   margin-bottom: 0;
@@ -1338,7 +1369,7 @@ main {
 .tab {
   padding: 12px 22px;
   border-radius: 999px;
-  background: #ffffff;
+  background: #f6f8fd;
   border: 1px solid #e2e6f0;
   font-size: 15px;
   font-weight: 600;
@@ -1350,9 +1381,9 @@ main {
 }
 
 .tab-button[aria-pressed="true"] {
-  background: var(--muted-blue-gray);
+  background: #5d6f90;
   color: #ffffff;
-  border-color: var(--muted-blue-gray);
+  border-color: #5d6f90;
 }
 
 .search-box {
@@ -1365,10 +1396,12 @@ main {
 .search-box input {
   flex: 1;
   min-width: 220px;
-  padding: 16px 20px;
-  border-radius: 16px;
-  border: 1px solid #d7dce8;
+  padding: 16px 22px;
+  border-radius: 999px;
+  border: 1px solid #dde3f0;
   font-size: 16px;
+  background: #f8faff;
+  box-shadow: inset 0 1px 3px rgba(31, 36, 48, 0.06);
 }
 
 .helper-text {
@@ -1798,9 +1831,9 @@ main {
   font-weight: 700;
   font-size: 13px;
   color: #ffffff;
-  background: #4f6d8a;
+  background: #5f728f;
   padding: 6px 12px;
-  border-radius: 8px;
+  border-radius: 10px;
   letter-spacing: 0.02em;
 }
 
@@ -1875,10 +1908,27 @@ main {
 }
 
 .theory-card {
+  position: relative;
+  overflow: hidden;
   border: 1px solid #e4e8f1;
-  box-shadow: 0 6px 14px rgba(31, 36, 48, 0.08);
-  padding: 12px 14px;
-  gap: 10px;
+  box-shadow: 0 12px 24px rgba(31, 36, 48, 0.1);
+  padding: 18px 20px 20px;
+  gap: 12px;
+  background:
+    radial-gradient(circle at 25% 15%, rgba(255, 255, 255, 0.9), rgba(242, 246, 254, 0.7) 40%, rgba(233, 238, 247, 0.9) 100%);
+}
+
+.theory-card::after {
+  content: "";
+  position: absolute;
+  right: -16px;
+  bottom: -18px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.8), var(--theory-card-accent, rgba(110, 130, 160, 0.35)) 60%, transparent 70%);
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .theory-card--cognition {
@@ -1902,8 +1952,8 @@ main {
 }
 
 .theory-card-summary {
-  color: #7b8296;
-  font-size: 12px;
+  color: #6b7487;
+  font-size: 13px;
   font-weight: 500;
   line-height: 1.7;
   margin-top: 4px;
