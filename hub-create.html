@@ -61,14 +61,23 @@
           </label>
           <label class="hub-form-field hub-form-field--full">
             <span class="hub-form-label">箇条書き式の処世術</span>
-            <textarea
-              class="hub-form-input"
-              name="bullets"
-              rows="6"
-              placeholder="例：\n・最初に相手の発言を要約する\n・補足があれば短く添える\n・次の質問を一つだけ投げる"
-              required
-            ></textarea>
-            <span class="hub-form-hint">1行ごとに1つの項目を書くと、自動的に箇条書きとして保存されます。</span>
+            <div class="hub-bullet-list" data-bullet-list>
+              <div class="hub-bullet-row">
+                <span class="hub-bullet-marker" aria-hidden="true">・</span>
+                <input
+                  class="hub-form-input hub-bullet-input"
+                  type="text"
+                  name="bullets[]"
+                  placeholder="例：最初に相手の発言を要約する"
+                  required
+                />
+                <button class="hub-bullet-remove" type="button" data-remove-bullet aria-label="行を削除">
+                  ×
+                </button>
+              </div>
+            </div>
+            <button class="ghost-button hub-bullet-add" type="button" data-add-bullet>行を追加する</button>
+            <span class="hub-form-hint">1行につき1項目として保存されます。必要な数だけ追加してください。</span>
           </label>
           <label class="hub-form-field">
             <span class="hub-form-label">タグ</span>
