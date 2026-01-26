@@ -41,7 +41,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
   padding: 22px 0;
 }
 
@@ -55,7 +54,6 @@ header {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
-  margin-left: auto;
 }
 
 .nav-link {
@@ -73,36 +71,6 @@ header {
 .nav-link.active {
   background: var(--muted-blue-gray);
   color: #ffffff;
-}
-
-.nav-toggle {
-  border: 1px solid #d3d9e6;
-  background: #f6f8fc;
-  border-radius: 16px;
-  padding: 10px 14px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.nav-toggle:hover {
-  background: #eef1f8;
-  border-color: #c5ccda;
-}
-
-.nav-toggle span {
-  display: block;
-  width: 16px;
-  height: 2px;
-  background: #1c2230;
-  border-radius: 999px;
-}
-
-.nav-toggle span:nth-child(2) {
-  width: 12px;
 }
 
 main {
