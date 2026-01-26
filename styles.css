@@ -598,8 +598,9 @@ main {
 
 .hub-card {
   display: grid;
-  gap: 10px;
+  gap: 8px;
   min-height: auto;
+  padding: 16px;
 }
 
 .hub-card-grid {
@@ -614,8 +615,8 @@ main {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
-  column-gap: 20px;
-  row-gap: 8px;
+  column-gap: 16px;
+  row-gap: 6px;
   text-decoration: none;
   color: inherit;
   width: 100%;
@@ -623,7 +624,7 @@ main {
 
 .hub-card-link > h3,
 .hub-card-link > .hub-card-summary,
-.hub-card-link > .hub-card-meta {
+.hub-card-link > .hub-card-meta-row {
   grid-column: 1;
 }
 
@@ -647,12 +648,19 @@ main {
 .hub-card-summary {
   margin: 0;
   color: #576176;
-  font-size: 15px;
+  font-size: 14px;
+}
+
+.hub-card-meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
 }
 
 .hub-card-meta {
   margin: 0;
-  font-size: 13px;
+  font-size: 12px;
   color: #7a8396;
 }
 
@@ -679,9 +687,13 @@ main {
 .hub-card-reactions {
   display: flex;
   align-items: center;
-  gap: 12px;
-  font-size: 13px;
+  gap: 8px;
+  font-size: 12px;
   color: #4a566d;
+}
+
+.hub-card-reactions--inline .hub-reaction {
+  padding: 2px 8px;
 }
 
 .hub-reaction {
@@ -1564,13 +1576,6 @@ main {
   font-weight: 500;
   line-height: 1.7;
   margin-top: 4px;
-}
-
-.theory-card-reactions {
-  display: flex;
-  gap: 12px;
-  font-size: 12px;
-  color: #6c7385;
 }
 
 .back-link {
