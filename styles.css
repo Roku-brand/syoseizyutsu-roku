@@ -298,6 +298,7 @@ main {
   position: relative;
   overflow: hidden;
   background: radial-gradient(circle at 20% 20%, #ffffff 0%, #f5f7fc 40%, #e7eef8 100%);
+  padding: 24px 0 32px;
 }
 
 .page-hero--collection::before {
@@ -328,25 +329,25 @@ main {
 .page-hero--collection .page-hero-inner {
   position: relative;
   z-index: 1;
-  grid-template-columns: minmax(0, 1fr) minmax(240px, 420px);
+  grid-template-columns: minmax(0, 1fr);
   align-items: center;
-  gap: 32px;
+  gap: 16px;
 }
 
 .page-hero-content {
   display: grid;
-  gap: 18px;
+  gap: 12px;
 }
 
 .page-hero-badge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 20px;
+  padding: 6px 16px;
   border-radius: 999px;
   background: #6a7ea3;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.08em;
   box-shadow: 0 12px 24px rgba(51, 63, 88, 0.2);
@@ -354,14 +355,14 @@ main {
 }
 
 .page-hero--collection .page-hero-title {
-  font-size: clamp(28px, 3.6vw, 40px);
+  font-size: clamp(24px, 3vw, 32px);
   letter-spacing: 0.05em;
   font-weight: 700;
   color: #1f2534;
 }
 
 .page-hero--collection .page-hero-lead {
-  font-size: 15px;
+  font-size: 14px;
   color: #4f5a6d;
   line-height: 1.9;
 }
@@ -399,19 +400,19 @@ main {
 .page-hero-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 8px;
 }
 
 .page-hero-pill {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  padding: 12px 22px;
+  padding: 8px 16px;
   border-radius: 999px;
   background: #ffffff;
   border: 1px solid #e2e6f0;
   box-shadow: 0 10px 20px rgba(31, 36, 48, 0.08);
-  font-size: 14px;
+  font-size: 13px;
   color: #3c4558;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
