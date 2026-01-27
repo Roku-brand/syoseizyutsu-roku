@@ -1454,9 +1454,9 @@ main {
 
 .group-area {
   display: grid;
-  grid-template-columns: minmax(140px, 200px) 1fr;
+  grid-template-columns: 160px minmax(0, 1fr);
   gap: 20px;
-  align-items: start;
+  align-items: center;
 }
 
 .group-area-title {
@@ -1469,12 +1469,15 @@ main {
 
 .group-card-grid {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  scroll-snap-type: x proximity;
 }
 
 .group-card {
-  flex: 0 1 220px;
+  flex: 0 0 220px;
   text-align: left;
   padding: 18px 18px 16px;
   border-radius: 18px;
@@ -1487,6 +1490,7 @@ main {
   cursor: pointer;
   font-family: inherit;
   appearance: none;
+  scroll-snap-align: start;
 }
 
 .group-card:hover {
@@ -2052,6 +2056,7 @@ footer {
 
   .group-card-grid {
     flex-direction: column;
+    overflow-x: visible;
   }
 
   .group-card {
