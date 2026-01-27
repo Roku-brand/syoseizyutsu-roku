@@ -45,76 +45,6 @@ const applyGroupFromUrl = () => {
   activeGroup = match.key;
 };
 
-const iconMap = {
-  人生設計: `
-    <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-      <circle cx="32" cy="32" r="22" fill="none" stroke="currentColor" stroke-width="3" />
-      <circle cx="32" cy="32" r="4" fill="currentColor" />
-      <path d="M32 10L38 32L32 54L26 32Z" fill="currentColor" opacity="0.35" />
-      <path d="M10 32H54" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-    </svg>
-  `,
-  夢と挑戦: `
-    <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-      <path
-        d="M32 8c8 7 14 16 10 26-2 6-8 10-15 11 2 7-2 11-8 13 0-6-4-11-9-13 6-2 11-7 11-15 0-9 6-16 11-22z"
-        fill="currentColor"
-        opacity="0.2"
-      />
-      <path
-        d="M32 12c6 6 10 13 7 21-2 6-7 10-14 12"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="3"
-        stroke-linecap="round"
-      />
-    </svg>
-  `,
-  後悔回避: `
-    <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-      <path d="M20 22h16c8 0 14 6 14 14" fill="none" stroke="currentColor" stroke-width="3" />
-      <path d="M24 18l-8 8 8 8" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
-      <path d="M44 46H28c-8 0-14-6-14-14" fill="none" stroke="currentColor" stroke-width="3" />
-      <path d="M40 50l8-8-8-8" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
-    </svg>
-  `,
-  変化対応: `
-    <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-      <path
-        d="M12 40c6-8 18-12 30-8 6 2 10 6 10 10"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="3"
-        stroke-linecap="round"
-      />
-      <path
-        d="M14 48c8 4 18 4 30-2 4-2 6-5 8-8"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="3"
-        stroke-linecap="round"
-      />
-    </svg>
-  `,
-  "運と偶然": `
-    <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-      <rect x="14" y="14" width="36" height="36" rx="8" fill="none" stroke="currentColor" stroke-width="3" />
-      <circle cx="24" cy="24" r="3" fill="currentColor" />
-      <circle cx="40" cy="24" r="3" fill="currentColor" />
-      <circle cx="32" cy="32" r="3" fill="currentColor" />
-      <circle cx="24" cy="40" r="3" fill="currentColor" />
-      <circle cx="40" cy="40" r="3" fill="currentColor" />
-    </svg>
-  `,
-};
-
-const defaultIcon = `
-  <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-    <circle cx="32" cy="32" r="20" fill="none" stroke="currentColor" stroke-width="3" />
-    <path d="M32 18v28M18 32h28" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
-  </svg>
-`;
-
 const renderGroupBoard = () => {
   groupBoardContainer.innerHTML = "";
   Object.entries(areaLabels).forEach(([areaKey, label]) => {
@@ -136,11 +66,6 @@ const renderGroupBoard = () => {
       button.className = "group-card";
       button.dataset.group = option.key;
       button.setAttribute("aria-pressed", option.key === activeGroup ? "true" : "false");
-
-      const icon = document.createElement("div");
-      icon.className = "group-card-icon";
-      icon.innerHTML = iconMap[option.groupName] ?? defaultIcon;
-      button.appendChild(icon);
 
       const content = document.createElement("div");
       content.className = "group-card-content";
