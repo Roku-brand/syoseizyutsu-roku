@@ -738,6 +738,44 @@ main {
   gap: 12px;
 }
 
+.hub-list-toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 16px 0 20px;
+}
+
+.hub-search-box {
+  align-items: center;
+}
+
+.hub-search-label {
+  font-size: 13px;
+  color: #6c7385;
+  padding-top: 6px;
+}
+
+.hub-sort {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.hub-sort label {
+  font-size: 13px;
+  color: #6c7385;
+}
+
+.hub-sort-select {
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: 1px solid #dde3f0;
+  background: #f8faff;
+  font-size: 14px;
+  color: #374054;
+}
+
 .hub-card {
   display: grid;
   gap: 8px;

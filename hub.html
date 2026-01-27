@@ -61,7 +61,27 @@
             <a class="ghost-button" href="hub-create.html">処世術を投稿する</a>
           </div>
         </div>
+        <div class="hub-list-toolbar">
+          <div class="search-box hub-search-box">
+            <label class="hub-search-label" for="hub-search-input">キーワード検索</label>
+            <input
+              id="hub-search-input"
+              type="search"
+              placeholder="例：会話、断り方、仕事、気持ち"
+              autocomplete="off"
+            />
+            <div class="hub-sort">
+              <label for="hub-sort">並び替え</label>
+              <select id="hub-sort" class="hub-sort-select">
+                <option value="new">新着順</option>
+                <option value="likes">いいね数順</option>
+              </select>
+            </div>
+          </div>
+          <p class="helper-text" id="hub-result-count"></p>
+        </div>
         <p class="notice is-hidden" id="hub-empty">まだ投稿がありません。最初の処世術を投稿しましょう。</p>
+        <p class="notice is-hidden" id="hub-empty-filter">検索条件に一致する処世術が見つかりませんでした。</p>
         <div class="card-grid hub-card-grid" id="hub-card-grid"></div>
       </div>
     </section>

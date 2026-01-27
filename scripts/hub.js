@@ -4,6 +4,10 @@ const storageKey = 'hubUserPosts';
 const reactionKey = 'hubReactions';
 const list = document.querySelector('#hub-card-grid');
 const emptyState = document.querySelector('#hub-empty');
+const filteredEmptyState = document.querySelector('#hub-empty-filter');
+const searchInput = document.querySelector('#hub-search-input');
+const sortSelect = document.querySelector('#hub-sort');
+const resultCount = document.querySelector('#hub-result-count');
 
 const formatDate = (value) => {
   if (!value) {
@@ -127,6 +131,34 @@ const buildCard = (post, reactions) => {
   return card;
 };
 
+const buildSearchText = (post) =>
+  [
+    post.title,
+    post.summary,
+    post.note,
+    post.creator,
+    ...(post.bullets ?? []),
+    ...(post.tags ?? []),
+  ]
+    .filter(Boolean)
+    .join(' ');
+
+const getLikes = (post, reactions) => {
+  const key = getPostKey(post);
+  return reactions[key]?.likes ?? 0;
+};
+
+const sortPosts = (posts, reactions, mode) => {
+  if (mode === 'likes') {
+    return [...posts].sort((a, b) => getLikes(b, reactions) - getLikes(a, reactions));
+  }
+  return [...posts].sort((a, b) => {
+    const aTime = Date.parse(a.createdAt ?? '') || 0;
+    const bTime = Date.parse(b.createdAt ?? '') || 0;
+    return bTime - aTime;
+  });
+};
+
 const renderPosts = () => {
   if (!list) {
     return;
@@ -136,15 +168,35 @@ const renderPosts = () => {
   const defaultPosts = hubDefaultPosts.map((post) => ({ ...post, source: 'default' }));
   const posts = [...userPosts, ...defaultPosts];
   const reactions = loadReactions();
+  const query = searchInput?.value.trim().toLowerCase() ?? '';
+  const filteredPosts = posts.filter((post) => {
+    if (!query) {
+      return true;
+    }
+    return buildSearchText(post).toLowerCase().includes(query);
+  });
+  const sortMode = sortSelect?.value ?? 'new';
+  const sortedPosts = sortPosts(filteredPosts, reactions, sortMode);
 
   list.innerHTML = '';
-  posts.forEach((post) => {
+  sortedPosts.forEach((post) => {
     list.append(buildCard(post, reactions));
   });
 
   if (emptyState) {
     emptyState.classList.toggle('is-hidden', posts.length > 0);
   }
+  if (filteredEmptyState) {
+    filteredEmptyState.classList.toggle('is-hidden', posts.length === 0 || filteredPosts.length > 0);
+  }
+  if (resultCount) {
+    resultCount.textContent = posts.length > 0 ? `${filteredPosts.length}件の処世術が見つかりました。` : '';
+  }
 };
+
+const refreshOnInput = () => renderPosts();
+
+searchInput?.addEventListener('input', refreshOnInput);
+sortSelect?.addEventListener('change', refreshOnInput);
 
 renderPosts();
