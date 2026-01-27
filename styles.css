@@ -1446,6 +1446,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 36px;
+  margin-top: 24px;
 }
 
 .group-board--hero .group-board-grid {
