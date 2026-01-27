@@ -1450,6 +1450,7 @@ main {
 .group-board--hero .group-board-grid {
   display: grid;
   gap: 28px;
+  grid-template-columns: 1fr;
 }
 
 .group-area {
