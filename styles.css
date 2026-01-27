@@ -1469,12 +1469,14 @@ main {
 
 .group-card-grid {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 8px;
 }
 
 .group-card {
-  flex: 0 1 220px;
+  flex: 0 0 220px;
   text-align: left;
   padding: 18px 18px 16px;
   border-radius: 18px;
@@ -2051,10 +2053,11 @@ footer {
   }
 
   .group-card-grid {
-    flex-direction: column;
+    overflow-x: auto;
+    padding-bottom: 6px;
   }
 
   .group-card {
-    flex: 1 1 auto;
+    flex: 0 0 200px;
   }
 }
