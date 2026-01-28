@@ -1594,16 +1594,13 @@ main {
 }
 
 .group-card-grid {
-  display: flex;
-  flex-wrap: nowrap;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(180px, 1fr));
   gap: 16px;
-  overflow-x: auto;
   padding-bottom: 8px;
-  scroll-snap-type: x proximity;
 }
 
 .group-card {
-  flex: 0 0 220px;
   text-align: left;
   padding: 18px 18px 16px;
   border-radius: 18px;
@@ -1616,7 +1613,6 @@ main {
   cursor: pointer;
   font-family: inherit;
   appearance: none;
-  scroll-snap-align: start;
 }
 
 .group-card:hover {
@@ -2123,6 +2119,10 @@ footer {
   .page-hero--collection .page-hero-inner {
     grid-template-columns: minmax(0, 1fr) minmax(200px, 320px);
   }
+
+  .group-card-grid {
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
+  }
 }
 
 @media (max-width: 860px) {
@@ -2137,6 +2137,10 @@ footer {
   .page-hero-visual {
     margin: 0 auto;
     width: min(100%, 300px);
+  }
+
+  .group-card-grid {
+    grid-template-columns: repeat(2, minmax(180px, 1fr));
   }
 }
 
@@ -2181,11 +2185,10 @@ footer {
   }
 
   .group-card-grid {
-    flex-direction: column;
-    overflow-x: visible;
+    grid-template-columns: 1fr;
   }
 
   .group-card {
-    flex: 1 1 auto;
+    width: 100%;
   }
 }
