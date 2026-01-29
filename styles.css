@@ -1,9 +1,16 @@
 :root {
   color-scheme: light;
-  font-family: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", "Segoe UI", sans-serif;
-  background-color: #ffffff;
-  color: #1c2230;
-  --muted-blue-gray: #56657a;
+  font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", serif;
+  background-color: #f5f2ec;
+  color: #1f2937;
+  --paper: #f5f2ec;
+  --paper-deep: #efeae1;
+  --ink: #1f2937;
+  --ink-muted: #4b5563;
+  --accent: #2f3a4a;
+  --line: #e4dfd6;
+  --line-strong: #d6d0c7;
+  --muted-blue-gray: #2f3a4a;
 }
 
 * {
@@ -12,17 +19,33 @@
 
 body {
   margin: 0;
-  background: #ffffff;
+  background: var(--paper);
   font-size: 17px;
-  line-height: 1.7;
+  line-height: 1.8;
+  color: var(--ink);
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(31, 41, 55, 0.04) 0.5px, transparent 0.5px),
+    radial-gradient(circle at 80% 30%, rgba(31, 41, 55, 0.035) 0.5px, transparent 0.5px),
+    radial-gradient(circle at 60% 70%, rgba(31, 41, 55, 0.03) 0.5px, transparent 0.5px);
+  background-size: 18px 18px, 22px 22px, 26px 26px;
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: -1;
 }
 
 .theory-page {
-  background: radial-gradient(circle at top, #ffffff 0%, #f3f6fc 50%, #e8eef8 100%);
+  background: var(--paper);
 }
 
 .theory-page main {
-  background: radial-gradient(circle at 15% 20%, rgba(255, 255, 255, 0.9), rgba(236, 242, 252, 0.6) 45%, rgba(226, 234, 248, 0.9) 100%);
+  background: transparent;
 }
 
 a {
@@ -31,12 +54,12 @@ a {
 }
 
 header {
-  background: #ffffff;
-  border-bottom: 1px solid #e5e9f2;
+  background: rgba(245, 242, 236, 0.92);
+  border-bottom: 1px solid var(--line);
   position: sticky;
   top: 0;
   z-index: 10;
-  box-shadow: 0 8px 24px rgba(28, 34, 48, 0.06);
+  backdrop-filter: blur(6px);
 }
 
 .container {
@@ -66,25 +89,24 @@ header {
   gap: 8px;
   padding: 8px 14px;
   border-radius: 999px;
-  border: 1px solid #d7dce8;
-  background: #ffffff;
-  color: #3c4558;
+  border: 1px solid var(--line-strong);
+  background: var(--paper);
+  color: var(--ink-muted);
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.2s ease, box-shadow 0.2s ease;
+  transition: background 0.2s ease;
 }
 
 .nav-toggle-button:hover {
-  background: #eef1f8;
-  box-shadow: 0 8px 18px rgba(31, 36, 48, 0.12);
+  background: #f0ece5;
 }
 
 .nav-toggle-icon {
   position: relative;
   width: 18px;
   height: 2px;
-  background: #3c4558;
+  background: var(--ink-muted);
   border-radius: 999px;
 }
 
@@ -95,7 +117,7 @@ header {
   left: 0;
   width: 18px;
   height: 2px;
-  background: #3c4558;
+  background: var(--ink-muted);
   border-radius: 999px;
 }
 
@@ -110,7 +132,7 @@ header {
 .brand {
   font-weight: 700;
   font-size: 22px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.08em;
 }
 
 .nav-links {
@@ -120,20 +142,22 @@ header {
 }
 
 .nav-link {
-  padding: 10px 18px;
+  padding: 8px 12px;
   border-radius: 999px;
   font-size: 15px;
   background: transparent;
-  transition: all 0.2s ease;
+  color: var(--ink-muted);
+  transition: color 0.2s ease, background 0.2s ease;
 }
 
 .nav-link:hover {
-  background: #eef1f8;
+  background: #f1eee8;
+  color: var(--ink);
 }
 
 .nav-link.active {
-  background: var(--muted-blue-gray);
-  color: #ffffff;
+  background: #ebe6dd;
+  color: var(--ink);
 }
 
 .nav-actions {
@@ -146,19 +170,17 @@ header {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 1px solid #e2e6f0;
+  border: 1px solid var(--line-strong);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: #ffffff;
-  color: #3c4558;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  background: var(--paper);
+  color: var(--ink-muted);
+  transition: background 0.2s ease;
 }
 
 .nav-icon-button:hover {
-  background: #eef1f8;
-  transform: translateY(-1px);
-  box-shadow: 0 8px 18px rgba(31, 36, 48, 0.12);
+  background: #f1eee8;
 }
 
 .nav-icon-button svg {
@@ -209,9 +231,9 @@ main {
 }
 
 .hero {
-  background: radial-gradient(circle at top, #ffffff 0%, #f3f5fb 55%, #e9edf6 100%);
-  padding: 48px 0 56px;
-  color: #1f2430;
+  background: var(--paper);
+  padding: 52px 0 40px;
+  color: var(--ink);
 }
 
 .hero-card {
@@ -224,10 +246,10 @@ main {
 .hero h1 {
   margin: 0 auto;
   max-width: 820px;
-  font-size: clamp(22px, 2.6vw, 34px);
-  line-height: 1.9;
+  font-size: clamp(22px, 2.4vw, 32px);
+  line-height: 2;
   font-weight: 600;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
 }
 
 .hero-title {
@@ -239,14 +261,14 @@ main {
   margin-top: 14px;
   font-size: clamp(13px, 1.5vw, 18px);
   font-weight: 500;
-  color: #586073;
+  color: var(--ink-muted);
   letter-spacing: 0.03em;
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 12px 16px;
   justify-content: center;
 }
 
@@ -254,32 +276,64 @@ main {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  padding: 12px 22px;
-  background: #ffffff;
+  padding: 10px 18px;
+  background: var(--paper);
   border-radius: 999px;
-  border: 1px solid #e2e6f0;
-  box-shadow: 0 10px 20px rgba(31, 36, 48, 0.08);
+  border: 1px solid var(--line);
   font-size: 14px;
-  color: #3c4558;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: var(--ink-muted);
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
 .hero-pill:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 14px 24px rgba(31, 36, 48, 0.12);
-}
-
-.hero-pill-icon {
-  font-size: 16px;
+  background: #f0ece5;
+  color: var(--ink);
 }
 
 .hero-pill-arrow {
   font-size: 18px;
-  color: #7b8498;
+  color: #7a8494;
+}
+
+.index-nav {
+  margin-top: 8px;
+  display: grid;
+  gap: 12px;
+  padding: 14px 0 10px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.index-nav-label {
+  font-size: 12px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.index-nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.index-nav-list a {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+  border: 1px solid var(--line);
+  color: var(--ink-muted);
+  background: var(--paper);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.index-nav-list a:hover {
+  background: #f0ece5;
+  color: var(--ink);
 }
 
 .elements-section {
-  margin-top: 24px;
+  margin-top: 32px;
   padding: 0 24px;
 }
 
@@ -290,27 +344,35 @@ main {
 }
 
 .elements-card {
-  background: #ffffff;
-  border-radius: 20px;
+  background: var(--paper);
+  border-radius: 12px;
   padding: 28px 24px;
   text-align: center;
-  box-shadow: 0 16px 28px rgba(31, 36, 48, 0.08);
-  border: 1px solid #e5e9f2;
+  box-shadow: 0 8px 18px rgba(31, 41, 55, 0.06);
+  border: 1px solid var(--line);
   display: grid;
-  gap: 14px;
+  gap: 12px;
+  position: relative;
+}
+
+.elements-volume {
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
 }
 
 .elements-card h3 {
   margin: 0;
   font-size: 19px;
-  color: #1c2230;
+  color: var(--ink);
 }
 
 .elements-card p {
   margin: 0;
   font-size: 14px;
-  color: #6a7285;
-  line-height: 1.7;
+  color: var(--ink-muted);
+  line-height: 1.8;
 }
 
 .elements-icon {
@@ -318,10 +380,11 @@ main {
   height: 58px;
   margin: 0 auto;
   border-radius: 50%;
-  border: 1px solid #cbd3e4;
+  border: 1px solid var(--line-strong);
   display: grid;
   place-items: center;
-  color: #6a7a98;
+  color: var(--accent);
+  background: #f8f5f0;
 }
 
 .elements-icon svg {
@@ -340,13 +403,13 @@ main {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 10px 24px;
+  padding: 10px 22px;
   border-radius: 999px;
-  background: var(--muted-blue-gray);
-  color: #ffffff;
+  background: var(--accent);
+  color: #f7f4ee;
   font-size: 14px;
   font-weight: 600;
-  box-shadow: 0 12px 24px rgba(31, 36, 48, 0.12);
+  box-shadow: 0 6px 14px rgba(47, 58, 74, 0.2);
   transition: background 0.2s ease;
 }
 
@@ -355,17 +418,17 @@ main {
 }
 
 .elements-button:hover {
-  background: #3f4d67;
+  background: #364357;
 }
 
 .section {
-  margin-top: 48px;
+  margin-top: 56px;
 }
 
 .section h2 {
   margin-bottom: 16px;
-  font-size: 26px;
-  color: var(--muted-blue-gray);
+  font-size: 24px;
+  color: var(--accent);
 }
 
 .page-hero {
