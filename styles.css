@@ -295,43 +295,6 @@ main {
   color: #7a8494;
 }
 
-.index-nav {
-  margin-top: 8px;
-  display: grid;
-  gap: 12px;
-  padding: 14px 0 10px;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-}
-
-.index-nav-label {
-  font-size: 12px;
-  letter-spacing: 0.24em;
-  text-transform: uppercase;
-  color: var(--ink-muted);
-}
-
-.index-nav-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.index-nav-list a {
-  padding: 6px 12px;
-  border-radius: 999px;
-  font-size: 14px;
-  border: 1px solid var(--line);
-  color: var(--ink-muted);
-  background: var(--paper);
-  transition: background 0.2s ease, color 0.2s ease;
-}
-
-.index-nav-list a:hover {
-  background: #f0ece5;
-  color: var(--ink);
-}
-
 .elements-section {
   margin-top: 32px;
   padding: 0 24px;
