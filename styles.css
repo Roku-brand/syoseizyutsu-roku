@@ -432,9 +432,9 @@ main {
 }
 
 .page-hero {
-  background: radial-gradient(circle at top, #ffffff 0%, #f4f6fb 55%, #e8edf6 100%);
+  background: transparent;
   padding: 48px 0 56px;
-  border-bottom: 1px solid #e1e6f0;
+  border-bottom: 1px solid var(--line);
 }
 
 .page-hero-inner {
@@ -445,33 +445,16 @@ main {
 .page-hero--collection {
   position: relative;
   overflow: hidden;
-  background: radial-gradient(circle at 20% 20%, #ffffff 0%, #f5f7fc 40%, #e7eef8 100%);
+  background: transparent;
   padding: 24px 0 32px;
 }
 
 .page-hero--collection::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.8), transparent 40%),
-    linear-gradient(115deg, rgba(123, 141, 170, 0.12), transparent 60%),
-    repeating-linear-gradient(140deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6) 2px, transparent 2px, transparent 16px);
-  opacity: 0.7;
-  pointer-events: none;
+  display: none;
 }
 
 .page-hero--theory::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(circle at 80% 55%, rgba(179, 197, 231, 0.35), transparent 55%),
-    radial-gradient(circle at 90% 50%, rgba(255, 255, 255, 0.8), transparent 48%),
-    radial-gradient(circle at 65% 35%, rgba(255, 255, 255, 0.6), transparent 45%);
-  opacity: 0.75;
-  pointer-events: none;
-  z-index: 0;
+  display: none;
 }
 
 .page-hero--collection .page-hero-inner {
@@ -576,9 +559,9 @@ main {
 }
 
 .hub-hero {
-  background: radial-gradient(circle at top, #ffffff 0%, #f2f5fb 55%, #e7ecf5 100%);
+  background: transparent;
   padding: 48px 0 56px;
-  border-bottom: 1px solid #e1e6f0;
+  border-bottom: 1px solid var(--line);
 }
 
 .hub-hero-inner {
