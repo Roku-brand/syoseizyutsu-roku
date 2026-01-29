@@ -1,9 +1,9 @@
 :root {
   color-scheme: light;
   font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", serif;
-  background-color: #f5f2ec;
+  background-color: #f7f4ee;
   color: #1f2937;
-  --paper: #f5f2ec;
+  --paper: #f7f4ee;
   --paper-deep: #efeae1;
   --ink: #1f2937;
   --ink-muted: #4b5563;
@@ -54,7 +54,7 @@ a {
 }
 
 header {
-  background: rgba(245, 242, 236, 0.92);
+  background: #efe9de;
   border-bottom: 1px solid var(--line);
   position: sticky;
   top: 0;
