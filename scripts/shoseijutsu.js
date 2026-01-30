@@ -9,6 +9,7 @@ const areaLabels = {
 };
 
 const groupBoardContainer = document.getElementById("technique-group-board");
+const areaTabs = document.querySelectorAll("[data-area]");
 const viewButtons = document.querySelectorAll("[data-view]");
 const viewPanels = document.querySelectorAll("[data-view-panel]");
 
@@ -28,7 +29,9 @@ const groupOptions = Object.entries(shoseijutsuData.techniques).flatMap(
     }))
 );
 
-let activeArea = "all";
+const areaParam = new URLSearchParams(window.location.search).get("area");
+const isValidArea = (value) => value && Object.keys(areaLabels).includes(value);
+let activeArea = isValidArea(areaParam) ? areaParam : "all";
 let activeGroup = "all";
 
 const groupParam = new URLSearchParams(window.location.search).get("group");
@@ -48,8 +51,12 @@ const applyGroupFromUrl = () => {
 const renderGroupBoard = () => {
   groupBoardContainer.innerHTML = "";
   Object.entries(areaLabels).forEach(([areaKey, label]) => {
+    if (activeArea !== "all" && activeArea !== areaKey) {
+      return;
+    }
     const areaSection = document.createElement("section");
     areaSection.className = "group-area";
+    areaSection.dataset.area = areaKey;
 
     const title = document.createElement("h2");
     title.className = "group-area-title";
@@ -97,6 +104,24 @@ const renderGroupBoard = () => {
     areaSection.appendChild(grid);
     groupBoardContainer.appendChild(areaSection);
   });
+};
+
+const setActiveArea = (area, { syncUrl = true } = {}) => {
+  activeArea = area;
+  areaTabs.forEach((button) => {
+    const isSelected = button.dataset.area === activeArea;
+    button.setAttribute("aria-pressed", isSelected ? "true" : "false");
+  });
+  if (syncUrl) {
+    const nextUrl = new URL(window.location.href);
+    if (activeArea === "all") {
+      nextUrl.searchParams.delete("area");
+    } else {
+      nextUrl.searchParams.set("area", activeArea);
+    }
+    window.history.replaceState({}, "", nextUrl);
+  }
+  renderGroupBoard();
 };
 
 const tagOptions = [
@@ -295,6 +320,26 @@ const initTabs = () => {
 };
 
 applyGroupFromUrl();
-renderGroupBoard();
+if (activeArea === "all" && activeGroup !== "all") {
+  activeArea = activeGroup.split(":")[0];
+}
+setActiveArea(activeArea, { syncUrl: false });
 initTabs();
 initIndex();
+
+const initAreaTabs = () => {
+  if (!areaTabs.length) {
+    return;
+  }
+  areaTabs.forEach((button) => {
+    button.addEventListener("click", () => {
+      const nextArea = button.dataset.area;
+      if (!nextArea) {
+        return;
+      }
+      setActiveArea(activeArea === nextArea ? "all" : nextArea);
+    });
+  });
+};
+
+initAreaTabs();
