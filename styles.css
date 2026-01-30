@@ -1969,10 +1969,7 @@ main {
 
 .group-quicklist {
   flex: 0 1 360px;
-  padding: 14px 16px;
-  border-radius: 16px;
-  border: 1px solid #e6e0d6;
-  background: #fdfbf7;
+  padding: 0;
 }
 
 .group-quicklist-label {
@@ -1984,22 +1981,18 @@ main {
 }
 
 .group-quicklist-list {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px 8px;
-  margin: 10px 0 0;
-  padding: 0;
+  list-style: decimal;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4px 12px;
+  margin: 8px 0 0;
+  padding: 0 0 0 18px;
 }
 
 .group-quicklist-list li {
-  font-size: 12px;
+  font-size: 11px;
   color: #2f343f;
-  border: 1px solid #e1ddd3;
-  background: #ffffff;
-  border-radius: 999px;
-  padding: 4px 10px;
-  white-space: nowrap;
+  line-height: 1.4;
 }
 
 .shoseijutsu-entry-list {
