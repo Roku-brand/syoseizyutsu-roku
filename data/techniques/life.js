@@ -6,16 +6,16 @@ export const lifeTechniques = {
       "details": [
         {
           "id": 1,
-          "title": "理想の人生を見える化",
-          "subtitle": "状況が把握でき、判断が速くなる",
+          "title": "全体像を失うと、人は近い損得で動き始める。",
+          "subtitle": "全体像が見えると、判断は速くなる。",
           "foundations": [
             "C-054 B-021 B-022"
           ]
         },
         {
           "id": 2,
-          "title": "価値観を明確に",
-          "subtitle": "余計な迷いが減り、動ける",
+          "title": "迷いの正体は、価値観ではなく優先順位の不在である。",
+          "subtitle": "優先順位が定まると、迷いは減る。",
           "foundations": [
             "C-041",
             "C-056",
@@ -24,32 +24,32 @@ export const lifeTechniques = {
         },
         {
           "id": 3,
-          "title": "長期目標を分解",
-          "subtitle": "次の一手が具体化し、着手しやすくなる",
+          "title": "長期目標は、分解しないと現実を歪める。",
+          "subtitle": "分解すると、次の一手が具体になる。",
           "foundations": [
             "B-016 B-017 B-006"
           ]
         },
         {
           "id": 4,
-          "title": "計画を見直す",
-          "subtitle": "ズレを早めに修正できる",
+          "title": "計画は守るものではなく、疑い続ける対象である。",
+          "subtitle": "更新前提にすると、ズレを早く直せる。",
           "foundations": [
             "B-023 T-001 T-002 T-004"
           ]
         },
         {
           "id": 5,
-          "title": "複数のシナリオを想定",
-          "subtitle": "不確実性に強くなり、柔軟に動ける",
+          "title": "将来を一つに決めると、不確実性に弱くなる。",
+          "subtitle": "複線で考えると、不確実性に強くなる。",
           "foundations": [
             "B-051 S-071 B-053"
           ]
         },
         {
           "id": 6,
-          "title": "資産形成を早期に始める",
-          "subtitle": "複利が効き、長期の差が広がる",
+          "title": "資産形成は、時間を味方につけた者が有利である。",
+          "subtitle": "早く始めるほど、複利が効きやすくなる。",
           "foundations": [
             "C-014 B-069",
             "T-048",
@@ -58,8 +58,8 @@ export const lifeTechniques = {
         },
         {
           "id": 7,
-          "title": "健康を人生資本と捉える",
-          "subtitle": "土台が安定し、継続力が上がる",
+          "title": "健康を失うと、ほとんどの自由は同時に失われる。",
+          "subtitle": "健康を守ると、選択の自由が残る。",
           "foundations": [
             "T-028 B-002 C-037",
             "T-050"
@@ -67,16 +67,16 @@ export const lifeTechniques = {
         },
         {
           "id": 8,
-          "title": "人間関係の棚卸しを",
-          "subtitle": "全体像が見え、判断が楽になる",
+          "title": "人間関係を放置すると、判断コストが増えていく。",
+          "subtitle": "関係を手入れすると、判断の消耗が減る。",
           "foundations": [
             "S-060 S-044 S-042"
           ]
         },
         {
           "id": 9,
-          "title": "キャリアの選択肢を広げる",
-          "subtitle": "機会損失が減り、打ち手が増える",
+          "title": "選択肢が少ないほど、人生は運に左右されやすい。",
+          "subtitle": "選択肢が増えると、運の影響が薄まる。",
           "foundations": [
             "B-053",
             "B-073",
@@ -85,64 +85,64 @@ export const lifeTechniques = {
         },
         {
           "id": 10,
-          "title": "終わりを意識して始める",
-          "subtitle": "迷いが減り、行動が速くなる",
+          "title": "終点を意識すると、迷いは構造的に減る。",
+          "subtitle": "終点があると、行動の迷いが減る。",
           "foundations": [
             "B-052 B-039 C-019"
           ]
         },
         {
           "id": 11,
-          "title": "ライフイベント年表を作る",
-          "subtitle": "全体像が見え、判断がぶれにくい",
+          "title": "人生を時系列で見ると、判断は俯瞰できる。",
+          "subtitle": "時系列で整理すると、判断がぶれにくくなる。",
           "foundations": [
             "C-054 B-021 B-039"
           ]
         },
         {
           "id": 12,
-          "title": "収入と支出を見える化",
-          "subtitle": "状況が把握でき、判断が速くなる",
+          "title": "収支を把握できない不安は、判断を鈍らせる。",
+          "subtitle": "収支が見えると、不安が減り決めやすくなる。",
           "foundations": [
             "C-014 B-069 B-021"
           ]
         },
         {
           "id": 13,
-          "title": "制約条件を先に書く",
-          "subtitle": "無理が減り、継続しやすくなる",
+          "title": "制約を無視した自由は、行動を止める。",
+          "subtitle": "制約を明確にすると、継続しやすくなる。",
           "foundations": [
             "B-041 T-003 B-062"
           ]
         },
         {
           "id": 14,
-          "title": "捨てる領域を決める",
-          "subtitle": "迷いが減り、集中が作れる",
+          "title": "捨てる基準がないと、集中は生まれない。",
+          "subtitle": "やらない基準があると、集中が生まれる。",
           "foundations": [
             "B-062 B-068 B-041"
           ]
         },
         {
           "id": 15,
-          "title": "週次レビューを固定",
-          "subtitle": "ズレを早期修正できる",
+          "title": "振り返らない計画は、同じズレを繰り返す。",
+          "subtitle": "定期的に振り返ると、ズレを小さくできる。",
           "foundations": [
             "B-023 T-001 T-002 B-021"
           ]
         },
         {
           "id": 16,
-          "title": "生活コストを把握",
-          "subtitle": "不安が減り、攻めに回れる",
+          "title": "最低生活コストを知らないと、攻められない。",
+          "subtitle": "最低ラインが分かると、攻めに踏み出しやすくなる。",
           "foundations": [
             "B-069 C-014 B-021"
           ]
         },
         {
           "id": 17,
-          "title": "相談相手を決めておく",
-          "subtitle": "盲点が減り、意思決定が安定する",
+          "title": "相談先を決めていない判断は、盲点を生みやすい。",
+          "subtitle": "相談先があると、盲点に気づきやすくなる。",
           "foundations": [
             "S-060 S-071",
             "S-093"
@@ -150,8 +150,8 @@ export const lifeTechniques = {
         },
         {
           "id": 18,
-          "title": "優先順位を資源で決める",
-          "subtitle": "選択が速くなり、後悔が減る",
+          "title": "時間・金・体力を無視した優先順位は破綻する。",
+          "subtitle": "資源に合わせると、優先順位が崩れにくくなる。",
           "foundations": [
             "T-003 B-069 B-062"
           ]
@@ -163,8 +163,8 @@ export const lifeTechniques = {
       "details": [
         {
           "id": 1,
-          "title": "夢はスケールで決める",
-          "subtitle": "視座が上がり、挑戦が選びやすい",
+          "title": "夢の大きさは、影響範囲で測ると見誤らない。",
+          "subtitle": "影響範囲で測ると、挑戦の方向が定まりやすくなる。",
           "foundations": [
             "B-055",
             "C-058",
@@ -173,8 +173,8 @@ export const lifeTechniques = {
         },
         {
           "id": 2,
-          "title": "根拠のない自信を否定しない",
-          "subtitle": "初動が軽くなり、行動量が増える",
+          "title": "初期段階で自信の根拠を求めすぎると、動けなくなる。",
+          "subtitle": "根拠を求めすぎないと、初動が軽くなる。",
           "foundations": [
             "C-006",
             "C-059",
@@ -183,8 +183,8 @@ export const lifeTechniques = {
         },
         {
           "id": 3,
-          "title": "他人の期待と夢を切り離す",
-          "subtitle": "評価が安定しやすい",
+          "title": "他人の期待を背負うと、夢は歪む。",
+          "subtitle": "期待と分けると、納得感が残りやすくなる。",
           "foundations": [
             "S-034",
             "C-056",
@@ -193,8 +193,8 @@ export const lifeTechniques = {
         },
         {
           "id": 4,
-          "title": "夢を言語化しすぎない",
-          "subtitle": "熱量を守り、継続しやすい",
+          "title": "夢を言語化しすぎると、行動は鈍る。",
+          "subtitle": "言葉に縛られないと、行動が続きやすくなる。",
           "foundations": [
             "B-018",
             "C-060",
@@ -203,8 +203,8 @@ export const lifeTechniques = {
         },
         {
           "id": 5,
-          "title": "挑戦は成功率で判断しない",
-          "subtitle": "停滞を破り、成長機会を作れる",
+          "title": "成功率で挑戦を選ぶと、人生は縮む。",
+          "subtitle": "成功率だけで選ばないと、成長機会を拾いやすくなる。",
           "foundations": [
             "B-061",
             "C-061",
@@ -213,8 +213,8 @@ export const lifeTechniques = {
         },
         {
           "id": 6,
-          "title": "合理性を超える決断を許容",
-          "subtitle": "飛躍の意思決定が可能になる",
+          "title": "合理的な選択ほど、後悔が残ることがある。",
+          "subtitle": "合理性だけで決めないと、納得できる選択が増える。",
           "foundations": [
             "B-041 C-071",
             "T-047"
@@ -222,16 +222,16 @@ export const lifeTechniques = {
         },
         {
           "id": 7,
-          "title": "挑戦しない合理性も理解した上で選ぶ",
-          "subtitle": "停滞を破り、成長機会を作れる",
+          "title": "挑戦しない理由を理解しないと、挑戦も続かない。",
+          "subtitle": "動かない理由が分かると、継続しやすくなる。",
           "foundations": [
             "B-062 B-053 B-056"
           ]
         },
         {
           "id": 8,
-          "title": "人生に一度は賭けに出る余白を残す",
-          "subtitle": "停滞を破り、成長機会を作れる",
+          "title": "人生には、合理性では測れない賭けの余白が必要である。",
+          "subtitle": "余白を残すと、非連続な跳ねが起きやすくなる。",
           "foundations": [
             "B-048",
             "C-062",
@@ -240,16 +240,16 @@ export const lifeTechniques = {
         },
         {
           "id": 9,
-          "title": "夢を理由に今を壊さない",
-          "subtitle": "基盤を守り、遠くまで行ける",
+          "title": "夢を理由に現在を壊すと、遠くへは行けない。",
+          "subtitle": "基盤を守ると、挑戦を長く続けやすくなる。",
           "foundations": [
             "B-020 B-037 C-008"
           ]
         },
         {
           "id": 10,
-          "title": "夢は計画に落としすぎない",
-          "subtitle": "計画倒れを避け、試行が続く",
+          "title": "夢を計画に縛りすぎると、試行が止まる。",
+          "subtitle": "縛りを緩めると、試行が止まりにくくなる。",
           "foundations": [
             "B-054",
             "B-075",
@@ -258,8 +258,8 @@ export const lifeTechniques = {
         },
         {
           "id": 11,
-          "title": "失敗を前提に挑戦",
-          "subtitle": "停滞を破り、成長機会を作れる",
+          "title": "失敗を前提にすると、挑戦は軽くなる。",
+          "subtitle": "失敗前提にすると、一歩が出やすくなる。",
           "foundations": [
             "C-006 C-009",
             "C-063"
@@ -267,8 +267,8 @@ export const lifeTechniques = {
         },
         {
           "id": 12,
-          "title": "夢は途中で変えていい",
-          "subtitle": "柔軟に更新でき、停滞しない",
+          "title": "夢が変わらない方が、むしろ危険である。",
+          "subtitle": "更新を許すと、停滞しにくくなる。",
           "foundations": [
             "T-029",
             "C-064",
@@ -277,8 +277,8 @@ export const lifeTechniques = {
         },
         {
           "id": 13,
-          "title": "夢を達成基準より評価基準に",
-          "subtitle": "行動が止まらず、積み上がる",
+          "title": "夢は達成目標ではなく、判断基準として機能する。",
+          "subtitle": "判断基準にすると、迷いが減りやすくなる。",
           "foundations": [
             "B-077",
             "C-056",
@@ -287,8 +287,8 @@ export const lifeTechniques = {
         },
         {
           "id": 14,
-          "title": "夢を持たない時期を前提に",
-          "subtitle": "焦りが減り、今に集中できる",
+          "title": "夢がない時期を前提にすると、焦りは減る。",
+          "subtitle": "空白を前提にすると、焦りが減りやすくなる。",
           "foundations": [
             "T-030",
             "B-078",
@@ -297,16 +297,16 @@ export const lifeTechniques = {
         },
         {
           "id": 15,
-          "title": "夢と挑戦は同時でなくていい",
-          "subtitle": "負荷が減り、続けやすい",
+          "title": "夢と挑戦は、同時でなくても成立する。",
+          "subtitle": "同時に背負わないと、負荷が下がりやすくなる。",
           "foundations": [
             "B-069 T-003 C-008"
           ]
         },
         {
           "id": 16,
-          "title": "小さく試して確かめる",
-          "subtitle": "失敗コストを抑え、前に進める",
+          "title": "大きく賭ける前に、小さく試すべきである。",
+          "subtitle": "小さく試すと、失敗コストを抑えやすくなる。",
           "foundations": [
             "S-071",
             "B-075",
@@ -315,8 +315,8 @@ export const lifeTechniques = {
         },
         {
           "id": 17,
-          "title": "投入量で進捗を測る",
-          "subtitle": "ブレずに継続できる",
+          "title": "成果で測ると、挑戦は途中で止まる。",
+          "subtitle": "投入量で見ると、途中で折れにくくなる。",
           "foundations": [
             "B-029 B-016",
             "B-081"
@@ -324,8 +324,8 @@ export const lifeTechniques = {
         },
         {
           "id": 18,
-          "title": "ロールモデルを増やす",
-          "subtitle": "選択肢が広がり、迷いが減る",
+          "title": "ロールモデルは、一人より複数の方が歪みにくい。",
+          "subtitle": "複数持つと、視野が偏りにくくなる。",
           "foundations": [
             "T-034",
             "C-058",
@@ -339,8 +339,8 @@ export const lifeTechniques = {
       "details": [
         {
           "id": 1,
-          "title": "正しい生き方より・納得できる生き方を選ぶ",
-          "subtitle": "納得感が増え、迷いが減る",
+          "title": "正しい選択ほど、後で自分を責めやすい。",
+          "subtitle": "納得感で選ぶと、後悔が残りにくくなる。",
           "foundations": [
             "C-041",
             "C-056",
@@ -349,8 +349,8 @@ export const lifeTechniques = {
         },
         {
           "id": 2,
-          "title": "失敗の多い人生・何もない人生が空虚になる",
-          "subtitle": "判断が軽くなり、選びやすい",
+          "title": "失敗のない人生は、空虚になりやすい。",
+          "subtitle": "失敗を許すと、挑戦しやすくなる。",
           "foundations": [
             "C-017",
             "C-062",
@@ -359,8 +359,8 @@ export const lifeTechniques = {
         },
         {
           "id": 3,
-          "title": "正論・勝敗・プライド・人との関係を重視",
-          "subtitle": "余計な迷いが減り、動ける",
+          "title": "正論を優先すると、人間関係は壊れやすい。",
+          "subtitle": "関係を優先すると、無用な摩擦が減る。",
           "foundations": [
             "S-044 S-042",
             "T-051"
@@ -368,8 +368,8 @@ export const lifeTechniques = {
         },
         {
           "id": 4,
-          "title": "「今忙しい」を言い訳にしない",
-          "subtitle": "先延ばしが減り、機会を掴める",
+          "title": "「今忙しい」は、判断停止の完成形である。",
+          "subtitle": "先に手を付けると、機会を逃しにくくなる。",
           "foundations": [
             "B-038 B-006",
             "B-082"
@@ -377,8 +377,8 @@ export const lifeTechniques = {
         },
         {
           "id": 5,
-          "title": "人生の自由度は健康で決まる",
-          "subtitle": "土台が安定し、継続力が上がる",
+          "title": "人生の自由度は、健康によってほぼ決まる。",
+          "subtitle": "健康を守ると、選択肢が保たれやすくなる。",
           "foundations": [
             "T-028 B-002",
             "T-050"
@@ -386,8 +386,8 @@ export const lifeTechniques = {
         },
         {
           "id": 6,
-          "title": "他人の評価に振り回されない",
-          "subtitle": "自分軸が戻り、心が安定する",
+          "title": "他人の評価で決めるほど、後悔は残りやすい。",
+          "subtitle": "自分基準で決めると、心が安定しやすくなる。",
           "foundations": [
             "S-094",
             "C-067",
@@ -396,8 +396,8 @@ export const lifeTechniques = {
         },
         {
           "id": 7,
-          "title": "効率を求めすぎると偶発的な機会を失う",
-          "subtitle": "偶発の機会を拾いやすい",
+          "title": "効率を追いすぎると、偶然は切り捨てられる。",
+          "subtitle": "余白を残すと、偶発の機会を拾いやすくなる。",
           "foundations": [
             "B-053",
             "B-073",
@@ -406,8 +406,8 @@ export const lifeTechniques = {
         },
         {
           "id": 8,
-          "title": "後悔のパターンを先に知る",
-          "subtitle": "同じミスを避けやすくなる",
+          "title": "後悔には、繰り返されやすい型がある。",
+          "subtitle": "型を知ると、同じ後悔を避けやすくなる。",
           "foundations": [
             "C-017 B-050",
             "C-062"
@@ -415,8 +415,8 @@ export const lifeTechniques = {
         },
         {
           "id": 9,
-          "title": "大事な人を優先する",
-          "subtitle": "後から取り返せない損を減らす",
+          "title": "大事な人を後回しにすると、取り返しがつかない。",
+          "subtitle": "優先すると、取り返しのつかない後悔が減る。",
           "foundations": [
             "S-060 S-042",
             "C-068"
@@ -424,16 +424,16 @@ export const lifeTechniques = {
         },
         {
           "id": 10,
-          "title": "未完了を溜めない",
-          "subtitle": "心的負荷が下がり、余裕が戻る",
+          "title": "未完了が溜まるほど、心の余白は削られる。",
+          "subtitle": "小さく片付けると、余白が戻りやすくなる。",
           "foundations": [
             "C-029 C-050 C-030"
           ]
         },
         {
           "id": 11,
-          "title": "写真と記録を残す",
-          "subtitle": "振り返りが資産になりやすい",
+          "title": "記録されない経験は、資産になりにくい。",
+          "subtitle": "残すと、経験が次の判断に活きやすくなる。",
           "foundations": [
             "C-054",
             "C-069",
@@ -442,8 +442,8 @@ export const lifeTechniques = {
         },
         {
           "id": 12,
-          "title": "挑戦の先延ばしを疑う",
-          "subtitle": "機会損失に気づきやすい",
+          "title": "先延ばしは、機会損失に気づかせない。",
+          "subtitle": "前倒しすると、機会損失が減りやすくなる。",
           "foundations": [
             "B-038 B-061",
             "B-082"
@@ -451,16 +451,16 @@ export const lifeTechniques = {
         },
         {
           "id": 13,
-          "title": "人間関係の我慢を減らす",
-          "subtitle": "消耗が減り、回復が早い",
+          "title": "人間関係の我慢は、消耗を静かに蓄積する。",
+          "subtitle": "境界を引くと、消耗が溜まりにくくなる。",
           "foundations": [
             "S-034 C-036 S-042"
           ]
         },
         {
           "id": 14,
-          "title": "健康の赤信号を無視しない",
-          "subtitle": "自由度を失いにくい",
+          "title": "健康の警告を無視すると、自由は急激に減る。",
+          "subtitle": "早めに対処すると、自由を失いにくくなる。",
           "foundations": [
             "B-002 C-037",
             "C-001"
@@ -468,16 +468,16 @@ export const lifeTechniques = {
         },
         {
           "id": 15,
-          "title": "「いつか」を期限に変える",
-          "subtitle": "後悔の種を減らせる",
+          "title": "「いつか」は、やらない理由として完成している。",
+          "subtitle": "期限に変えると、動き出しやすくなる。",
           "foundations": [
             "B-006 B-038 B-010"
           ]
         },
         {
           "id": 16,
-          "title": "経験にお金を使う",
-          "subtitle": "記憶と関係が残りやすい",
+          "title": "経験への支出は、時間が経っても価値が減りにくい。",
+          "subtitle": "経験に投資すると、満足が残りやすくなる。",
           "foundations": [
             "B-037",
             "B-069",
@@ -491,8 +491,8 @@ export const lifeTechniques = {
       "details": [
         {
           "id": 1,
-          "title": "変化を「例外」より「前提」として捉える",
-          "subtitle": "変化に振り回されにくい",
+          "title": "変化を例外扱いすると、対応は遅れる。",
+          "subtitle": "前提にすると、対応が早くなりやすくなる。",
           "foundations": [
             "S-071",
             "B-070",
@@ -501,40 +501,40 @@ export const lifeTechniques = {
         },
         {
           "id": 2,
-          "title": "コントロール可能／不能を即座に切り分ける",
-          "subtitle": "無駄な消耗を切り、動ける",
+          "title": "コントロール不能に固執すると、消耗が増える。",
+          "subtitle": "切り分けると、無駄な消耗が減りやすくなる。",
           "foundations": [
             "C-035 B-060 C-036"
           ]
         },
         {
           "id": 3,
-          "title": "将来予測より「進行方向」だけを決める",
-          "subtitle": "迷いが減り、行動が早い",
+          "title": "未来予測に固執すると、動き出せなくなる。",
+          "subtitle": "進行方向だけ決めると、動きやすくなる。",
           "foundations": [
             "B-049 T-004 B-052"
           ]
         },
         {
           "id": 4,
-          "title": "可逆な選択を優先",
-          "subtitle": "迷いが減り、集中できる",
+          "title": "不可逆な選択ほど、変化に弱い。",
+          "subtitle": "可逆性を優先すると、引き返しやすくなる。",
           "foundations": [
             "B-053 B-041"
           ]
         },
         {
           "id": 5,
-          "title": "一点賭けを避け・複線を張る",
-          "subtitle": "不確実性に強くなり、詰みにくい",
+          "title": "一点賭けほど、環境変化で崩れやすい。",
+          "subtitle": "複線を張ると、崩れにくくなる。",
           "foundations": [
             "B-044 B-047 B-053"
           ]
         },
         {
           "id": 6,
-          "title": "変化初期では即断しない",
-          "subtitle": "早合点を避け、精度が上がる",
+          "title": "変化の初期ほど、即断は外れやすい。",
+          "subtitle": "初期は待つと、誤判定が減りやすくなる。",
           "foundations": [
             "B-044 B-040",
             "B-071"
@@ -542,24 +542,24 @@ export const lifeTechniques = {
         },
         {
           "id": 7,
-          "title": "情報過多の中で判断を遅らせる",
-          "subtitle": "誤判断を避け、納得して動ける",
+          "title": "情報が多いほど、判断は遅れやすい。",
+          "subtitle": "必要十分で止めると、決めやすくなる。",
           "foundations": [
             "C-053 B-041 B-040"
           ]
         },
         {
           "id": 8,
-          "title": "最悪ケースを一度想定して手放す",
-          "subtitle": "不安が下がり、準備が進む",
+          "title": "最悪を一度想定すると、過剰な不安は手放せる。",
+          "subtitle": "一度想定すると、不安が長引きにくくなる。",
           "foundations": [
             "B-050 C-033 S-078"
           ]
         },
         {
           "id": 9,
-          "title": "変化に強い生活コストを維持",
-          "subtitle": "納得感が増え、前に進める",
+          "title": "生活コストが低いほど、変化に強くなる。",
+          "subtitle": "固定費を抑えると、身軽になりやすくなる。",
           "foundations": [
             "C-052",
             "T-049",
@@ -568,8 +568,8 @@ export const lifeTechniques = {
         },
         {
           "id": 10,
-          "title": "人間関係の固定化を避ける",
-          "subtitle": "消耗が減り、関係が健全化する",
+          "title": "人間関係が固定化すると、機会は減る。",
+          "subtitle": "流動性を保つと、機会を拾いやすくなる。",
           "foundations": [
             "T-033 T-032",
             "C-008"
@@ -577,8 +577,8 @@ export const lifeTechniques = {
         },
         {
           "id": 11,
-          "title": "変化を語りすぎない",
-          "subtitle": "不安を煽らず、落ち着いて進める",
+          "title": "変化を語りすぎると、行動が鈍る。",
+          "subtitle": "語る量を減らすと、行動が出やすくなる。",
           "foundations": [
             "B-018",
             "B-067",
@@ -587,8 +587,8 @@ export const lifeTechniques = {
         },
         {
           "id": 12,
-          "title": "「変わらない部分」を残す",
-          "subtitle": "軸が保て、折れにくい",
+          "title": "変わらない部分があるほど、変化に耐えやすい。",
+          "subtitle": "核があると、変化に飲まれにくくなる。",
           "foundations": [
             "B-009",
             "C-073",
@@ -597,8 +597,8 @@ export const lifeTechniques = {
         },
         {
           "id": 13,
-          "title": "変化の兆しを拾う",
-          "subtitle": "手遅れになりにくい",
+          "title": "兆しに気づける人ほど、先に動ける。",
+          "subtitle": "兆しを拾うと、先手を打ちやすくなる。",
           "foundations": [
             "B-045",
             "C-055",
@@ -607,16 +607,16 @@ export const lifeTechniques = {
         },
         {
           "id": 14,
-          "title": "最悪ケースを一度想定",
-          "subtitle": "不安が整理され、動ける",
+          "title": "最悪を想定しておくと、打ち手が増える。",
+          "subtitle": "想定すると、備えが具体になりやすくなる。",
           "foundations": [
             "B-050 B-051 C-036"
           ]
         },
         {
           "id": 15,
-          "title": "小さく試して方向修正",
-          "subtitle": "失敗を学びに変えやすい",
+          "title": "小さな試行があるほど、方向修正は速くなる。",
+          "subtitle": "小さく試すと、修正が早くなりやすくなる。",
           "foundations": [
             "B-023 T-004",
             "B-075"
@@ -624,16 +624,16 @@ export const lifeTechniques = {
         },
         {
           "id": 16,
-          "title": "リスクを分散する",
-          "subtitle": "一撃死を避けやすい",
+          "title": "リスクを集中させるほど、偶発で詰みやすい。",
+          "subtitle": "分散すると、一撃で詰みにくくなる。",
           "foundations": [
             "B-044 B-047 B-053"
           ]
         },
         {
           "id": 17,
-          "title": "変化の波に乗る場所へ",
-          "subtitle": "努力が報われやすくなる",
+          "title": "変化の波は、場所選びで味方になる。",
+          "subtitle": "場所を選ぶと、追い風を得やすくなる。",
           "foundations": [
             "T-031",
             "C-057",
@@ -642,8 +642,8 @@ export const lifeTechniques = {
         },
         {
           "id": 18,
-          "title": "切替の合図を決める",
-          "subtitle": "迷いが長引かない",
+          "title": "切替の合図がないと、人は惰性で居座る。",
+          "subtitle": "合図があると、切替ができやすくなる。",
           "foundations": [
             "B-006 B-002 B-003"
           ]
@@ -655,40 +655,40 @@ export const lifeTechniques = {
       "details": [
         {
           "id": 1,
-          "title": "成果を実力と運に分解",
-          "subtitle": "次の一手が具体化し、着手しやすくなる",
+          "title": "成果を実力だけで説明すると、再現性を誤る。",
+          "subtitle": "分解すると、次の一手が具体になりやすくなる。",
           "foundations": [
             "B-058 C-013 C-018"
           ]
         },
         {
           "id": 2,
-          "title": "運が良かった成功ほど一般化しない",
-          "subtitle": "過信を防ぎ、再現性が上がる",
+          "title": "運の良い成功ほど、一般化は危険である。",
+          "subtitle": "一般化を控えると、誤学習が減りやすくなる。",
           "foundations": [
             "C-013 C-018 C-012"
           ]
         },
         {
           "id": 3,
-          "title": "運が悪い時に人格評価をしない",
-          "subtitle": "自責を減らし、立て直せる",
+          "title": "不運な時期に人格評価すると、自信は壊れやすい。",
+          "subtitle": "時期で切ると、自己否定が増えにくくなる。",
           "foundations": [
             "B-058 B-059 C-033"
           ]
         },
         {
           "id": 4,
-          "title": "運の影響が大きい分野を見抜く",
-          "subtitle": "勝ち筋が見え、戦い方が変わる",
+          "title": "運の影響が大きい領域を見誤ると、努力配分が狂う。",
+          "subtitle": "見抜くと、努力の置き場を誤りにくくなる。",
           "foundations": [
             "B-044 B-046"
           ]
         },
         {
           "id": 5,
-          "title": "偶然を引く試行回数を増やす",
-          "subtitle": "当たりを引く確率が上がる",
+          "title": "試行回数が少ないほど、偶然は起きにくい。",
+          "subtitle": "回数を増やすと、偶然を引きやすくなる。",
           "foundations": [
             "B-044",
             "B-073",
@@ -697,8 +697,8 @@ export const lifeTechniques = {
         },
         {
           "id": 6,
-          "title": "運に左右されない最低ラインを作る",
-          "subtitle": "下振れに耐え、折れにくい",
+          "title": "最低ラインがあるほど、不運に耐えやすい。",
+          "subtitle": "下限を作ると、挑戦が続きやすくなる。",
           "foundations": [
             "C-009 B-047",
             "B-072"
@@ -706,16 +706,16 @@ export const lifeTechniques = {
         },
         {
           "id": 7,
-          "title": "他人の成功談を話半分で聞く",
-          "subtitle": "振り回されず、自分で決められる",
+          "title": "成功談は、運の混入を疑うべきである。",
+          "subtitle": "話半分で聞くと、判断が歪みにくくなる。",
           "foundations": [
             "C-013 C-015 C-014"
           ]
         },
         {
           "id": 8,
-          "title": "失敗談を美化しない",
-          "subtitle": "学びが残り、改善が進む",
+          "title": "失敗談を美化すると、学びは消える。",
+          "subtitle": "美化しないと、改善点が残りやすくなる。",
           "foundations": [
             "C-014",
             "C-074",
@@ -724,40 +724,40 @@ export const lifeTechniques = {
         },
         {
           "id": 9,
-          "title": "運の波を長期で見る",
-          "subtitle": "一喜一憂が減り、安定する",
+          "title": "運を短期で見るほど、心は乱れやすい。",
+          "subtitle": "長期で見ると、感情が揺れにくくなる。",
           "foundations": [
             "C-018 B-044 B-039"
           ]
         },
         {
           "id": 10,
-          "title": "運を努力で説明しすぎない",
-          "subtitle": "過信を避け、見立てが上がる",
+          "title": "運を努力で説明しすぎると、判断が歪む。",
+          "subtitle": "混同しないと、現実的に打てる手が増える。",
           "foundations": [
             "C-014 C-013 C-012"
           ]
         },
         {
           "id": 11,
-          "title": "運を語れない人と距離を取る",
-          "subtitle": "重さを避け、長く続く",
+          "title": "運を語れない関係は、自己責任論に傾きやすい。",
+          "subtitle": "距離を取ると、不要な自責が減りやすくなる。",
           "foundations": [
             "B-044 T-031 S-034"
           ]
         },
         {
           "id": 12,
-          "title": "運に感謝し・再現性は疑う",
-          "subtitle": "傲慢を避け、信頼が残る",
+          "title": "運に感謝しても、再現性は疑うべきである。",
+          "subtitle": "疑うと、再現性を過信しにくくなる。",
           "foundations": [
             "C-049 C-013 C-018"
           ]
         },
         {
           "id": 13,
-          "title": "偶然を拾う余白を作る",
-          "subtitle": "機会が増え、流れが変わる",
+          "title": "余白があるほど、偶然は拾われる。",
+          "subtitle": "余白を作ると、機会を拾いやすくなる。",
           "foundations": [
             "B-073",
             "C-072",
@@ -766,8 +766,8 @@ export const lifeTechniques = {
         },
         {
           "id": 14,
-          "title": "露出回数を増やす",
-          "subtitle": "当たりに出会う確率が上がる",
+          "title": "露出が増えるほど、運は引きやすくなる。",
+          "subtitle": "露出を増やすと、出会いが増えやすくなる。",
           "foundations": [
             "B-044 T-032",
             "T-048"
@@ -775,8 +775,8 @@ export const lifeTechniques = {
         },
         {
           "id": 15,
-          "title": "運の良さを演出しない",
-          "subtitle": "信頼を失いにくい",
+          "title": "運の良さを演出すると、信用を失いやすい。",
+          "subtitle": "演出しないと、信頼が傷つきにくくなる。",
           "foundations": [
             "S-039",
             "S-095",
@@ -785,8 +785,8 @@ export const lifeTechniques = {
         },
         {
           "id": 16,
-          "title": "運を努力に変換する",
-          "subtitle": "一発で終わらず積み上がる",
+          "title": "運は、努力に変換できる部分がある。",
+          "subtitle": "努力に寄せると、運の振れを活かしやすくなる。",
           "foundations": [
             "C-006",
             "C-076",
