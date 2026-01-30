@@ -36,7 +36,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-002',
-      title: '行動変容モデル（習慣形成・健康行動を含む）',
+      title: '行動変容モデル',
       summary: '行動が変わり定着する過程（動機・能力・環境など）を説明するモデル群',
       definition: '先延ばしとは、重要だと分かっている行動を不合理に遅らせる傾向。短期の感情（不快の回避）が長期の利益（達成）より優先されることで起きる。',
       keyPoints: [
@@ -64,7 +64,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-003',
-      title: '行動デザイン（選択設計）',
+      title: '行動デザイン',
       summary: '環境や選択肢の設計で行動を望ましい方向へ導くアプローチ',
       definition: '時間割引とは、将来の報酬・損失を現在より小さく評価する傾向。特に即時の快楽や不快回避が、長期の利益を上回りやすい。',
       keyPoints: [
@@ -92,7 +92,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-004',
-      title: '強化（オペラント条件づけ：報酬）',
+      title: '強化',
       summary: '報酬・罰・強化スケジュールで行動頻度が変化する学習原理',
       definition: '現在バイアス（Present Bias）は、将来の利益よりも目先の快・不快を過大に重視する偏り。ハイパーボリック割引により、直近の誘惑に弱くなる。',
       keyPoints: [
@@ -120,7 +120,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-005',
-      title: '行動活性化（Behavioral Activation）',
+      title: '行動活性化',
       summary: '回避を減らし活動を増やすことで気分と機能を改善する介入',
       definition: 'サンクコストとは、既に回収不能な投資（時間・お金・労力）を惜しんで、合理的な撤退や変更ができなくなる偏り。',
       keyPoints: [
@@ -148,7 +148,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-006',
-      title: '実行意図（If-Thenプラン）',
+      title: '実行意図',
       summary: '『もしXならYする』で行動を自動化し、実行率を上げる計画法',
       definition: '損失回避とは、同じ大きさの利益より損失の痛みを強く感じる傾向。結果として、失う可能性がある選択を避け、保守的になりやすい。',
       keyPoints: [
@@ -204,7 +204,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-008',
-      title: '儀式化（開始手がかり）',
+      title: '儀式化',
       summary: '開始の合図となる儀式を固定し、集中や習慣開始を促す設計',
       definition: '意思決定疲れとは、選択や判断を重ねることで自己制御資源が消耗し、質が低下する状態。後半ほど安易な選択や先延ばしが増える。',
       keyPoints: [
@@ -232,7 +232,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-009',
-      title: 'アンカリング・ルーティン（習慣のアンカー）',
+      title: 'アンカリング・ルーティン',
       summary: '既存の行動や時間帯をアンカーにして新習慣を結びつける技法',
       definition: '認知負荷とは、作業記憶にかかる処理量のこと。負荷が高いと理解・判断・実行が鈍り、ミスや先延ばしが増える。',
       keyPoints: [
@@ -260,7 +260,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-010',
-      title: '事前コミットメント／コミットメント装置（Commitment Device）',
+      title: '事前コミットメント／コミットメント装置',
       summary: '未来の自分の選択を縛り、誘惑や先延ばしを減らす仕組み',
       definition: 'デフォルト効果とは、初期設定（標準）が選ばれやすい現象。変更には手間やリスクが伴うため、現状維持が優先される。',
       keyPoints: [
@@ -316,7 +316,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-012',
-      title: '意志力節約（プリコミットメントを含む）',
+      title: '意志力節約',
       summary: '意思決定や誘惑曝露を減らし、自己制御資源を温存する戦略',
       definition: '代表性ヒューリスティックとは、典型イメージへの似ている度合いで確率や原因を判断する近道。ベースレート（基礎確率）を無視しやすい。',
       keyPoints: [
@@ -344,7 +344,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-013',
-      title: '再発防止（Relapse prevention）',
+      title: '再発防止',
       summary: '中断・失敗を前提に復帰ルールと対処計画を用意する枠組み',
       definition: '可用性ヒューリスティックとは、思い出しやすい情報ほど頻度や重要度を高く見積もる偏り。ニュース、最近の体験、強い感情が影響する。',
       keyPoints: [
@@ -372,7 +372,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-014',
-      title: '着手摩擦の低減（フリクション低減）',
+      title: '着手摩擦の低減',
       summary: '始める手間を小さくして初動を軽くし、継続確率を上げる設計',
       definition: 'アンカリングとは、最初に提示された数値・基準点が、その後の判断の参照点として残り続ける現象。交渉・見積もり・評価で起きやすい。',
       keyPoints: [
@@ -400,7 +400,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-015',
-      title: 'フォッグ行動モデル（B=MAP）',
+      title: 'フォッグ行動モデル',
       summary: '行動は動機（M）×能力（A）×きっかけ（P）で成立するというモデル',
       definition: 'フレーミング効果とは、同じ内容でも表現の仕方（利益枠/損失枠、強調点）によって選好が変わる現象。',
       keyPoints: [
@@ -428,7 +428,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-016',
-      title: '目標設定理論（Goal-Setting）',
+      title: '目標設定理論',
       summary: '明確で困難な目標が努力・持続・達成を促すという理論',
       definition: 'プランニング・ファラシー（計画錯誤）とは、所要時間やコストを楽観的に見積もってしまう傾向。障害や割り込みを過小評価する。',
       keyPoints: [
@@ -456,7 +456,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-017',
-      title: '目標階層（Goal Hierarchy）',
+      title: '目標階層',
       summary: '上位目的から下位目標へ階層化して整合を取る枠組み',
       definition: '後悔最小化は、将来振り返ったときの後悔を最小にする基準で意思決定する考え方。短期の損得よりも価値・納得・学習可能性を重視する。',
       keyPoints: [
@@ -484,7 +484,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-018',
-      title: '目標公言効果（公言の逆効果を含む）',
+      title: '目標公言効果',
       summary: '目標の公言が動機づけに与える影響（促進／満足で減衰）を扱う概念',
       definition: '探索-活用は、未知を探す（探索）と既知で成果を取る（活用）の配分問題。短期最適（活用）と長期最適（探索）がトレードオフになる。',
       keyPoints: [
@@ -540,7 +540,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-020',
-      title: '自己調整（Self-Regulation）',
+      title: '自己調整',
       summary: '目標に照らして行動・感情・注意をモニターし調整するプロセス',
       definition: 'ロバスト設計とは、外乱や不確実性があっても破綻しにくい仕組み・計画にする考え方。最適化よりも耐性（壊れにくさ）を優先する。',
       keyPoints: [
@@ -568,7 +568,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-021',
-      title: '自己モニタリング（自己観察）',
+      title: '自己モニタリング',
       summary: '行動・状態を記録し可視化して改善につなげる技法',
       definition: 'リスク耐性（Financial Resilience）は、想定外の損失や収入減があっても生活・計画が破綻しない耐性。資金の余白と選択肢（代替手段）が中核になる。',
       keyPoints: [
@@ -624,7 +624,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-023',
-      title: '制御理論（フィードバック制御）',
+      title: '制御理論',
       summary: '目標との差分を誤差として捉え、フィードバックで修正する考え方',
       definition: '目標勾配仮説は、目標が近づくほど努力量が増えるという現象。進捗が見えると加速し、見えないと停滞しやすい。',
       keyPoints: [
@@ -652,7 +652,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-024',
-      title: 'フィードバックループ（制御ループ）',
+      title: 'フィードバックループ',
       summary: '入力→行動→結果→学習→次の入力の循環で改善を回す枠組み',
       definition: '目標設定理論は、具体的で難易度が適切な目標がパフォーマンスを高めるという枠組み。曖昧な目標は行動を生みにくい。',
       keyPoints: [
@@ -708,7 +708,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-026',
-      title: 'KPI設計（指標設計）',
+      title: 'KPI設計',
       summary: '成果や進捗を測る指標を定義し、行動を整列させる設計',
       definition: 'ナッジとは、選択肢を禁止せずに、選択アーキテクチャ（提示方法）を工夫して望ましい行動を促す介入。デフォルト・見える化・簡略化が代表手段。',
       keyPoints: [
@@ -736,7 +736,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-027',
-      title: '経験学習／リフレクション（振り返り学習）',
+      title: '経験学習／リフレクション',
       summary: '経験→内省→概念化→試行の循環で学習と改善を進める枠組み',
       definition: '選択アーキテクチャとは、人が選択する環境（提示順・比較方法・デフォルト・情報量）を設計すること。人の意思決定は設計に大きく影響される。',
       keyPoints: [
@@ -764,7 +764,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-028',
-      title: '学習する組織（失敗から学ぶ）',
+      title: '学習する組織',
       summary: '学習を制度化し、失敗や実験から継続的に改善する組織論',
       definition: '選択過負荷は、選択肢が多すぎると決められなくなり、満足度も下がる現象。比較コストと後悔可能性が増えるため起きる。',
       keyPoints: [
@@ -792,7 +792,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-029',
-      title: '熟達化（熟慮的訓練／Deliberate Practice）',
+      title: '熟達化',
       summary: '弱点に焦点化した反復練習とフィードバックで技能を伸ばす理論',
       definition: '認知的不協和とは、信念と行動が矛盾すると不快が生じ、それを減らすために解釈や信念を変更する現象。自己正当化が起きやすい。',
       keyPoints: [
@@ -820,7 +820,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-030',
-      title: '自己調整学習（SRL）',
+      title: '自己調整学習',
       summary: '学習目標・方略・モニタリング・調整を自己主導で回す枠組み',
       definition: '自己正当化は、自分の選択や行動を正しいと思いたい欲求から、都合の良い解釈を作る傾向。認知的不協和を下げるために起きる。',
       keyPoints: [
@@ -876,7 +876,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-032',
-      title: 'テスト効果（想起練習）',
+      title: 'テスト効果',
       summary: '思い出す練習（想起）が学習定着を強く促す効果',
       definition: '自己効力感とは、「自分はこの行動をやり遂げられる」という主観的確信。行動開始・継続・困難耐性に強く影響する。',
       keyPoints: [
@@ -904,7 +904,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-033',
-      title: '間隔効果（分散学習）',
+      title: '間隔効果',
       summary: '復習間隔を空けて分散させると長期保持が高まる効果',
       definition: '内発的動機づけは、外的報酬ではなく「やりたい」「意味がある」から行動する状態。自律性・有能感・関係性が満たされると強まる。',
       keyPoints: [
@@ -960,7 +960,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-035',
-      title: '学習転移（Transfer）',
+      title: '学習転移',
       summary: '学んだ知識・技能が別文脈の課題に適用される現象',
       definition: '習慣ループは、手がかり（Cue）→行動（Routine）→報酬（Reward）の循環で習慣が形成・維持されるというモデル。環境設計で介入しやすい。',
       keyPoints: [
@@ -988,7 +988,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-036',
-      title: '望ましい困難（概念）',
+      title: '望ましい困難',
       summary: '適度な難しさが長期学習を促進するという学習科学の概念',
       definition: '強化理論は、行動の直後に与えられる結果（報酬/罰）が、行動頻度を増減させるという枠組み。行動変容は強化設計が鍵になる。',
       keyPoints: [
@@ -1016,7 +1016,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-037',
-      title: '時間割引（現在バイアスを含む）',
+      title: '時間割引',
       summary: '将来利益を低く評価し、目先を優先しやすい傾向',
       definition: '小さな成功は、行動を続けるための最小単位の達成体験。自己効力感と内発的動機づけを押し上げ、継続のエンジンになる。',
       keyPoints: [
@@ -1044,7 +1044,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-038',
-      title: '時間的動機づけ理論（TMT）',
+      title: '時間的動機づけ理論',
       summary: '期待×価値÷（衝動性×遅延）で動機を捉える先延ばし理論',
       definition: '段階的曝露は、恐怖や回避を引き起こす対象に、強度を調整しながら段階的に接近して慣れていく方法。回避低減と消去学習を狙う。',
       keyPoints: [
@@ -1072,7 +1072,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-039',
-      title: '時間的展望（Time Perspective）',
+      title: '時間的展望',
       summary: '過去・現在・未来への志向が意思決定や行動に与える影響',
       definition: '感情調整（情動調整）は、感情の強度や持続、表出を目的に応じて調整するプロセス。衝動行動や対人摩擦を減らし、意思決定を安定させる。',
       keyPoints: [
@@ -1100,7 +1100,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-040',
-      title: '意思決定疲れ（Decision Fatigue）',
+      title: '意思決定疲れ',
       summary: '決定の連続で判断の質が低下し、衝動的選択が増える現象',
       definition: '呼吸法は、自律神経に介入して生理的覚醒を下げ、注意と感情を整える手段。即時性が高く、行動の前処理として有効。',
       keyPoints: [
@@ -1128,7 +1128,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-041',
-      title: '限定合理性（Bounded Rationality）',
+      title: '限定合理性',
       summary: '情報・時間・能力の制約下で満足解を選ぶという前提',
       definition: 'セルフモニタリングは、自分の行動・感情・環境条件を観察し記録することで、行動変容のてこを得る手法。測定が介入になる。',
       keyPoints: [
@@ -1156,7 +1156,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-042',
-      title: 'サティスファイシング（満足化）',
+      title: 'サティスファイシング',
       summary: '最適化ではなく十分良い解を選ぶ意思決定方略',
       definition: '習慣化は、意志ではなく環境と反復で行動が自動化するプロセス。設計の中心は「手がかり固定」「摩擦低減」「報酬」「継続可能量」。',
       keyPoints: [
@@ -1184,7 +1184,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-043',
-      title: '観察停止ルール（Stopping Rule）',
+      title: '観察停止ルール',
       summary: '探索や検討をどの基準で打ち切るかというルール',
       definition: 'スモールステップは、行動を成功しやすい最小単位に分解して積み上げる設計原則。継続と学習速度を上げ、失敗恐怖を下げる。',
       keyPoints: [
@@ -1212,7 +1212,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-044',
-      title: '確率思考／統計的思考（期待値・分散・不確実性）',
+      title: '確率思考／統計的思考',
       summary: '不確実性を確率・分布として扱い、期待値などで判断する考え方',
       definition: '行動活性化は、気分に依存せず小さな行動を増やし、結果として気分と自己効力感を回復させるアプローチ。停滞期の立て直しに強い。',
       keyPoints: [
@@ -1268,7 +1268,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-046',
-      title: 'シグナル／ノイズ（情報分離）',
+      title: 'シグナル／ノイズ',
       summary: '情報から意味のある信号を抽出し、ノイズを切り分ける観点',
       definition: '反すうは、同じ否定的思考を繰り返し続ける状態。問題解決につながらず、気分悪化や回避を強めやすい。',
       keyPoints: [
@@ -1324,7 +1324,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-048',
-      title: 'リスク選好（Risk Preference）',
+      title: 'リスク選好',
       summary: '個人が不確実性下でどの程度リスクを取るかの傾向',
       definition: '自己価値の分離は、成果・評価・比較から自己価値を切り離す考え方。失敗耐性と挑戦行動を守るための基盤になる。',
       keyPoints: [
@@ -1352,7 +1352,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-049',
-      title: 'ロバスト意思決定（不確実性下の頑健戦略）',
+      title: 'ロバスト意思決定',
       summary: 'シナリオ変動に強い選択肢を選ぶための意思決定アプローチ',
       definition: '価値観明確化は、何を大切に生きるかを言語化して意思決定基準にするプロセス。迷いを減らし、内発的動機づけを強める。',
       keyPoints: [
@@ -1380,7 +1380,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-050',
-      title: '事前検死（Premortem）',
+      title: '事前検死',
       summary: '失敗した前提で原因を洗い出し、事前に対策する手法',
       definition: 'アイデンティティ・ベースド・ハビットは、「何をするか」より「どんな人でありたいか」から習慣を設計する考え方。自己像が行動の一貫性を支える。',
       keyPoints: [
@@ -1436,7 +1436,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-052',
-      title: 'バックキャスティング（逆算）',
+      title: 'バックキャスティング',
       summary: '望む将来から逆算して現在の行動計画を設計する方法',
       definition: '社会的証明は、他者の行動を手がかりに正しさを判断する傾向。情報が不足する状況ほど影響が強い。',
       keyPoints: [
@@ -1464,7 +1464,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-053',
-      title: 'オプション価値／リアルオプション思考（可逆性・待つ価値）',
+      title: 'オプション価値／リアルオプション思考',
       summary: '不確実性下で『待つ／小さく賭ける』価値を評価する考え方',
       definition: '相互性は、何かを受け取ると返したくなる社会的規範。信頼形成や協力行動を促す強いメカニズム。',
       keyPoints: [
@@ -1492,7 +1492,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-054',
-      title: 'エフェクチュエーション（Effectuation）',
+      title: 'エフェクチュエーション',
       summary: '手中資源から始め、許容損失と柔軟な関係構築で進める起業理論',
       definition: 'コミットメントは、一度表明・選択したことに一貫して行動したくなる傾向。一貫性欲求が行動を支えるが、誤った継続の罠にもなる。',
       keyPoints: [
@@ -1520,7 +1520,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-055',
-      title: '期待×価値理論（Expectancy-Value）',
+      title: '期待×価値理論',
       summary: '成功期待と価値の積が動機と選択を規定するという理論',
       definition: '一貫性は、過去の発言・行動と整合するように振る舞いたい心理。自己像を守る機能があり、習慣や信頼を支える。',
       keyPoints: [
@@ -1576,7 +1576,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-057',
-      title: '期待理論（Vroom）',
+      title: '期待理論',
       summary: '期待（E→P）×道具性（P→O）×誘意性（Valence）で動機を説明',
       definition: 'メンタルアカウンティングは、お金や資源を用途別の勘定に分けて扱い、全体最適から外れた判断をする傾向。予算管理には有用だが歪みも生む。',
       keyPoints: [
@@ -1604,7 +1604,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-058',
-      title: '帰属理論（内的・外的帰属）',
+      title: '帰属理論',
       summary: '原因を能力・努力・状況などへ帰属し、感情と行動が変わる理論',
       definition: '期待効用理論は、不確実性下の選択を「結果の価値×確率」の期待値で評価する枠組み。リスク選好を効用（主観価値）で表す。',
       keyPoints: [
@@ -1660,7 +1660,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-060',
-      title: 'コントロール（統制）の所在（Locus of Control）',
+      title: 'コントロールの所在',
       summary: '結果が自分／外部のどちらに左右されると捉えるかの傾向',
       definition: '時間選好は、現在と未来の満足の配分に関する個人差（今を重視する/将来を重視する）。行動計画では、選好に合わせた設計が必要。',
       keyPoints: [
@@ -1744,7 +1744,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-063',
-      title: '選択過多（Choice Overload）',
+      title: '選択過多',
       summary: '選択肢が多すぎると決定・満足・実行が悪化する現象',
       definition: 'ベイズ更新は、事前確率（先入観）を新しい証拠で更新して判断する枠組み。極端な信念固定や場当たりを避けるのに有効。',
       keyPoints: [
@@ -1800,7 +1800,7 @@ export const behaviorData = {
     },
     {
       tagId: 'B-065',
-      title: '選択アーキテクチャ（Choice Architecture）',
+      title: '選択アーキテクチャ',
       summary: '選択肢の提示・順序・既定値などで意思決定を形作る設計',
       definition: '認知バイアス補正は、判断の癖（バイアス）を前提にプロセスを設計して誤りを減らすこと。個人の努力より仕組みが効く。',
       keyPoints: [
@@ -1857,7 +1857,7 @@ export const behaviorData = {
     {
       tagId: 'B-067',
       legacyTagId: 'W-005',
-      title: '優先順位づけ（Resource Allocation）',
+      title: '優先順位づけ',
       summary: '限られた時間・資源を成果の大きい順に配分するための判断原理。',
       definition: '優先順位づけとは、同時に達成できない複数タスクを、目的・期限・影響度・コストに照らして順序化し、実行の焦点を作る意思決定。重要なのは「今やる／やらない」を明確にし、後工程の手戻りや機会損失を最小化すること。',
       keyPoints: [
@@ -1886,7 +1886,7 @@ export const behaviorData = {
     {
       tagId: 'B-068',
       legacyTagId: 'W-006',
-      title: '選択と集中（資源配分の戦略）',
+      title: '選択と集中',
       summary: '成果レバーを絞り、資源を一点に寄せて伸びを作る戦略原理。',
       definition: '選択と集中とは、全方位の最適化を捨て、競争優位や成果に直結する少数領域へ時間・資金・人員を集中的に投入する方針。分散を減らすことで学習速度と品質を上げ、結果として可処分資源を増やす。',
       keyPoints: [
@@ -1915,7 +1915,7 @@ export const behaviorData = {
     {
       tagId: 'B-069',
       legacyTagId: 'W-007',
-      title: 'バジェッティング（資源配分／家計管理）',
+      title: 'バジェッティング',
       summary: '支出・時間・注意などの資源を枠で管理し、目的に沿って配分する原理。',
       definition: 'バジェッティングとは、限られた資源（お金・時間・エネルギー）をカテゴリ別に上限（枠）設定し、計画と実績を比較しながら意思決定を改善する手法。『使える残量』を可視化し、衝動や偶然に左右されにくくする。',
       keyPoints: [
@@ -1944,7 +1944,7 @@ export const behaviorData = {
     {
       tagId: 'B-070',
       legacyTagId: 'W-008',
-      title: 'ポートフォリオ効果（成果物の蓄積）',
+      title: 'ポートフォリオ効果',
       summary: '成果物・活動を複線化し、分散と相乗で期待成果を上げる原理。',
       definition: 'ポートフォリオ効果とは、単一の成果源に依存せず、複数の成果物・スキル・プロジェクトを組み合わせることで、リスクを抑えつつ総合的な成果を伸ばす考え方。小さな成果の積み上げが、機会と信用の連鎖を生む。',
       keyPoints: [
@@ -2002,7 +2002,7 @@ export const behaviorData = {
     {
       tagId: 'B-072',
       legacyTagId: 'W-011',
-      title: '生体リズム（概日リズム／ウルトラディアン）',
+      title: '生体リズム',
       summary: '体内時計に合わせて睡眠・集中・回復を設計する原理。',
       definition: '生体リズム（概日リズム／ウルトラディアン）とは、約24時間周期の体内時計（概日）と、日中の90分前後の覚醒リズム（ウルトラディアン）により、集中・眠気・体温・ホルモンが変動するという前提。作業や休息をリズムに合わせると効率が上がる。',
       keyPoints: [
@@ -2031,7 +2031,7 @@ export const behaviorData = {
     {
       tagId: 'B-073',
       legacyTagId: 'W-020',
-      title: '探索-活用（Exploration-Exploitation）',
+      title: '探索-活用',
       summary: '新規探索と既存活用の配分を最適化する意思決定原理。',
       definition: '探索-活用（Exploration-Exploitation）とは、未知の選択肢を試して学習する『探索』と、既知の勝ちパターンで成果を回収する『活用』のトレードオフを扱う枠組み。フェーズにより最適比率が変わるため、意図的に配分を決める。',
       keyPoints: [
@@ -2089,7 +2089,7 @@ export const behaviorData = {
     {
       tagId: 'B-075',
       legacyTagId: 'W-031',
-      title: '実験思考（リーン／仮説検証）',
+      title: '実験思考',
       summary: '仮説を小さく試し、学習速度で前進するための原理。',
       definition: '実験思考（リーン／仮説検証）とは、正解を最初から当てにいくのではなく、仮説→最小実験→測定→学習のループで不確実性を減らす進め方。行動実験は、特に行動変容や認知の検証を、現実の小さな行動で確かめる手法として使う。',
       keyPoints: [
@@ -2118,7 +2118,7 @@ export const behaviorData = {
     {
       tagId: 'B-076',
       legacyTagId: 'W-034',
-      title: 'ピボット（Pivot）',
+      title: 'ピボット',
       summary: '学習結果に基づき、戦略仮説を意図的に変更する原理。',
       definition: 'ピボット（Pivot）とは、当初の仮説が成果につながらないと判明したときに、学びを活かして方向転換する意思決定。場当たり的な変更ではなく、仮説・顧客・価値提案・チャネルなど、どこを変えるかを明確にして実行する。',
       keyPoints: [
@@ -2147,7 +2147,7 @@ export const behaviorData = {
     {
       tagId: 'B-077',
       legacyTagId: 'W-035',
-      title: 'プロセス目標（Process Goals）',
+      title: 'プロセス目標',
       summary: '結果ではなく行動プロセスに焦点を当て、再現性を高める目標設計。',
       definition: 'プロセス目標（Process Goals）とは、達成したい結果（アウトカム）を、日々実行できる行動（プロセス）に翻訳して設定する考え方。結果は不確実でも、行動は制御しやすいため、継続・習慣化・技能獲得に強い。',
       keyPoints: [
@@ -2176,7 +2176,7 @@ export const behaviorData = {
     {
       tagId: 'B-078',
       legacyTagId: 'W-037',
-      title: '探索期（Exploration Stage）',
+      title: '探索期',
       summary: '方向性を決めるために試行回数を最大化するフェーズ概念。',
       definition: '探索期（Exploration Stage）とは、最適解が不明な状況で、広く試して学び、当たり筋（価値のある領域）を見つける期間。成果回収より学習を優先し、早い失敗と比較を通じて意思決定の質を上げる。',
       keyPoints: [
@@ -2205,7 +2205,7 @@ export const behaviorData = {
     {
       tagId: 'B-079',
       legacyTagId: 'W-038',
-      title: '休息と回復（Recovery）',
+      title: '休息と回復',
       summary: 'パフォーマンス低下の主因である疲労を管理し、回復を設計する原理。',
       definition: '疲労管理／回復理論は、集中・意思決定・感情制御が生理的資源に依存することを前提に、負荷と回復のバランスを最適化する考え方。疲労を『根性で押す』のではなく、休息・睡眠・栄養・運動・作業設計で回復を作る。',
       keyPoints: [
@@ -2234,7 +2234,7 @@ export const behaviorData = {
     {
       tagId: 'B-080',
       legacyTagId: 'W-039',
-      title: '行動科学（小さな成功・強化）',
+      title: '行動科学',
       summary: '行動が報酬・強化により形成されるという行動科学の基本原理。',
       definition: '行動科学（強化・報酬）は、望ましい行動が直後の報酬や結果によって増え、罰や無報酬によって減るという学習原理（オペラント条件づけ）を扱う。人は意志だけでなく、環境の報酬設計に強く影響される。',
       keyPoints: [
@@ -2263,7 +2263,7 @@ export const behaviorData = {
     {
       tagId: 'B-081',
       legacyTagId: 'W-040',
-      title: 'プロセス志向（Process Orientation）',
+      title: 'プロセス志向',
       summary: '結果より、過程の質と改善に焦点を当てる態度・思考スタイル。',
       definition: 'プロセス志向（Process Orientation）とは、成果を生む要因を分解し、再現可能な手順や判断の質を改善することに集中する姿勢。短期の勝ち負けより、学習と改善ループを重視するため、長期的な成長に強い。',
       keyPoints: [
@@ -2350,7 +2350,7 @@ export const behaviorData = {
     {
       tagId: 'B-084',
       legacyTagId: 'W-071',
-      title: '行動科学（強化・報酬）',
+      title: '行動科学',
       summary: '行動が報酬・強化により形成されるという行動科学の基本原理。',
       definition: '行動科学（強化・報酬）は、望ましい行動が直後の報酬や結果によって増え、罰や無報酬によって減るという学習原理（オペラント条件づけ）を扱う。人は意志だけでなく、環境の報酬設計に強く影響される。',
       keyPoints: [
@@ -2379,7 +2379,7 @@ export const behaviorData = {
     {
       tagId: 'B-085',
       legacyTagId: 'W-074',
-      title: '気分改善（運動心理）',
+      title: '気分改善',
       summary: '運動が気分・ストレス・認知機能を改善するという心理・生理の知見。',
       definition: '気分改善（運動心理）は、軽度〜中強度の運動がストレス低減、抑うつ・不安の軽減、睡眠改善、自己効力感向上に寄与するという研究に基づく。運動は『気合』ではなく、情動状態を整える介入として使える。',
       keyPoints: [
@@ -2466,7 +2466,7 @@ export const behaviorData = {
     {
       tagId: 'B-088',
       legacyTagId: 'W-087',
-      title: 'タスク分割（Chunking）',
+      title: 'タスク分割',
       summary: '作業を扱えるサイズに分割し、認知負荷と開始摩擦を下げる原理。',
       definition: 'タスク分割（Chunking）とは、大きく曖昧な課題を、具体的で短時間に終わる単位へ分解し、着手と進捗管理を容易にする手法。人のワーキングメモリには限界があるため、分割が実行の前提になる。',
       keyPoints: [
@@ -2553,7 +2553,7 @@ export const behaviorData = {
     {
       tagId: 'B-091',
       legacyTagId: 'W-218',
-      title: '行動形成（シェイピング）',
+      title: '行動形成',
       summary: '望ましい行動を段階的に近づけ、強化で定着させる原理。',
       definition: '行動形成（シェイピング）は、最終的に望む行動をいきなり求めず、近い行動から段階的に強化して到達させる学習手法。習慣化や技能獲得で『できない』を『できる』に変える設計として有効。',
       keyPoints: [
@@ -2611,7 +2611,7 @@ export const behaviorData = {
     {
       tagId: 'B-093',
       legacyTagId: 'W-241',
-      title: '習慣化（行動設計）',
+      title: '習慣化',
       summary: '行動を自動的に繰り返せる状態にするための設計原理。',
       definition: '習慣化（行動設計）とは、意志力に頼らず、手がかり・摩擦・報酬・記録を整えて、望ましい行動が自然に起きるようにすること。開始のハードルを下げ、同じ文脈で反復させることで自動化が進む。',
       keyPoints: [
@@ -2640,7 +2640,7 @@ export const behaviorData = {
     {
       tagId: 'B-094',
       legacyTagId: 'W-242',
-      title: '行動形成（段階的練習）',
+      title: '行動形成',
       summary: '望ましい行動を段階的に近づけ、強化で定着させる原理。',
       definition: '行動形成（シェイピング）は、最終的に望む行動をいきなり求めず、近い行動から段階的に強化して到達させる学習手法。習慣化や技能獲得で『できない』を『できる』に変える設計として有効。',
       keyPoints: [
@@ -2727,7 +2727,7 @@ export const behaviorData = {
     {
       tagId: 'B-097',
       legacyTagId: 'W-268',
-      title: '特性推論（反復証拠）',
+      title: '特性推論',
       summary: '反復的な証拠から性格・能力などの特性を推論するという判断原理。',
       definition: '特性推論（反復証拠）は、単発の行動ではなく、繰り返し観測される行動パターンから、その人の特性（信頼性、丁寧さ等）を推定する考え方。評価の誤差を減らすために、頻度と文脈を重視する。',
       keyPoints: [
@@ -3075,7 +3075,7 @@ export const behaviorData = {
     {
       tagId: 'B-109',
       legacyTagId: 'W-367',
-      title: '事前対処計画（coping planning）',
+      title: '事前対処計画',
       summary: '障害が起きた場合の対処を事前に決め、継続率を上げる計画。',
       definition: '事前対処計画（coping planning）とは、行動実行の障害（忙しい、疲れた、誘いがある等）を想定し、そのときの具体的な対処行動を事前に決めておく方法。『もし〜なら、〜する』の形にすると実行されやすい。',
       keyPoints: [
@@ -3133,7 +3133,7 @@ export const behaviorData = {
     {
       tagId: 'B-111',
       legacyTagId: 'W-406',
-      title: '原因分析（KPT等）',
+      title: '原因分析',
       summary: '振り返りで原因を整理し、次の改善行動を決めるフレーム。',
       definition: '原因分析（KPT等）は、Keep（良かったこと）/Problem（課題）/Try（次に試すこと）などの枠で振り返りを構造化し、感想で終わらせず改善に繋げる方法。原因を特定し、再現可能な学びとして残す。',
       keyPoints: [
@@ -3162,7 +3162,7 @@ export const behaviorData = {
     {
       tagId: 'B-112',
       legacyTagId: 'W-413',
-      title: '習慣ループ（手がかり）',
+      title: '習慣ループ',
       summary: '手がかり→行動→報酬のループで習慣が形成されるというモデル。',
       definition: '習慣ループ（手がかり）は、習慣が『手がかり（Cue）』『行動（Routine）』『報酬（Reward）』の連鎖で維持されるという考え方。特に手がかりは行動発火のトリガーであり、環境設計で操作しやすい。',
       keyPoints: [
@@ -3191,7 +3191,7 @@ export const behaviorData = {
     {
       tagId: 'B-113',
       legacyTagId: 'W-414',
-      title: '習慣化（自動化）',
+      title: '習慣化',
       summary: '繰り返し行動を自動化し、意志力消費を減らす原理。',
       definition: '習慣化（自動化）とは、同じ文脈で反復することで、行動が半ば無意識に起きる状態を作ること。自動化すると、忙しい日でも最低限が守れ、意思決定疲れも減る。',
       keyPoints: [
@@ -3220,7 +3220,7 @@ export const behaviorData = {
     {
       tagId: 'B-114',
       legacyTagId: 'W-424',
-      title: '最小習慣（tiny habits）',
+      title: '最小習慣',
       summary: '極小の習慣から始め、成功率と自己効力感で拡張する方法。',
       definition: '最小習慣（tiny habits）は、行動を極小化して『確実にできる』状態を作り、成功体験を積みながら徐々に拡張するアプローチ。意志力ではなく、設計と成功の連鎖で習慣を作る。',
       keyPoints: [
@@ -3249,7 +3249,7 @@ export const behaviorData = {
     {
       tagId: 'B-115',
       legacyTagId: 'W-428',
-      title: '再開計画（relapse prevention）',
+      title: '再開計画',
       summary: '崩れた後に素早く再開するための再発防止・再開設計。',
       definition: '再開計画（relapse prevention）は、習慣が一度崩れることを前提に、再開のトリガー、最小代替行動、危険場面の対処を事前に決める方法。『崩れたら終わり』を防ぎ、長期継続を支える。',
       keyPoints: [
@@ -3394,7 +3394,7 @@ export const behaviorData = {
     {
       tagId: 'B-120',
       legacyTagId: 'W-446',
-      title: '隙間時間活用（実行意図）',
+      title: '隙間時間活用',
       summary: '『いつ・どこで・何をするか』を決め、実行率を上げる計画。',
       definition: '隙間時間活用（実行意図）は、行動を『もし〜なら、〜する』の形で具体化し、手がかりが来た瞬間に自動的に実行できるようにする方法。短い時間でも確実に積める行動に強い。',
       keyPoints: [
@@ -3423,7 +3423,7 @@ export const behaviorData = {
     {
       tagId: 'B-121',
       legacyTagId: 'W-472',
-      title: '最小実行（MVE）',
+      title: '最小実行',
       summary: '最小の実行単位で価値を出し、学習と継続を可能にする原理。',
       definition: '最小実行（MVE: Minimum Viable Execution）は、完璧な計画や完成形を待たず、最小限の形で実行して結果を出し、改善していく考え方。プロダクトだけでなく、学習・習慣・プロジェクトにも適用できる。',
       keyPoints: [
@@ -3510,7 +3510,7 @@ export const behaviorData = {
     {
       tagId: 'B-124',
       legacyTagId: 'W-495',
-      title: '生理基盤（睡眠）',
+      title: '生理基盤',
       summary: '睡眠が認知・感情・意思決定の基盤になるという原理。',
       definition: '生理基盤（睡眠）は、睡眠が記憶定着、集中、衝動抑制、ストレス耐性に直結するため、行動変容や成果創出の土台であるという考え方。睡眠を犠牲にした努力は、判断ミスと継続不能で回収されにくい。',
       keyPoints: [
