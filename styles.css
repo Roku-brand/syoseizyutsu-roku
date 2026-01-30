@@ -325,7 +325,7 @@ main {
 .hero-search-note {
   margin: 0;
   font-size: 14px;
-  color: #7c818b;
+  color: var(--ink-muted);
 }
 
 .hero-title {
@@ -336,8 +336,8 @@ main {
   display: block;
   margin-top: 14px;
   font-size: clamp(13px, 1.5vw, 18px);
-  font-weight: 500;
-  color: var(--ink-muted);
+  font-weight: 600;
+  color: var(--ink);
   letter-spacing: 0.03em;
 }
 
@@ -357,7 +357,7 @@ main {
   border-radius: 999px;
   border: 1px solid var(--line);
   font-size: 14px;
-  color: var(--ink-muted);
+  color: var(--ink);
   transition: background 0.2s ease, color 0.2s ease;
 }
 
@@ -368,7 +368,7 @@ main {
 
 .hero-pill-arrow {
   font-size: 18px;
-  color: #7a8494;
+  color: var(--ink-muted);
 }
 
 .elements-section {
