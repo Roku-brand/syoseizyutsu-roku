@@ -1481,6 +1481,12 @@ main {
   margin-bottom: 20px;
 }
 
+.tabs--split {
+  width: 100%;
+  justify-content: space-between;
+  gap: 0;
+}
+
 .tabs-toolbar {
   display: flex;
   flex-direction: column;
