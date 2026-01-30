@@ -2063,15 +2063,18 @@ main {
 .group-quicklist {
   flex: 1 1 100%;
   width: 100%;
-  padding: 0;
+  padding: 16px 18px;
+  border: 1px solid #d7d2c8;
+  border-radius: 12px;
+  background: #faf9f6;
 }
 
 .group-quicklist-label {
   margin: 0;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.08em;
-  color: #6a6f7c;
+  color: #2b2f39;
 }
 
 .group-quicklist-list {
@@ -2086,7 +2089,8 @@ main {
 
 .group-quicklist-list li {
   font-size: 11px;
-  color: #2f343f;
+  font-weight: 600;
+  color: #1f242d;
   line-height: 1.5;
   word-break: break-word;
 }
