@@ -1954,6 +1954,54 @@ main {
   margin-top: 20px;
 }
 
+.group-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.group-header-main {
+  flex: 1 1 280px;
+  min-width: 240px;
+}
+
+.group-quicklist {
+  flex: 0 1 360px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  border: 1px solid #e6e0d6;
+  background: #fdfbf7;
+}
+
+.group-quicklist-label {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #6a6f7c;
+}
+
+.group-quicklist-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.group-quicklist-list li {
+  font-size: 12px;
+  color: #2f343f;
+  border: 1px solid #e1ddd3;
+  background: #ffffff;
+  border-radius: 999px;
+  padding: 4px 10px;
+  white-space: nowrap;
+}
+
 .shoseijutsu-entry-list {
   grid-template-columns: 1fr;
   max-width: 760px;
