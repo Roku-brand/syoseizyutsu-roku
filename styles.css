@@ -1,10 +1,14 @@
 :root {
   color-scheme: light;
   font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", serif;
-  background-color: #f7f4ee;
+  background-color: #f6f1e8;
   color: #1f2937;
-  --paper: #f7f4ee;
-  --paper-deep: #efeae1;
+  --paper-bg-color: #f6f1e8;
+  --paper-texture-url: url("assets/paper/paper-texture.png");
+  --paper-texture-opacity: 0.05;
+  --paper-texture-size: 640px 640px;
+  --paper: var(--paper-bg-color);
+  --paper-deep: #efe9de;
   --ink: #1f2937;
   --ink-muted: #4b5563;
   --accent: #2f3a4a;
@@ -19,7 +23,7 @@
 
 body {
   margin: 0;
-  background: var(--paper);
+  background-color: var(--paper-bg-color);
   font-size: 17px;
   line-height: 1.8;
   color: var(--ink);
@@ -30,14 +34,13 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background-image:
-    radial-gradient(circle at 20% 20%, rgba(31, 41, 55, 0.04) 0.5px, transparent 0.5px),
-    radial-gradient(circle at 80% 30%, rgba(31, 41, 55, 0.035) 0.5px, transparent 0.5px),
-    radial-gradient(circle at 60% 70%, rgba(31, 41, 55, 0.03) 0.5px, transparent 0.5px);
-  background-size: 18px 18px, 22px 22px, 26px 26px;
-  opacity: 0.3;
+  background-image: var(--paper-texture-url);
+  background-repeat: repeat;
+  background-size: var(--paper-texture-size);
+  opacity: var(--paper-texture-opacity);
   pointer-events: none;
   z-index: -1;
+  will-change: opacity;
 }
 
 .theory-page {
@@ -307,12 +310,12 @@ main {
 }
 
 .elements-card {
-  background: var(--paper);
+  background: #fdfaf5;
   border-radius: 12px;
   padding: 28px 24px;
   text-align: center;
-  box-shadow: 0 8px 18px rgba(31, 41, 55, 0.06);
-  border: 1px solid var(--line);
+  box-shadow: 0 6px 16px rgba(31, 41, 55, 0.05);
+  border: 1px solid #e6dfd5;
   display: grid;
   gap: 12px;
   position: relative;
@@ -631,11 +634,11 @@ main {
 }
 
 .hub-entry {
-  background: #ffffff;
+  background: #fdfbf7;
   border-radius: 22px;
-  border: 1px solid #e2e6f0;
+  border: 1px solid #e6e0d6;
   padding: 20px 22px;
-  box-shadow: 0 12px 24px rgba(31, 36, 48, 0.08);
+  box-shadow: 0 10px 22px rgba(31, 36, 48, 0.06);
 }
 
 .hub-entry--large {
@@ -778,10 +781,10 @@ main {
 }
 
 .hub-hero-card {
-  background: #ffffff;
+  background: #fdfbf7;
   border-radius: 22px;
   padding: 24px;
-  box-shadow: 0 16px 32px rgba(31, 36, 48, 0.08);
+  box-shadow: 0 14px 28px rgba(31, 36, 48, 0.06);
   display: grid;
   gap: 12px;
 }
@@ -930,11 +933,11 @@ main {
 }
 
 .admin-panel {
-  background: #ffffff;
+  background: #fdfbf7;
   border-radius: 28px;
-  border: 1px solid #e2e6f0;
+  border: 1px solid #e6e0d6;
   padding: 24px;
-  box-shadow: 0 16px 28px rgba(31, 36, 48, 0.08);
+  box-shadow: 0 14px 26px rgba(31, 36, 48, 0.06);
 }
 
 .admin-panel-header {
@@ -966,9 +969,9 @@ main {
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 16px;
   border-radius: 20px;
-  border: 1px solid #e2e6f0;
+  border: 1px solid #e6e0d6;
   padding: 18px 20px;
-  background: #fbfcff;
+  background: #fdfcf8;
 }
 
 .admin-card-header {
@@ -1199,11 +1202,11 @@ main {
   justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
-  background: #ffffff;
-  border: 1px solid #e2e6f0;
+  background: #fdfbf7;
+  border: 1px solid #e6e0d6;
   border-radius: 24px;
   padding: 28px 32px;
-  box-shadow: 0 12px 28px rgba(31, 36, 48, 0.08);
+  box-shadow: 0 10px 24px rgba(31, 36, 48, 0.06);
 }
 
 .hub-create-content p {
@@ -1226,11 +1229,11 @@ main {
 }
 
 .hub-form {
-  background: #ffffff;
-  border: 1px solid #e2e6f0;
+  background: #fdfbf7;
+  border: 1px solid #e6e0d6;
   border-radius: 24px;
   padding: 28px;
-  box-shadow: 0 12px 28px rgba(31, 36, 48, 0.08);
+  box-shadow: 0 10px 24px rgba(31, 36, 48, 0.06);
 }
 
 .hub-form-grid {
@@ -1364,10 +1367,10 @@ main {
 }
 
 .card {
-  background: #ffffff;
+  background: #fdfbf7;
   border-radius: 20px;
   padding: 22px;
-  box-shadow: 0 12px 28px rgba(31, 36, 48, 0.08);
+  box-shadow: 0 10px 24px rgba(31, 36, 48, 0.06);
 }
 
 .card h3 {
@@ -1382,10 +1385,10 @@ main {
 }
 
 .panel {
-  background: #ffffff;
+  background: #fdfbf7;
   border-radius: 20px;
   padding: 28px;
-  box-shadow: 0 18px 36px rgba(31, 36, 48, 0.1);
+  box-shadow: 0 16px 30px rgba(31, 36, 48, 0.08);
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -1696,8 +1699,8 @@ main {
 }
 
 .group-column {
-  background: #ffffff;
-  border: 1px solid #e2e6f0;
+  background: #fdfbf7;
+  border: 1px solid #e6e0d6;
   border-radius: 18px;
   padding: 10px;
   display: flex;
@@ -1782,11 +1785,11 @@ main {
 }
 
 .index-result-card {
-  background: #ffffff;
+  background: #fdfbf7;
   border-radius: 18px;
-  border: 1px solid #e2e6f0;
+  border: 1px solid #e6e0d6;
   padding: 18px;
-  box-shadow: 0 10px 22px rgba(31, 36, 48, 0.08);
+  box-shadow: 0 8px 18px rgba(31, 36, 48, 0.06);
   display: grid;
   gap: 10px;
 }
@@ -1938,9 +1941,9 @@ main {
 }
 
 .detail-card {
-  background: #ffffff;
+  background: #fdfbf7;
   border-radius: 20px;
-  border: 1px solid #e2e6f0;
+  border: 1px solid #e6e0d6;
   padding: 18px 22px;
 }
 
@@ -2020,7 +2023,7 @@ main {
 }
 
 .detail-card[open] {
-  box-shadow: 0 10px 24px rgba(31, 36, 48, 0.08);
+  box-shadow: 0 8px 20px rgba(31, 36, 48, 0.06);
 }
 
 .detail-body {
