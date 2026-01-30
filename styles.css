@@ -261,6 +261,73 @@ main {
   letter-spacing: 0.08em;
 }
 
+.hero-search {
+  display: grid;
+  gap: 8px;
+  justify-items: center;
+}
+
+.hero-search-form {
+  width: 100%;
+  max-width: 600px;
+}
+
+.hero-search-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid #dcd6cc;
+  background: #f8f4ed;
+  box-shadow: inset 0 1px 2px rgba(31, 41, 55, 0.06);
+}
+
+.hero-search-field input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 10px 8px;
+  font-size: 15px;
+  color: var(--ink);
+  outline: none;
+}
+
+.hero-search-field input::placeholder {
+  color: #9aa1ac;
+}
+
+.hero-search-button {
+  border: none;
+  background: transparent;
+  color: #7a8494;
+  padding: 4px;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.hero-search-button:hover {
+  background: rgba(122, 132, 148, 0.12);
+  color: var(--ink);
+}
+
+.hero-search-button svg {
+  width: 18px;
+  height: 18px;
+}
+
+.hero-search-note {
+  margin: 0;
+  font-size: 14px;
+  color: #7c818b;
+}
+
 .hero-title {
   display: inline-block;
 }
