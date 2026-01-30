@@ -210,6 +210,14 @@ const initFromUrl = () => {
   }
 };
 
+const initQueryFromUrl = () => {
+  const params = new URLSearchParams(window.location.search);
+  const query = params.get("q");
+  if (query && searchInput) {
+    searchInput.value = query;
+  }
+};
+
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
     setActiveType(button.dataset.searchType);
@@ -219,5 +227,6 @@ buttons.forEach((button) => {
 searchInput?.addEventListener("input", renderResults);
 
 initFromUrl();
+initQueryFromUrl();
 updatePanels();
 renderResults();
