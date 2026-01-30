@@ -1487,6 +1487,12 @@ main {
   gap: 0;
 }
 
+.tabs--single-row {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
 .tabs-toolbar {
   display: flex;
   flex-direction: column;
