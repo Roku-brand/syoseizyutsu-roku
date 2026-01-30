@@ -13,6 +13,8 @@ const subtitleEl = document.getElementById("group-subtitle");
 const detailsContainer = document.getElementById("group-details");
 const emptyState = document.getElementById("group-empty");
 const backLink = document.getElementById("group-back-link");
+const quickListCard = document.getElementById("group-quicklist-card");
+const quickList = document.getElementById("group-quicklist");
 
 const groupParam = new URLSearchParams(window.location.search).get("group");
 
@@ -69,6 +71,7 @@ const renderGroup = () => {
     titleEl.textContent = "処世術群";
     subtitleEl.textContent = "グループ指定がありません。";
     detailsContainer.classList.add("is-hidden");
+    quickListCard.classList.add("is-hidden");
     emptyState.classList.remove("is-hidden");
     return;
   }
@@ -81,6 +84,7 @@ const renderGroup = () => {
     titleEl.textContent = "処世術群";
     subtitleEl.textContent = "該当するグループが見つかりません。";
     detailsContainer.classList.add("is-hidden");
+    quickListCard.classList.add("is-hidden");
     emptyState.classList.remove("is-hidden");
     return;
   }
@@ -92,6 +96,10 @@ const renderGroup = () => {
 
   emptyState.classList.add("is-hidden");
   detailsContainer.classList.remove("is-hidden");
+  quickListCard.classList.remove("is-hidden");
+  quickList.innerHTML = group.details
+    .map((detail) => `<li>${detail.title}</li>`)
+    .join("");
   renderDetails(group);
 };
 
