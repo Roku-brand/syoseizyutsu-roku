@@ -328,6 +328,26 @@ main {
   color: var(--ink-muted);
 }
 
+.hero-card-descriptions {
+  display: grid;
+  gap: 8px;
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: var(--ink-muted);
+  text-align: left;
+}
+
+.hero-card-descriptions p {
+  margin: 0;
+  line-height: 1.8;
+}
+
+.hero-card-label {
+  font-weight: 600;
+  color: var(--ink);
+}
+
 .hero-title {
   display: inline-block;
 }
