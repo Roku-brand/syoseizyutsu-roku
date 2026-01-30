@@ -42,28 +42,22 @@ const renderDetails = (group) => {
         .flatMap((entry) => entry.split(" ").filter(Boolean));
       const foundationsMarkup = foundations.length
         ? `
-          <section>
-            <h4>関連理論</h4>
-            <ul>
-              ${foundations
-                .map((foundation) => `<li>${renderFoundationLink(foundation)}</li>`)
-                .join("")}
-            </ul>
-          </section>
+          <div class="entry-meta">
+            <span>関連理論：</span>
+            ${foundations
+              .map((foundation) => renderFoundationLink(foundation))
+              .join(", ")}
+          </div>
         `
         : "";
 
       return `
-        <details class="detail-card">
-          <summary>
-            <span class="badge">No.${detail.id}</span>
-            <span class="detail-title">${detail.title}</span>
-          </summary>
-          <div class="detail-body">
-            <p class="detail-summary">${detail.subtitle}</p>
-            ${foundationsMarkup}
-          </div>
-        </details>
+        <article class="shoseijutsu-entry">
+          <div class="entry-index">§${detail.id}</div>
+          <h3 class="entry-title">${detail.title}</h3>
+          <p class="entry-summary">${detail.subtitle}</p>
+          ${foundationsMarkup}
+        </article>
       `;
     })
     .join("");

@@ -1954,6 +1954,72 @@ main {
   margin-top: 20px;
 }
 
+.shoseijutsu-entry-list {
+  grid-template-columns: 1fr;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 24px;
+}
+
+.shoseijutsu-entry {
+  padding: 20px 4px 22px;
+  border-bottom: 1px solid #e2ddd4;
+  display: grid;
+  gap: 8px;
+  background: transparent;
+}
+
+.shoseijutsu-entry:first-child {
+  border-top: 1px solid #e2ddd4;
+}
+
+.entry-index {
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  color: #7b7368;
+  font-weight: 600;
+}
+
+.entry-title {
+  margin: 0;
+  font-size: 20px;
+  color: #262c3b;
+  font-weight: 700;
+}
+
+.entry-summary {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #4f5668;
+}
+
+.entry-meta {
+  font-size: 13px;
+  color: #7a7f8e;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.entry-meta span {
+  font-weight: 600;
+  color: #6a6f7c;
+}
+
+.entry-meta a {
+  color: #4b5d89;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(75, 93, 137, 0.35);
+  padding-bottom: 1px;
+}
+
+.entry-meta a:hover {
+  color: #39476a;
+  border-bottom-color: rgba(57, 71, 106, 0.6);
+}
+
 .detail-grid--two {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
