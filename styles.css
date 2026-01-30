@@ -1488,6 +1488,13 @@ main {
   margin-bottom: 20px;
 }
 
+.tabs-toolbar--dual {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .theory-toolbar {
   background: rgba(255, 255, 255, 0.75);
   border-radius: 28px;
