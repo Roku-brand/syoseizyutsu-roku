@@ -23,6 +23,12 @@ const tabOptions = [
   })),
 ];
 
+const scrollStoragePrefix = "theory-scroll:";
+const currentScrollTarget = () => {
+  const pageName = window.location.pathname.split("/").pop() || "theory.html";
+  return `${pageName}${window.location.search}`;
+};
+
 const params = new URLSearchParams(window.location.search);
 const initialTab = params.get("tab");
 const isValidTab = (value) => tabOptions.some((option) => option.key === value);
@@ -124,6 +130,30 @@ const renderCards = () => {
 };
 
 searchInput.addEventListener("input", renderCards);
+resultsContainer.addEventListener("click", (event) => {
+  const link = event.target.closest("a.detail-card");
+  if (!link) {
+    return;
+  }
+  const url = new URL(link.href, window.location.origin);
+  const backParam = url.searchParams.get("back");
+  if (!backParam) {
+    return;
+  }
+  const storageKey = `${scrollStoragePrefix}${backParam}`;
+  sessionStorage.setItem(storageKey, String(window.scrollY));
+});
+
+const restoreScrollPosition = () => {
+  const storageKey = `${scrollStoragePrefix}${currentScrollTarget()}`;
+  const stored = sessionStorage.getItem(storageKey);
+  if (!stored) {
+    return;
+  }
+  sessionStorage.removeItem(storageKey);
+  window.scrollTo(0, Number(stored));
+};
 
 renderTabs();
 renderCards();
+restoreScrollPosition();
