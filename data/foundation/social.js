@@ -5,7 +5,7 @@ export const socialData = {
   "items": [
     {
       "tagId": "S-001",
-      "title": "アクティブリスニング（積極的傾聴）",
+      "title": "アクティブリスニング",
       "summary": "相手の話を能動的に聴き、理解と関心を言語・非言語で示す傾聴技法",
       "definition": "アクティブリスニング（積極的傾聴）とは、相手の話を能動的に聴き、理解と関心を言語・非言語で示す傾聴技法。",
       "keyPoints": [
@@ -29,7 +29,7 @@ export const socialData = {
     },
     {
       "tagId": "S-002",
-      "title": "リフレクティブ・リスニング（反映的傾聴）",
+      "title": "リフレクティブ・リスニング",
       "summary": "相手の発言を要約・言い換えして返し、理解確認と感情整理を促す技法",
       "definition": "リフレクティブ・リスニング（反映的傾聴）とは、相手の発言を要約・言い換えして返し、理解確認と感情整理を促す技法。",
       "keyPoints": [
@@ -53,7 +53,7 @@ export const socialData = {
     },
     {
       "tagId": "S-003",
-      "title": "OARS（動機づけ面接の枠組み）",
+      "title": "OARS",
       "summary": "開かれた質問・肯定・反映・要約で対話を構造化する面接スキル枠組み",
       "definition": "OARS（動機づけ面接の枠組み）とは、開かれた質問・肯定・反映・要約で対話を構造化する面接スキル枠組み。",
       "keyPoints": [
@@ -77,7 +77,7 @@ export const socialData = {
     },
     {
       "tagId": "S-004",
-      "title": "バックチャネル（相槌）",
+      "title": "バックチャネル",
       "summary": "相槌やうなずきで聴取を示し、会話の流れと安心感を支える行動",
       "definition": "バックチャネル（相槌）とは、相槌やうなずきで聴取を示し、会話の流れと安心感を支える行動。",
       "keyPoints": [
@@ -101,7 +101,7 @@ export const socialData = {
     },
     {
       "tagId": "S-005",
-      "title": "会話分析（ターンテイキング／沈黙／トピック管理）",
+      "title": "会話分析",
       "summary": "発話交代・沈黙・話題運用など会話の微細構造を分析する枠組み",
       "definition": "会話分析（ターンテイキング／沈黙／トピック管理）とは、発話交代・沈黙・話題運用など会話の微細構造を分析する枠組み。",
       "keyPoints": [
@@ -125,7 +125,7 @@ export const socialData = {
     },
     {
       "tagId": "S-006",
-      "title": "協調原理（グライスの公理）",
+      "title": "協調原理",
       "summary": "会話が成立するための暗黙の協力規範（量・質・関連性・様式）",
       "definition": "協調原理（グライスの公理）とは、会話が成立するための暗黙の協力規範（量・質・関連性・様式）。",
       "keyPoints": [
@@ -149,7 +149,7 @@ export const socialData = {
     },
     {
       "tagId": "S-007",
-      "title": "共通基盤（Common ground）／相互理解",
+      "title": "共通基盤／相互理解",
       "summary": "共有知識や前提を整え、誤解を減らして意思疎通を円滑にする概念",
       "definition": "共通基盤（Common ground）／相互理解とは、共有知識や前提を整え、誤解を減らして意思疎通を円滑にする概念。",
       "keyPoints": [
@@ -173,7 +173,7 @@ export const socialData = {
     },
     {
       "tagId": "S-008",
-      "title": "主導権シグナル（沈黙・遅延など）",
+      "title": "主導権シグナル",
       "summary": "沈黙や応答タイミングなどで会話の主導性・優位性が示される現象",
       "definition": "主導権シグナル（沈黙・遅延など）とは、沈黙や応答タイミングなどで会話の主導性・優位性が示される現象。",
       "keyPoints": [
@@ -197,7 +197,7 @@ export const socialData = {
     },
     {
       "tagId": "S-009",
-      "title": "コミュニケーション適合理論（CAT）",
+      "title": "コミュニケーション適合理論",
       "summary": "相手に合わせて話し方を収束／乖離させ、関係や評価を調整する理論",
       "definition": "コミュニケーション適合理論（CAT）とは、相手に合わせて話し方を収束／乖離させ、関係や評価を調整する理論。",
       "keyPoints": [
@@ -245,7 +245,7 @@ export const socialData = {
     },
     {
       "tagId": "S-011",
-      "title": "ミラーリング（カメレオン効果）",
+      "title": "ミラーリング",
       "summary": "姿勢・表情・言語スタイルの同調が好意や協力度を高める効果",
       "definition": "ミラーリング（カメレオン効果）とは、姿勢・表情・言語スタイルの同調が好意や協力度を高める効果。",
       "keyPoints": [
@@ -269,7 +269,7 @@ export const socialData = {
     },
     {
       "tagId": "S-012",
-      "title": "相互同調（インタラクション・シンクロニー）",
+      "title": "相互同調",
       "summary": "相互作用中の動作・リズムが同期し、親密さや協力を促す現象",
       "definition": "相互同調（インタラクション・シンクロニー）とは、相互作用中の動作・リズムが同期し、親密さや協力を促す現象。",
       "keyPoints": [
@@ -320,7 +320,7 @@ export const socialData = {
     },
     {
       "tagId": "S-014",
-      "title": "非言語コミュニケーション（表情・姿勢・視線など）",
+      "title": "非言語コミュニケーション",
       "summary": "言語以外の手掛かりで意図・感情・関係性を伝達する領域",
       "definition": "非言語コミュニケーション（表情・姿勢・視線など）とは、言語以外の手掛かりで意図・感情・関係性を伝達する領域。",
       "keyPoints": [
@@ -344,7 +344,7 @@ export const socialData = {
     },
     {
       "tagId": "S-015",
-      "title": "即時性（Immediacy）",
+      "title": "即時性",
       "summary": "接近・アイコンタクト等の行動が親近感と好意を高める効果",
       "definition": "即時性（Immediacy）とは、接近・アイコンタクト等の行動が親近感と好意を高める効果。",
       "keyPoints": [
@@ -368,7 +368,7 @@ export const socialData = {
     },
     {
       "tagId": "S-016",
-      "title": "パラ言語（声の非言語）",
+      "title": "パラ言語",
       "summary": "声のトーン・速さ・間など言語以外の音声特徴が意味を運ぶ要素",
       "definition": "パラ言語（声の非言語）とは、声のトーン・速さ・間など言語以外の音声特徴が意味を運ぶ要素。",
       "keyPoints": [
@@ -392,7 +392,7 @@ export const socialData = {
     },
     {
       "tagId": "S-017",
-      "title": "視線行動研究（アイコンタクト）",
+      "title": "視線行動研究",
       "summary": "視線・注視・目線の交錯が評価・親密さ・主導性に与える影響研究",
       "definition": "視線行動研究（アイコンタクト）とは、視線・注視・目線の交錯が評価・親密さ・主導性に与える影響研究。",
       "keyPoints": [
@@ -416,7 +416,7 @@ export const socialData = {
     },
     {
       "tagId": "S-018",
-      "title": "呼名効果（名前効果）",
+      "title": "呼名効果",
       "summary": "名前を呼ばれることで注意・親近感・重要感が高まる効果",
       "definition": "呼名効果（名前効果）とは、名前を呼ばれることで注意・親近感・重要感が高まる効果。",
       "keyPoints": [
@@ -464,7 +464,7 @@ export const socialData = {
     },
     {
       "tagId": "S-020",
-      "title": "カクテルパーティ効果（社会的注意）",
+      "title": "カクテルパーティ効果",
       "summary": "雑音下でも自分に関連する刺激（名前など）へ注意が向く現象",
       "definition": "カクテルパーティ効果（社会的注意）とは、雑音下でも自分に関連する刺激（名前など）へ注意が向く現象。",
       "keyPoints": [
@@ -536,7 +536,7 @@ export const socialData = {
     },
     {
       "tagId": "S-023",
-      "title": "薄切り判断（Thin-slicing）",
+      "title": "薄切り判断",
       "summary": "短時間の手掛かりから印象や能力を推定してしまう傾向",
       "definition": "薄切り判断（Thin-slicing）とは、短時間の手掛かりから印象や能力を推定してしまう傾向。",
       "keyPoints": [
@@ -608,7 +608,7 @@ export const socialData = {
     },
     {
       "tagId": "S-026",
-      "title": "身体化認知（Embodied Cognition）",
+      "title": "身体化認知",
       "summary": "身体状態や動作が判断・感情・対人評価に影響するという枠組み",
       "definition": "身体化認知（Embodied Cognition）とは、身体状態や動作が判断・感情・対人評価に影響するという枠組み。",
       "keyPoints": [
@@ -656,7 +656,7 @@ export const socialData = {
     },
     {
       "tagId": "S-028",
-      "title": "不確実性耐性（曖昧さ耐性を含む）",
+      "title": "不確実性耐性",
       "summary": "曖昧さに耐え、拙速な決めつけを避ける個人差・能力概念",
       "definition": "不確実性耐性（曖昧さ耐性を含む）とは、曖昧さに耐え、拙速な決めつけを避ける個人差・能力概念。",
       "keyPoints": [
@@ -680,7 +680,7 @@ export const socialData = {
     },
     {
       "tagId": "S-029",
-      "title": "フェイスワーク（Goffman）",
+      "title": "フェイスワーク",
       "summary": "面子（フェイス）を守るための相互行為上の調整と修復行動",
       "definition": "フェイスワーク（Goffman）とは、面子（フェイス）を守るための相互行為上の調整と修復行動。",
       "keyPoints": [
@@ -728,7 +728,7 @@ export const socialData = {
     },
     {
       "tagId": "S-031",
-      "title": "心理的リアクタンス（抵抗）とその回避",
+      "title": "心理的リアクタンスとその回避",
       "summary": "自由を脅かされると反発が生じる心理と、抵抗を減らす方法",
       "definition": "心理的リアクタンス（抵抗）とその回避とは、自由を脅かされると反発が生じる心理と、抵抗を減らす方法。",
       "keyPoints": [
@@ -752,7 +752,7 @@ export const socialData = {
     },
     {
       "tagId": "S-032",
-      "title": "アサーション（アサーティブ・コミュニケーション）",
+      "title": "アサーション",
       "summary": "自己主張と配慮を両立し、権利を守りつつ関係を保つ技法",
       "definition": "アサーション（アサーティブ・コミュニケーション）とは、自己主張と配慮を両立し、権利を守りつつ関係を保つ技法。",
       "keyPoints": [
@@ -800,7 +800,7 @@ export const socialData = {
     },
     {
       "tagId": "S-034",
-      "title": "境界線理論（Boundary）",
+      "title": "境界線理論",
       "summary": "心理的・時間的境界を設定し、侵害や消耗を防ぐ考え方",
       "definition": "境界線理論（Boundary）とは、心理的・時間的境界を設定し、侵害や消耗を防ぐ考え方。",
       "keyPoints": [
@@ -824,7 +824,7 @@ export const socialData = {
     },
     {
       "tagId": "S-035",
-      "title": "近接学（プロクセミクス）",
+      "title": "近接学",
       "summary": "対人距離や空間配置が関係性・印象に与える影響を扱う領域",
       "definition": "近接学（プロクセミクス）とは、対人距離や空間配置が関係性・印象に与える影響を扱う領域。",
       "keyPoints": [
@@ -848,7 +848,7 @@ export const socialData = {
     },
     {
       "tagId": "S-036",
-      "title": "応答性（Perceived responsiveness）",
+      "title": "応答性",
       "summary": "相手が理解・受容・配慮してくれているという知覚が親密性を高める概念",
       "definition": "応答性（Perceived responsiveness）とは、相手が理解・受容・配慮してくれているという知覚が親密性を高める概念。",
       "keyPoints": [
@@ -872,7 +872,7 @@ export const socialData = {
     },
     {
       "tagId": "S-037",
-      "title": "親密性形成（Intimacy formation）",
+      "title": "親密性形成",
       "summary": "自己開示と応答性の循環で親密さが形成されるプロセス",
       "definition": "親密性形成（Intimacy formation）とは、自己開示と応答性の循環で親密さが形成されるプロセス。",
       "keyPoints": [
@@ -920,7 +920,7 @@ export const socialData = {
     },
     {
       "tagId": "S-039",
-      "title": "自己呈示理論（印象操作・自己呈示）",
+      "title": "自己呈示理論",
       "summary": "望ましい印象を形成するために情報や行動を調整する理論",
       "definition": "自己呈示理論（印象操作・自己呈示）とは、望ましい印象を形成するために情報や行動を調整する理論。",
       "keyPoints": [
@@ -944,7 +944,7 @@ export const socialData = {
     },
     {
       "tagId": "S-040",
-      "title": "情報ギャップ理論（好奇心のギャップ）",
+      "title": "情報ギャップ理論",
       "summary": "知っていることと知りたいことの差が好奇心と探索を生む理論",
       "definition": "情報ギャップ理論（好奇心のギャップ）とは、知っていることと知りたいことの差が好奇心と探索を生む理論。",
       "keyPoints": [
@@ -968,7 +968,7 @@ export const socialData = {
     },
     {
       "tagId": "S-041",
-      "title": "関係維持行動（Relationship maintenance）",
+      "title": "関係維持行動",
       "summary": "関係を維持するための配慮・対話・支援などの行動群",
       "definition": "関係維持行動（Relationship maintenance）とは、関係を維持するための配慮・対話・支援などの行動群。",
       "keyPoints": [
@@ -992,7 +992,7 @@ export const socialData = {
     },
     {
       "tagId": "S-042",
-      "title": "関係投資モデル（相互依存理論系）",
+      "title": "関係投資モデル",
       "summary": "投入・満足・代替・投資が関係コミットメントを規定するモデル",
       "definition": "関係投資モデル（相互依存理論系）とは、投入・満足・代替・投資が関係コミットメントを規定するモデル。",
       "keyPoints": [
@@ -1016,7 +1016,7 @@ export const socialData = {
     },
     {
       "tagId": "S-043",
-      "title": "相互依存理論（関係の力学）",
+      "title": "相互依存理論",
       "summary": "互いの結果が依存し合う構造が行動・感情を形づくる理論",
       "definition": "相互依存理論（関係の力学）とは、互いの結果が依存し合う構造が行動・感情を形づくる理論。",
       "keyPoints": [
@@ -1040,7 +1040,7 @@ export const socialData = {
     },
     {
       "tagId": "S-044",
-      "title": "関係性の意思決定（社会的交換／繰り返し相互作用）",
+      "title": "関係性の意思決定",
       "summary": "報酬・コスト・将来相互作用を見込んだ関係選択の枠組み",
       "definition": "関係性の意思決定（社会的交換／繰り返し相互作用）とは、報酬・コスト・将来相互作用を見込んだ関係選択の枠組み。",
       "keyPoints": [
@@ -1064,7 +1064,7 @@ export const socialData = {
     },
     {
       "tagId": "S-045",
-      "title": "関係の段階モデル（薄め方・維持設計）",
+      "title": "関係の段階モデル",
       "summary": "関係の深まりや距離調整を段階として捉えるモデル",
       "definition": "関係の段階モデル（薄め方・維持設計）とは、関係の深まりや距離調整を段階として捉えるモデル。",
       "keyPoints": [
@@ -1088,7 +1088,7 @@ export const socialData = {
     },
     {
       "tagId": "S-046",
-      "title": "関係解消研究（適応的離脱）",
+      "title": "関係解消研究",
       "summary": "関係を終える／距離を取る過程とその適応条件を扱う研究領域",
       "definition": "関係解消研究（適応的離脱）とは、関係を終える／距離を取る過程とその適応条件を扱う研究領域。",
       "keyPoints": [
@@ -1112,7 +1112,7 @@ export const socialData = {
     },
     {
       "tagId": "S-047",
-      "title": "修復行動（リレーションシップ・リペア）",
+      "title": "修復行動",
       "summary": "誤解や損傷を修復し、関係を回復する行動・対話手法",
       "definition": "修復行動（リレーションシップ・リペア）とは、誤解や損傷を修復し、関係を回復する行動・対話手法。",
       "keyPoints": [
@@ -1208,7 +1208,7 @@ export const socialData = {
     },
     {
       "tagId": "S-051",
-      "title": "間接的説得（第三者経由の情報効果）",
+      "title": "間接的説得",
       "summary": "第三者からの評価・推薦が説得力を増す情報経路効果",
       "definition": "間接的説得（第三者経由の情報効果）とは、第三者からの評価・推薦が説得力を増す情報経路効果。",
       "keyPoints": [
@@ -1283,7 +1283,7 @@ export const socialData = {
     },
     {
       "tagId": "S-054",
-      "title": "対人信頼形成（予測可能性・誠実性・善意）",
+      "title": "対人信頼形成",
       "summary": "能力・誠実性・善意などの要因で信頼が形成される枠組み",
       "definition": "対人信頼形成（予測可能性・誠実性・善意）とは、能力・誠実性・善意などの要因で信頼が形成される枠組み。",
       "keyPoints": [
@@ -1310,7 +1310,7 @@ export const socialData = {
     },
     {
       "tagId": "S-055",
-      "title": "脆弱性の共有と信頼（Vulnerability-based trust）",
+      "title": "脆弱性の共有と信頼",
       "summary": "弱みの共有が心理的安全性と深い信頼を促すという考え方",
       "definition": "脆弱性の共有と信頼（Vulnerability-based trust）とは、弱みの共有が心理的安全性と深い信頼を促すという考え方。",
       "keyPoints": [
@@ -1337,7 +1337,7 @@ export const socialData = {
     },
     {
       "tagId": "S-056",
-      "title": "評判メカニズム（レピュテーション）",
+      "title": "評判メカニズム",
       "summary": "評判が協力・取引・信頼を支える社会的メカニズム",
       "definition": "評判メカニズム（レピュテーション）とは、評判が協力・取引・信頼を支える社会的メカニズム。",
       "keyPoints": [
@@ -1364,7 +1364,7 @@ export const socialData = {
     },
     {
       "tagId": "S-057",
-      "title": "信頼シグナル／シグナリング理論（能力・誠実性・地位）",
+      "title": "信頼シグナル／シグナリング理論",
       "summary": "観測しにくい特性を行動や証拠で示し、推定させる理論",
       "definition": "信頼シグナル／シグナリング理論（能力・誠実性・地位）とは、観測しにくい特性を行動や証拠で示し、推定させる理論。",
       "keyPoints": [
@@ -1391,7 +1391,7 @@ export const socialData = {
     },
     {
       "tagId": "S-058",
-      "title": "社会的強化（称賛・承認による強化）",
+      "title": "社会的強化",
       "summary": "称賛・承認など社会的報酬が行動を強める原理",
       "definition": "社会的強化（称賛・承認による強化）とは、称賛・承認など社会的報酬が行動を強める原理。",
       "keyPoints": [
@@ -1415,7 +1415,7 @@ export const socialData = {
     },
     {
       "tagId": "S-059",
-      "title": "承認欲求（承認動機）",
+      "title": "承認欲求",
       "summary": "評価されたい・受容されたいという動機が行動を方向づける概念",
       "definition": "承認欲求（承認動機）とは、評価されたい・受容されたいという動機が行動を方向づける概念。",
       "keyPoints": [
@@ -1439,7 +1439,7 @@ export const socialData = {
     },
     {
       "tagId": "S-060",
-      "title": "社会的支援理論（ストレス緩衝仮説を含む）",
+      "title": "社会的支援理論",
       "summary": "支援がストレス反応を緩和し健康・適応を高めるという理論",
       "definition": "社会的支援理論（ストレス緩衝仮説を含む）とは、支援がストレス反応を緩和し健康・適応を高めるという理論。",
       "keyPoints": [
@@ -1463,7 +1463,7 @@ export const socialData = {
     },
     {
       "tagId": "S-061",
-      "title": "援助要請研究（Help-Seeking）",
+      "title": "援助要請研究",
       "summary": "助けを求める行動の促進要因・阻害要因を扱う研究",
       "definition": "援助要請研究（Help-Seeking）とは、助けを求める行動の促進要因・阻害要因を扱う研究。",
       "keyPoints": [
@@ -1487,7 +1487,7 @@ export const socialData = {
     },
     {
       "tagId": "S-062",
-      "title": "スティグマ研究（援助要請の障壁）",
+      "title": "スティグマ研究",
       "summary": "烙印や恥の認知が援助要請や開示を阻むメカニズム研究",
       "definition": "スティグマ研究（援助要請の障壁）とは、烙印や恥の認知が援助要請や開示を阻むメカニズム研究。",
       "keyPoints": [
@@ -1535,7 +1535,7 @@ export const socialData = {
     },
     {
       "tagId": "S-064",
-      "title": "社会規範理論（規範遵守／逸脱コスト）",
+      "title": "社会規範理論",
       "summary": "規範の存在が行動を制約し、逸脱にコストが伴うという理論",
       "definition": "社会規範理論（規範遵守／逸脱コスト）とは、規範の存在が行動を制約し、逸脱にコストが伴うという理論。",
       "keyPoints": [
@@ -1559,7 +1559,7 @@ export const socialData = {
     },
     {
       "tagId": "S-065",
-      "title": "規範影響（記述的規範など）",
+      "title": "規範影響",
       "summary": "『皆がしている』『すべき』の手掛かりが選択を変える影響",
       "definition": "規範影響（記述的規範など）とは、『皆がしている』『すべき』の手掛かりが選択を変える影響。",
       "keyPoints": [
@@ -1583,7 +1583,7 @@ export const socialData = {
     },
     {
       "tagId": "S-066",
-      "title": "同調研究（Aschを含む）",
+      "title": "同調研究",
       "summary": "集団圧力が判断・表明を変える同調現象の研究",
       "definition": "同調研究（Aschを含む）とは、集団圧力が判断・表明を変える同調現象の研究。",
       "keyPoints": [
@@ -1612,7 +1612,7 @@ export const socialData = {
     },
     {
       "tagId": "S-067",
-      "title": "集団浅慮（Groupthink）",
+      "title": "集団浅慮",
       "summary": "合意重視が批判的検討を阻害し意思決定を誤らせる現象",
       "definition": "集団浅慮（Groupthink）とは、合意重視が批判的検討を阻害し意思決定を誤らせる現象。",
       "keyPoints": [
@@ -1660,7 +1660,7 @@ export const socialData = {
     },
     {
       "tagId": "S-069",
-      "title": "社会的手抜き（Social loafing）",
+      "title": "社会的手抜き",
       "summary": "集団課題で個人努力が低下しやすい現象",
       "definition": "社会的手抜き（Social loafing）とは、集団課題で個人努力が低下しやすい現象。",
       "keyPoints": [
@@ -1708,7 +1708,7 @@ export const socialData = {
     },
     {
       "tagId": "S-071",
-      "title": "多様性研究（情報・意思決定）",
+      "title": "多様性研究",
       "summary": "多様性が情報処理や意思決定の質に与える影響研究",
       "definition": "多様性研究（情報・意思決定）とは、多様性が情報処理や意思決定の質に与える影響研究。",
       "keyPoints": [
@@ -1732,7 +1732,7 @@ export const socialData = {
     },
     {
       "tagId": "S-072",
-      "title": "包摂（インクルージョン）",
+      "title": "包摂",
       "summary": "多様なメンバーが参加・発言できる状態をつくる概念",
       "definition": "包摂（インクルージョン）とは、多様なメンバーが参加・発言できる状態をつくる概念。",
       "keyPoints": [
@@ -1756,7 +1756,7 @@ export const socialData = {
     },
     {
       "tagId": "S-073",
-      "title": "協働理論（コラボレーション）",
+      "title": "協働理論",
       "summary": "協働の条件・役割・相互依存が成果に与える影響を扱う理論",
       "definition": "協働理論（コラボレーション）とは、協働の条件・役割・相互依存が成果に与える影響を扱う理論。",
       "keyPoints": [
@@ -1780,7 +1780,7 @@ export const socialData = {
     },
     {
       "tagId": "S-074",
-      "title": "トランザクティブ・メモリー（共有記憶システム）",
+      "title": "トランザクティブ・メモリー",
       "summary": "チーム内で『誰が何を知るか』を分担し効率化する共有記憶概念",
       "definition": "トランザクティブ・メモリー（共有記憶システム）とは、チーム内で『誰が何を知るか』を分担し効率化する共有記憶概念。",
       "keyPoints": [
@@ -1804,7 +1804,7 @@ export const socialData = {
     },
     {
       "tagId": "S-075",
-      "title": "ファシリテーション（プロセス設計）",
+      "title": "ファシリテーション",
       "summary": "場の進行を設計し、参加・思考・合意を促進する技術",
       "definition": "ファシリテーション（プロセス設計）とは、場の進行を設計し、参加・思考・合意を促進する技術。",
       "keyPoints": [
@@ -1828,7 +1828,7 @@ export const socialData = {
     },
     {
       "tagId": "S-076",
-      "title": "メタコミュニケーション（合意や場の状態の言語化）",
+      "title": "メタコミュニケーション",
       "summary": "会話そのものの状態や合意を言語化して調整する手法",
       "definition": "メタコミュニケーション（合意や場の状態の言語化）とは、会話そのものの状態や合意を言語化して調整する手法。",
       "keyPoints": [
@@ -1876,7 +1876,7 @@ export const socialData = {
     },
     {
       "tagId": "S-078",
-      "title": "コンフリクト・マネジメント（葛藤管理）",
+      "title": "コンフリクト・マネジメント",
       "summary": "対立を建設的に扱い、関係と成果を両立させる枠組み",
       "definition": "コンフリクト・マネジメント（葛藤管理）とは、対立を建設的に扱い、関係と成果を両立させる枠組み。",
       "keyPoints": [
@@ -1900,7 +1900,7 @@ export const socialData = {
     },
     {
       "tagId": "S-079",
-      "title": "公正理論（手続き的公正／相互作用的公正）",
+      "title": "公正理論",
       "summary": "手続きや扱われ方の公正さが受容・信頼・協力に影響する理論",
       "definition": "公正理論（手続き的公正／相互作用的公正）とは、手続きや扱われ方の公正さが受容・信頼・協力に影響する理論。",
       "keyPoints": [
@@ -2044,7 +2044,7 @@ export const socialData = {
     },
     {
       "tagId": "S-085",
-      "title": "エントレインメント（同調的同期）",
+      "title": "エントレインメント",
       "summary": "リズムや動きが同期すると親密さや協力感が高まる現象",
       "definition": "エントレインメント（同調的同期）とは、リズムや動きが同期すると親密さや協力感が高まる現象。",
       "keyPoints": [
@@ -2140,7 +2140,7 @@ export const socialData = {
     },
     {
       "tagId": "S-089",
-      "title": "ステータス・シグナリング（低反応＝余裕）",
+      "title": "ステータス・シグナリング",
       "summary": "反応の遅さや控えめさが余裕や地位を示すというシグナル",
       "definition": "ステータス・シグナリング（低反応＝余裕）とは、反応の遅さや控えめさが余裕や地位を示すというシグナル。",
       "keyPoints": [
