@@ -9,8 +9,7 @@ const areaLabels = {
 };
 
 const groupBoardContainer = document.getElementById("technique-group-board");
-const areaTabs = document.querySelectorAll("[data-area]");
-const viewButtons = document.querySelectorAll("[data-view]");
+const tabButtons = document.querySelectorAll(".tab-button");
 const viewPanels = document.querySelectorAll("[data-view-panel]");
 
 const searchInput = document.getElementById("technique-search");
@@ -36,6 +35,7 @@ let activeGroup = "all";
 
 const groupParam = new URLSearchParams(window.location.search).get("group");
 const viewParam = new URLSearchParams(window.location.search).get("view");
+let activeView = viewParam === "index" ? "index" : "list";
 const applyGroupFromUrl = () => {
   if (!groupParam) {
     return;
@@ -108,10 +108,6 @@ const renderGroupBoard = () => {
 
 const setActiveArea = (area, { syncUrl = true } = {}) => {
   activeArea = area;
-  areaTabs.forEach((button) => {
-    const isSelected = button.dataset.area === activeArea;
-    button.setAttribute("aria-pressed", isSelected ? "true" : "false");
-  });
   if (syncUrl) {
     const nextUrl = new URL(window.location.href);
     if (activeArea === "all") {
@@ -122,6 +118,9 @@ const setActiveArea = (area, { syncUrl = true } = {}) => {
     window.history.replaceState({}, "", nextUrl);
   }
   renderGroupBoard();
+  if (activeView === "list") {
+    syncSelectedTab();
+  }
 };
 
 const tagOptions = [
@@ -202,18 +201,18 @@ const buildIndexItems = () =>
 const indexItems = buildIndexItems();
 const activeTags = new Set();
 
-const setActiveView = (view) => {
-  viewButtons.forEach((button) => {
-    const isSelected = button.dataset.view === view;
-    button.setAttribute("aria-pressed", isSelected ? "true" : "false");
-  });
+const setActiveView = (view, { syncUrl = true } = {}) => {
+  activeView = view;
   viewPanels.forEach((panel) => {
     const isVisible = panel.dataset.viewPanel === view;
     panel.classList.toggle("is-hidden", !isVisible);
   });
-  const nextUrl = new URL(window.location.href);
-  nextUrl.searchParams.set("view", view);
-  window.history.replaceState({}, "", nextUrl);
+  if (syncUrl) {
+    const nextUrl = new URL(window.location.href);
+    nextUrl.searchParams.set("view", view);
+    window.history.replaceState({}, "", nextUrl);
+  }
+  syncSelectedTab();
 };
 
 const normalizeText = (value) => value.toLowerCase();
@@ -306,15 +305,50 @@ const initIndex = () => {
   });
 };
 
+const setSelectedTab = (selectedTab) => {
+  tabButtons.forEach((button) => {
+    button.setAttribute("aria-pressed", button === selectedTab ? "true" : "false");
+  });
+};
+
+const getSelectedTab = () => {
+  if (activeView === "index") {
+    return document.querySelector('[data-view="index"]');
+  }
+  if (activeArea === "all") {
+    return document.querySelector('[data-view="list"]');
+  }
+  return document.querySelector(`[data-area="${activeArea}"]`);
+};
+
+const syncSelectedTab = () => {
+  const selectedTab = getSelectedTab();
+  if (selectedTab) {
+    setSelectedTab(selectedTab);
+  }
+};
+
 const initTabs = () => {
-  if (!viewButtons.length) {
+  if (!tabButtons.length) {
     return;
   }
-  const defaultView = viewParam === "index" ? "index" : "list";
-  setActiveView(defaultView);
-  viewButtons.forEach((button) => {
+  tabButtons.forEach((button) => {
     button.addEventListener("click", () => {
-      setActiveView(button.dataset.view);
+      if (button.dataset.view === "index") {
+        setActiveView("index");
+        return;
+      }
+      if (button.dataset.view === "list") {
+        setActiveView("list");
+        setActiveArea("all");
+        return;
+      }
+      const nextArea = button.dataset.area;
+      if (!nextArea) {
+        return;
+      }
+      setActiveView("list");
+      setActiveArea(nextArea);
     });
   });
 };
@@ -324,22 +358,7 @@ if (activeArea === "all" && activeGroup !== "all") {
   activeArea = activeGroup.split(":")[0];
 }
 setActiveArea(activeArea, { syncUrl: false });
+setActiveView(activeView, { syncUrl: false });
+syncSelectedTab();
 initTabs();
 initIndex();
-
-const initAreaTabs = () => {
-  if (!areaTabs.length) {
-    return;
-  }
-  areaTabs.forEach((button) => {
-    button.addEventListener("click", () => {
-      const nextArea = button.dataset.area;
-      if (!nextArea) {
-        return;
-      }
-      setActiveArea(activeArea === nextArea ? "all" : nextArea);
-    });
-  });
-};
-
-initAreaTabs();
