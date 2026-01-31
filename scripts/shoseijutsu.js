@@ -1,10 +1,11 @@
 import { shoseijutsuData } from "../data/index.js";
 
+const areaOrder = ["people", "skill", "thinking", "life", "achievement"];
 const areaLabels = {
-  life: "人生",
-  thinking: "思考",
   people: "対人",
   skill: "スキル",
+  thinking: "思考",
+  life: "人生",
   achievement: "達成",
 };
 
@@ -18,18 +19,21 @@ const resultCount = document.getElementById("technique-result-count");
 const resultList = document.getElementById("technique-index-results");
 const emptyState = document.getElementById("technique-index-empty");
 
-const groupOptions = Object.entries(shoseijutsuData.techniques).flatMap(
-  ([areaKey, section]) =>
-    section.items.map((group) => ({
-      key: `${areaKey}:${group.name}`,
-      label: `${areaLabels[areaKey] ?? section.title}・${group.name}`,
-      areaKey,
-      groupName: group.name,
-    }))
-);
+const groupOptions = areaOrder.flatMap((areaKey) => {
+  const section = shoseijutsuData.techniques[areaKey];
+  if (!section) {
+    return [];
+  }
+  return section.items.map((group) => ({
+    key: `${areaKey}:${group.name}`,
+    label: `${areaLabels[areaKey] ?? section.title}・${group.name}`,
+    areaKey,
+    groupName: group.name,
+  }));
+});
 
 const areaParam = new URLSearchParams(window.location.search).get("area");
-const isValidArea = (value) => value && Object.keys(areaLabels).includes(value);
+const isValidArea = (value) => value && areaOrder.includes(value);
 let activeArea = isValidArea(areaParam) ? areaParam : "all";
 let activeGroup = "all";
 
@@ -50,7 +54,8 @@ const applyGroupFromUrl = () => {
 
 const renderGroupBoard = () => {
   groupBoardContainer.innerHTML = "";
-  Object.entries(areaLabels).forEach(([areaKey, label]) => {
+  areaOrder.forEach((areaKey) => {
+    const label = areaLabels[areaKey];
     if (activeArea !== "all" && activeArea !== areaKey) {
       return;
     }
@@ -181,8 +186,12 @@ const tagOptions = [
 ];
 
 const buildIndexItems = () =>
-  Object.entries(shoseijutsuData.techniques).flatMap(([areaKey, section]) =>
-    section.items.flatMap((group) =>
+  areaOrder.flatMap((areaKey) => {
+    const section = shoseijutsuData.techniques[areaKey];
+    if (!section) {
+      return [];
+    }
+    return section.items.flatMap((group) =>
       group.details.map((detail) => ({
         areaKey,
         areaLabel: areaLabels[areaKey] ?? section.title ?? areaKey,
@@ -195,8 +204,8 @@ const buildIndexItems = () =>
         }`,
         groupKey: `${areaKey}:${group.name}`,
       }))
-    )
-  );
+    );
+  });
 
 const indexItems = buildIndexItems();
 const activeTags = new Set();
