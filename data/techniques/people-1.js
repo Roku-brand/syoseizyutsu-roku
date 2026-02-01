@@ -6,8 +6,8 @@ export const peopleTechniquesPart1 = {
       "details": [
         {
           "id": 1,
-          "title": "話を遮らない態度",
-          "subtitle": "相手が話しやすくなり、情報量と本音が増える。",
+          "title": "話を遮らずに聞く",
+          "subtitle": "相手が話しやすくなり、情報量と本音が増えやすくなります。",
           "foundations": [
             "S-001",
             "S-005",
@@ -16,8 +16,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 2,
-          "title": "評価を急がない態度",
-          "subtitle": "相手の防衛が下がり、対話が続きやすくなる。",
+          "title": "評価を急がずに聞く",
+          "subtitle": "相手の防衛が下がり、対話が続きやすくなります。",
           "foundations": [
             "C-042",
             "C-043",
@@ -27,7 +27,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 3,
           "title": "名前と文脈を覚える",
-          "subtitle": "距離が縮み、相手の記憶に残りやすい。",
+          "subtitle": "距離が縮み、相手の記憶に残りやすくなります。",
           "foundations": [
             "S-018",
             "S-019",
@@ -37,7 +37,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 4,
           "title": "共通点に触れる",
-          "subtitle": "警戒が下がり、会話の循環が生まれる。",
+          "subtitle": "警戒が下がり、会話の循環が生まれやすくなります。",
           "foundations": [
             "S-021",
             "S-063",
@@ -47,7 +47,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 5,
           "title": "自己開示の量を調整する",
-          "subtitle": "相互性が生まれ、関係が進む。",
+          "subtitle": "相互性が生まれ、関係が深まりやすくなります。",
           "foundations": [
             "S-049",
             "S-054",
@@ -57,7 +57,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 6,
           "title": "感情を言語化する",
-          "subtitle": "感情が落ち着き、理解された感が出る。",
+          "subtitle": "感情が落ち着き、理解された感覚が得られやすくなります。",
           "foundations": [
             "C-032",
             "C-033",
@@ -66,8 +66,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 7,
-          "title": "小さな依頼",
-          "subtitle": "関与が生まれ、関係が一段進む。",
+          "title": "小さな依頼をする",
+          "subtitle": "関与が生まれ、関係が一段深まりやすくなります。",
           "foundations": [
             "B-081",
             "C-010",
@@ -76,8 +76,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 8,
-          "title": "相手に合わせた反応",
-          "subtitle": "親近感が増え、距離が縮まる。",
+          "title": "相手に合わせた反応をする",
+          "subtitle": "親近感が増え、距離が縮まりやすくなります。",
           "foundations": [
             "S-011",
             "S-012",
@@ -87,7 +87,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 9,
           "title": "沈黙を恐れない",
-          "subtitle": "相手の話量が増え、会話の深度が上がる。",
+          "subtitle": "相手の話量が増え、会話の深度が上がりやすくなります。",
           "foundations": [
             "S-005",
             "B-082",
@@ -97,7 +97,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 10,
           "title": "間接的に称賛する",
-          "subtitle": "自尊心が満たされ、信頼が増す。",
+          "subtitle": "自尊心が満たされ、信頼が増しやすくなります。",
           "foundations": [
             "S-052",
             "S-056",
@@ -107,7 +107,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 11,
           "title": "相手の利益を先に置く",
-          "subtitle": "互恵の循環が回り、協力が返りやすい。",
+          "subtitle": "互恵の循環が回り、協力が返ってきやすくなります。",
           "foundations": [
             "S-049",
             "C-067",
@@ -117,7 +117,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 12,
           "title": "期待値を設計する",
-          "subtitle": "受け止め方が変わり、評価の揺れが減る。",
+          "subtitle": "受け止め方が変わり、評価の揺れが減りやすくなります。",
           "foundations": [
             "W-005",
             "W-006",
@@ -126,8 +126,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 13,
-          "title": "情報の扱いが丁寧な人",
-          "subtitle": "安心して情報が集まり、関係が深まりやすい。",
+          "title": "情報を丁寧に扱う",
+          "subtitle": "安心して情報が集まり、関係が深まりやすくなります。",
           "foundations": [
             "S-096",
             "C-069",
@@ -136,8 +136,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 14,
-          "title": "噂に乗らない姿勢",
-          "subtitle": "信用の毀損を避け、長期の評価が守られる。",
+          "title": "噂に乗らない",
+          "subtitle": "信用の毀損を避け、長期の評価が守られやすくなります。",
           "foundations": [
             "S-064",
             "C-070",
@@ -157,7 +157,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 16,
           "title": "具体的に称賛する",
-          "subtitle": "自己価値が満たされ、好意が残りやすい。",
+          "subtitle": "自己価値が満たされ、好意が残りやすくなります。",
           "foundations": [
             "C-049",
             "S-097",
@@ -167,7 +167,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 17,
           "title": "公の場で相手を立てる",
-          "subtitle": "恥を避けられ、協力的になりやすい。",
+          "subtitle": "恥を避けられ、協力的になりやすくなります。",
           "foundations": [
             "S-029",
             "S-030",
@@ -177,7 +177,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 18,
           "title": "断りやすさを残す",
-          "subtitle": "負担感が増えず、関係が続きやすい。",
+          "subtitle": "負担感が増えず、関係が続きやすくなります。",
           "foundations": [
             "S-031",
             "C-084",
@@ -191,8 +191,8 @@ export const peopleTechniquesPart1 = {
       "details": [
         {
           "id": 1,
-          "title": "最初の笑顔",
-          "subtitle": "小さな安心が積み上がり、信頼が育つ。",
+          "title": "最初に笑顔を見せる",
+          "subtitle": "小さな安心が積み上がり、信頼が育ちやすくなります。",
           "foundations": [
             "S-013",
             "S-014",
@@ -202,7 +202,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 2,
           "title": "視線の合わせ方を調整する",
-          "subtitle": "相手に合わせると親近感が増す。",
+          "subtitle": "相手に合わせると親近感が増しやすくなります。",
           "foundations": [
             "S-015",
             "S-017",
@@ -212,7 +212,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 3,
           "title": "清潔感を整える",
-          "subtitle": "安心の前提が整い、話しやすさが増す。",
+          "subtitle": "安心の前提が整い、話しやすさが増しやすくなります。",
           "foundations": [
             "S-022",
             "S-023",
@@ -222,7 +222,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 4,
           "title": "姿勢を整える",
-          "subtitle": "小さな安心が積み上がり、信頼が育つ。",
+          "subtitle": "小さな安心が積み上がり、信頼が育ちやすくなります。",
           "foundations": [
             "C-085",
             "W-007",
@@ -232,7 +232,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 5,
           "title": "名前を呼ぶ",
-          "subtitle": "距離が縮み、相手の記憶に残りやすい。",
+          "subtitle": "距離が縮み、相手の記憶に残りやすくなります。",
           "foundations": [
             "S-018",
             "S-019",
@@ -242,7 +242,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 6,
           "title": "声のトーンを整える",
-          "subtitle": "安心感が伝わりやすくなり、第一印象が安定する。",
+          "subtitle": "安心感が伝わりやすくなり、第一印象が安定しやすくなります。",
           "foundations": [
             "S-016",
             "S-025",
@@ -252,7 +252,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 7,
           "title": "出会いの最初を丁寧にする",
-          "subtitle": "摩擦が減り、関係が保てる。",
+          "subtitle": "摩擦が減り、関係が保ちやすくなります。",
           "foundations": [
             "S-024",
             "S-023",
@@ -261,8 +261,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 8,
-          "title": "身体接触の一瞬が、信頼感を左右しやすい",
-          "subtitle": "しっかり握ると信頼感が生まれる。",
+          "title": "握手は丁寧にする",
+          "subtitle": "しっかり握ることで信頼感が生まれやすくなります。",
           "foundations": [
             "S-057",
             "W-009",
@@ -271,8 +271,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 9,
-          "title": "共通の話題",
-          "subtitle": "小さな安心が積み上がり、信頼が育つ。",
+          "title": "共通の話題を見つける",
+          "subtitle": "共通点があると安心が積み上がり、信頼が育ちやすくなります。",
           "foundations": [
             "S-021",
             "S-027",
@@ -282,7 +282,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 10,
           "title": "関心を示す",
-          "subtitle": "関心を示すと話しやすくなる。",
+          "subtitle": "関心を示すと話しやすくなります。",
           "foundations": [
             "S-001",
             "W-011",
@@ -291,8 +291,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 11,
-          "title": "身だしなみの乱れ",
-          "subtitle": "安心の前提が整い、話しやすさが増す。",
+          "title": "身だしなみを整える",
+          "subtitle": "安心の前提が整い、話しやすさが増しやすくなります。",
           "foundations": [
             "S-022",
             "S-025",
@@ -302,7 +302,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 12,
           "title": "第一声を明るくする",
-          "subtitle": "安心感が伝わりやすくなり、第一印象が安定する。",
+          "subtitle": "安心感が伝わりやすくなり、第一印象が安定しやすくなります。",
           "foundations": [
             "S-013",
             "S-024",
@@ -312,7 +312,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 13,
           "title": "最初の一言を軽くする",
-          "subtitle": "緊張がほどけ、会話の入口が開く。",
+          "subtitle": "緊張がほどけ、会話の入口が開きやすくなります。",
           "foundations": [
             "S-027",
             "S-030",
@@ -322,7 +322,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 14,
           "title": "視線と姿勢を安定させる",
-          "subtitle": "安心感が伝わりやすくなり、第一印象が安定する。",
+          "subtitle": "安心感が伝わりやすくなり、第一印象が安定しやすくなります。",
           "foundations": [
             "S-023",
             "S-102",
@@ -332,7 +332,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 15,
           "title": "早めに名前を呼ぶ",
-          "subtitle": "個別に見られている感覚が生まれ、距離が縮まる。",
+          "subtitle": "個別に見られている感覚が生まれ、距離が縮まりやすくなります。",
           "foundations": [
             "S-018",
             "S-019",
@@ -342,7 +342,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 16,
           "title": "相手の負担を減らす",
-          "subtitle": "空気が柔らかくなる。",
+          "subtitle": "空気が柔らかくなり、話しやすくなります。",
           "foundations": [
             "S-049",
             "C-084",
@@ -357,7 +357,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 1,
           "title": "言行を一致させる",
-          "subtitle": "言行一致で信頼が深まる。",
+          "subtitle": "言行一致で信頼が深まりやすくなります。",
           "foundations": [
             "S-054",
             "S-093",
@@ -376,8 +376,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 3,
-          "title": "弱みの開示",
-          "subtitle": "開示すると相手も心を開く。",
+          "title": "弱みを開示する",
+          "subtitle": "開示すると相手も心を開きやすくなります。",
           "foundations": [
             "S-055",
             "S-050",
@@ -387,7 +387,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 4,
           "title": "秘密を守る",
-          "subtitle": "秘密を守ると信頼が深まる。",
+          "subtitle": "秘密を守ると信頼が深まりやすくなります。",
           "foundations": [
             "S-104",
             "W-016",
@@ -397,7 +397,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 5,
           "title": "悪口を避ける",
-          "subtitle": "信用の毀損を避け、長期の評価が守られる。",
+          "subtitle": "信用の毀損を避け、長期の評価が守られやすくなります。",
           "foundations": [
             "C-074",
             "C-086",
@@ -407,7 +407,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 6,
           "title": "非を認める",
-          "subtitle": "関係修復が速くなり、信頼が残る。",
+          "subtitle": "関係修復が速くなり、信頼が残りやすくなります。",
           "foundations": [
             "S-047",
             "S-079",
@@ -417,7 +417,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 7,
           "title": "相手の利益を優先する",
-          "subtitle": "互恵の循環が回り、協力が返りやすい。",
+          "subtitle": "互恵の循環が回り、協力が返ってきやすくなります。",
           "foundations": [
             "S-049",
             "C-067",
@@ -427,7 +427,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 8,
           "title": "透明性を保つ",
-          "subtitle": "疑念が増えにくくなり、関係が崩れにくい。",
+          "subtitle": "疑念が増えにくくなり、関係が崩れにくくなります。",
           "foundations": [
             "S-079",
             "S-054",
@@ -437,7 +437,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 9,
           "title": "長期視点で見る",
-          "subtitle": "長期視点で信頼が深まる。",
+          "subtitle": "長期視点を持つと信頼が深まりやすくなります。",
           "foundations": [
             "S-042",
             "W-017"
@@ -456,7 +456,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 11,
           "title": "進捗を共有する",
-          "subtitle": "見通しが立ち、不安が増えにくい。",
+          "subtitle": "見通しが立ち、不安が増えにくくなります。",
           "foundations": [
             "S-027",
             "S-107",
@@ -466,7 +466,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 12,
           "title": "期待値を調整する",
-          "subtitle": "期待のズレが減り、評価が安定する。",
+          "subtitle": "期待のズレが減り、評価が安定しやすくなります。",
           "foundations": [
             "T-044",
             "C-076",
@@ -475,8 +475,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 13,
-          "title": "やり切る姿勢",
-          "subtitle": "相手の防衛が下がり、対話が続きやすくなる。",
+          "title": "やり切る姿勢を見せる",
+          "subtitle": "相手の防衛が下がり、対話が続きやすくなります。",
           "foundations": [
             "C-010",
             "T-051",
@@ -486,7 +486,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 14,
           "title": "できないことを先に言う",
-          "subtitle": "失望を減らし信頼が残る。",
+          "subtitle": "失望を減らし、信頼が残りやすくなります。",
           "foundations": [
             "C-076",
             "W-014",
@@ -495,8 +495,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 15,
-          "title": "早い報連相",
-          "subtitle": "状況不明の不安が減り、摩擦が起きにくい。",
+          "title": "早めに報連相をする",
+          "subtitle": "状況不明の不安が減り、摩擦が起きにくくなります。",
           "foundations": [
             "S-027",
             "S-079",
@@ -505,8 +505,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 16,
-          "title": "小さな支援",
-          "subtitle": "返報が自然に生まれる。",
+          "title": "小さな支援をする",
+          "subtitle": "返報が自然に生まれやすくなります。",
           "foundations": [
             "S-049",
             "S-100",
@@ -516,7 +516,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 17,
           "title": "悪い情報ほど早く言う",
-          "subtitle": "信頼が崩れにくい。",
+          "subtitle": "信頼が崩れにくくなります。",
           "foundations": [
             "S-109",
             "C-087",
@@ -526,7 +526,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 18,
           "title": "態度を一貫させる",
-          "subtitle": "相手が安心して接しやすくなり、摩擦が減る。",
+          "subtitle": "相手が安心して接しやすくなり、摩擦が減りやすくなります。",
           "foundations": [
             "S-079",
             "S-111",
@@ -541,7 +541,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 1,
           "title": "清潔感を最優先にする",
-          "subtitle": "入口の拒否反応が減り、安心してもらいやすい。",
+          "subtitle": "入口の拒否反応が減り、安心してもらいやすくなります。",
           "foundations": [
             "S-022",
             "S-023",
@@ -571,7 +571,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 4,
           "title": "適度なユーモアを使う",
-          "subtitle": "緊張が解け距離が縮む。",
+          "subtitle": "緊張が解け、距離が縮みやすくなります。",
           "foundations": [
             "S-013",
             "S-038",
@@ -581,7 +581,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 5,
           "title": "押し引きのバランスを取る",
-          "subtitle": "小さな安心が積み上がり、信頼が育つ。",
+          "subtitle": "小さな安心が積み上がり、信頼が育ちやすくなります。",
           "foundations": [
             "C-089",
             "S-113",
@@ -591,7 +591,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 6,
           "title": "誠実さを見せる",
-          "subtitle": "誠実さが安心感を生む。",
+          "subtitle": "誠実さが安心感を生みやすくなります。",
           "foundations": [
             "S-054",
             "T-044",
@@ -600,8 +600,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 7,
-          "title": "共通の話題",
-          "subtitle": "話題が尽きにくく盛り上がる。",
+          "title": "共通の話題を見つける",
+          "subtitle": "話題が尽きにくく盛り上がりやすくなります。",
           "foundations": [
             "S-021",
             "S-063",
@@ -611,7 +611,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 8,
           "title": "相手のペースに合わせる",
-          "subtitle": "親近感が増え、距離が縮まる。",
+          "subtitle": "親近感が増え、距離が縮まりやすくなります。",
           "foundations": [
             "S-012",
             "S-010",
@@ -680,8 +680,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 15,
-          "title": "褒めは具体で短く",
-          "subtitle": "誇張が消え、言葉の信用度が上がる。",
+          "title": "褒めは具体的に短くする",
+          "subtitle": "誇張が消え、言葉の信用度が上がりやすくなります。",
           "foundations": [
             "S-058",
             "S-059",
@@ -701,7 +701,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 17,
           "title": "匂い対策を徹底する",
-          "subtitle": "不快を防ぎ近づきやすい。",
+          "subtitle": "不快を防ぎ、近づきやすくなります。",
           "foundations": [
             "C-090",
             "S-116",
@@ -711,7 +711,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 18,
           "title": "小さく約束して守る",
-          "subtitle": "不安が減り、任せてもらいやすくなる。",
+          "subtitle": "不安が減り、任せてもらいやすくなります。",
           "foundations": [
             "S-106",
             "C-010",
@@ -726,7 +726,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 1,
           "title": "笑顔と明るさを心がける",
-          "subtitle": "安心の前提が整い、話しやすさが増す。",
+          "subtitle": "安心の前提が整い、話しやすさが増しやすくなります。",
           "foundations": [
             "S-013",
             "S-014",
@@ -746,7 +746,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 3,
           "title": "適度な隙を見せる",
-          "subtitle": "開示すると相手も心を開く。",
+          "subtitle": "開示すると相手も心を開きやすくなります。",
           "foundations": [
             "S-037",
             "W-025",
@@ -755,8 +755,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 4,
-          "title": "興味を示すボディランゲージ",
-          "subtitle": "相手に合わせると親近感が増す。",
+          "title": "興味を示すボディランゲージをする",
+          "subtitle": "相手に合わせると親近感が増しやすくなります。",
           "foundations": [
             "S-015",
             "S-012",
@@ -766,7 +766,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 5,
           "title": "自分の魅力を磨く",
-          "subtitle": "摩擦が減り、関係が保てる。",
+          "subtitle": "魅力があると摩擦が減り、関係が保ちやすくなります。",
           "foundations": [
             "S-039",
             "S-025",
@@ -776,7 +776,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 6,
           "title": "聞き上手かつ質問上手になる",
-          "subtitle": "開示すると相手も心を開く。",
+          "subtitle": "質問を交えることで相手も心を開きやすくなります。",
           "foundations": [
             "S-001",
             "W-021",
@@ -786,7 +786,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 7,
           "title": "感謝を言葉にする",
-          "subtitle": "気分が整い、回復が早くなる。",
+          "subtitle": "気分が整い、関係が良くなりやすくなります。",
           "foundations": [
             "C-049",
             "S-041",
@@ -796,7 +796,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 8,
           "title": "自立した姿勢を保つ",
-          "subtitle": "安心感が伝わりやすくなり、第一印象が安定する。",
+          "subtitle": "安心感が伝わりやすくなり、印象が安定しやすくなります。",
           "foundations": [
             "S-034",
             "C-091",
@@ -806,7 +806,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 9,
           "title": "ミステリアスさを残す",
-          "subtitle": "小さな安心が積み上がり、信頼が育つ。",
+          "subtitle": "興味を引き、信頼が育ちやすくなります。",
           "foundations": [
             "S-040",
             "B-088",
@@ -826,7 +826,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 11,
           "title": "相手の努力を言葉で認める",
-          "subtitle": "承認が安心感につながる。",
+          "subtitle": "承認が安心感につながりやすくなります。",
           "foundations": [
             "S-058",
             "C-006",
@@ -836,7 +836,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 12,
           "title": "自分の境界線も明確にする",
-          "subtitle": "安心の前提が整い、話しやすさが増す。",
+          "subtitle": "安心の前提が整い、話しやすさが増しやすくなります。",
           "foundations": [
             "S-034",
             "S-032",
@@ -846,7 +846,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 13,
           "title": "好意は小さく示す",
-          "subtitle": "追う動機が生まれやすい。",
+          "subtitle": "追う動機が生まれやすくなります。",
           "foundations": [
             "S-049",
             "S-027",
@@ -856,7 +856,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 14,
           "title": "相手の得意を立てる",
-          "subtitle": "自尊心が満たされやすい。",
+          "subtitle": "自尊心が満たされやすくなります。",
           "foundations": [
             "S-029",
             "S-041",
@@ -886,7 +886,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 17,
           "title": "感情をぶつけない",
-          "subtitle": "安心して近づける。",
+          "subtitle": "安心して近づきやすくなります。",
           "foundations": [
             "C-033",
             "W-027",
@@ -896,7 +896,7 @@ export const peopleTechniquesPart1 = {
         {
           "id": 18,
           "title": "尊敬を言語化する",
-          "subtitle": "信頼が早く育つ。",
+          "subtitle": "信頼が早く育ちやすくなります。",
           "foundations": [
             "S-041",
             "S-054",
