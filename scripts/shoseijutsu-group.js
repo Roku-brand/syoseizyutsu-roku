@@ -1,5 +1,17 @@
 import { shoseijutsuData } from "../data/index.js";
 
+const foundationCategories = Object.values(shoseijutsuData.foundation);
+
+const findFoundationTitle = (tagId) => {
+  for (const category of foundationCategories) {
+    const item = category.items.find((card) => card.tagId === tagId);
+    if (item) {
+      return item.title;
+    }
+  }
+  return null;
+};
+
 const areaLabels = {
   life: "人生",
   thinking: "思考",
@@ -79,7 +91,9 @@ const parseGroupParam = () => {
 const renderFoundationLink = (tag) => {
   const encodedTag = encodeURIComponent(tag);
   const backTarget = encodeURIComponent(`group.html?group=${encodeURIComponent(groupParam ?? "")}`);
-  return `<a class="foundation-link" href="theory-card.html?tag=${encodedTag}&back=${backTarget}">${tag}</a>`;
+  const title = findFoundationTitle(tag);
+  const displayText = title ? `${tag}（${title}）` : tag;
+  return `<a class="foundation-link" href="theory-card.html?tag=${encodedTag}&back=${backTarget}">${displayText}</a>`;
 };
 
 const renderDetails = (group) => {
