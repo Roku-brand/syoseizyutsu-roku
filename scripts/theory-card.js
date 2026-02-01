@@ -3,6 +3,7 @@ import { shoseijutsuData } from "../data/index.js";
 const detailContainer = document.getElementById("theory-detail");
 const emptyState = document.getElementById("theory-empty");
 const backLink = document.getElementById("theory-back-link");
+const descriptionMeta = document.querySelector('meta[name="description"]');
 
 const categories = Object.values(shoseijutsuData.foundation);
 
@@ -44,11 +45,55 @@ const findCard = () => {
 
 const card = findCard();
 
+const chooseByLength = (candidates, min, max) => {
+  const match = candidates.find((text) => text.length >= min && text.length <= max);
+  if (match) {
+    return match;
+  }
+  const target = (min + max) / 2;
+  return candidates
+    .slice()
+    .sort((a, b) => Math.abs(a.length - target) - Math.abs(b.length - target))[0];
+};
+
+const clampLength = (text, min, max, { suffix = "…", padText = "" } = {}) => {
+  let result = text;
+  if (result.length < min && padText) {
+    result = `${result}${padText}`;
+  }
+  if (result.length > max) {
+    return `${result.slice(0, Math.max(max - suffix.length, 1))}${suffix}`;
+  }
+  return result;
+};
+
+const buildTheoryTitle = (cardData) => {
+  const suffix = "｜処世術禄 理論集";
+  const candidates = [
+    `${cardData.title}で判断の偏りを知る方法${suffix}`,
+    `${cardData.title}の要点と活用法｜${cardData.tagId}${suffix}`,
+    `${cardData.title}を理解する心理理論${suffix}`,
+  ];
+  const picked = chooseByLength(candidates, 32, 45);
+  return clampLength(picked, 32, 45, { padText: "の解説" });
+};
+
+const buildTheoryDescription = (cardData) => {
+  const summary = cardData.summary?.replace(/。$/, "") ?? "";
+  const base = `${summary}判断に迷う人向けに、心理学・行動科学の研究背景から${cardData.title}を仕事や生活に活かす手順を解説します。`;
+  return clampLength(base, 80, 120, {
+    padText: "結論を急ぐ癖や思い込みの原因を整理します。",
+  });
+};
+
 if (!card) {
   detailContainer.innerHTML = "";
   emptyState.classList.remove("is-hidden");
 } else {
-  document.title = `処世術禄 | ${card.tagId} ${card.title}`;
+  document.title = buildTheoryTitle(card);
+  if (descriptionMeta) {
+    descriptionMeta.setAttribute("content", buildTheoryDescription(card));
+  }
   emptyState.classList.add("is-hidden");
   detailContainer.innerHTML = `
     <div class="detail-card detail-card--page theory-card theory-card--${card.categoryId}">
