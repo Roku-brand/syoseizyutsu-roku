@@ -146,8 +146,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 15,
-          "title": "小さな約束を守るほど、信用は積み上がる",
-          "subtitle": "信用が積み上がり、任せてもらいやすい。",
+          "title": "小さな約束を守る",
+          "subtitle": "信用が積み上がり、任せてもらいやすくなります。",
           "foundations": [
             "S-054",
             "S-093",
@@ -366,8 +366,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 2,
-          "title": "約束を守るほど、任せてもらいやすくなる",
-          "subtitle": "信用が積み上がり、任せてもらいやすい。",
+          "title": "約束を守る",
+          "subtitle": "信用が積み上がり、任せてもらいやすくなります。",
           "foundations": [
             "S-056",
             "T-044",
@@ -445,8 +445,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 10,
-          "title": "小さな約束の積み上げが、大きな信頼になる",
-          "subtitle": "信用が積み上がり、任せてもらいやすい。",
+          "title": "小さな約束を積み上げる",
+          "subtitle": "信用が積み上がり、大きな信頼につながりやすくなります。",
           "foundations": [
             "S-106",
             "S-095",
@@ -550,8 +550,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 2,
-          "title": "自信を持って接",
-          "subtitle": "堂々と伝えられ印象が上がる。",
+          "title": "自信を持って接する",
+          "subtitle": "堂々とした態度で印象が安定しやすくなります。",
           "foundations": [
             "C-088",
             "W-007",
@@ -620,8 +620,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 9,
-          "title": "デートプランを主導",
-          "subtitle": "主導が伝わり、安心感が増します。",
+          "title": "デートプランを主導する",
+          "subtitle": "主導する姿勢が安心感につながりやすくなります。",
           "foundations": [
             "T-023",
             "S-027",
@@ -640,8 +640,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 11,
-          "title": "相手の境界線を尊重",
-          "subtitle": "尊重が安心感を生む。",
+          "title": "相手の境界線を尊重する",
+          "subtitle": "境界線を守ることで安心感が生まれやすくなります。",
           "foundations": [
             "S-034",
             "B-086",
@@ -650,8 +650,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 12,
-          "title": "相手の価値観を丁寧に理解",
-          "subtitle": "理解が深まると信頼が高まる。",
+          "title": "相手の価値観を丁寧に理解する",
+          "subtitle": "価値観を理解することで信頼が深まりやすくなります。",
           "foundations": [
             "W-021",
             "C-080",
@@ -670,8 +670,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 14,
-          "title": "相手のペースを尊重",
-          "subtitle": "警戒が下がりやすい。",
+          "title": "相手のペースを尊重する",
+          "subtitle": "ペースを合わせると警戒が下がりやすくなります。",
           "foundations": [
             "C-084",
             "W-021",
@@ -735,8 +735,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 2,
-          "title": "相手を褒めて承認",
-          "subtitle": "自己重要感が満たされ、好意が残りやすい。",
+          "title": "相手を褒めて承認する",
+          "subtitle": "自己重要感が満たされ、好意が残りやすくなります。",
           "foundations": [
             "S-058",
             "S-059",
@@ -815,8 +815,8 @@ export const peopleTechniquesPart1 = {
         },
         {
           "id": 10,
-          "title": "相手の価値観を理解",
-          "subtitle": "選択基準が定まり、迷いが減る。",
+          "title": "相手の価値観を理解する",
+          "subtitle": "価値観を知ると選択基準が定まり、迷いが減りやすくなります。",
           "foundations": [
             "W-021",
             "C-080",
