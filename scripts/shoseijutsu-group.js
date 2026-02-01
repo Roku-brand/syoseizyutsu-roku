@@ -1,16 +1,13 @@
 import { shoseijutsuData } from "../data/index.js";
 
-const foundationCategories = Object.values(shoseijutsuData.foundation);
-
-const findFoundationTitle = (tagId) => {
-  for (const category of foundationCategories) {
-    const item = category.items.find((card) => card.tagId === tagId);
-    if (item) {
-      return item.title;
-    }
+const foundationTitleMap = new Map();
+for (const category of Object.values(shoseijutsuData.foundation)) {
+  for (const card of category.items) {
+    foundationTitleMap.set(card.tagId, card.title);
   }
-  return null;
-};
+}
+
+const findFoundationTitle = (tagId) => foundationTitleMap.get(tagId) ?? null;
 
 const areaLabels = {
   life: "人生",
