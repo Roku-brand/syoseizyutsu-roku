@@ -6,8 +6,8 @@ export const skillTechniques = {
       "details": [
         {
           "id": 1,
-          "title": "答えを限定しない問いは、相手の文脈を引き出す。",
-          "subtitle": "相手の関心や前提が表に出るため、話題が自走しやすい。",
+          "title": "答えを限定しない問いをする",
+          "subtitle": "相手の関心や前提が表に出るため、話題が自走しやすくなります。",
           "foundations": [
             "S-003",
             "S-005",
@@ -16,8 +16,8 @@ export const skillTechniques = {
         },
         {
           "id": 2,
-          "title": "相槌は、会話の安心信号である。",
-          "subtitle": "聞かれている確信が増え、相手の言葉が伸びる。",
+          "title": "相槌を打つ",
+          "subtitle": "聞かれている確信が増え、相手の言葉が伸びやすくなります。",
           "foundations": [
             "S-004",
             "S-001",
@@ -26,8 +26,8 @@ export const skillTechniques = {
         },
         {
           "id": 3,
-          "title": "話題の在庫は、沈黙への保険になる。",
-          "subtitle": "焦りが減り、相手に注意を向けたまま会話を続けられる。",
+          "title": "話題の在庫を持っておく",
+          "subtitle": "焦りが減り、相手に注意を向けたまま会話を続けやすくなります。",
           "foundations": [
             "C-066",
             "C-100",
@@ -36,8 +36,8 @@ export const skillTechniques = {
         },
         {
           "id": 4,
-          "title": "関心に寄せると、距離は一気に縮む。",
-          "subtitle": "相手の自己重要感に触れるほど、好意と協力が出やすい。",
+          "title": "相手の関心に寄せた話題を選ぶ",
+          "subtitle": "自己重要感に触れるほど、好意と協力が出やすくなります。",
           "foundations": [
             "S-021",
             "W-059",
@@ -46,8 +46,8 @@ export const skillTechniques = {
         },
         {
           "id": 5,
-          "title": "自分語りが長いほど、相手の参加権は減る。",
-          "subtitle": "余白を残すと相手が入りやすく、双方向になりやすい。",
+          "title": "自分語りを短く抑える",
+          "subtitle": "余白を残すと相手が入りやすく、双方向になりやすくなります。",
           "foundations": [
             "S-143",
             "C-050",
@@ -56,8 +56,8 @@ export const skillTechniques = {
         },
         {
           "id": 6,
-          "title": "ユーモアは、緊張を下げる潤滑油である。",
-          "subtitle": "場の警戒がほどけ、発言コストが下がる。",
+          "title": "ユーモアを交える",
+          "subtitle": "場の警戒がほどけ、発言コストが下がりやすくなります。",
           "foundations": [
             "W-060",
             "S-038",
@@ -66,8 +66,8 @@ export const skillTechniques = {
         },
         {
           "id": 7,
-          "title": "共感を言語化すると、相手は理解されたと感じる。",
-          "subtitle": "防御が下がり、本音や具体が出やすくなる。",
+          "title": "共感を言語化する",
+          "subtitle": "防御が下がり、本音や具体が出やすくなります。",
           "foundations": [
             "S-002",
             "W-021",
@@ -76,8 +76,8 @@ export const skillTechniques = {
         },
         {
           "id": 8,
-          "title": "会話は、相手の言葉を育てるほど広がる。",
-          "subtitle": "理由や例を促すと情報密度が上がり、途切れにくい。",
+          "title": "相手の言葉を育てる",
+          "subtitle": "理由や例を促すと情報密度が上がり、途切れにくくなります。",
           "foundations": [
             "W-061",
             "W-011",
@@ -86,8 +86,8 @@ export const skillTechniques = {
         },
         {
           "id": 9,
-          "title": "沈黙は失敗ではなく、考える時間である。",
-          "subtitle": "埋めようとしないほど、相手の内省が深くなる。",
+          "title": "沈黙を考える時間として扱う",
+          "subtitle": "埋めようとしないほど、相手の内省が深まりやすくなります。",
           "foundations": [
             "S-005",
             "S-144",
@@ -96,8 +96,8 @@ export const skillTechniques = {
         },
         {
           "id": 10,
-          "title": "話題転換は、切るより“橋”をかけると自然になる。",
-          "subtitle": "共通点を一言添えるだけで、違和感なく次へ移れる。",
+          "title": "話題転換に橋をかける",
+          "subtitle": "共通点を一言添えるだけで、違和感なく次へ移れます。",
           "foundations": [
             "S-145",
             "S-030",
@@ -106,8 +106,8 @@ export const skillTechniques = {
         },
         {
           "id": 11,
-          "title": "要約は、『ちゃんと聞いた』の最短証明になる。",
-          "subtitle": "理解の一致が取れ、誤解が早期に潰れる。",
+          "title": "相手の話を要約して返す",
+          "subtitle": "理解の一致が取れ、誤解を早期に潰せます。",
           "foundations": [
             "S-001",
             "S-103",
@@ -116,8 +116,8 @@ export const skillTechniques = {
         },
         {
           "id": 12,
-          "title": "別れ際の一言が、次の会話を予約する。",
-          "subtitle": "次の接点が具体になるほど、関係が途切れにくい。",
+          "title": "別れ際に次の話題を予告する",
+          "subtitle": "次の接点が具体になるほど、関係が途切れにくくなります。",
           "foundations": [
             "S-041",
             "S-093",
@@ -126,8 +126,8 @@ export const skillTechniques = {
         },
         {
           "id": 13,
-          "title": "話題選びは、深さより入口の軽さで決まる。",
-          "subtitle": "入りやすいテーマから始めると、自然に深掘りへ進む。",
+          "title": "入口の軽い話題から始める",
+          "subtitle": "入りやすいテーマから始めると、自然に深掘りへ進みやすくなります。",
           "foundations": [
             "S-024",
             "S-146",
@@ -136,8 +136,8 @@ export const skillTechniques = {
         },
         {
           "id": 14,
-          "title": "質問の連発は、関心ではなく詰問に見える。",
-          "subtitle": "自己開示と混ぜると、相手の負担が下がる。",
+          "title": "質問に自己開示を混ぜる",
+          "subtitle": "一方的な質問攻めを避け、相手の負担が下がります。",
           "foundations": [
             "S-104",
             "C-009",
@@ -146,8 +146,8 @@ export const skillTechniques = {
         },
         {
           "id": 15,
-          "title": "要約＋共感は、最小の言葉で最大の安心を作る。",
-          "subtitle": "理解と感情が揃うと、信頼が早く立ち上がる。",
+          "title": "要約と共感をセットで伝える",
+          "subtitle": "理解と感情が揃うと、信頼が早く立ち上がりやすくなります。",
           "foundations": [
             "S-002",
             "W-021",
@@ -156,8 +156,8 @@ export const skillTechniques = {
         },
         {
           "id": 16,
-          "title": "オチを急ぐほど、会話の余白は消える。",
-          "subtitle": "結論を保留すると、相手の話が伸びやすい。",
+          "title": "オチを急がず余白を残す",
+          "subtitle": "結論を保留すると、相手の話が伸びやすくなります。",
           "foundations": [
             "S-147",
             "S-028",
@@ -166,8 +166,8 @@ export const skillTechniques = {
         },
         {
           "id": 17,
-          "title": "相手の言葉を少し返すと、会話は連結される。",
-          "subtitle": "同じ語彙が続くことで、相手は話を進めやすい。",
+          "title": "相手の言葉を少し返す",
+          "subtitle": "同じ語彙が続くことで、相手が話を進めやすくなります。",
           "foundations": [
             "S-011",
             "S-007",
@@ -176,8 +176,8 @@ export const skillTechniques = {
         },
         {
           "id": 18,
-          "title": "自分の話は“短く切る”ほど、次が続く。",
-          "subtitle": "一息で終えると、相手が反応と質問を挟みやすい。",
+          "title": "自分の話を短く切る",
+          "subtitle": "一息で終えると、相手が反応と質問を挟みやすくなります。",
           "foundations": [
             "C-050",
             "S-006",
@@ -186,8 +186,8 @@ export const skillTechniques = {
         },
         {
           "id": 19,
-          "title": "場の温度差は、内容より違和感を生む。",
-          "subtitle": "テンションを合わせると、相手は安心して乗ってくる。",
+          "title": "場のテンションに合わせる",
+          "subtitle": "温度差がなくなると、相手は安心して乗ってきやすくなります。",
           "foundations": [
             "S-012",
             "S-013",
@@ -196,8 +196,8 @@ export const skillTechniques = {
         },
         {
           "id": 20,
-          "title": "軽い終わり方は、関係を重くしない。",
-          "subtitle": "未完で閉じると次回の話題が残り、再接続しやすい。",
+          "title": "軽く終わらせる",
+          "subtitle": "未完で閉じると次回の話題が残り、再接続しやすくなります。",
           "foundations": [
             "S-041",
             "S-030",
@@ -211,8 +211,8 @@ export const skillTechniques = {
       "details": [
         {
           "id": 1,
-          "title": "結論を先に置くと、理解の負荷は大きく下がる。",
-          "subtitle": "聞き手が取捨選択を早く終え、内容理解に集中できる。",
+          "title": "結論を先に置く",
+          "subtitle": "聞き手が取捨選択を早く終え、内容理解に集中しやすくなります。",
           "foundations": [
             "T-018",
             "C-050",
@@ -221,8 +221,8 @@ export const skillTechniques = {
         },
         {
           "id": 2,
-          "title": "利益を示すほど、人は動機づけられる。",
-          "subtitle": "相手の得が見えると協力の理由が立ち上がる。",
+          "title": "相手の利益を示す",
+          "subtitle": "得が見えると協力の理由が立ち上がりやすくなります。",
           "foundations": [
             "C-101",
             "C-067",
@@ -231,8 +231,8 @@ export const skillTechniques = {
         },
         {
           "id": 3,
-          "title": "ストーリーは、情報に意味の流れを与える。",
-          "subtitle": "因果がつながると記憶に残り、納得が深まる。",
+          "title": "ストーリーで伝える",
+          "subtitle": "因果がつながると記憶に残り、納得が深まりやすくなります。",
           "foundations": [
             "C-028",
             "C-027",
@@ -241,8 +241,8 @@ export const skillTechniques = {
         },
         {
           "id": 4,
-          "title": "数字は、曖昧さを一瞬で消す。",
-          "subtitle": "基準が揃うため、解釈のブレと誤解が減る。",
+          "title": "数字を入れる",
+          "subtitle": "基準が揃うため、解釈のブレと誤解が減りやすくなります。",
           "foundations": [
             "C-022",
             "C-023",
@@ -251,8 +251,8 @@ export const skillTechniques = {
         },
         {
           "id": 5,
-          "title": "選択肢は多いほど、決断を遅らせる。",
-          "subtitle": "比較コストが跳ね上がり、先延ばしが起きやすい。",
+          "title": "選択肢を絞って提示する",
+          "subtitle": "比較コストが下がり、決断が進みやすくなります。",
           "foundations": [
             "W-065",
             "B-065",
@@ -261,8 +261,8 @@ export const skillTechniques = {
         },
         {
           "id": 6,
-          "title": "相手の言葉を使うと、抵抗は下がる。",
-          "subtitle": "馴染みの語彙だと理解が速く、受け入れられやすい。",
+          "title": "相手の言葉を使う",
+          "subtitle": "馴染みの語彙だと理解が速く、受け入れられやすくなります。",
           "foundations": [
             "S-011",
             "S-010",
@@ -271,8 +271,8 @@ export const skillTechniques = {
         },
         {
           "id": 7,
-          "title": "反論の先取りは、信頼を先に積む。",
-          "subtitle": "懸念を認めると防御が下がり、提案が通りやすい。",
+          "title": "反論を先に認める",
+          "subtitle": "懸念を認めると防御が下がり、提案が通りやすくなります。",
           "foundations": [
             "C-086",
             "S-105",
@@ -281,8 +281,8 @@ export const skillTechniques = {
         },
         {
           "id": 8,
-          "title": "人は『みんな』の動きで判断を補う。",
-          "subtitle": "社会的証明があると不安が減り、決断が速くなる。",
+          "title": "社会的証明を添える",
+          "subtitle": "『みんなも』があると不安が減り、決断が速くなります。",
           "foundations": [
             "S-053",
             "S-065",
@@ -291,8 +291,8 @@ export const skillTechniques = {
         },
         {
           "id": 9,
-          "title": "希少性は、先送りの言い訳を減らす。",
-          "subtitle": "機会が限られると優先順位が上がり、行動に移りやすい。",
+          "title": "希少性を伝える",
+          "subtitle": "機会が限られると優先順位が上がり、行動に移りやすくなります。",
           "foundations": [
             "C-102",
             "B-061",
@@ -301,8 +301,8 @@ export const skillTechniques = {
         },
         {
           "id": 10,
-          "title": "小さなコミットメントは、行動の一貫性を呼ぶ。",
-          "subtitle": "宣言や同意を取ると、人は自分の言動を揃えやすい。",
+          "title": "小さなコミットメントを取る",
+          "subtitle": "宣言や同意を取ると、相手が自分の言動を揃えやすくなります。",
           "foundations": [
             "S-093",
             "B-081",
@@ -311,8 +311,8 @@ export const skillTechniques = {
         },
         {
           "id": 11,
-          "title": "論点を箇条書きにすると、思考は整列する。",
-          "subtitle": "構造が見えると迷いが減り、議論が前に進む。",
+          "title": "論点を箇条書きにする",
+          "subtitle": "構造が見えると迷いが減り、議論が前に進みやすくなります。",
           "foundations": [
             "T-058",
             "C-103",
@@ -321,8 +321,8 @@ export const skillTechniques = {
         },
         {
           "id": 12,
-          "title": "確認を挟むほど、納得は深くなる。",
-          "subtitle": "理解のズレをその場で修正でき、手戻りが減る。",
+          "title": "確認を挟む",
+          "subtitle": "理解のズレをその場で修正でき、手戻りを減らせます。",
           "foundations": [
             "S-149",
             "W-066",
@@ -331,8 +331,8 @@ export const skillTechniques = {
         },
         {
           "id": 13,
-          "title": "最初の一文で、読む姿勢は決まる。",
-          "subtitle": "結論提示で期待値が揃い、以降の説明が通りやすい。",
+          "title": "最初の一文に結論を置く",
+          "subtitle": "期待値が揃い、以降の説明が通りやすくなります。",
           "foundations": [
             "T-018",
             "C-104",
@@ -341,8 +341,8 @@ export const skillTechniques = {
         },
         {
           "id": 14,
-          "title": "抽象と具体を往復すると、誤解は減る。",
-          "subtitle": "概念と例がセットになると、理解が固定される。",
+          "title": "抽象と具体を往復する",
+          "subtitle": "概念と例がセットになると、理解が固定されやすくなります。",
           "foundations": [
             "W-067",
             "S-106",
@@ -351,8 +351,8 @@ export const skillTechniques = {
         },
         {
           "id": 15,
-          "title": "比喩は一つに絞ると、イメージが揃う。",
-          "subtitle": "比喩が増えるほど解釈が散るため、統一が効く。",
+          "title": "比喩を一つに絞る",
+          "subtitle": "比喩が増えると解釈が散るため、統一した方が伝わりやすくなります。",
           "foundations": [
             "C-026",
             "C-050",
@@ -361,8 +361,8 @@ export const skillTechniques = {
         },
         {
           "id": 16,
-          "title": "一文が長いほど、理解は遅くなる。",
-          "subtitle": "認知負荷が下がり、読み手が迷子になりにくい。",
+          "title": "一文を短く保つ",
+          "subtitle": "認知負荷が下がり、読み手が迷子になりにくくなります。",
           "foundations": [
             "C-050",
             "C-025",
@@ -371,8 +371,8 @@ export const skillTechniques = {
         },
         {
           "id": 17,
-          "title": "前提を言葉にすると、すれ違いは減る。",
-          "subtitle": "暗黙の違いが表に出ることで、議論が噛み合う。",
+          "title": "前提を言葉にする",
+          "subtitle": "暗黙の違いが表に出ることで、議論が噛み合いやすくなります。",
           "foundations": [
             "C-105",
             "S-007",
@@ -381,8 +381,8 @@ export const skillTechniques = {
         },
         {
           "id": 18,
-          "title": "言わないことを決めると、主題が浮き上がる。",
-          "subtitle": "情報を削るほど焦点が定まり、伝達が鋭くなる。",
+          "title": "言わないことを決める",
+          "subtitle": "情報を削るほど焦点が定まり、伝達が鋭くなります。",
           "foundations": [
             "T-016",
             "W-068",
@@ -396,8 +396,8 @@ export const skillTechniques = {
       "details": [
         {
           "id": 1,
-          "title": "代替案を持たない交渉は、常に不利に傾く。",
-          "subtitle": "選択肢があるだけで譲歩の自由度が増え、焦りが減る。",
+          "title": "代替案を持って交渉に臨む",
+          "subtitle": "選択肢があるだけで譲歩の自由度が増え、焦りが減ります。",
           "foundations": [
             "S-107",
             "S-150",
@@ -406,8 +406,8 @@ export const skillTechniques = {
         },
         {
           "id": 2,
-          "title": "相手の利益が見えると、落とし所が見える。",
-          "subtitle": "目的が分かるほど交換条件を設計しやすい。",
+          "title": "相手の利益を把握する",
+          "subtitle": "目的が分かるほど交換条件を設計しやすくなります。",
           "foundations": [
             "S-151",
             "W-070",
@@ -416,8 +416,8 @@ export const skillTechniques = {
         },
         {
           "id": 3,
-          "title": "最初の提示は、交渉の物差しになる。",
-          "subtitle": "アンカーが定まると、その後の評価がそこに寄る。",
+          "title": "最初の提示を意識する",
+          "subtitle": "アンカーが定まると、その後の評価がそこに寄りやすくなります。",
           "foundations": [
             "B-009",
             "W-071",
@@ -426,8 +426,8 @@ export const skillTechniques = {
         },
         {
           "id": 4,
-          "title": "Win-Winは『論点設計』で現実になる。",
-          "subtitle": "条件を分解すると交換が可能になり、合意が作れる。",
+          "title": "論点を分解して設計する",
+          "subtitle": "条件を分解すると交換が可能になり、合意が作りやすくなります。",
           "foundations": [
             "S-153",
             "C-082",
@@ -436,8 +436,8 @@ export const skillTechniques = {
         },
         {
           "id": 5,
-          "title": "沈黙は、譲歩を引き出す余白である。",
-          "subtitle": "急がないほど相手が話し、情報が増える。",
+          "title": "沈黙を余白として使う",
+          "subtitle": "急がないほど相手が話し、情報が増えやすくなります。",
           "foundations": [
             "S-005",
             "S-008",
@@ -446,8 +446,8 @@ export const skillTechniques = {
         },
         {
           "id": 6,
-          "title": "譲歩は小出しにすると、価値が保たれる。",
-          "subtitle": "一度に出すと基準が下がるため、段階が効く。",
+          "title": "譲歩を小出しにする",
+          "subtitle": "一度に出すと基準が下がるため、段階的に出す方が価値を保てます。",
           "foundations": [
             "S-154",
             "S-049",
@@ -456,8 +456,8 @@ export const skillTechniques = {
         },
         {
           "id": 7,
-          "title": "感情を混ぜるほど、条件交渉は壊れる。",
-          "subtitle": "感情を切り分けると論点が整理され、破談を避けやすい。",
+          "title": "感情と条件を切り分ける",
+          "subtitle": "感情を分離すると論点が整理され、破談を避けやすくなります。",
           "foundations": [
             "C-033",
             "C-032",
@@ -466,8 +466,8 @@ export const skillTechniques = {
         },
         {
           "id": 8,
-          "title": "論点が一つだと、合意は硬直する。",
-          "subtitle": "複数条件を持つと交換ができ、双方が納得しやすい。",
+          "title": "論点を複数用意する",
+          "subtitle": "条件が増えると交換ができ、双方が納得しやすくなります。",
           "foundations": [
             "W-072",
             "W-001",
@@ -476,8 +476,8 @@ export const skillTechniques = {
         },
         {
           "id": 9,
-          "title": "面子を守ると、関係は壊れにくい。",
-          "subtitle": "相手の尊厳を保つほど、合意後の協力が続く。",
+          "title": "相手の面子を守る",
+          "subtitle": "尊厳を保つほど、合意後の協力が続きやすくなります。",
           "foundations": [
             "S-030",
             "S-041"
@@ -485,8 +485,8 @@ export const skillTechniques = {
         },
         {
           "id": 10,
-          "title": "合意は書くと、実行に変わる。",
-          "subtitle": "言葉に固定すると解釈が揃い、後の揉め事が減る。",
+          "title": "合意を書面に残す",
+          "subtitle": "言葉に固定すると解釈が揃い、後の揉め事が減ります。",
           "foundations": [
             "T-044",
             "T-045",
@@ -495,8 +495,8 @@ export const skillTechniques = {
         },
         {
           "id": 11,
-          "title": "譲れない条件が曖昧だと、後悔が残る。",
-          "subtitle": "境界を先に決めると、その場で迷わない。",
+          "title": "譲れない条件を先に決める",
+          "subtitle": "境界が明確だと、その場で迷わずに済みます。",
           "foundations": [
             "B-010",
             "B-098",
@@ -505,8 +505,8 @@ export const skillTechniques = {
         },
         {
           "id": 12,
-          "title": "合意後の段取りまでが交渉である。",
-          "subtitle": "実行計画があるほど信頼が落ちず、成果が出る。",
+          "title": "合意後の段取りまで決める",
+          "subtitle": "実行計画があるほど信頼が落ちず、成果に繋がりやすくなります。",
           "foundations": [
             "S-054",
             "S-041",
@@ -515,8 +515,8 @@ export const skillTechniques = {
         },
         {
           "id": 13,
-          "title": "相手の目的を聞くと、交渉は急に簡単になる。",
-          "subtitle": "欲しいものが分かれば、提供できる価値が探せる。",
+          "title": "相手の目的を聞く",
+          "subtitle": "欲しいものが分かれば、提供できる価値を探せます。",
           "foundations": [
             "T-059",
             "T-064",
@@ -525,8 +525,8 @@ export const skillTechniques = {
         },
         {
           "id": 14,
-          "title": "先に譲れる点を決めると、交渉は安定する。",
-          "subtitle": "即答できる領域が増え、感情的な揺れが減る。",
+          "title": "譲れる点を先に決めておく",
+          "subtitle": "即答できる領域が増え、感情的な揺れが減ります。",
           "foundations": [
             "S-156",
             "S-044",
@@ -535,8 +535,8 @@ export const skillTechniques = {
         },
         {
           "id": 15,
-          "title": "二択提示は、決断を前に進める。",
-          "subtitle": "比較を単純化すると、相手は選びやすい。",
+          "title": "二択で提示する",
+          "subtitle": "比較を単純化すると、相手が選びやすくなります。",
           "foundations": [
             "B-065",
             "C-087",
@@ -545,8 +545,8 @@ export const skillTechniques = {
         },
         {
           "id": 16,
-          "title": "沈黙を怖がると、主導権を渡す。",
-          "subtitle": "埋めないことで、相手に説明させやすくなる。",
+          "title": "沈黙を埋めない",
+          "subtitle": "待つことで、相手に説明させやすくなります。",
           "foundations": [
             "S-005",
             "S-008",
@@ -555,8 +555,8 @@ export const skillTechniques = {
         },
         {
           "id": 17,
-          "title": "数字より条件で詰めると、納得が残る。",
-          "subtitle": "単価ではなく構造を整えると、不満が起きにくい。",
+          "title": "数字より条件で詰める",
+          "subtitle": "単価ではなく構造を整えると、不満が起きにくくなります。",
           "foundations": [
             "S-157",
             "S-110",
@@ -565,8 +565,8 @@ export const skillTechniques = {
         },
         {
           "id": 18,
-          "title": "合意を文章で残すと、曖昧さが消える。",
-          "subtitle": "後からの記憶違いを防ぎ、関係コストを下げる。",
+          "title": "合意を文章で残す",
+          "subtitle": "後からの記憶違いを防ぎ、関係コストを下げられます。",
           "foundations": [
             "T-044",
             "S-111",
@@ -575,8 +575,8 @@ export const skillTechniques = {
         },
         {
           "id": 19,
-          "title": "BATNAは、妥協の底を決める。",
-          "subtitle": "退路があると不利な合意を避けやすい。",
+          "title": "BATNAを持っておく",
+          "subtitle": "退路があると不利な合意を避けやすくなります。",
           "foundations": [
             "C-088",
             "S-158",
@@ -585,8 +585,8 @@ export const skillTechniques = {
         },
         {
           "id": 20,
-          "title": "感情を分離すると、破談の確率が下がる。",
-          "subtitle": "相手を責めず論点に戻すだけで、交渉が持ち直す。",
+          "title": "感情を分離して論点に戻す",
+          "subtitle": "相手を責めず論点に戻すだけで、交渉が持ち直しやすくなります。",
           "foundations": [
             "C-106",
             "S-155",
@@ -600,8 +600,8 @@ export const skillTechniques = {
       "details": [
         {
           "id": 1,
-          "title": "ビジョンは、判断基準を一つにする。",
-          "subtitle": "目的が共有されるほど、各自の迷いが減る。",
+          "title": "ビジョンを共有する",
+          "subtitle": "目的が共有されると、各自の迷いが減りやすくなります。",
           "foundations": [
             "S-159",
             "C-055",
@@ -610,8 +610,8 @@ export const skillTechniques = {
         },
         {
           "id": 2,
-          "title": "率先垂範は、言葉より強い指示になる。",
-          "subtitle": "行動が基準になると、組織の空気が揃う。",
+          "title": "率先垂範する",
+          "subtitle": "行動が基準になると、組織の空気が揃いやすくなります。",
           "foundations": [
             "T-034",
             "S-160",
@@ -620,8 +620,8 @@ export const skillTechniques = {
         },
         {
           "id": 3,
-          "title": "権限委譲は、成長の速度を上げる。",
-          "subtitle": "任せると当事者意識が立ち、学習が加速する。",
+          "title": "権限を委譲する",
+          "subtitle": "任せると当事者意識が立ち、学習が加速しやすくなります。",
           "foundations": [
             "T-026",
             "C-091",
@@ -630,8 +630,8 @@ export const skillTechniques = {
         },
         {
           "id": 4,
-          "title": "フィードバックは、成長の最短ループである。",
-          "subtitle": "具体があるほど改善点が明確になり、再現できる。",
+          "title": "フィードバックを具体的に返す",
+          "subtitle": "具体があるほど改善点が明確になり、再現しやすくなります。",
           "foundations": [
             "B-025",
             "B-091",
@@ -640,8 +640,8 @@ export const skillTechniques = {
         },
         {
           "id": 5,
-          "title": "傾聴は、安心を通じて成果を生む。",
-          "subtitle": "安心があるほど報連相が増え、事故が減る。",
+          "title": "傾聴する",
+          "subtitle": "安心があるほど報連相が増え、事故を防ぎやすくなります。",
           "foundations": [
             "C-009",
             "S-001",
@@ -650,8 +650,8 @@ export const skillTechniques = {
         },
         {
           "id": 6,
-          "title": "心理的安全性がないと、挑戦は止まる。",
-          "subtitle": "失敗が許されると試行回数が増え、学習が進む。",
+          "title": "心理的安全性を保つ",
+          "subtitle": "失敗が許されると試行回数が増え、学習が進みやすくなります。",
           "foundations": [
             "C-009",
             "B-028",
@@ -660,8 +660,8 @@ export const skillTechniques = {
         },
         {
           "id": 7,
-          "title": "承認は、小さく頻繁に回すほど効く。",
-          "subtitle": "努力が可視化されると士気が落ちにくい。",
+          "title": "承認を小さく頻繁に回す",
+          "subtitle": "努力が可視化されると士気が落ちにくくなります。",
           "foundations": [
             "S-058",
             "S-059",
@@ -670,8 +670,8 @@ export const skillTechniques = {
         },
         {
           "id": 8,
-          "title": "難しい決断を先送りすると、組織は迷走する。",
-          "subtitle": "不確実でも方針を出すと、動きが揃う。",
+          "title": "難しい決断でも方針を出す",
+          "subtitle": "不確実でも方針が出ると、動きが揃いやすくなります。",
           "foundations": [
             "S-044",
             "B-100",
@@ -680,8 +680,8 @@ export const skillTechniques = {
         },
         {
           "id": 9,
-          "title": "多様性は、摩擦ではなく資源である。",
-          "subtitle": "視点が増えるほど盲点が減り、判断が強くなる。",
+          "title": "多様性を資源として活かす",
+          "subtitle": "視点が増えるほど盲点が減り、判断が強くなります。",
           "foundations": [
             "B-101",
             "S-072",
@@ -690,8 +690,8 @@ export const skillTechniques = {
         },
         {
           "id": 10,
-          "title": "自分を律する姿勢が、信頼を生む。",
-          "subtitle": "一貫性があると周囲が安心してついてくる。",
+          "title": "自分を律する姿勢を見せる",
+          "subtitle": "一貫性があると周囲が安心してついてきやすくなります。",
           "foundations": [
             "C-045",
             "S-161",
@@ -700,8 +700,8 @@ export const skillTechniques = {
         },
         {
           "id": 11,
-          "title": "目標と役割が曖昧だと、努力は散る。",
-          "subtitle": "明文化すると期待値が揃い、手戻りが減る。",
+          "title": "目標と役割を明文化する",
+          "subtitle": "期待値が揃い、手戻りが減りやすくなります。",
           "foundations": [
             "T-022",
             "B-016",
@@ -710,8 +710,8 @@ export const skillTechniques = {
         },
         {
           "id": 12,
-          "title": "1on1は、問題を小さいうちに回収する。",
-          "subtitle": "早期に詰まりを取れるため、離職や炎上を防ぎやすい。",
+          "title": "1on1を定期的に行う",
+          "subtitle": "早期に詰まりを取れるため、離職や炎上を防ぎやすくなります。",
           "foundations": [
             "T-027",
             "C-009",
@@ -720,8 +720,8 @@ export const skillTechniques = {
         },
         {
           "id": 13,
-          "title": "目的を一文にすると、迷いは減る。",
-          "subtitle": "判断の軸が短いほど、共有と再確認が容易になる。",
+          "title": "目的を一文にまとめる",
+          "subtitle": "判断の軸が短いほど、共有と再確認が容易になります。",
           "foundations": [
             "C-050",
             "T-016",
@@ -730,8 +730,8 @@ export const skillTechniques = {
         },
         {
           "id": 14,
-          "title": "役割が明確だと、衝突は減る。",
-          "subtitle": "責任範囲が見えると、無駄な摩擦が起きにくい。",
+          "title": "役割を明確にする",
+          "subtitle": "責任範囲が見えると、無駄な摩擦が起きにくくなります。",
           "foundations": [
             "T-022",
             "S-070",
@@ -740,8 +740,8 @@ export const skillTechniques = {
         },
         {
           "id": 15,
-          "title": "進捗の可視化は、遅れを早く救う。",
-          "subtitle": "遅延が表に出るほど、リカバリの選択肢が増える。",
+          "title": "進捗を可視化する",
+          "subtitle": "遅延が表に出るほど、リカバリの選択肢が増えます。",
           "foundations": [
             "B-024",
             "B-021",
@@ -750,8 +750,8 @@ export const skillTechniques = {
         },
         {
           "id": 16,
-          "title": "小さな承認は、継続の燃料になる。",
-          "subtitle": "見られている感覚があると、努力が続きやすい。",
+          "title": "小さな承認を続ける",
+          "subtitle": "見られている感覚があると、努力が続きやすくなります。",
           "foundations": [
             "S-058",
             "W-074",
@@ -760,8 +760,8 @@ export const skillTechniques = {
         },
         {
           "id": 17,
-          "title": "意思決定者が不明だと、会議は増える。",
-          "subtitle": "決める人が定まると、停滞が一気に減る。",
+          "title": "意思決定者を明確にする",
+          "subtitle": "決める人が定まると、停滞が一気に減ります。",
           "foundations": [
             "T-020",
             "B-103",
@@ -770,8 +770,8 @@ export const skillTechniques = {
         },
         {
           "id": 18,
-          "title": "衝突は、ルールで扱うと燃え広がらない。",
-          "subtitle": "論点と手順があると、人格攻撃に逸れにくい。",
+          "title": "衝突をルールで扱う",
+          "subtitle": "論点と手順があると、人格攻撃に逸れにくくなります。",
           "foundations": [
             "S-078",
             "S-079",
@@ -785,8 +785,8 @@ export const skillTechniques = {
       "details": [
         {
           "id": 1,
-          "title": "不安の引き金を特定すると、対処は選べる。",
-          "subtitle": "漠然が減り、準備すべき点が見える。",
+          "title": "不安の引き金を特定する",
+          "subtitle": "漠然さが減り、準備すべき点が見えやすくなります。",
           "foundations": [
             "C-044",
             "W-076",
@@ -795,8 +795,8 @@ export const skillTechniques = {
         },
         {
           "id": 2,
-          "title": "不安を数値化すると、主観が扱いやすくなる。",
-          "subtitle": "変化が追えるため、効く対策を選別できる。",
+          "title": "不安を数値化する",
+          "subtitle": "変化が追えるため、効く対策を選別しやすくなります。",
           "foundations": [
             "B-021",
             "B-104",
@@ -805,8 +805,8 @@ export const skillTechniques = {
         },
         {
           "id": 3,
-          "title": "回避行動を見える化すると、問題は縮む。",
-          "subtitle": "回避の連鎖が分かり、次の一歩を決めやすい。",
+          "title": "回避行動を見える化する",
+          "subtitle": "回避の連鎖が分かり、次の一歩を決めやすくなります。",
           "foundations": [
             "S-031",
             "B-106",
@@ -815,8 +815,8 @@ export const skillTechniques = {
         },
         {
           "id": 4,
-          "title": "目標を小さくすると、行動は始まる。",
-          "subtitle": "成功体験が積めるサイズにすると継続が生まれる。",
+          "title": "目標を小さく設定する",
+          "subtitle": "成功体験が積めるサイズにすると継続が生まれやすくなります。",
           "foundations": [
             "B-005",
             "B-019",
@@ -825,8 +825,8 @@ export const skillTechniques = {
         },
         {
           "id": 5,
-          "title": "暴露は段階設計すると、怖さを越えやすい。",
-          "subtitle": "負荷を調整できるため、挫折せずに慣れを作れる。",
+          "title": "暴露を段階設計する",
+          "subtitle": "負荷を調整できるため、挫折せずに慣れを作りやすくなります。",
           "foundations": [
             "T-065",
             "S-114",
@@ -835,8 +835,8 @@ export const skillTechniques = {
         },
         {
           "id": 6,
-          "title": "準備は短くすると、現場対応が残る。",
-          "subtitle": "過剰準備を避けつつ、安心材料だけ持てる。",
+          "title": "準備を短く抑える",
+          "subtitle": "過剰準備を避けつつ、現場対応の余地を残せます。",
           "foundations": [
             "B-006",
             "C-050",
@@ -845,8 +845,8 @@ export const skillTechniques = {
         },
         {
           "id": 7,
-          "title": "身体を緩めると、不安は先に下がる。",
-          "subtitle": "呼吸や筋緊張が落ちると、思考の暴走が止まりやすい。",
+          "title": "身体を緩める",
+          "subtitle": "呼吸や筋緊張が落ちると、思考の暴走が止まりやすくなります。",
           "foundations": [
             "W-078",
             "S-026",
@@ -855,8 +855,8 @@ export const skillTechniques = {
         },
         {
           "id": 8,
-          "title": "歪みを言葉にすると、客観視が始まる。",
-          "subtitle": "自動思考が見える化され、修正が可能になる。",
+          "title": "歪みを言葉にする",
+          "subtitle": "自動思考が見える化され、修正がしやすくなります。",
           "foundations": [
             "C-044",
             "C-032",
@@ -865,8 +865,8 @@ export const skillTechniques = {
         },
         {
           "id": 9,
-          "title": "安全行動は減らすほど、自信が戻る。",
-          "subtitle": "『できた』が増えると、不安が条件反射になりにくい。",
+          "title": "安全行動を減らす",
+          "subtitle": "『できた』が増えると、不安が条件反射になりにくくなります。",
           "foundations": [
             "B-107",
             "B-108",
@@ -875,8 +875,8 @@ export const skillTechniques = {
         },
         {
           "id": 10,
-          "title": "失敗の手順を決めると、不安は小さくなる。",
-          "subtitle": "最悪時の行動が分かるだけで、恐怖が具体化して薄まる。",
+          "title": "失敗時の手順を決めておく",
+          "subtitle": "最悪時の行動が分かるだけで、恐怖が具体化して薄まります。",
           "foundations": [
             "B-109",
             "C-009",
@@ -885,8 +885,8 @@ export const skillTechniques = {
         },
         {
           "id": 11,
-          "title": "振り返りは、恐怖を学習に変える。",
-          "subtitle": "良かった点と改善点が分かり、次の負荷調整ができる。",
+          "title": "振り返りを行う",
+          "subtitle": "良かった点と改善点が分かり、次の負荷調整ができます。",
           "foundations": [
             "B-027",
             "B-022"
@@ -894,8 +894,8 @@ export const skillTechniques = {
         },
         {
           "id": 12,
-          "title": "支援窓口があると、抱え込みは減る。",
-          "subtitle": "逃げ道があるだけで、挑戦の継続が容易になる。",
+          "title": "支援窓口を確保しておく",
+          "subtitle": "逃げ道があるだけで、挑戦の継続が容易になります。",
           "foundations": [
             "S-060",
             "W-080",
@@ -904,8 +904,8 @@ export const skillTechniques = {
         },
         {
           "id": 13,
-          "title": "不安を前提に動くと、回避は減る。",
-          "subtitle": "ゼロにしようとしない方が、経験を積みやすい。",
+          "title": "不安を前提に動く",
+          "subtitle": "ゼロにしようとしない方が、経験を積みやすくなります。",
           "foundations": [
             "W-082",
             "C-041",
@@ -914,8 +914,8 @@ export const skillTechniques = {
         },
         {
           "id": 14,
-          "title": "場数は小さく増やすと、慣れが作れる。",
-          "subtitle": "成功率を保ったまま露出を増やせる。",
+          "title": "場数を小さく増やす",
+          "subtitle": "成功率を保ったまま露出を増やせます。",
           "foundations": [
             "W-083",
             "W-084",
@@ -924,8 +924,8 @@ export const skillTechniques = {
         },
         {
           "id": 15,
-          "title": "準備を型にすると、当日の負担は減る。",
-          "subtitle": "手順化で思考の余裕が生まれ、反応が安定する。",
+          "title": "準備を型にする",
+          "subtitle": "手順化で思考の余裕が生まれ、反応が安定しやすくなります。",
           "foundations": [
             "B-007",
             "C-050",
@@ -934,8 +934,8 @@ export const skillTechniques = {
         },
         {
           "id": 16,
-          "title": "許容幅が広いほど、挑戦は続く。",
-          "subtitle": "失敗を学習に変えられると、萎縮が減る。",
+          "title": "許容幅を広く持つ",
+          "subtitle": "失敗を学習に変えられると、萎縮が減りやすくなります。",
           "foundations": [
             "C-006",
             "C-005",
@@ -949,8 +949,8 @@ export const skillTechniques = {
       "details": [
         {
           "id": 1,
-          "title": "目的のない学習は、努力を散らす。",
-          "subtitle": "狙いが定まるほど、必要な知識だけが残る。",
+          "title": "学習の目的を定める",
+          "subtitle": "狙いが定まるほど、必要な知識だけが残ります。",
           "foundations": [
             "B-016",
             "B-030",
@@ -959,8 +959,8 @@ export const skillTechniques = {
         },
         {
           "id": 2,
-          "title": "使う前提で学ぶと、記憶は残る。",
-          "subtitle": "適用場面があるほど、理解が深く固定される。",
+          "title": "使う前提で学ぶ",
+          "subtitle": "適用場面があるほど、理解が深く固定されやすくなります。",
           "foundations": [
             "B-035",
             "S-115",
@@ -969,8 +969,8 @@ export const skillTechniques = {
         },
         {
           "id": 3,
-          "title": "捨てる知識を決めると、学びは速くなる。",
-          "subtitle": "負荷が減り、重要部分に集中できる。",
+          "title": "捨てる知識を決める",
+          "subtitle": "負荷が減り、重要部分に集中しやすくなります。",
           "foundations": [
             "C-050",
             "W-069",
@@ -979,8 +979,8 @@ export const skillTechniques = {
         },
         {
           "id": 4,
-          "title": "完璧主義は、学習の初速を殺す。",
-          "subtitle": "粗く進める方が回転数が増え、上達が早い。",
+          "title": "完璧を求めず粗く進める",
+          "subtitle": "回転数が増え、上達が早くなります。",
           "foundations": [
             "C-109",
             "C-006",
@@ -989,8 +989,8 @@ export const skillTechniques = {
         },
         {
           "id": 5,
-          "title": "変化の速い分野は、学びが陳腐化しやすい。",
-          "subtitle": "追うべき基礎と流行を分けると投資効率が上がる。",
+          "title": "基礎と流行を分けて学ぶ",
+          "subtitle": "追うべき基礎と流行を分けると投資効率が上がります。",
           "foundations": [
             "T-028",
             "C-110",
@@ -999,8 +999,8 @@ export const skillTechniques = {
         },
         {
           "id": 6,
-          "title": "成功体験を疑うと、伸びしろが開く。",
-          "subtitle": "古い最適解を手放すほど、新しい型が入る。",
+          "title": "成功体験を疑う",
+          "subtitle": "古い最適解を手放すほど、新しい型が入りやすくなります。",
           "foundations": [
             "C-011",
             "C-111"
@@ -1008,8 +1008,8 @@ export const skillTechniques = {
         },
         {
           "id": 7,
-          "title": "学習単位を小さく刻むと、着手は軽くなる。",
-          "subtitle": "摩擦が下がり、毎日の継続が作れる。",
+          "title": "学習単位を小さく刻む",
+          "subtitle": "摩擦が下がり、毎日の継続が作りやすくなります。",
           "foundations": [
             "S-116",
             "B-015",
@@ -1018,8 +1018,8 @@ export const skillTechniques = {
         },
         {
           "id": 8,
-          "title": "即アウトプットは、理解の穴を暴く。",
-          "subtitle": "使って初めて不足が見え、修正が速くなる。",
+          "title": "即アウトプットする",
+          "subtitle": "使って初めて不足が見え、修正が速くなります。",
           "foundations": [
             "B-032",
             "B-031",
@@ -1028,8 +1028,8 @@ export const skillTechniques = {
         },
         {
           "id": 9,
-          "title": "学びの鮮度を意識すると、忘却に勝てる。",
-          "subtitle": "早めに復習・適用するほど、定着が強くなる。",
+          "title": "学びの鮮度を意識する",
+          "subtitle": "早めに復習・適用するほど、定着が強くなります。",
           "foundations": [
             "B-034",
             "B-033",
@@ -1038,8 +1038,8 @@ export const skillTechniques = {
         },
         {
           "id": 10,
-          "title": "教材より人を選ぶと、学びは加速する。",
-          "subtitle": "良いフィードバック源があるほど、修正が早い。",
+          "title": "教材より人を選ぶ",
+          "subtitle": "良いフィードバック源があるほど、修正が早くなります。",
           "foundations": [
             "C-112",
             "W-066",
@@ -1048,8 +1048,8 @@ export const skillTechniques = {
         },
         {
           "id": 11,
-          "title": "学び続ける環境は、習慣を強制する。",
-          "subtitle": "周囲の基準が上がると、自分も続けやすい。",
+          "title": "学び続ける環境に身を置く",
+          "subtitle": "周囲の基準が上がると、自分も続けやすくなります。",
           "foundations": [
             "S-162",
             "S-118",
@@ -1058,8 +1058,8 @@ export const skillTechniques = {
         },
         {
           "id": 12,
-          "title": "学ばない選択があると、集中が守れる。",
-          "subtitle": "選択と集中ができ、手を広げすぎない。",
+          "title": "学ばない選択を持つ",
+          "subtitle": "選択と集中ができ、手を広げすぎずに済みます。",
           "foundations": [
             "C-047",
             "B-068",
@@ -1068,8 +1068,8 @@ export const skillTechniques = {
         },
         {
           "id": 13,
-          "title": "目的から逆算すると、無駄は減る。",
-          "subtitle": "必要な順序が決まり、遠回りが減る。",
+          "title": "目的から逆算する",
+          "subtitle": "必要な順序が決まり、遠回りが減ります。",
           "foundations": [
             "C-091",
             "B-030",
@@ -1078,8 +1078,8 @@ export const skillTechniques = {
         },
         {
           "id": 14,
-          "title": "毎日短く触れると、記憶は残る。",
-          "subtitle": "想起回数が増え、忘却曲線の影響が小さくなる。",
+          "title": "毎日短く触れる",
+          "subtitle": "想起回数が増え、忘却曲線の影響が小さくなります。",
           "foundations": [
             "B-033",
             "B-102",
@@ -1088,8 +1088,8 @@ export const skillTechniques = {
         },
         {
           "id": 15,
-          "title": "教材を一つに絞ると、迷いは減る。",
-          "subtitle": "比較を止めると進捗が見え、続けやすい。",
+          "title": "教材を一つに絞る",
+          "subtitle": "比較を止めると進捗が見え、続けやすくなります。",
           "foundations": [
             "C-050",
             "C-092",
@@ -1098,8 +1098,8 @@ export const skillTechniques = {
         },
         {
           "id": 16,
-          "title": "アウトプット前提だと、理解は深くなる。",
-          "subtitle": "説明できるレベルまで落とすため、知識が使える形になる。",
+          "title": "アウトプット前提で学ぶ",
+          "subtitle": "説明できるレベルまで落とすため、知識が使える形になります。",
           "foundations": [
             "B-032",
             "B-031",
@@ -1108,8 +1108,8 @@ export const skillTechniques = {
         },
         {
           "id": 17,
-          "title": "復習間隔を空けると、強く覚える。",
-          "subtitle": "思い出す負荷が高いほど、記憶の結合が強まる。",
+          "title": "復習間隔を空ける",
+          "subtitle": "思い出す負荷が高いほど、記憶の結合が強まります。",
           "foundations": [
             "B-033",
             "B-034",
@@ -1118,8 +1118,8 @@ export const skillTechniques = {
         },
         {
           "id": 18,
-          "title": "学習ログは、継続の証拠になる。",
-          "subtitle": "積み上げが見えると自己効力感が戻りやすい。",
+          "title": "学習ログを残す",
+          "subtitle": "積み上げが見えると自己効力感が戻りやすくなります。",
           "foundations": [
             "B-021",
             "B-022",
@@ -1133,8 +1133,8 @@ export const skillTechniques = {
       "details": [
         {
           "id": 1,
-          "title": "努力ではなく成果で語ると、評価は噛み合う。",
-          "subtitle": "相手の関心がアウトカムにあるため、説明が通りやすい。",
+          "title": "努力ではなく成果で語る",
+          "subtitle": "相手の関心がアウトカムにあるため、説明が通りやすくなります。",
           "foundations": [
             "S-120",
             "S-121",
@@ -1143,8 +1143,8 @@ export const skillTechniques = {
         },
         {
           "id": 2,
-          "title": "評価軸を知らないと、改善は外れる。",
-          "subtitle": "基準が分かるほど、打ち手が的確になる。",
+          "title": "評価軸を把握する",
+          "subtitle": "基準が分かるほど、打ち手が的確になります。",
           "foundations": [
             "C-076",
             "T-019",
@@ -1153,8 +1153,8 @@ export const skillTechniques = {
         },
         {
           "id": 3,
-          "title": "提出速度を上げるほど、学習は早い。",
-          "subtitle": "早く出すとフィードバックが増え、修正回数が稼げる。",
+          "title": "提出速度を上げる",
+          "subtitle": "早く出すとフィードバックが増え、修正回数が稼げます。",
           "foundations": [
             "T-004",
             "T-006",
@@ -1163,8 +1163,8 @@ export const skillTechniques = {
         },
         {
           "id": 4,
-          "title": "説明不要の形は、理解コストを消す。",
-          "subtitle": "読む側の負担が下がり、価値が伝わりやすい。",
+          "title": "説明不要の形を目指す",
+          "subtitle": "読む側の負担が下がり、価値が伝わりやすくなります。",
           "foundations": [
             "T-035",
             "C-050",
@@ -1173,8 +1173,8 @@ export const skillTechniques = {
         },
         {
           "id": 5,
-          "title": "比較対象を意識すると、品質は上がる。",
-          "subtitle": "相対評価の土俵が見えると、伸ばす点が定まる。",
+          "title": "比較対象を意識する",
+          "subtitle": "相対評価の土俵が見えると、伸ばす点が定まります。",
           "foundations": [
             "S-094",
             "W-071",
@@ -1183,8 +1183,8 @@ export const skillTechniques = {
         },
         {
           "id": 6,
-          "title": "見た目と構成は、内容の信頼を支える。",
-          "subtitle": "第一印象で読む姿勢が決まるため、整える価値が大きい。",
+          "title": "見た目と構成を整える",
+          "subtitle": "第一印象で読む姿勢が決まるため、整える価値が大きいです。",
           "foundations": [
             "S-163",
             "C-024",
@@ -1193,8 +1193,8 @@ export const skillTechniques = {
         },
         {
           "id": 7,
-          "title": "使われる場面を想定すると、要件が締まる。",
-          "subtitle": "利用状況が分かると、過不足なく作れる。",
+          "title": "使われる場面を想定する",
+          "subtitle": "利用状況が分かると、過不足なく作りやすくなります。",
           "foundations": [
             "S-123",
             "S-124",
@@ -1203,8 +1203,8 @@ export const skillTechniques = {
         },
         {
           "id": 8,
-          "title": "フィードバック前提の提出は、改善を早める。",
-          "subtitle": "未完成でも出すことで、学習ループが回る。",
+          "title": "フィードバック前提で提出する",
+          "subtitle": "未完成でも出すことで、学習ループが回ります。",
           "foundations": [
             "T-001",
             "W-093",
@@ -1213,8 +1213,8 @@ export const skillTechniques = {
         },
         {
           "id": 9,
-          "title": "未完成でも区切ると、前に進む。",
-          "subtitle": "マイルストーンがあると停滞せず、積み上げが残る。",
+          "title": "未完成でも区切る",
+          "subtitle": "マイルストーンがあると停滞せず、積み上げが残ります。",
           "foundations": [
             "B-110",
             "W-068",
@@ -1223,8 +1223,8 @@ export const skillTechniques = {
         },
         {
           "id": 10,
-          "title": "他人に見せると、ズレは可視化される。",
-          "subtitle": "第三者の視点で欠点が浮き、修正が速い。",
+          "title": "他人に見せる",
+          "subtitle": "第三者の視点で欠点が浮き、修正が速くなります。",
           "foundations": [
             "S-164",
             "S-125",
@@ -1233,8 +1233,8 @@ export const skillTechniques = {
         },
         {
           "id": 11,
-          "title": "成果物の蓄積は、信用の資産になる。",
-          "subtitle": "過去の実績が見えるほど、次の機会が取りやすい。",
+          "title": "成果物を蓄積する",
+          "subtitle": "過去の実績が見えるほど、次の機会が取りやすくなります。",
           "foundations": [
             "B-070",
             "C-088",
@@ -1243,8 +1243,8 @@ export const skillTechniques = {
         },
         {
           "id": 12,
-          "title": "評価されない理由を分析すると、伸び方が変わる。",
-          "subtitle": "原因が分かるほど、改善が再現可能になる。",
+          "title": "評価されない理由を分析する",
+          "subtitle": "原因が分かるほど、改善が再現可能になります。",
           "foundations": [
             "B-058",
             "B-111",
@@ -1253,8 +1253,8 @@ export const skillTechniques = {
         },
         {
           "id": 13,
-          "title": "要件を一枚にすると、手戻りは減る。",
-          "subtitle": "期待値が揃うため、後からの追加要求が減りやすい。",
+          "title": "要件を一枚にまとめる",
+          "subtitle": "期待値が揃うため、後からの追加要求が減りやすくなります。",
           "foundations": [
             "W-094",
             "W-068",
@@ -1263,8 +1263,8 @@ export const skillTechniques = {
         },
         {
           "id": 14,
-          "title": "最小版から作ると、完成が現実になる。",
-          "subtitle": "スコープを絞るほど、リリースまで到達しやすい。",
+          "title": "最小版から作る",
+          "subtitle": "スコープを絞るほど、リリースまで到達しやすくなります。",
           "foundations": [
             "T-006",
             "T-005",
@@ -1273,8 +1273,8 @@ export const skillTechniques = {
         },
         {
           "id": 15,
-          "title": "締切を先に置くと、意思決定が進む。",
-          "subtitle": "時間制約が優先順位を固定し、迷いを減らす。",
+          "title": "締切を先に決める",
+          "subtitle": "時間制約が優先順位を固定し、迷いを減らします。",
           "foundations": [
             "T-046",
             "B-010",
@@ -1283,8 +1283,8 @@ export const skillTechniques = {
         },
         {
           "id": 16,
-          "title": "見せる相手を決めると、品質が定まる。",
-          "subtitle": "誰のためかが決まると、取捨選択が速い。",
+          "title": "見せる相手を決める",
+          "subtitle": "誰のためかが決まると、取捨選択が速くなります。",
           "foundations": [
             "T-019",
             "S-126",
@@ -1293,8 +1293,8 @@ export const skillTechniques = {
         },
         {
           "id": 17,
-          "title": "フィードバックを取りに行くほど、改善は速い。",
-          "subtitle": "外部の目を入れると、独りよがりを防げる。",
+          "title": "フィードバックを取りに行く",
+          "subtitle": "外部の目を入れると、独りよがりを防げます。",
           "foundations": [
             "W-093",
             "B-024",
@@ -1303,8 +1303,8 @@ export const skillTechniques = {
         },
         {
           "id": 18,
-          "title": "仕上げの時間が、完成度を決める。",
-          "subtitle": "最後に整える余裕があると、粗が消えて信頼が上がる。",
+          "title": "仕上げの時間を確保する",
+          "subtitle": "最後に整える余裕があると、粗が消えて信頼が上がります。",
           "foundations": [
             "W-097",
             "S-127",
