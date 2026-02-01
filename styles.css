@@ -153,6 +153,21 @@ header {
   transition: color 0.2s ease, background 0.2s ease;
 }
 
+.nav-link + .nav-link {
+  position: relative;
+}
+
+.nav-link + .nav-link::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 20px;
+  background: var(--line-strong);
+}
+
 .nav-link:hover {
   background: #f1eee8;
   color: var(--ink);
@@ -222,6 +237,10 @@ header {
 
   .nav-link {
     width: 100%;
+  }
+
+  .nav-link + .nav-link::before {
+    content: none;
   }
 
   .nav-toggle:checked ~ .nav-links {
