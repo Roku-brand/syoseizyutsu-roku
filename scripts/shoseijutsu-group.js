@@ -15,6 +15,51 @@ const emptyState = document.getElementById("group-empty");
 const backLink = document.getElementById("group-back-link");
 const quickListCard = document.getElementById("group-quicklist-card");
 const quickList = document.getElementById("group-quicklist");
+const descriptionMeta = document.querySelector('meta[name="description"]');
+
+const chooseByLength = (candidates, min, max) => {
+  const match = candidates.find((text) => text.length >= min && text.length <= max);
+  if (match) {
+    return match;
+  }
+  const target = (min + max) / 2;
+  return candidates
+    .slice()
+    .sort((a, b) => Math.abs(a.length - target) - Math.abs(b.length - target))[0];
+};
+
+const clampLength = (text, min, max, { suffix = "…", padText = "" } = {}) => {
+  let result = text;
+  if (result.length < min && padText) {
+    result = `${result}${padText}`;
+  }
+  if (result.length > max) {
+    return `${result.slice(0, Math.max(max - suffix.length, 1))}${suffix}`;
+  }
+  return result;
+};
+
+const buildTechniqueTitle = (groupName, areaLabel) => {
+  const suffix = "｜処世術禄";
+  const candidates = [
+    `${groupName}で迷ったときの判断と行動${suffix}`,
+    `${groupName}の悩みを整える${areaLabel}処世術${suffix}`,
+    `${groupName}に効く${areaLabel}の実践処世術${suffix}`,
+  ];
+  const picked = chooseByLength(candidates, 32, 45);
+  return clampLength(picked, 32, 45, { padText: "の実践ヒント" });
+};
+
+const buildTechniqueDescription = (group, areaLabel) => {
+  const example = group.details?.[0];
+  const exampleText = example
+    ? example.title.replace(/。$/, "")
+    : `${group.name}の具体策`;
+  const base = `${group.name}で悩む人向けに、${areaLabel}の視点で判断と行動を整える処世術を解説します。${exampleText}などで迷いを減らします。`;
+  return clampLength(base, 80, 120, {
+    padText: "具体的な行動例で不安を減らす流れをまとめます。",
+  });
+};
 
 const groupParam = new URLSearchParams(window.location.search).get("group");
 
@@ -93,6 +138,10 @@ const renderGroup = () => {
   titleEl.textContent = `${group.name}の処世術`;
   subtitleEl.textContent = `${areaLabel}の観点から整理した処世術群です。`;
   backLink.href = `shoseijutsu.html?group=${encodeURIComponent(groupParam)}`;
+  document.title = buildTechniqueTitle(group.name, areaLabel);
+  if (descriptionMeta) {
+    descriptionMeta.setAttribute("content", buildTechniqueDescription(group, areaLabel));
+  }
 
   emptyState.classList.add("is-hidden");
   detailsContainer.classList.remove("is-hidden");
