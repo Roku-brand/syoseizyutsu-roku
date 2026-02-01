@@ -6,8 +6,8 @@ export const achievementCards = {
       "details": [
         {
           "id": 1,
-          "title": "始める条件が揃うと、行動は迷いを通らず起動する。",
-          "subtitle": "行動直前の合図を固定すると、開始の判断コストをほぼゼロにできる。",
+          "title": "始める条件を揃える",
+          "subtitle": "行動直前の合図を固定すると、開始の判断コストをほぼゼロにできます。",
           "foundations": [
             "B-006",
             "B-112",
@@ -16,8 +16,8 @@ export const achievementCards = {
         },
         {
           "id": 2,
-          "title": "開始を小さくすると、継続の難易度は一段下がる。",
-          "subtitle": "最初の一歩を極小化すると、失敗コストと抵抗感が同時に下がる。",
+          "title": "開始を小さくする",
+          "subtitle": "最初の一歩を極小化すると、失敗コストと抵抗感が同時に下がります。",
           "foundations": [
             "S-116",
             "C-088",
@@ -26,8 +26,8 @@ export const achievementCards = {
         },
         {
           "id": 3,
-          "title": "積み上げは、意志ではなく反復で増える。",
-          "subtitle": "同じ行動を同じ条件で繰り返すほど、実行が自動化に近づく。",
+          "title": "同じ行動を繰り返す",
+          "subtitle": "同じ条件で繰り返すほど、実行が自動化に近づきます。",
           "foundations": [
             "B-113",
             "S-058",
@@ -36,8 +36,8 @@ export const achievementCards = {
         },
         {
           "id": 4,
-          "title": "環境が先に整うと、意志力の出番は減る。",
-          "subtitle": "手間・誘惑・導線を先に設計すると、実行が“自然な選択”になる。",
+          "title": "環境を先に整える",
+          "subtitle": "手間・誘惑・導線を先に設計すると、実行が自然な選択になります。",
           "foundations": [
             "B-066",
             "B-065",
@@ -46,8 +46,8 @@ export const achievementCards = {
         },
         {
           "id": 5,
-          "title": "報酬が結び付くと、行動は強化される。",
-          "subtitle": "行動の直後に小さな快を置くと、脳がその行動を再実行しやすくなる。",
+          "title": "報酬を行動に結び付ける",
+          "subtitle": "行動の直後に小さな快を置くと、脳がその行動を再実行しやすくなります。",
           "foundations": [
             "B-004",
             "T-060",
@@ -56,8 +56,8 @@ export const achievementCards = {
         },
         {
           "id": 6,
-          "title": "記録は、継続を“見える成果”に変える。",
-          "subtitle": "進捗が可視化されると、自己効力感と修正の精度が同時に上がる。",
+          "title": "継続を記録する",
+          "subtitle": "進捗が可視化されると、自己効力感と修正の精度が同時に上がります。",
           "foundations": [
             "B-021",
             "B-024",
@@ -66,8 +66,8 @@ export const achievementCards = {
         },
         {
           "id": 7,
-          "title": "切り替えが増えるほど、集中は摩耗する。",
-          "subtitle": "同時進行を減らすと、注意資源の消耗とミスが減る。",
+          "title": "切り替えを減らす",
+          "subtitle": "同時進行を減らすと、注意資源の消耗とミスが減ります。",
           "foundations": [
             "C-047",
             "T-011",
@@ -76,8 +76,8 @@ export const achievementCards = {
         },
         {
           "id": 8,
-          "title": "再開の仕組みがあると、挫折は致命傷にならない。",
-          "subtitle": "中断を前提に復帰手順を決めると、自己否定せず戻れる。",
+          "title": "再開の仕組みを用意する",
+          "subtitle": "中断を前提に復帰手順を決めると、自己否定せず戻りやすくなります。",
           "foundations": [
             "B-013",
             "C-005",
@@ -86,8 +86,8 @@ export const achievementCards = {
         },
         {
           "id": 9,
-          "title": "行動が自己像に結び付くと、迷いは減る。",
-          "subtitle": "“こういう人間だ”という自己定義があると、選択がブレにくくなる。",
+          "title": "行動を自己像に結び付ける",
+          "subtitle": "「こういう人間だ」という自己定義があると、選択がブレにくくなります。",
           "foundations": [
             "C-114",
             "S-019",
@@ -96,8 +96,8 @@ export const achievementCards = {
         },
         {
           "id": 10,
-          "title": "他者の目が入ると、継続は現実に引き寄せられる。",
-          "subtitle": "宣言・共有・伴走があると、先延ばしの余地が小さくなる。",
+          "title": "他者の目を入れる",
+          "subtitle": "宣言・共有・伴走があると、先延ばしの余地が小さくなります。",
           "foundations": [
             "S-128",
             "S-065",
@@ -106,8 +106,8 @@ export const achievementCards = {
         },
         {
           "id": 11,
-          "title": "進捗が見えると、次の一手が決まりやすい。",
-          "subtitle": "状況把握が速いほど、修正と継続が途切れにくい。",
+          "title": "進捗を可視化する",
+          "subtitle": "状況把握が速いほど、修正と継続が途切れにくくなります。",
           "foundations": [
             "B-023",
             "B-019",
@@ -116,8 +116,8 @@ export const achievementCards = {
         },
         {
           "id": 12,
-          "title": "再開の仕組みがあると、挫折は致命傷にならない。",
-          "subtitle": "中断を前提に復帰手順を決めると、自己否定せず戻れる。",
+          "title": "復帰手順を決めておく",
+          "subtitle": "中断を前提にすると、自己否定せず戻りやすくなります。",
           "foundations": [
             "W-098",
             "B-006",
@@ -126,8 +126,8 @@ export const achievementCards = {
         },
         {
           "id": 13,
-          "title": "開始の導線が一定だと、行動は習慣化しやすい。",
-          "subtitle": "毎回同じ手順で始めると、迷いと準備時間が減る。",
+          "title": "開始の導線を一定にする",
+          "subtitle": "毎回同じ手順で始めると、迷いと準備時間が減ります。",
           "foundations": [
             "B-091",
             "B-008",
@@ -136,8 +136,8 @@ export const achievementCards = {
         },
         {
           "id": 14,
-          "title": "誘惑が近いほど、意志力は消耗する。",
-          "subtitle": "視界・距離・通知を調整すると、脱線の頻度を下げられる。",
+          "title": "誘惑を遠ざける",
+          "subtitle": "視界・距離・通知を調整すると、脱線の頻度を下げられます。",
           "foundations": [
             "B-010",
             "B-011",
@@ -146,8 +146,8 @@ export const achievementCards = {
         },
         {
           "id": 15,
-          "title": "開始を小さくすると、継続の難易度は一段下がる。",
-          "subtitle": "最初の一歩を極小化すると、失敗コストと抵抗感が同時に下がる。",
+          "title": "最初の一歩を極小化する",
+          "subtitle": "開始を小さくすると、失敗コストと抵抗感が同時に下がります。",
           "foundations": [
             "B-114",
             "C-088",
@@ -156,8 +156,8 @@ export const achievementCards = {
         },
         {
           "id": 16,
-          "title": "記録は、継続を“見える成果”に変える。",
-          "subtitle": "進捗が可視化されると、自己効力感と修正の精度が同時に上がる。",
+          "title": "進捗を記録する",
+          "subtitle": "可視化すると、自己効力感と修正の精度が同時に上がります。",
           "foundations": [
             "B-021",
             "S-058",
@@ -166,8 +166,8 @@ export const achievementCards = {
         },
         {
           "id": 17,
-          "title": "休む設計がない継続は、燃え尽きに向かう。",
-          "subtitle": "下限と休息を決めておくと、長期で続ける余裕が残る。",
+          "title": "休む設計を組み込む",
+          "subtitle": "下限と休息を決めておくと、長期で続ける余裕が残ります。",
           "foundations": [
             "W-100",
             "B-071",
@@ -176,8 +176,8 @@ export const achievementCards = {
         },
         {
           "id": 18,
-          "title": "再開の仕組みがあると、挫折は致命傷にならない。",
-          "subtitle": "中断を前提に復帰手順を決めると、自己否定せず戻れる。",
+          "title": "中断からの復帰手順を決める",
+          "subtitle": "復帰手順を決めておくと、自己否定せず戻りやすくなります。",
           "foundations": [
             "B-115",
             "B-006",
@@ -186,8 +186,8 @@ export const achievementCards = {
         },
         {
           "id": 19,
-          "title": "報酬が遅すぎると、継続は折れやすい。",
-          "subtitle": "小さくても即時の報酬があると、反復の動機が保たれる。",
+          "title": "即時の報酬を用意する",
+          "subtitle": "小さくても即時の報酬があると、反復の動機が保たれます。",
           "foundations": [
             "S-015",
             "W-102",
@@ -196,8 +196,8 @@ export const achievementCards = {
         },
         {
           "id": 20,
-          "title": "環境が先に整うと、意志力の出番は減る。",
-          "subtitle": "手間・誘惑・導線を先に設計すると、実行が“自然な選択”になる。",
+          "title": "手間・誘惑・導線を先に設計する",
+          "subtitle": "環境を先に整えると、実行が自然な選択になります。",
           "foundations": [
             "B-066",
             "B-011",
@@ -211,8 +211,8 @@ export const achievementCards = {
       "details": [
         {
           "id": 1,
-          "title": "同時に抱える数が増えるほど、集中は浅くなる。",
-          "subtitle": "切り替え回数が減るほど、注意の回復が追いつきやすい。",
+          "title": "同時に抱える数を減らす",
+          "subtitle": "切り替え回数が減るほど、注意の回復が追いつきやすくなります。",
           "foundations": [
             "C-047",
             "T-011",
@@ -221,8 +221,8 @@ export const achievementCards = {
         },
         {
           "id": 2,
-          "title": "時間を区切ると、着手の抵抗は下がる。",
-          "subtitle": "開始と終了が決まると、迷いより作業が先に進む。",
+          "title": "時間を区切る",
+          "subtitle": "開始と終了が決まると、迷いより作業が先に進みます。",
           "foundations": [
             "T-012",
             "B-006",
@@ -231,8 +231,8 @@ export const achievementCards = {
         },
         {
           "id": 3,
-          "title": "短い締切は、集中を立ち上げる。",
-          "subtitle": "短周期の区切りがあると、先延ばしより着手が優先される。",
+          "title": "短い締切を設ける",
+          "subtitle": "短周期の区切りがあると、先延ばしより着手が優先されます。",
           "foundations": [
             "T-014",
             "B-071",
@@ -241,8 +241,8 @@ export const achievementCards = {
         },
         {
           "id": 4,
-          "title": "刺激が多いほど、集中は中断されやすい。",
-          "subtitle": "外部刺激を遮断すると、注意の再獲得に使う時間が減る。",
+          "title": "外部刺激を遮断する",
+          "subtitle": "刺激を減らすと、注意の再獲得に使う時間が減ります。",
           "foundations": [
             "B-011",
             "W-103",
@@ -251,8 +251,8 @@ export const achievementCards = {
         },
         {
           "id": 5,
-          "title": "集中は、意志より環境で決まる。",
-          "subtitle": "視界・音・座席・道具を固定すると、没入への移行が速くなる。",
+          "title": "集中環境を整える",
+          "subtitle": "視界・音・座席・道具を固定すると、没入への移行が速くなります。",
           "foundations": [
             "T-031",
             "B-066",
@@ -261,8 +261,8 @@ export const achievementCards = {
         },
         {
           "id": 6,
-          "title": "意思決定が少ない時間帯ほど、重い仕事は進む。",
-          "subtitle": "脳の疲労が少ない時間に置くと、開始の摩擦が小さくなる。",
+          "title": "重い仕事を疲労の少ない時間帯に置く",
+          "subtitle": "脳の疲労が少ない時間に置くと、開始の摩擦が小さくなります。",
           "foundations": [
             "B-072",
             "B-090",
@@ -271,8 +271,8 @@ export const achievementCards = {
         },
         {
           "id": 7,
-          "title": "休憩を先に置くと、集中は長持ちする。",
-          "subtitle": "回復リズムに合わせて休むと、後半の失速を抑えられる。",
+          "title": "休憩を先にスケジュールする",
+          "subtitle": "回復リズムに合わせて休むと、後半の失速を抑えられます。",
           "foundations": [
             "B-072",
             "W-104",
@@ -281,8 +281,8 @@ export const achievementCards = {
         },
         {
           "id": 8,
-          "title": "没入は、難易度調整で引き起こせる。",
-          "subtitle": "課題の難しさを適正化すると、注意が一点に集まりやすい。",
+          "title": "難易度を適正化する",
+          "subtitle": "課題の難しさを調整すると、注意が一点に集まりやすくなります。",
           "foundations": [
             "C-002",
             "W-105",
@@ -291,8 +291,8 @@ export const achievementCards = {
         },
         {
           "id": 9,
-          "title": "休憩を先に置くと、集中は長持ちする。",
-          "subtitle": "回復リズムに合わせて休むと、後半の失速を抑えられる。",
+          "title": "回復リズムに合わせて休む",
+          "subtitle": "休憩を先に置くと、後半の失速を抑えられます。",
           "foundations": [
             "B-117",
             "C-052",
@@ -301,8 +301,8 @@ export const achievementCards = {
         },
         {
           "id": 10,
-          "title": "開始の儀式があると、集中モードに入りやすい。",
-          "subtitle": "同じ合図を繰り返すことで、脳が作業開始を学習する。",
+          "title": "開始の儀式を作る",
+          "subtitle": "同じ合図を繰り返すことで、脳が作業開始を学習します。",
           "foundations": [
             "B-008",
             "B-006",
@@ -311,8 +311,8 @@ export const achievementCards = {
         },
         {
           "id": 11,
-          "title": "刺激が多いほど、集中は中断されやすい。",
-          "subtitle": "外部刺激を遮断すると、注意の再獲得に使う時間が減る。",
+          "title": "中断要因を減らす",
+          "subtitle": "外部刺激を遮断すると、注意の再獲得に使う時間が減ります。",
           "foundations": [
             "C-119",
             "B-011",
@@ -321,8 +321,8 @@ export const achievementCards = {
         },
         {
           "id": 12,
-          "title": "指標が曖昧だと、集中は散る。",
-          "subtitle": "何をもって前進かが明確だと、迷走が減って手が動く。",
+          "title": "前進の指標を明確にする",
+          "subtitle": "何をもって前進かが明確だと、迷走が減って手が動きます。",
           "foundations": [
             "B-016",
             "T-061",
@@ -331,8 +331,8 @@ export const achievementCards = {
         },
         {
           "id": 13,
-          "title": "開始の儀式があると、集中モードに入りやすい。",
-          "subtitle": "同じ合図を繰り返すことで、脳が作業開始を学習する。",
+          "title": "開始の合図を繰り返す",
+          "subtitle": "同じ合図を繰り返すことで、脳が作業開始を学習します。",
           "foundations": [
             "B-091",
             "B-008",
@@ -341,8 +341,8 @@ export const achievementCards = {
         },
         {
           "id": 14,
-          "title": "同時に抱える数が増えるほど、集中は浅くなる。",
-          "subtitle": "切り替え回数が減るほど、注意の回復が追いつきやすい。",
+          "title": "同時進行を減らす",
+          "subtitle": "切り替え回数が減るほど、注意の回復が追いつきやすくなります。",
           "foundations": [
             "T-011",
             "C-047",
@@ -351,8 +351,8 @@ export const achievementCards = {
         },
         {
           "id": 15,
-          "title": "集中は、注意資源の管理で維持される。",
-          "subtitle": "中断要因を減らし、開始条件を揃えるほど没入が安定する。",
+          "title": "注意資源を管理する",
+          "subtitle": "中断要因を減らし開始条件を揃えるほど、没入が安定します。",
           "foundations": [
             "T-014",
             "B-118",
@@ -361,8 +361,8 @@ export const achievementCards = {
         },
         {
           "id": 16,
-          "title": "刺激が多いほど、集中は中断されやすい。",
-          "subtitle": "外部刺激を遮断すると、注意の再獲得に使う時間が減る。",
+          "title": "刺激を遮断する",
+          "subtitle": "外部刺激を遮断すると、注意の再獲得に使う時間が減ります。",
           "foundations": [
             "B-011",
             "C-120",
@@ -371,8 +371,8 @@ export const achievementCards = {
         },
         {
           "id": 17,
-          "title": "休憩を先に置くと、集中は長持ちする。",
-          "subtitle": "回復リズムに合わせて休むと、後半の失速を抑えられる。",
+          "title": "回復を計画に組み込む",
+          "subtitle": "回復リズムに合わせて休むと、後半の失速を抑えられます。",
           "foundations": [
             "B-071",
             "W-100",
@@ -381,8 +381,8 @@ export const achievementCards = {
         },
         {
           "id": 18,
-          "title": "割り込みは、書き出すだけで弱まる。",
-          "subtitle": "気になることを外部化すると、注意の占有が減って戻りやすい。",
+          "title": "気になることを書き出す",
+          "subtitle": "外部化すると、注意の占有が減って戻りやすくなります。",
           "foundations": [
             "C-054",
             "B-022",
@@ -396,8 +396,8 @@ export const achievementCards = {
       "details": [
         {
           "id": 1,
-          "title": "優先順位の軸がないと、時間は奪われる。",
-          "subtitle": "重要と緊急を分けると、反応ではなく選択で動ける。",
+          "title": "優先順位の軸を持つ",
+          "subtitle": "重要と緊急を分けると、反応ではなく選択で動けます。",
           "foundations": [
             "B-119",
             "B-068",
@@ -406,8 +406,8 @@ export const achievementCards = {
         },
         {
           "id": 2,
-          "title": "重い仕事は、意思決定が少ない時間に置くべきである。",
-          "subtitle": "疲労が少ない時間帯ほど、開始と集中の両方が安定する。",
+          "title": "重い仕事を意思決定が少ない時間に置く",
+          "subtitle": "疲労が少ない時間帯ほど、開始と集中の両方が安定します。",
           "foundations": [
             "B-090",
             "B-072",
@@ -416,8 +416,8 @@ export const achievementCards = {
         },
         {
           "id": 3,
-          "title": "余白がない計画は、最初の遅延で崩れる。",
-          "subtitle": "遅延を織り込むと、焦りとリカバリーコストを減らせる。",
+          "title": "計画に余白を織り込む",
+          "subtitle": "遅延を織り込むと、焦りとリカバリーコストを減らせます。",
           "foundations": [
             "C-051",
             "S-027",
@@ -426,8 +426,8 @@ export const achievementCards = {
         },
         {
           "id": 4,
-          "title": "締切を前倒しすると、後半の事故が減る。",
-          "subtitle": "予備日があるだけで、品質調整と突発対応が可能になる。",
+          "title": "締切を前倒しにする",
+          "subtitle": "予備日があるだけで、品質調整と突発対応が可能になります。",
           "foundations": [
             "T-046",
             "B-010",
@@ -436,8 +436,8 @@ export const achievementCards = {
         },
         {
           "id": 5,
-          "title": "切り替えコストは、積み上がるほど重い。",
-          "subtitle": "同種作業を束ねると、移行の摩擦が減り処理が速くなる。",
+          "title": "同種作業を束ねる",
+          "subtitle": "切り替えコストを減らすと、移行の摩擦が減り処理が速くなります。",
           "foundations": [
             "T-008",
             "T-011",
@@ -446,8 +446,8 @@ export const achievementCards = {
         },
         {
           "id": 6,
-          "title": "断る基準がないと、時間は他人の都合で埋まる。",
-          "subtitle": "基準を先に決めると、判断が速くなり後悔も減る。",
+          "title": "断る基準を先に決める",
+          "subtitle": "基準を先に決めると、判断が速くなり後悔も減ります。",
           "foundations": [
             "S-034",
             "B-119",
@@ -456,8 +456,8 @@ export const achievementCards = {
         },
         {
           "id": 7,
-          "title": "振り返りがない運用は、ズレを固定化する。",
-          "subtitle": "週単位で点検すると、軌道修正が小さく済む。",
+          "title": "週単位で振り返る",
+          "subtitle": "定期的に点検すると、軌道修正が小さく済みます。",
           "foundations": [
             "T-015",
             "T-001",
@@ -466,8 +466,8 @@ export const achievementCards = {
         },
         {
           "id": 8,
-          "title": "隙間時間は、積み上げの源泉になる。",
-          "subtitle": "短時間タスクを用意しておくと、空白が前進に変わる。",
+          "title": "隙間時間用のタスクを用意する",
+          "subtitle": "短時間タスクを用意しておくと、空白が前進に変わります。",
           "foundations": [
             "B-120",
             "B-102",
@@ -476,8 +476,8 @@ export const achievementCards = {
         },
         {
           "id": 9,
-          "title": "割り込み処理は、時間を溶かす。",
-          "subtitle": "処理枠を固定すると、中断回数が減って集中が守られる。",
+          "title": "割り込み処理の枠を固定する",
+          "subtitle": "処理枠を固定すると、中断回数が減って集中が守られます。",
           "foundations": [
             "T-008",
             "T-010",
@@ -486,8 +486,8 @@ export const achievementCards = {
         },
         {
           "id": 10,
-          "title": "完了の可視化は、継続の燃料になる。",
-          "subtitle": "達成が見えると、自己評価が回復して次の着手が軽くなる。",
+          "title": "完了を可視化する",
+          "subtitle": "達成が見えると、自己評価が回復して次の着手が軽くなります。",
           "foundations": [
             "W-107",
             "C-088",
@@ -496,8 +496,8 @@ export const achievementCards = {
         },
         {
           "id": 11,
-          "title": "見積もりが甘いほど、計画は破綻する。",
-          "subtitle": "所要時間の誤差を意識すると、過密な計画を避けられる。",
+          "title": "見積もりに誤差を意識する",
+          "subtitle": "所要時間の誤差を意識すると、過密な計画を避けられます。",
           "foundations": [
             "C-051",
             "T-047",
@@ -506,8 +506,8 @@ export const achievementCards = {
         },
         {
           "id": 12,
-          "title": "一日の振り返りは、翌日の判断を軽くする。",
-          "subtitle": "未処理の整理が進むと、翌日の開始が速くなる。",
+          "title": "一日の終わりに振り返る",
+          "subtitle": "未処理の整理が進むと、翌日の開始が速くなります。",
           "foundations": [
             "B-027",
             "B-020",
@@ -516,8 +516,8 @@ export const achievementCards = {
         },
         {
           "id": 13,
-          "title": "優先が一つに定まると、迷いは消える。",
-          "subtitle": "同時に追わないと決めるだけで、判断疲れが大きく減る。",
+          "title": "優先を一つに定める",
+          "subtitle": "同時に追わないと決めるだけで、判断疲れが大きく減ります。",
           "foundations": [
             "W-108",
             "T-007",
@@ -526,8 +526,8 @@ export const achievementCards = {
         },
         {
           "id": 14,
-          "title": "逆算は、焦りを具体的な手順に変える。",
-          "subtitle": "締切から工程を割ると、着手すべき時点が明確になる。",
+          "title": "締切から逆算する",
+          "subtitle": "締切から工程を割ると、着手すべき時点が明確になります。",
           "foundations": [
             "W-109",
             "B-006",
@@ -536,8 +536,8 @@ export const achievementCards = {
         },
         {
           "id": 15,
-          "title": "余白がない計画は、最初の遅延で崩れる。",
-          "subtitle": "遅延を織り込むと、焦りとリカバリーコストを減らせる。",
+          "title": "遅延を織り込んで計画する",
+          "subtitle": "余白があると、焦りとリカバリーコストを減らせます。",
           "foundations": [
             "S-027",
             "T-009",
@@ -546,8 +546,8 @@ export const achievementCards = {
         },
         {
           "id": 16,
-          "title": "やることを減らすほど、実行率は上がる。",
-          "subtitle": "選択肢を絞ると、開始の抵抗と先延ばしが減る。",
+          "title": "やることを減らす",
+          "subtitle": "選択肢を絞ると、開始の抵抗と先延ばしが減ります。",
           "foundations": [
             "B-068",
             "B-062",
@@ -556,8 +556,8 @@ export const achievementCards = {
         },
         {
           "id": 17,
-          "title": "重い仕事は、意思決定が少ない時間に置くべきである。",
-          "subtitle": "疲労が少ない時間帯ほど、開始と集中の両方が安定する。",
+          "title": "疲労が少ない時間帯に重い仕事を置く",
+          "subtitle": "疲労が少ない時間帯ほど、開始と集中の両方が安定します。",
           "foundations": [
             "B-072",
             "C-047",
@@ -566,8 +566,8 @@ export const achievementCards = {
         },
         {
           "id": 18,
-          "title": "隙間時間は、積み上げの源泉になる。",
-          "subtitle": "短時間タスクを用意しておくと、空白が前進に変わる。",
+          "title": "短時間タスクを用意しておく",
+          "subtitle": "隙間時間を活用すると、空白が前進に変わります。",
           "foundations": [
             "B-006",
             "B-102",
@@ -576,8 +576,8 @@ export const achievementCards = {
         },
         {
           "id": 19,
-          "title": "振り返りがない運用は、ズレを固定化する。",
-          "subtitle": "週単位で点検すると、軌道修正が小さく済む。",
+          "title": "定期的に点検する",
+          "subtitle": "振り返りを入れると、軌道修正が小さく済みます。",
           "foundations": [
             "B-007",
             "B-040",
@@ -586,8 +586,8 @@ export const achievementCards = {
         },
         {
           "id": 20,
-          "title": "割り込みを枠に入れると、予定は壊れにくい。",
-          "subtitle": "想定枠があるだけで、他の時間帯の集中が守られる。",
+          "title": "割り込みの想定枠を設ける",
+          "subtitle": "想定枠があるだけで、他の時間帯の集中が守られます。",
           "foundations": [
             "T-010",
             "T-008",
@@ -601,8 +601,8 @@ export const achievementCards = {
       "details": [
         {
           "id": 1,
-          "title": "受け身の学習は、理解した気分で終わる。",
-          "subtitle": "能動的に手を動かすほど、知識が自分の言葉に変わる。",
+          "title": "能動的に手を動かす",
+          "subtitle": "能動的に手を動かすほど、知識が自分の言葉に変わります。",
           "foundations": [
             "S-129",
             "B-031",
@@ -611,8 +611,8 @@ export const achievementCards = {
         },
         {
           "id": 2,
-          "title": "思い出す訓練は、記憶を強化する。",
-          "subtitle": "想起を挟むほど、記憶の手掛かりが増えて定着が進む。",
+          "title": "思い出す訓練を挟む",
+          "subtitle": "想起を挟むほど、記憶の手掛かりが増えて定着が進みます。",
           "foundations": [
             "B-032",
             "B-036",
@@ -621,8 +621,8 @@ export const achievementCards = {
         },
         {
           "id": 3,
-          "title": "復習は、間隔を空けた方が強く残る。",
-          "subtitle": "忘れかけた頃に戻るほど、記憶の再構築が起きる。",
+          "title": "間隔を空けて復習する",
+          "subtitle": "忘れかけた頃に戻るほど、記憶の再構築が起きます。",
           "foundations": [
             "B-033",
             "B-034",
@@ -631,8 +631,8 @@ export const achievementCards = {
         },
         {
           "id": 4,
-          "title": "教えられる説明は、理解の証拠である。",
-          "subtitle": "他者に説明する前提で整理すると、穴が見つかりやすい。",
+          "title": "他者に説明できる形に整理する",
+          "subtitle": "他者に説明する前提で整理すると、穴が見つかりやすくなります。",
           "foundations": [
             "W-110",
             "W-111",
@@ -641,8 +641,8 @@ export const achievementCards = {
         },
         {
           "id": 5,
-          "title": "文脈を変えると、知識は応用可能になる。",
-          "subtitle": "同じ概念を別状況で扱うほど、取り出しやすくなる。",
+          "title": "同じ概念を別状況で扱う",
+          "subtitle": "文脈を変えると、知識が取り出しやすくなります。",
           "foundations": [
             "W-112",
             "B-035",
@@ -651,8 +651,8 @@ export const achievementCards = {
         },
         {
           "id": 6,
-          "title": "知識は、使った瞬間に技能へ近づく。",
-          "subtitle": "アウトプットを挟むと、理解が定着しやすい。",
+          "title": "アウトプットを挟む",
+          "subtitle": "知識を使うと、理解が定着しやすくなります。",
           "foundations": [
             "B-035",
             "S-115",
@@ -661,8 +661,8 @@ export const achievementCards = {
         },
         {
           "id": 7,
-          "title": "構造化すると、理解は加速する。",
-          "subtitle": "関係性が見えると、暗記ではなく把握で覚えられる。",
+          "title": "関係性を構造化する",
+          "subtitle": "関係性が見えると、暗記ではなく把握で覚えられます。",
           "foundations": [
             "C-066",
             "C-054",
@@ -671,8 +671,8 @@ export const achievementCards = {
         },
         {
           "id": 8,
-          "title": "睡眠は、学習の仕上げ工程である。",
-          "subtitle": "睡眠中に記憶が整理されるため、定着と再現が向上する。",
+          "title": "睡眠を学習の仕上げ工程に組み込む",
+          "subtitle": "睡眠中に記憶が整理されるため、定着と再現が向上します。",
           "foundations": [
             "C-122",
             "B-071",
@@ -681,8 +681,8 @@ export const achievementCards = {
         },
         {
           "id": 9,
-          "title": "好奇心がある学習は、継続しやすい。",
-          "subtitle": "意味づけが増えると、注意が集まりやすくなる。",
+          "title": "好奇心を持って学ぶ",
+          "subtitle": "意味づけが増えると、注意が集まりやすくなります。",
           "foundations": [
             "C-065",
             "C-124",
@@ -691,8 +691,8 @@ export const achievementCards = {
         },
         {
           "id": 10,
-          "title": "フィードバックは、学習の方向を修正する。",
-          "subtitle": "外部の目が入ると、盲点が早く見つかる。",
+          "title": "フィードバックを受ける",
+          "subtitle": "外部の目が入ると、盲点が早く見つかります。",
           "foundations": [
             "W-093",
             "B-022",
@@ -701,8 +701,8 @@ export const achievementCards = {
         },
         {
           "id": 11,
-          "title": "目標が曖昧だと、学習は散る。",
-          "subtitle": "到達点が明確だと、やるべき練習が選びやすい。",
+          "title": "到達点を明確にする",
+          "subtitle": "目標が明確だと、やるべき練習が選びやすくなります。",
           "foundations": [
             "B-016",
             "B-030",
@@ -711,8 +711,8 @@ export const achievementCards = {
         },
         {
           "id": 12,
-          "title": "テストは、弱点を露出させる装置である。",
-          "subtitle": "理解の錯覚を剥がすと、次の復習が最短になる。",
+          "title": "テストで弱点を露出させる",
+          "subtitle": "理解の錯覚を剥がすと、次の復習が最短になります。",
           "foundations": [
             "B-032",
             "W-093",
@@ -721,8 +721,8 @@ export const achievementCards = {
         },
         {
           "id": 13,
-          "title": "理解より再現を優先すると、点数は伸びる。",
-          "subtitle": "解ける形に落とすほど、本番で取り出せる。",
+          "title": "再現できる形に落とし込む",
+          "subtitle": "解ける形に落とすほど、本番で取り出せます。",
           "foundations": [
             "B-032",
             "S-132",
@@ -731,8 +731,8 @@ export const achievementCards = {
         },
         {
           "id": 14,
-          "title": "問題から入ると、学習は目的を持つ。",
-          "subtitle": "必要な知識が明確になるため、無駄なインプットが減る。",
+          "title": "問題から入る",
+          "subtitle": "必要な知識が明確になるため、無駄なインプットが減ります。",
           "foundations": [
             "C-126",
             "B-036",
@@ -741,8 +741,8 @@ export const achievementCards = {
         },
         {
           "id": 15,
-          "title": "復習は、間隔を空けた方が強く残る。",
-          "subtitle": "忘れかけた頃に戻るほど、記憶の再構築が起きる。",
+          "title": "忘れかけた頃に復習する",
+          "subtitle": "間隔を空けるほど、記憶の再構築が起きます。",
           "foundations": [
             "B-006",
             "B-033",
@@ -751,8 +751,8 @@ export const achievementCards = {
         },
         {
           "id": 16,
-          "title": "学習は、想起と反復で強くなる。",
-          "subtitle": "理解したつもりを崩し、再現できる形に落とすほど定着する。",
+          "title": "想起と反復を重ねる",
+          "subtitle": "理解したつもりを崩し再現できる形に落とすほど、定着します。",
           "foundations": [
             "S-116",
             "C-050",
@@ -761,8 +761,8 @@ export const achievementCards = {
         },
         {
           "id": 17,
-          "title": "間違いは、伸びしろの地図である。",
-          "subtitle": "失点の型を集めるほど、同じミスを減らせる。",
+          "title": "失点の型を集める",
+          "subtitle": "間違いを集めるほど、同じミスを減らせます。",
           "foundations": [
             "C-127",
             "B-022",
@@ -771,8 +771,8 @@ export const achievementCards = {
         },
         {
           "id": 18,
-          "title": "環境が一定だと、学習は起動しやすい。",
-          "subtitle": "開始条件を揃えると、着手の摩擦が小さくなる。",
+          "title": "開始条件を揃える",
+          "subtitle": "環境が一定だと、着手の摩擦が小さくなります。",
           "foundations": [
             "W-114",
             "B-102",
@@ -786,8 +786,8 @@ export const achievementCards = {
       "details": [
         {
           "id": 1,
-          "title": "完璧を基準にすると、継続は最初に壊れる。",
-          "subtitle": "下限を決めると、崩れても戻れる余地が残る。",
+          "title": "下限を決める",
+          "subtitle": "完璧を基準にせず下限を決めると、崩れても戻れる余地が残ります。",
           "foundations": [
             "C-005",
             "C-006",
@@ -796,8 +796,8 @@ export const achievementCards = {
         },
         {
           "id": 2,
-          "title": "中断を前提にすると、継続は現実に強くなる。",
-          "subtitle": "崩れる前提があると、自己否定せず再開できる。",
+          "title": "中断を前提にする",
+          "subtitle": "崩れる前提があると、自己否定せず再開できます。",
           "foundations": [
             "S-027",
             "W-098",
@@ -806,8 +806,8 @@ export const achievementCards = {
         },
         {
           "id": 3,
-          "title": "継続を支えるのは、再開の容易さである。",
-          "subtitle": "復帰導線が短いほど、挫折が長期化しにくい。",
+          "title": "再開を容易にする",
+          "subtitle": "復帰導線が短いほど、挫折が長期化しにくくなります。",
           "foundations": [
             "B-013",
             "B-014",
@@ -816,8 +816,8 @@ export const achievementCards = {
         },
         {
           "id": 4,
-          "title": "気力に頼るほど、継続は不安定になる。",
-          "subtitle": "条件と環境で動けるほど、波が小さくなる。",
+          "title": "条件と環境で動けるようにする",
+          "subtitle": "気力に頼らないほど、継続の波が小さくなります。",
           "foundations": [
             "T-031",
             "B-102",
@@ -826,8 +826,8 @@ export const achievementCards = {
         },
         {
           "id": 5,
-          "title": "下限があると、下振れに耐えられる。",
-          "subtitle": "最低ラインを守るだけで、自己効力感が途切れにくい。",
+          "title": "最低ラインを決めて守る",
+          "subtitle": "最低ラインを守るだけで、自己効力感が途切れにくくなります。",
           "foundations": [
             "B-121",
             "C-076",
@@ -836,8 +836,8 @@ export const achievementCards = {
         },
         {
           "id": 6,
-          "title": "比較は、焦りと消耗を増幅させる。",
-          "subtitle": "基準を自分の過去に置くと、評価が安定しやすい。",
+          "title": "基準を自分の過去に置く",
+          "subtitle": "他人との比較を減らすと、評価が安定しやすくなります。",
           "foundations": [
             "S-166",
             "C-129",
@@ -846,8 +846,8 @@ export const achievementCards = {
         },
         {
           "id": 7,
-          "title": "停滞を失敗と決めると、回復は遅れる。",
-          "subtitle": "波を前提にすると、再開の心理的負荷が減る。",
+          "title": "波を前提にする",
+          "subtitle": "停滞を失敗と決めなければ、再開の心理的負荷が減ります。",
           "foundations": [
             "C-006",
             "C-041",
@@ -856,8 +856,8 @@ export const achievementCards = {
         },
         {
           "id": 8,
-          "title": "折れた理由を記録すると、再発は減る。",
-          "subtitle": "原因が言語化されると、対策が仕組みに落ちやすい。",
+          "title": "折れた理由を記録する",
+          "subtitle": "原因が言語化されると、対策が仕組みに落ちやすくなります。",
           "foundations": [
             "B-021",
             "W-116",
@@ -866,8 +866,8 @@ export const achievementCards = {
         },
         {
           "id": 9,
-          "title": "折れる前兆を知ると、対処は早い。",
-          "subtitle": "兆候を観測できるだけで、崩れる前に手を打てる。",
+          "title": "折れる前兆を観測する",
+          "subtitle": "兆候を観測できるだけで、崩れる前に手を打てます。",
           "foundations": [
             "S-134",
             "B-022",
@@ -876,8 +876,8 @@ export const achievementCards = {
         },
         {
           "id": 10,
-          "title": "休息が計画に入ると、燃え尽きは防げる。",
-          "subtitle": "回復の余白があるほど、長期の負荷に耐えやすい。",
+          "title": "休息を計画に入れる",
+          "subtitle": "回復の余白があるほど、長期の負荷に耐えやすくなります。",
           "foundations": [
             "B-071",
             "W-100",
@@ -886,8 +886,8 @@ export const achievementCards = {
         },
         {
           "id": 11,
-          "title": "再開を促す環境があると、戻りやすい。",
-          "subtitle": "道具と導線を置いておくと、着手が軽くなる。",
+          "title": "再開を促す環境を用意する",
+          "subtitle": "道具と導線を置いておくと、着手が軽くなります。",
           "foundations": [
             "B-066",
             "B-011",
@@ -896,8 +896,8 @@ export const achievementCards = {
         },
         {
           "id": 12,
-          "title": "続ける理由を更新すると、惰性が減る。",
-          "subtitle": "目的が現状に合うほど、納得感が保たれる。",
+          "title": "続ける理由を更新する",
+          "subtitle": "目的が現状に合うほど、納得感が保たれます。",
           "foundations": [
             "C-131",
             "C-055",
@@ -906,8 +906,8 @@ export const achievementCards = {
         },
         {
           "id": 13,
-          "title": "目標が小さいほど、達成感は頻発する。",
-          "subtitle": "小さな完了が増えると、継続の燃料が切れにくい。",
+          "title": "目標を小さくする",
+          "subtitle": "小さな完了が増えると、継続の燃料が切れにくくなります。",
           "foundations": [
             "B-019",
             "S-116",
@@ -916,8 +916,8 @@ export const achievementCards = {
         },
         {
           "id": 14,
-          "title": "進捗の可視化は、折れないための補助輪である。",
-          "subtitle": "積み上げが見えると、自己評価が回復しやすい。",
+          "title": "進捗を可視化する",
+          "subtitle": "積み上げが見えると、自己評価が回復しやすくなります。",
           "foundations": [
             "B-023",
             "B-021",
@@ -926,8 +926,8 @@ export const achievementCards = {
         },
         {
           "id": 15,
-          "title": "自己攻撃は、再挑戦の芽を摘む。",
-          "subtitle": "回復を早めるほど、次の行動に戻りやすい。",
+          "title": "回復を早める",
+          "subtitle": "自己攻撃を減らすと、次の行動に戻りやすくなります。",
           "foundations": [
             "C-005",
             "B-058",
@@ -936,8 +936,8 @@ export const achievementCards = {
         },
         {
           "id": 16,
-          "title": "折れない設計は、下限と再開で作れる。",
-          "subtitle": "中断と回復を織り込むほど、挑戦は長く続く。",
+          "title": "下限と再開を設計する",
+          "subtitle": "中断と回復を織り込むほど、挑戦は長く続きます。",
           "foundations": [
             "B-071",
             "W-100",
@@ -946,8 +946,8 @@ export const achievementCards = {
         },
         {
           "id": 17,
-          "title": "応援者がいると、撤退が先延ばしになりにくい。",
-          "subtitle": "見られている意識が、行動の継続を支える。",
+          "title": "応援者を持つ",
+          "subtitle": "見られている意識が、行動の継続を支えます。",
           "foundations": [
             "S-060",
             "S-135",
@@ -956,8 +956,8 @@ export const achievementCards = {
         },
         {
           "id": 18,
-          "title": "撤退ラインがない挑戦は、消耗戦になる。",
-          "subtitle": "止め時を決めると、損失の拡大を防げる。",
+          "title": "撤退ラインを決める",
+          "subtitle": "止め時を決めると、損失の拡大を防げます。",
           "foundations": [
             "C-132",
             "B-010",
@@ -971,8 +971,8 @@ export const achievementCards = {
       "details": [
         {
           "id": 1,
-          "title": "失敗を急いで意味づけると、視野は狭まる。",
-          "subtitle": "感情が高いまま解釈すると、誤った結論に飛びやすい。",
+          "title": "失敗の意味づけを急がない",
+          "subtitle": "感情が高いまま解釈すると、誤った結論に飛びやすくなります。",
           "foundations": [
             "C-033",
             "B-058",
@@ -981,8 +981,8 @@ export const achievementCards = {
         },
         {
           "id": 2,
-          "title": "感情処理と分析を混ぜると、判断は歪む。",
-          "subtitle": "まず落ち着かせてから分析すると、衝動的な結論を避けられる。",
+          "title": "感情処理と分析を分ける",
+          "subtitle": "まず落ち着かせてから分析すると、衝動的な結論を避けられます。",
           "foundations": [
             "C-035",
             "W-117",
@@ -991,8 +991,8 @@ export const achievementCards = {
         },
         {
           "id": 3,
-          "title": "被害範囲の見誤りは、立て直しを遅らせる。",
-          "subtitle": "事実と影響を分けて把握すると、最小の手当てが選べる。",
+          "title": "事実と影響を分けて把握する",
+          "subtitle": "被害範囲を正確に把握すると、最小の手当てが選べます。",
           "foundations": [
             "S-136",
             "C-096",
@@ -1001,8 +1001,8 @@ export const achievementCards = {
         },
         {
           "id": 4,
-          "title": "全否定に飛ぶほど、回復は遠のく。",
-          "subtitle": "部分最適の修正に留めると、再開が現実的になる。",
+          "title": "部分最適の修正に留める",
+          "subtitle": "全否定に飛ばなければ、再開が現実的になります。",
           "foundations": [
             "C-004",
             "C-005",
@@ -1011,8 +1011,8 @@ export const achievementCards = {
         },
         {
           "id": 5,
-          "title": "回復時間を許容できるほど、立て直しは速い。",
-          "subtitle": "焦りを減らすと、再開の摩擦が小さくなる。",
+          "title": "回復時間を許容する",
+          "subtitle": "焦りを減らすと、再開の摩擦が小さくなります。",
           "foundations": [
             "B-071",
             "C-135",
@@ -1021,8 +1021,8 @@ export const achievementCards = {
         },
         {
           "id": 6,
-          "title": "小さな成功は、自己信頼を回復させる。",
-          "subtitle": "最小の完了が増えると、行動の再起動が容易になる。",
+          "title": "小さな成功を積む",
+          "subtitle": "最小の完了が増えると、行動の再起動が容易になります。",
           "foundations": [
             "B-005",
             "C-088",
@@ -1031,8 +1031,8 @@ export const achievementCards = {
         },
         {
           "id": 7,
-          "title": "環境を少し変えるだけで、再発は減る。",
-          "subtitle": "全面改革ではなく一点変更にすると、反動が小さい。",
+          "title": "環境を少し変える",
+          "subtitle": "全面改革ではなく一点変更にすると、反動が小さくなります。",
           "foundations": [
             "B-011",
             "W-118",
@@ -1041,8 +1041,8 @@ export const achievementCards = {
         },
         {
           "id": 8,
-          "title": "再発防止は、意志ではなく仕組みに落とすべきである。",
-          "subtitle": "ルール化すると、同じ失敗の再現条件を潰せる。",
+          "title": "再発防止を仕組みに落とす",
+          "subtitle": "ルール化すると、同じ失敗の再現条件を潰せます。",
           "foundations": [
             "B-013",
             "B-006",
@@ -1051,8 +1051,8 @@ export const achievementCards = {
         },
         {
           "id": 9,
-          "title": "評価に近いほど、回復は重くなる。",
-          "subtitle": "比較刺激を減らすと、自己否定のループが弱まる。",
+          "title": "比較刺激を減らす",
+          "subtitle": "評価に近いほど回復は重いため、比較を減らすと自己否定のループが弱まります。",
           "foundations": [
             "S-167",
             "S-034",
@@ -1061,8 +1061,8 @@ export const achievementCards = {
         },
         {
           "id": 10,
-          "title": "失敗談を急いで語ると、解釈が固定される。",
-          "subtitle": "整理が済んでから言語化すると、学びとして残りやすい。",
+          "title": "整理が済んでから言語化する",
+          "subtitle": "失敗談を急いで語ると解釈が固定されるため、学びとして残りやすくなります。",
           "foundations": [
             "S-138",
             "S-139",
@@ -1071,8 +1071,8 @@ export const achievementCards = {
         },
         {
           "id": 11,
-          "title": "自己信頼は、可視化すると回復しやすい。",
-          "subtitle": "小さな達成を数で積むと、根拠のある自信が戻る。",
+          "title": "小さな達成を数で積む",
+          "subtitle": "可視化すると、根拠のある自信が戻りやすくなります。",
           "foundations": [
             "B-021",
             "C-088",
@@ -1081,8 +1081,8 @@ export const achievementCards = {
         },
         {
           "id": 12,
-          "title": "立て直せた記録は、次の危機で効く。",
-          "subtitle": "回復の証拠があると、再起動の心理負荷が下がる。",
+          "title": "立て直せた記録を残す",
+          "subtitle": "回復の証拠があると、再起動の心理負荷が下がります。",
           "foundations": [
             "C-136",
             "B-027",
@@ -1091,8 +1091,8 @@ export const achievementCards = {
         },
         {
           "id": 13,
-          "title": "睡眠が戻ると、立て直しは加速する。",
-          "subtitle": "判断力と感情の安定が同時に回復するため、再開が容易になる。",
+          "title": "睡眠を回復させる",
+          "subtitle": "判断力と感情の安定が同時に回復するため、再開が容易になります。",
           "foundations": [
             "B-124",
             "W-119",
@@ -1101,8 +1101,8 @@ export const achievementCards = {
         },
         {
           "id": 14,
-          "title": "負荷を半分にすると、回復は現実になる。",
-          "subtitle": "容量を下げることで、最低限の継続を保ちやすい。",
+          "title": "負荷を半分にする",
+          "subtitle": "容量を下げることで、最低限の継続を保ちやすくなります。",
           "foundations": [
             "C-050",
             "B-119",
@@ -1111,8 +1111,8 @@ export const achievementCards = {
         },
         {
           "id": 15,
-          "title": "一つだけ片付けると、流れは戻る。",
-          "subtitle": "最小の完了が、次の行動の勢いを生む。",
+          "title": "一つだけ片付ける",
+          "subtitle": "最小の完了が、次の行動の勢いを生みます。",
           "foundations": [
             "S-116",
             "B-005",
@@ -1121,8 +1121,8 @@ export const achievementCards = {
         },
         {
           "id": 16,
-          "title": "環境のリセットは、再開の合図になる。",
-          "subtitle": "片付けと配置換えで、行動の入口を作り直せる。",
+          "title": "環境をリセットする",
+          "subtitle": "片付けと配置換えで、行動の入口を作り直せます。",
           "foundations": [
             "B-011",
             "W-120",
