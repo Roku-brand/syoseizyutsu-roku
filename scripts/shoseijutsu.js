@@ -203,9 +203,8 @@ const buildIndexItems = () =>
         areaKey,
         areaLabel: areaLabels[areaKey] ?? section.name ?? areaKey,
         groupName: group.name,
-        id: itemIndex + 1, // Generate ID based on index
+        id: itemIndex + 1,
         title: item.title,
-        subtitle: item.title, // Use title as subtitle since new structure doesn't have subtitle
         searchText: `${group.name} ${item.title} ${item.theoryTagIds?.join(" ") ?? ""} ${
           areaLabels[areaKey] ?? section.name ?? areaKey
         }`,
@@ -295,7 +294,6 @@ const renderIndex = () => {
             <span class="badge">No.${item.id}</span>
             <h3 class="index-result-title">${item.title}</h3>
           </div>
-          <p class="index-result-summary">${item.subtitle}</p>
           <div class="tag-list tag-list--compact">
             <span class="tag tag--compact">${item.areaLabel}</span>
             <a class="tag tag--compact" href="group.html?group=${encodeURIComponent(
