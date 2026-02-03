@@ -10,11 +10,16 @@ for (const category of Object.values(shoseijutsuData.foundation)) {
 const findFoundationTitle = (tagId) => foundationTitleMap.get(tagId) ?? null;
 
 const areaLabels = {
+  relationships: "人間関係",
+  work: "仕事",
+  mental: "メンタル",
   life: "人生",
-  thinking: "思考",
-  people: "対人",
-  skill: "スキル",
-  achievement: "達成",
+  challenge: "挑戦",
+};
+
+// Helper function to get category by key from the new structure
+const getCategoryByKey = (key) => {
+  return shoseijutsuData.techniques.categories?.find((c) => c.key === key);
 };
 
 const titleEl = document.getElementById("group-title");
@@ -60,7 +65,7 @@ const buildTechniqueTitle = (groupName, areaLabel) => {
 };
 
 const buildTechniqueDescription = (group, areaLabel) => {
-  const example = group.details?.[0];
+  const example = group.items?.[0];
   const exampleText = example
     ? example.title.replace(/。$/, "")
     : `${group.name}の具体策`;
@@ -94,16 +99,15 @@ const renderFoundationLink = (tag) => {
 };
 
 const renderDetails = (group) => {
-  detailsContainer.innerHTML = group.details
-    .map((detail) => {
-      const foundations = (detail.foundations ?? [])
-        .flatMap((entry) => entry.split(" ").filter(Boolean));
-      const foundationsMarkup = foundations.length
+  detailsContainer.innerHTML = group.items
+    .map((item, index) => {
+      const theoryTagIds = item.theoryTagIds ?? [];
+      const foundationsMarkup = theoryTagIds.length
         ? `
           <div class="entry-meta">
             <span>関連理論：</span>
-            ${foundations
-              .map((foundation) => renderFoundationLink(foundation))
+            ${theoryTagIds
+              .map((tagId) => renderFoundationLink(tagId))
               .join(", ")}
           </div>
         `
@@ -111,9 +115,8 @@ const renderDetails = (group) => {
 
       return `
         <article class="shoseijutsu-entry">
-          <div class="entry-index">§${detail.id}</div>
-          <h3 class="entry-title">${detail.title}</h3>
-          <p class="entry-summary">${detail.subtitle}</p>
+          <div class="entry-index">§${index + 1}</div>
+          <h3 class="entry-title">${item.title}</h3>
           ${foundationsMarkup}
         </article>
       `;
@@ -133,8 +136,8 @@ const renderGroup = () => {
   }
 
   const { areaKey, groupName } = parsed;
-  const areaSection = shoseijutsuData.techniques[areaKey];
-  const group = areaSection?.items.find((item) => item.name === groupName);
+  const areaSection = getCategoryByKey(areaKey);
+  const group = areaSection?.subcategories.find((item) => item.name === groupName);
 
   if (!areaSection || !group) {
     titleEl.textContent = "処世術群";
@@ -145,7 +148,7 @@ const renderGroup = () => {
     return;
   }
 
-  const areaLabel = areaLabels[areaKey] ?? areaSection.title ?? areaKey;
+  const areaLabel = areaLabels[areaKey] ?? areaSection.name ?? areaKey;
   titleEl.textContent = `${group.name}の処世術`;
   subtitleEl.textContent = `${areaLabel}の観点から整理した処世術群です。`;
   backLink.href = `shoseijutsu.html?group=${encodeURIComponent(groupParam)}`;
@@ -157,8 +160,8 @@ const renderGroup = () => {
   emptyState.classList.add("is-hidden");
   detailsContainer.classList.remove("is-hidden");
   quickListCard.classList.remove("is-hidden");
-  quickList.innerHTML = group.details
-    .map((detail) => `<li>${detail.title}</li>`)
+  quickList.innerHTML = group.items
+    .map((item) => `<li>${item.title}</li>`)
     .join("");
   renderDetails(group);
 };
