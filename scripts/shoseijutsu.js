@@ -1,12 +1,17 @@
 import { shoseijutsuData } from "../data/index.js";
 
-const areaOrder = ["people", "skill", "thinking", "life", "achievement"];
+const areaOrder = ["relationships", "work", "mental", "life", "challenge"];
 const areaLabels = {
-  people: "対人",
-  skill: "スキル",
-  thinking: "思考",
+  relationships: "人間関係",
+  work: "仕事",
+  mental: "メンタル",
   life: "人生",
-  achievement: "達成",
+  challenge: "挑戦",
+};
+
+// Helper function to get category by key from the new structure
+const getCategoryByKey = (key) => {
+  return shoseijutsuData.techniques.categories?.find((c) => c.key === key);
 };
 
 const groupBoardContainer = document.getElementById("technique-group-board");
@@ -20,13 +25,13 @@ const resultList = document.getElementById("technique-index-results");
 const emptyState = document.getElementById("technique-index-empty");
 
 const groupOptions = areaOrder.flatMap((areaKey) => {
-  const section = shoseijutsuData.techniques[areaKey];
+  const section = getCategoryByKey(areaKey);
   if (!section) {
     return [];
   }
-  return section.items.map((group) => ({
+  return section.subcategories.map((group) => ({
     key: `${areaKey}:${group.name}`,
-    label: `${areaLabels[areaKey] ?? section.title}・${group.name}`,
+    label: `${areaLabels[areaKey] ?? section.name}・${group.name}`,
     areaKey,
     groupName: group.name,
   }));
@@ -86,12 +91,14 @@ const renderGroupBoard = () => {
       name.className = "group-card-title";
       name.textContent = option.groupName;
 
-      const detail = shoseijutsuData.techniques[areaKey]?.items.find(
+      const category = getCategoryByKey(areaKey);
+      const detail = category?.subcategories.find(
         (group) => group.name === option.groupName
       );
       const subtitle = document.createElement("div");
       subtitle.className = "group-card-subtitle";
-      subtitle.textContent = detail?.details?.[0]?.subtitle ?? "迷いを解くための視点を整理する";
+      // Use first item's title as subtitle since new structure doesn't have subtitle
+      subtitle.textContent = detail?.items?.[0]?.title ?? "迷いを解くための視点を整理する";
 
       content.appendChild(name);
       content.appendChild(subtitle);
@@ -187,22 +194,23 @@ const tagOptions = [
 
 const buildIndexItems = () =>
   areaOrder.flatMap((areaKey) => {
-    const section = shoseijutsuData.techniques[areaKey];
+    const section = getCategoryByKey(areaKey);
     if (!section) {
       return [];
     }
-    return section.items.flatMap((group) =>
-      group.details.map((detail) => ({
+    return section.subcategories.flatMap((group, groupIndex) =>
+      group.items.map((item, itemIndex) => ({
         areaKey,
-        areaLabel: areaLabels[areaKey] ?? section.title ?? areaKey,
+        areaLabel: areaLabels[areaKey] ?? section.name ?? areaKey,
         groupName: group.name,
-        id: detail.id,
-        title: detail.title,
-        subtitle: detail.subtitle,
-        searchText: `${group.name} ${detail.title} ${detail.subtitle} ${
-          areaLabels[areaKey] ?? section.title ?? areaKey
+        id: itemIndex + 1, // Generate ID based on index
+        title: item.title,
+        subtitle: item.title, // Use title as subtitle since new structure doesn't have subtitle
+        searchText: `${group.name} ${item.title} ${item.theoryTagIds?.join(" ") ?? ""} ${
+          areaLabels[areaKey] ?? section.name ?? areaKey
         }`,
         groupKey: `${areaKey}:${group.name}`,
+        theoryTagIds: item.theoryTagIds ?? [],
       }))
     );
   });
