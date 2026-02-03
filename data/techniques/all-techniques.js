@@ -20,7 +20,8 @@ export const techniqueCards = {
                 "S-090",
                 "S-023",
                 "S-145"
-              ]
+              ],
+              "subtitle": "リソースを守って継続する"
             },
             {
               "id": "P-002",
@@ -34,7 +35,8 @@ export const techniqueCards = {
                 "S-090",
                 "S-146",
                 "S-186"
-              ]
+              ],
+              "subtitle": "手遅れを防ぐ"
             },
             {
               "id": "P-003",
@@ -48,7 +50,8 @@ export const techniqueCards = {
                 "S-010",
                 "S-158",
                 "S-075"
-              ]
+              ],
+              "subtitle": "荒れを収束させる"
             },
             {
               "id": "P-004",
@@ -62,7 +65,8 @@ export const techniqueCards = {
                 "S-090",
                 "S-010",
                 "S-184"
-              ]
+              ],
+              "subtitle": "信用貯金を増やす"
             },
             {
               "id": "P-005",
@@ -76,7 +80,8 @@ export const techniqueCards = {
                 "S-090",
                 "S-089",
                 "S-029"
-              ]
+              ],
+              "subtitle": "次の接点を作る"
             },
             {
               "id": "P-006",
@@ -90,7 +95,8 @@ export const techniqueCards = {
                 "S-090",
                 "S-018",
                 "S-078"
-              ]
+              ],
+              "subtitle": "信用貯金を増やす"
             },
             {
               "id": "P-007",
@@ -104,7 +110,8 @@ export const techniqueCards = {
                 "S-090",
                 "S-047",
                 "S-180"
-              ]
+              ],
+              "subtitle": "信用貯金を増やす"
             },
             {
               "id": "P-008",
@@ -118,7 +125,8 @@ export const techniqueCards = {
                 "S-090",
                 "S-198",
                 "S-199"
-              ]
+              ],
+              "subtitle": "信用貯金を増やす"
             },
             {
               "id": "P-009",
@@ -132,7 +140,8 @@ export const techniqueCards = {
                 "S-090",
                 "S-198",
                 "S-199"
-              ]
+              ],
+              "subtitle": "摩擦を減らして回転を上げる"
             },
             {
               "id": "P-010",
@@ -146,7 +155,8 @@ export const techniqueCards = {
                 "S-090",
                 "S-083",
                 "S-123"
-              ]
+              ],
+              "subtitle": "関係を壊さず通す"
             },
             {
               "id": "P-011",
@@ -160,7 +170,8 @@ export const techniqueCards = {
                 "S-166",
                 "S-165",
                 "S-083"
-              ]
+              ],
+              "subtitle": "信用貯金を増やす"
             },
             {
               "id": "P-012",
@@ -174,7 +185,8 @@ export const techniqueCards = {
                 "S-090",
                 "S-126",
                 "S-030"
-              ]
+              ],
+              "subtitle": "信用貯金を増やす"
             }
           ]
         },
@@ -191,7 +203,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-083",
                 "S-058"
-              ]
+              ],
+              "subtitle": "好感と協力を引き出す"
             },
             {
               "id": "P-014",
@@ -203,7 +216,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-105",
                 "S-086"
-              ]
+              ],
+              "subtitle": "好感と協力を引き出す"
             },
             {
               "id": "P-015",
@@ -215,7 +229,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-137",
                 "S-013"
-              ]
+              ],
+              "subtitle": "好感と協力を引き出す"
             },
             {
               "id": "P-016",
@@ -227,7 +242,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-083",
                 "B-056"
-              ]
+              ],
+              "subtitle": "好感と協力を引き出す"
             },
             {
               "id": "P-017",
@@ -239,7 +255,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-052",
                 "S-062"
-              ]
+              ],
+              "subtitle": "好感と協力を引き出す"
             },
             {
               "id": "P-018",
@@ -251,7 +268,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-062",
                 "S-052"
-              ]
+              ],
+              "subtitle": "好感と協力を引き出す"
             },
             {
               "id": "P-019",
@@ -263,7 +281,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-083",
                 "S-053"
-              ]
+              ],
+              "subtitle": "好感と協力を引き出す"
             },
             {
               "id": "P-020",
@@ -275,7 +294,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-047",
                 "S-206"
-              ]
+              ],
+              "subtitle": "好感と協力を引き出す"
             },
             {
               "id": "P-021",
@@ -287,7 +307,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-083",
                 "S-123"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-022",
@@ -299,7 +320,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-017",
                 "S-159"
-              ]
+              ],
+              "subtitle": "好感と協力を引き出す"
             },
             {
               "id": "P-023",
@@ -311,7 +333,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-083",
                 "S-050"
-              ]
+              ],
+              "subtitle": "好感と協力を引き出す"
             },
             {
               "id": "P-024",
@@ -323,7 +346,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-023",
                 "S-030"
-              ]
+              ],
+              "subtitle": "印象を統一して信頼を増やす"
             }
           ]
         },
@@ -340,7 +364,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-069",
                 "S-057"
-              ]
+              ],
+              "subtitle": "好意を増やして距離を縮める"
             },
             {
               "id": "P-026",
@@ -352,7 +377,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-069",
                 "S-017"
-              ]
+              ],
+              "subtitle": "好意を増やして距離を縮める"
             },
             {
               "id": "P-027",
@@ -364,7 +390,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-061",
                 "S-053"
-              ]
+              ],
+              "subtitle": "好意を増やして距離を縮める"
             },
             {
               "id": "P-028",
@@ -376,7 +403,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-098",
                 "S-206"
-              ]
+              ],
+              "subtitle": "好意を増やして距離を縮める"
             },
             {
               "id": "P-029",
@@ -386,7 +414,8 @@ export const techniqueCards = {
               ],
               "theoryTagIds": [
                 "S-137"
-              ]
+              ],
+              "subtitle": "好意を増やして距離を縮める"
             },
             {
               "id": "P-030",
@@ -398,7 +427,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-206",
                 "S-162"
-              ]
+              ],
+              "subtitle": "安全に話を広げる"
             },
             {
               "id": "P-031",
@@ -410,7 +440,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-023",
                 "S-030"
-              ]
+              ],
+              "subtitle": "印象を統一して信頼を増やす"
             },
             {
               "id": "P-032",
@@ -422,7 +453,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-204",
                 "S-159"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-033",
@@ -434,7 +466,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-069",
                 "S-128"
-              ]
+              ],
+              "subtitle": "好意を増やして距離を縮める"
             },
             {
               "id": "P-034",
@@ -446,7 +479,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-137",
                 "S-123"
-              ]
+              ],
+              "subtitle": "好意を増やして距離を縮める"
             },
             {
               "id": "P-035",
@@ -458,7 +492,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-057",
                 "S-173"
-              ]
+              ],
+              "subtitle": "好意を増やして距離を縮める"
             },
             {
               "id": "P-036",
@@ -470,7 +505,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-090",
                 "S-165"
-              ]
+              ],
+              "subtitle": "好意を増やして距離を縮める"
             }
           ]
         },
@@ -487,7 +523,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-204",
                 "S-176"
-              ]
+              ],
+              "subtitle": "最初の評価を上げる"
             },
             {
               "id": "P-038",
@@ -499,7 +536,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-204",
                 "S-176"
-              ]
+              ],
+              "subtitle": "最初の評価を上げる"
             },
             {
               "id": "P-039",
@@ -511,7 +549,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-100",
                 "S-094"
-              ]
+              ],
+              "subtitle": "摩擦を減らして回転を上げる"
             },
             {
               "id": "P-040",
@@ -523,7 +562,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-117",
                 "S-094"
-              ]
+              ],
+              "subtitle": "最初の評価を上げる"
             },
             {
               "id": "P-041",
@@ -535,7 +575,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-175",
                 "S-154"
-              ]
+              ],
+              "subtitle": "最初の評価を上げる"
             },
             {
               "id": "P-042",
@@ -547,7 +588,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-105",
                 "S-007"
-              ]
+              ],
+              "subtitle": "最初の評価を上げる"
             },
             {
               "id": "P-043",
@@ -559,7 +601,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-062",
                 "S-100"
-              ]
+              ],
+              "subtitle": "最初の評価を上げる"
             },
             {
               "id": "P-044",
@@ -571,7 +614,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-011",
                 "S-176"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             },
             {
               "id": "P-045",
@@ -583,7 +627,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-086",
                 "S-007"
-              ]
+              ],
+              "subtitle": "最初の評価を上げる"
             },
             {
               "id": "P-046",
@@ -595,7 +640,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-184",
                 "S-010"
-              ]
+              ],
+              "subtitle": "最初の評価を上げる"
             },
             {
               "id": "P-047",
@@ -607,7 +653,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-168",
                 "S-050"
-              ]
+              ],
+              "subtitle": "次の接点を作る"
             },
             {
               "id": "P-048",
@@ -619,7 +666,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-204",
                 "S-100"
-              ]
+              ],
+              "subtitle": "最初の評価を上げる"
             }
           ]
         },
@@ -636,7 +684,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-008",
                 "S-102"
-              ]
+              ],
+              "subtitle": "なめられない軸を作る"
             },
             {
               "id": "P-050",
@@ -648,7 +697,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-008"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-051",
@@ -660,7 +710,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-075"
-              ]
+              ],
+              "subtitle": "なめられない軸を作る"
             },
             {
               "id": "P-052",
@@ -672,7 +723,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-008"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             },
             {
               "id": "P-053",
@@ -684,7 +736,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-123"
-              ]
+              ],
+              "subtitle": "摩擦を減らして回転を上げる"
             },
             {
               "id": "P-054",
@@ -696,7 +749,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-179"
-              ]
+              ],
+              "subtitle": "余計な摩擦を防ぐ"
             },
             {
               "id": "P-055",
@@ -708,7 +762,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-079",
                 "S-075"
-              ]
+              ],
+              "subtitle": "なめられない軸を作る"
             },
             {
               "id": "P-056",
@@ -720,7 +775,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-083"
-              ]
+              ],
+              "subtitle": "なめられない軸を作る"
             },
             {
               "id": "P-057",
@@ -732,7 +788,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-008"
-              ]
+              ],
+              "subtitle": "なめられない軸を作る"
             },
             {
               "id": "P-058",
@@ -744,7 +801,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-146"
-              ]
+              ],
+              "subtitle": "なめられない軸を作る"
             },
             {
               "id": "P-059",
@@ -756,7 +814,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-052",
                 "S-062"
-              ]
+              ],
+              "subtitle": "なめられない軸を作る"
             },
             {
               "id": "P-060",
@@ -768,7 +827,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-145"
-              ]
+              ],
+              "subtitle": "なめられない軸を作る"
             }
           ]
         },
@@ -785,7 +845,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-205",
                 "S-021"
-              ]
+              ],
+              "subtitle": "会話の回転を上げる"
             },
             {
               "id": "P-062",
@@ -797,7 +858,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-205",
                 "S-064"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             },
             {
               "id": "P-063",
@@ -809,7 +871,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-205",
                 "S-105"
-              ]
+              ],
+              "subtitle": "会話の回転を上げる"
             },
             {
               "id": "P-064",
@@ -821,7 +884,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-205",
                 "S-021"
-              ]
+              ],
+              "subtitle": "会話の回転を上げる"
             },
             {
               "id": "P-065",
@@ -833,7 +897,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-206",
                 "S-162"
-              ]
+              ],
+              "subtitle": "安全に話を広げる"
             },
             {
               "id": "P-066",
@@ -845,7 +910,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-173",
                 "S-196"
-              ]
+              ],
+              "subtitle": "摩擦を減らして回転を上げる"
             },
             {
               "id": "P-067",
@@ -857,7 +923,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-205",
                 "S-021"
-              ]
+              ],
+              "subtitle": "会話の回転を上げる"
             },
             {
               "id": "P-068",
@@ -869,7 +936,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-010",
                 "B-057"
-              ]
+              ],
+              "subtitle": "関係を深める"
             },
             {
               "id": "P-069",
@@ -881,7 +949,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-205",
                 "S-128"
-              ]
+              ],
+              "subtitle": "会話の回転を上げる"
             },
             {
               "id": "P-070",
@@ -893,7 +962,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-057",
                 "S-173"
-              ]
+              ],
+              "subtitle": "会話の回転を上げる"
             },
             {
               "id": "P-071",
@@ -905,7 +975,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-050",
                 "S-168"
-              ]
+              ],
+              "subtitle": "会話の回転を上げる"
             },
             {
               "id": "P-072",
@@ -919,7 +990,8 @@ export const techniqueCards = {
                 "S-050",
                 "S-168",
                 "S-098"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             }
           ]
         },
@@ -936,7 +1008,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-065",
                 "S-020"
-              ]
+              ],
+              "subtitle": "関係修復を早める"
             },
             {
               "id": "P-074",
@@ -948,7 +1021,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-065",
                 "S-183"
-              ]
+              ],
+              "subtitle": "関係修復を早める"
             },
             {
               "id": "P-075",
@@ -960,7 +1034,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-065",
                 "S-089"
-              ]
+              ],
+              "subtitle": "関係修復を早める"
             },
             {
               "id": "P-076",
@@ -972,7 +1047,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-089",
                 "S-029"
-              ]
+              ],
+              "subtitle": "摩擦を減らして回転を上げる"
             },
             {
               "id": "P-077",
@@ -984,7 +1060,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-052",
                 "S-062"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-078",
@@ -996,7 +1073,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-065",
                 "S-020"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-079",
@@ -1008,7 +1086,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-065",
                 "S-152"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-080",
@@ -1020,7 +1099,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-052",
                 "S-062"
-              ]
+              ],
+              "subtitle": "関係修復を早める"
             },
             {
               "id": "P-081",
@@ -1032,7 +1112,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-065",
                 "S-121"
-              ]
+              ],
+              "subtitle": "関係修復を早める"
             },
             {
               "id": "P-082",
@@ -1044,7 +1125,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-065",
                 "S-020"
-              ]
+              ],
+              "subtitle": "関係修復を早める"
             },
             {
               "id": "P-083",
@@ -1056,7 +1138,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-077",
                 "S-097"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-084",
@@ -1068,7 +1151,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-052",
                 "S-062"
-              ]
+              ],
+              "subtitle": "荒れを収束させる"
             }
           ]
         },
@@ -1085,7 +1169,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-068",
                 "S-024"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-086",
@@ -1097,7 +1182,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-094",
                 "S-176"
-              ]
+              ],
+              "subtitle": "状況を読み違えず当たりを取る"
             },
             {
               "id": "P-087",
@@ -1109,7 +1195,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-203",
                 "S-056"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-088",
@@ -1121,7 +1208,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-093",
                 "S-173"
-              ]
+              ],
+              "subtitle": "安全に話を広げる"
             },
             {
               "id": "P-089",
@@ -1133,7 +1221,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-086",
                 "S-153"
-              ]
+              ],
+              "subtitle": "存在感を出す"
             },
             {
               "id": "P-090",
@@ -1145,7 +1234,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-062",
                 "S-042"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-091",
@@ -1157,7 +1247,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-009"
-              ]
+              ],
+              "subtitle": "余計な摩擦を防ぐ"
             },
             {
               "id": "P-092",
@@ -1169,7 +1260,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-086",
                 "S-195"
-              ]
+              ],
+              "subtitle": "摩擦を減らして回転を上げる"
             },
             {
               "id": "P-093",
@@ -1181,7 +1273,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-026",
                 "S-173"
-              ]
+              ],
+              "subtitle": "次の接点を作る"
             },
             {
               "id": "P-094",
@@ -1193,7 +1286,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-051",
                 "S-189"
-              ]
+              ],
+              "subtitle": "荒れを収束させる"
             },
             {
               "id": "P-095",
@@ -1205,7 +1299,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-090",
                 "S-076"
-              ]
+              ],
+              "subtitle": "場を回して存在感を出す"
             },
             {
               "id": "P-096",
@@ -1217,7 +1312,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-050",
                 "B-024"
-              ]
+              ],
+              "subtitle": "次の接点を作る"
             }
           ]
         },
@@ -1234,7 +1330,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-100",
                 "S-094"
-              ]
+              ],
+              "subtitle": "入口で好意と安心を作る"
             },
             {
               "id": "P-098",
@@ -1246,7 +1343,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-135",
                 "S-186"
-              ]
+              ],
+              "subtitle": "入口で好意と安心を作る"
             },
             {
               "id": "P-099",
@@ -1258,7 +1356,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-007",
                 "S-174"
-              ]
+              ],
+              "subtitle": "入口で好意と安心を作る"
             },
             {
               "id": "P-100",
@@ -1270,7 +1369,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-100",
                 "S-030"
-              ]
+              ],
+              "subtitle": "入口で好意と安心を作る"
             },
             {
               "id": "P-101",
@@ -1282,7 +1382,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-123",
                 "S-142"
-              ]
+              ],
+              "subtitle": "入口で好意と安心を作る"
             },
             {
               "id": "P-102",
@@ -1294,7 +1395,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-080",
                 "B-010"
-              ]
+              ],
+              "subtitle": "入口で好意と安心を作る"
             },
             {
               "id": "P-103",
@@ -1306,7 +1408,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-016",
                 "S-067"
-              ]
+              ],
+              "subtitle": "摩擦を減らして回転を上げる"
             },
             {
               "id": "P-104",
@@ -1318,7 +1421,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-072",
                 "S-171"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             },
             {
               "id": "P-105",
@@ -1330,7 +1434,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-112",
                 "S-138"
-              ]
+              ],
+              "subtitle": "入口で好意と安心を作る"
             },
             {
               "id": "P-106",
@@ -1342,7 +1447,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-094",
                 "S-099"
-              ]
+              ],
+              "subtitle": "入口で好意と安心を作る"
             },
             {
               "id": "P-107",
@@ -1354,7 +1460,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-100",
                 "C-007"
-              ]
+              ],
+              "subtitle": "安全に話を広げる"
             },
             {
               "id": "P-108",
@@ -1366,7 +1473,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-053",
                 "S-157"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             }
           ]
         },
@@ -1383,7 +1491,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-127",
                 "S-164"
-              ]
+              ],
+              "subtitle": "地雷を避けて損失を防ぐ"
             },
             {
               "id": "P-110",
@@ -1397,7 +1506,8 @@ export const techniqueCards = {
                 "S-030",
                 "S-023",
                 "S-145"
-              ]
+              ],
+              "subtitle": "リソースを守って継続する"
             },
             {
               "id": "P-111",
@@ -1409,7 +1519,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-087",
                 "S-164"
-              ]
+              ],
+              "subtitle": "地雷を避けて損失を防ぐ"
             },
             {
               "id": "P-112",
@@ -1421,7 +1532,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-030",
                 "S-090"
-              ]
+              ],
+              "subtitle": "地雷を避けて損失を防ぐ"
             },
             {
               "id": "P-113",
@@ -1433,7 +1545,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-105",
                 "S-086"
-              ]
+              ],
+              "subtitle": "地雷を避けて損失を防ぐ"
             },
             {
               "id": "P-114",
@@ -1445,7 +1558,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-127",
                 "S-135"
-              ]
+              ],
+              "subtitle": "地雷を避けて損失を防ぐ"
             },
             {
               "id": "P-115",
@@ -1457,7 +1571,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-030",
                 "S-164"
-              ]
+              ],
+              "subtitle": "地雷を避けて損失を防ぐ"
             },
             {
               "id": "P-116",
@@ -1469,7 +1584,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-128",
                 "S-087"
-              ]
+              ],
+              "subtitle": "地雷を避けて損失を防ぐ"
             },
             {
               "id": "P-117",
@@ -1483,7 +1599,8 @@ export const techniqueCards = {
                 "S-062",
                 "S-052",
                 "S-127"
-              ]
+              ],
+              "subtitle": "地雷を避けて損失を防ぐ"
             },
             {
               "id": "P-118",
@@ -1495,7 +1612,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-030",
                 "S-090"
-              ]
+              ],
+              "subtitle": "地雷を避けて損失を防ぐ"
             },
             {
               "id": "P-119",
@@ -1507,7 +1625,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-201",
                 "S-098"
-              ]
+              ],
+              "subtitle": "地雷を避けて損失を防ぐ"
             },
             {
               "id": "P-120",
@@ -1519,7 +1638,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-163",
                 "S-143"
-              ]
+              ],
+              "subtitle": "地雷を避けて損失を防ぐ"
             }
           ]
         },
@@ -1536,7 +1656,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-036",
                 "S-035"
-              ]
+              ],
+              "subtitle": "摩擦を減らして継続する"
             },
             {
               "id": "P-122",
@@ -1548,7 +1669,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-036"
-              ]
+              ],
+              "subtitle": "摩擦を減らして継続する"
             },
             {
               "id": "P-123",
@@ -1560,7 +1682,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-035"
-              ]
+              ],
+              "subtitle": "摩擦を減らして継続する"
             },
             {
               "id": "P-124",
@@ -1572,7 +1695,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-201"
-              ]
+              ],
+              "subtitle": "摩擦を減らして継続する"
             },
             {
               "id": "P-125",
@@ -1584,7 +1708,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-173"
-              ]
+              ],
+              "subtitle": "摩擦を減らして継続する"
             },
             {
               "id": "P-126",
@@ -1596,7 +1721,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-035"
-              ]
+              ],
+              "subtitle": "摩擦を減らして継続する"
             },
             {
               "id": "P-127",
@@ -1608,7 +1734,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-201",
                 "S-098"
-              ]
+              ],
+              "subtitle": "安心感を積んで信頼を守る"
             },
             {
               "id": "P-128",
@@ -1620,7 +1747,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-020"
-              ]
+              ],
+              "subtitle": "摩擦を減らして継続する"
             },
             {
               "id": "P-129",
@@ -1632,7 +1760,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-035"
-              ]
+              ],
+              "subtitle": "摩擦を減らして継続する"
             },
             {
               "id": "P-130",
@@ -1644,7 +1773,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-201"
-              ]
+              ],
+              "subtitle": "摩擦を減らして継続する"
             },
             {
               "id": "P-131",
@@ -1656,7 +1786,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-048"
-              ]
+              ],
+              "subtitle": "摩擦を減らして継続する"
             },
             {
               "id": "P-132",
@@ -1668,7 +1799,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-127",
                 "S-087"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             }
           ]
         }
@@ -1691,7 +1823,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-145",
                 "S-199"
-              ]
+              ],
+              "subtitle": "安心感と成果感を積む"
             },
             {
               "id": "P-134",
@@ -1703,7 +1836,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-145",
                 "S-158"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             },
             {
               "id": "P-135",
@@ -1715,7 +1849,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-020",
                 "S-034"
-              ]
+              ],
+              "subtitle": "摩擦を減らして回転を上げる"
             },
             {
               "id": "P-136",
@@ -1727,7 +1862,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-017",
                 "S-109"
-              ]
+              ],
+              "subtitle": "手遅れを防ぐ"
             },
             {
               "id": "P-137",
@@ -1739,7 +1875,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-145",
                 "S-072"
-              ]
+              ],
+              "subtitle": "安心感と成果感を積む"
             },
             {
               "id": "P-138",
@@ -1751,7 +1888,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-139",
                 "S-003"
-              ]
+              ],
+              "subtitle": "安心感を積んで信頼を守る"
             },
             {
               "id": "P-139",
@@ -1763,7 +1901,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-145",
                 "S-186"
-              ]
+              ],
+              "subtitle": "安心感と成果感を積む"
             },
             {
               "id": "P-140",
@@ -1775,7 +1914,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-059",
                 "W-023"
-              ]
+              ],
+              "subtitle": "合意を早めて手戻りを減らす"
             },
             {
               "id": "P-141",
@@ -1787,7 +1927,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-194",
                 "S-044"
-              ]
+              ],
+              "subtitle": "安心感と成果感を積む"
             },
             {
               "id": "P-142",
@@ -1799,7 +1940,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-051",
                 "S-184"
-              ]
+              ],
+              "subtitle": "荒れを収束させる"
             },
             {
               "id": "P-143",
@@ -1811,7 +1953,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-114",
                 "S-009"
-              ]
+              ],
+              "subtitle": "リソースを守って継続する"
             },
             {
               "id": "P-144",
@@ -1823,7 +1966,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-148",
                 "S-161"
-              ]
+              ],
+              "subtitle": "安心感と成果感を積む"
             }
           ]
         },
@@ -1840,7 +1984,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-016",
                 "S-049"
-              ]
+              ],
+              "subtitle": "誤解を減らして納得を作る"
             },
             {
               "id": "P-146",
@@ -1852,7 +1997,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-054",
                 "S-092"
-              ]
+              ],
+              "subtitle": "安全に話を広げる"
             },
             {
               "id": "P-147",
@@ -1864,7 +2010,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-022",
                 "S-040"
-              ]
+              ],
+              "subtitle": "誤解を減らして納得を作る"
             },
             {
               "id": "P-148",
@@ -1876,7 +2023,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-033",
                 "S-107"
-              ]
+              ],
+              "subtitle": "誤解を減らして納得を作る"
             },
             {
               "id": "P-149",
@@ -1890,7 +2038,8 @@ export const techniqueCards = {
                 "B-006",
                 "S-060",
                 "C-006"
-              ]
+              ],
+              "subtitle": "交渉の土俵を作る"
             },
             {
               "id": "P-150",
@@ -1902,7 +2051,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-016",
                 "S-155"
-              ]
+              ],
+              "subtitle": "誤解を減らして納得を作る"
             },
             {
               "id": "P-151",
@@ -1914,7 +2064,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-106",
                 "S-081"
-              ]
+              ],
+              "subtitle": "誤解を減らして納得を作る"
             },
             {
               "id": "P-152",
@@ -1926,7 +2077,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-016",
                 "S-037"
-              ]
+              ],
+              "subtitle": "誤解を減らして納得を作る"
             },
             {
               "id": "P-153",
@@ -1938,7 +2090,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-133",
                 "C-064"
-              ]
+              ],
+              "subtitle": "誤解を減らして納得を作る"
             },
             {
               "id": "P-154",
@@ -1950,7 +2103,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-012",
                 "S-039"
-              ]
+              ],
+              "subtitle": "誤解を減らして納得を作る"
             },
             {
               "id": "P-155",
@@ -1962,7 +2116,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-177",
                 "B-024"
-              ]
+              ],
+              "subtitle": "誤解を減らして納得を作る"
             },
             {
               "id": "P-156",
@@ -1974,7 +2129,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-116",
                 "S-193"
-              ]
+              ],
+              "subtitle": "認識ズレを潰す"
             }
           ]
         },
@@ -1993,7 +2149,8 @@ export const techniqueCards = {
                 "S-118",
                 "S-038",
                 "S-134"
-              ]
+              ],
+              "subtitle": "本命を通しやすくする"
             },
             {
               "id": "P-158",
@@ -2007,7 +2164,8 @@ export const techniqueCards = {
                 "S-038",
                 "S-103",
                 "S-160"
-              ]
+              ],
+              "subtitle": "主導権を取り条件を通す"
             },
             {
               "id": "P-159",
@@ -2021,7 +2179,8 @@ export const techniqueCards = {
                 "S-014",
                 "S-006",
                 "S-084"
-              ]
+              ],
+              "subtitle": "交渉の土俵を作る"
             },
             {
               "id": "P-160",
@@ -2035,7 +2194,8 @@ export const techniqueCards = {
                 "S-167",
                 "S-120",
                 "S-014"
-              ]
+              ],
+              "subtitle": "交渉の土俵を作る"
             },
             {
               "id": "P-161",
@@ -2049,7 +2209,8 @@ export const techniqueCards = {
                 "S-041",
                 "S-190",
                 "S-191"
-              ]
+              ],
+              "subtitle": "主導権を取り条件を通す"
             },
             {
               "id": "P-162",
@@ -2063,7 +2224,8 @@ export const techniqueCards = {
                 "S-053",
                 "S-027",
                 "S-150"
-              ]
+              ],
+              "subtitle": "主導権を取り条件を通す"
             },
             {
               "id": "P-163",
@@ -2077,7 +2239,8 @@ export const techniqueCards = {
                 "S-188",
                 "S-046",
                 "S-051"
-              ]
+              ],
+              "subtitle": "主導権を取り条件を通す"
             },
             {
               "id": "P-164",
@@ -2091,7 +2254,8 @@ export const techniqueCards = {
                 "S-172",
                 "S-074",
                 "S-045"
-              ]
+              ],
+              "subtitle": "主導権を取り条件を通す"
             },
             {
               "id": "P-165",
@@ -2105,7 +2269,8 @@ export const techniqueCards = {
                 "S-197",
                 "S-147",
                 "S-192"
-              ]
+              ],
+              "subtitle": "主導権を取り条件を通す"
             },
             {
               "id": "P-166",
@@ -2119,7 +2284,8 @@ export const techniqueCards = {
                 "S-151",
                 "S-195",
                 "S-129"
-              ]
+              ],
+              "subtitle": "主導権を取り条件を通す"
             },
             {
               "id": "P-167",
@@ -2133,7 +2299,8 @@ export const techniqueCards = {
                 "S-130",
                 "S-095",
                 "S-144"
-              ]
+              ],
+              "subtitle": "主導権を取り条件を通す"
             },
             {
               "id": "P-168",
@@ -2147,7 +2314,8 @@ export const techniqueCards = {
                 "S-108",
                 "S-126",
                 "S-026"
-              ]
+              ],
+              "subtitle": "認識ズレを潰す"
             },
             {
               "id": "P-169",
@@ -2161,7 +2329,8 @@ export const techniqueCards = {
                 "S-052",
                 "S-062",
                 "B-057"
-              ]
+              ],
+              "subtitle": "リソースを守って継続する"
             },
             {
               "id": "P-170",
@@ -2175,7 +2344,8 @@ export const techniqueCards = {
                 "S-197",
                 "S-111",
                 "S-202"
-              ]
+              ],
+              "subtitle": "関係を壊さず通す"
             }
           ]
         },
@@ -2192,7 +2362,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-032",
                 "S-136"
-              ]
+              ],
+              "subtitle": "被害拡大を止め信頼を守る"
             },
             {
               "id": "P-172",
@@ -2204,7 +2375,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-015",
                 "S-178"
-              ]
+              ],
+              "subtitle": "被害拡大を止め信頼を守る"
             },
             {
               "id": "P-173",
@@ -2216,7 +2388,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-001",
                 "W-023"
-              ]
+              ],
+              "subtitle": "被害拡大を止め信頼を守る"
             },
             {
               "id": "P-174",
@@ -2228,7 +2401,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-019",
                 "S-182"
-              ]
+              ],
+              "subtitle": "被害拡大を止め信頼を守る"
             },
             {
               "id": "P-175",
@@ -2240,7 +2414,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-031",
                 "C-072"
-              ]
+              ],
+              "subtitle": "被害拡大を止め信頼を守る"
             },
             {
               "id": "P-176",
@@ -2252,7 +2427,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-005",
                 "S-073"
-              ]
+              ],
+              "subtitle": "認識ズレを潰す"
             },
             {
               "id": "P-177",
@@ -2264,7 +2440,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-070",
                 "S-088"
-              ]
+              ],
+              "subtitle": "破滅を避けて挑戦を続ける"
             },
             {
               "id": "P-178",
@@ -2276,7 +2453,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-110",
                 "S-131"
-              ]
+              ],
+              "subtitle": "次の接点を作る"
             },
             {
               "id": "P-179",
@@ -2288,7 +2466,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-016",
                 "S-132"
-              ]
+              ],
+              "subtitle": "手遅れを防ぐ"
             },
             {
               "id": "P-180",
@@ -2300,7 +2479,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-089",
                 "S-029"
-              ]
+              ],
+              "subtitle": "摩擦を減らして回転を上げる"
             },
             {
               "id": "P-181",
@@ -2312,7 +2492,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-148",
                 "W-010"
-              ]
+              ],
+              "subtitle": "被害拡大を止め信頼を守る"
             },
             {
               "id": "P-182",
@@ -2324,7 +2505,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-090",
                 "S-101"
-              ]
+              ],
+              "subtitle": "リソースを守って継続する"
             }
           ]
         },
@@ -2341,7 +2523,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-104",
                 "S-096"
-              ]
+              ],
+              "subtitle": "荒れを収束させる"
             },
             {
               "id": "P-184",
@@ -2355,7 +2538,8 @@ export const techniqueCards = {
                 "S-169",
                 "S-032",
                 "S-124"
-              ]
+              ],
+              "subtitle": "地雷を潰して決裁を通す"
             },
             {
               "id": "P-185",
@@ -2367,7 +2551,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-082",
                 "S-113"
-              ]
+              ],
+              "subtitle": "地雷を潰して決裁を通す"
             },
             {
               "id": "P-186",
@@ -2381,7 +2566,8 @@ export const techniqueCards = {
                 "S-052",
                 "S-095",
                 "S-125"
-              ]
+              ],
+              "subtitle": "地雷を潰して決裁を通す"
             },
             {
               "id": "P-187",
@@ -2393,7 +2579,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-169",
                 "S-165"
-              ]
+              ],
+              "subtitle": "地雷を潰して決裁を通す"
             },
             {
               "id": "P-188",
@@ -2407,7 +2594,8 @@ export const techniqueCards = {
                 "S-054",
                 "W-062",
                 "S-184"
-              ]
+              ],
+              "subtitle": "安全に話を広げる"
             },
             {
               "id": "P-189",
@@ -2421,7 +2609,8 @@ export const techniqueCards = {
                 "S-066",
                 "S-187",
                 "S-181"
-              ]
+              ],
+              "subtitle": "地雷を潰して決裁を通す"
             },
             {
               "id": "P-190",
@@ -2435,7 +2624,8 @@ export const techniqueCards = {
                 "S-001",
                 "S-119",
                 "W-020"
-              ]
+              ],
+              "subtitle": "地雷を潰して決裁を通す"
             },
             {
               "id": "P-191",
@@ -2447,7 +2637,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-053",
                 "S-156"
-              ]
+              ],
+              "subtitle": "地雷を潰して決裁を通す"
             },
             {
               "id": "P-192",
@@ -2459,7 +2650,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-127",
                 "S-025"
-              ]
+              ],
+              "subtitle": "地雷を潰して決裁を通す"
             },
             {
               "id": "P-193",
@@ -2471,7 +2663,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-197",
                 "S-141"
-              ]
+              ],
+              "subtitle": "地雷を潰して決裁を通す"
             },
             {
               "id": "P-194",
@@ -2483,7 +2676,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-169",
                 "B-001"
-              ]
+              ],
+              "subtitle": "地雷を潰して決裁を通す"
             }
           ]
         },
@@ -2500,7 +2694,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-115",
                 "C-065"
-              ]
+              ],
+              "subtitle": "荒れを収束させる"
             },
             {
               "id": "P-196",
@@ -2512,7 +2707,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-149",
                 "S-063"
-              ]
+              ],
+              "subtitle": "安心感を積んで信頼を守る"
             },
             {
               "id": "P-197",
@@ -2524,7 +2720,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-127",
                 "S-002"
-              ]
+              ],
+              "subtitle": "チームの成果を上げる"
             },
             {
               "id": "P-198",
@@ -2536,7 +2733,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-127",
                 "S-198"
-              ]
+              ],
+              "subtitle": "チームの成果を上げる"
             },
             {
               "id": "P-199",
@@ -2548,7 +2746,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-122",
                 "S-085"
-              ]
+              ],
+              "subtitle": "チームの成果を上げる"
             },
             {
               "id": "P-200",
@@ -2560,7 +2759,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-127",
                 "S-028"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-201",
@@ -2574,7 +2774,8 @@ export const techniqueCards = {
                 "W-001",
                 "S-200",
                 "S-011"
-              ]
+              ],
+              "subtitle": "チームの成果を上げる"
             },
             {
               "id": "P-202",
@@ -2586,7 +2787,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-165",
                 "S-140"
-              ]
+              ],
+              "subtitle": "チームの成果を上げる"
             },
             {
               "id": "P-203",
@@ -2598,7 +2800,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-127",
                 "S-071"
-              ]
+              ],
+              "subtitle": "チームの成果を上げる"
             },
             {
               "id": "P-204",
@@ -2610,7 +2813,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-170",
                 "S-091"
-              ]
+              ],
+              "subtitle": "印象を統一して信頼を増やす"
             },
             {
               "id": "P-205",
@@ -2622,7 +2826,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-127",
                 "S-186"
-              ]
+              ],
+              "subtitle": "チームの成果を上げる"
             },
             {
               "id": "P-206",
@@ -2636,7 +2841,8 @@ export const techniqueCards = {
                 "S-127",
                 "S-115",
                 "S-004"
-              ]
+              ],
+              "subtitle": "チームの成果を上げる"
             }
           ]
         },
@@ -2653,7 +2859,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "T-007",
                 "T-038"
-              ]
+              ],
+              "subtitle": "認識ズレを潰す"
             },
             {
               "id": "P-208",
@@ -2665,7 +2872,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "T-019",
                 "T-036"
-              ]
+              ],
+              "subtitle": "筋の良い案に仕立てる"
             },
             {
               "id": "P-209",
@@ -2677,7 +2885,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "T-032",
                 "T-020"
-              ]
+              ],
+              "subtitle": "筋の良い案に仕立てる"
             },
             {
               "id": "P-210",
@@ -2689,7 +2898,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "T-007",
                 "T-026"
-              ]
+              ],
+              "subtitle": "筋の良い案に仕立てる"
             },
             {
               "id": "P-211",
@@ -2701,7 +2911,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-012",
                 "T-021"
-              ]
+              ],
+              "subtitle": "関係を壊さず通す"
             },
             {
               "id": "P-212",
@@ -2713,7 +2924,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-033",
                 "T-024"
-              ]
+              ],
+              "subtitle": "筋の良い案に仕立てる"
             },
             {
               "id": "P-213",
@@ -2725,7 +2937,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "T-034",
                 "T-028"
-              ]
+              ],
+              "subtitle": "安全に話を広げる"
             },
             {
               "id": "P-214",
@@ -2737,7 +2950,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "T-016",
                 "T-039"
-              ]
+              ],
+              "subtitle": "筋の良い案に仕立てる"
             },
             {
               "id": "P-215",
@@ -2749,7 +2963,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "T-017",
                 "T-040"
-              ]
+              ],
+              "subtitle": "筋の良い案に仕立てる"
             },
             {
               "id": "P-216",
@@ -2761,7 +2976,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "T-018",
                 "T-002"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-217",
@@ -2773,7 +2989,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "T-022",
                 "B-050"
-              ]
+              ],
+              "subtitle": "筋の良い案に仕立てる"
             },
             {
               "id": "P-218",
@@ -2785,7 +3002,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-057",
                 "T-012"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             }
           ]
         },
@@ -2802,7 +3020,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "T-014",
                 "T-010"
-              ]
+              ],
+              "subtitle": "印象を統一して信頼を増やす"
             },
             {
               "id": "P-220",
@@ -2816,7 +3035,8 @@ export const techniqueCards = {
                 "T-009",
                 "T-006",
                 "C-065"
-              ]
+              ],
+              "subtitle": "印象を統一して信頼を増やす"
             },
             {
               "id": "P-221",
@@ -2828,7 +3048,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-035",
                 "B-055"
-              ]
+              ],
+              "subtitle": "印象を統一して信頼を増やす"
             },
             {
               "id": "P-222",
@@ -2842,7 +3063,8 @@ export const techniqueCards = {
                 "T-017",
                 "T-003",
                 "T-041"
-              ]
+              ],
+              "subtitle": "印象を揃えて信頼を増やす"
             },
             {
               "id": "P-223",
@@ -2856,7 +3078,8 @@ export const techniqueCards = {
                 "T-013",
                 "T-005",
                 "T-025"
-              ]
+              ],
+              "subtitle": "印象を統一して信頼を増やす"
             },
             {
               "id": "P-224",
@@ -2868,7 +3091,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "T-037",
                 "T-015"
-              ]
+              ],
+              "subtitle": "印象を統一して信頼を増やす"
             },
             {
               "id": "P-225",
@@ -2882,7 +3106,8 @@ export const techniqueCards = {
                 "T-030",
                 "S-030",
                 "T-035"
-              ]
+              ],
+              "subtitle": "印象を揃えて信頼を増やす"
             },
             {
               "id": "P-226",
@@ -2894,7 +3119,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "T-011",
                 "T-008"
-              ]
+              ],
+              "subtitle": "印象を揃えて信頼を増やす"
             },
             {
               "id": "P-227",
@@ -2906,7 +3132,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-098",
                 "T-043"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-228",
@@ -2918,7 +3145,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "T-004",
                 "T-033"
-              ]
+              ],
+              "subtitle": "印象を揃えて信頼を増やす"
             },
             {
               "id": "P-229",
@@ -2932,7 +3160,8 @@ export const techniqueCards = {
                 "B-050",
                 "T-001",
                 "T-031"
-              ]
+              ],
+              "subtitle": "印象を揃えて信頼を増やす"
             },
             {
               "id": "P-230",
@@ -2946,7 +3175,8 @@ export const techniqueCards = {
                 "T-027",
                 "S-104",
                 "T-023"
-              ]
+              ],
+              "subtitle": "印象を揃えて信頼を増やす"
             }
           ]
         }
@@ -2969,7 +3199,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-057",
                 "C-061"
-              ]
+              ],
+              "subtitle": "不安を小さくして動ける状態にする"
             },
             {
               "id": "P-232",
@@ -2983,7 +3214,8 @@ export const techniqueCards = {
                 "C-037",
                 "S-183",
                 "C-046"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-233",
@@ -2995,7 +3227,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-038",
                 "B-024"
-              ]
+              ],
+              "subtitle": "不安を小さくして動ける状態にする"
             },
             {
               "id": "P-234",
@@ -3007,7 +3240,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-043",
                 "C-074"
-              ]
+              ],
+              "subtitle": "不安を小さくして動ける状態にする"
             },
             {
               "id": "P-235",
@@ -3019,7 +3253,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-064",
                 "C-046"
-              ]
+              ],
+              "subtitle": "不安を小さくして動ける状態にする"
             },
             {
               "id": "P-236",
@@ -3031,7 +3266,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-052",
                 "W-063"
-              ]
+              ],
+              "subtitle": "不安を小さくして動ける状態にする"
             },
             {
               "id": "P-237",
@@ -3043,7 +3279,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-057",
                 "C-002"
-              ]
+              ],
+              "subtitle": "不安を小さくして動ける状態にする"
             },
             {
               "id": "P-238",
@@ -3055,7 +3292,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-003",
                 "B-024"
-              ]
+              ],
+              "subtitle": "不安を小さくして動ける状態にする"
             },
             {
               "id": "P-239",
@@ -3067,7 +3305,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-060",
                 "C-063"
-              ]
+              ],
+              "subtitle": "不安を小さくして動ける状態にする"
             },
             {
               "id": "P-240",
@@ -3079,7 +3318,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-054",
                 "W-040"
-              ]
+              ],
+              "subtitle": "不安を小さくして動ける状態にする"
             },
             {
               "id": "P-241",
@@ -3091,7 +3331,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-052",
                 "C-056"
-              ]
+              ],
+              "subtitle": "不安を小さくして動ける状態にする"
             },
             {
               "id": "P-242",
@@ -3103,7 +3344,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-028",
                 "C-055"
-              ]
+              ],
+              "subtitle": "不安を小さくして動ける状態にする"
             }
           ]
         },
@@ -3120,7 +3362,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-008",
                 "B-069"
-              ]
+              ],
+              "subtitle": "自信と安定を取り戻す"
             },
             {
               "id": "P-244",
@@ -3132,7 +3375,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-056",
                 "B-003"
-              ]
+              ],
+              "subtitle": "自信と安定を取り戻す"
             },
             {
               "id": "P-245",
@@ -3144,7 +3388,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-057",
                 "W-008"
-              ]
+              ],
+              "subtitle": "自信と安定を取り戻す"
             },
             {
               "id": "P-246",
@@ -3156,7 +3401,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-056",
                 "S-199"
-              ]
+              ],
+              "subtitle": "自信の根拠を増やす"
             },
             {
               "id": "P-247",
@@ -3168,7 +3414,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "T-036",
                 "B-049"
-              ]
+              ],
+              "subtitle": "荒れを収束させる"
             },
             {
               "id": "P-248",
@@ -3180,7 +3427,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-077",
                 "B-056"
-              ]
+              ],
+              "subtitle": "自信と安定を取り戻す"
             },
             {
               "id": "P-249",
@@ -3192,7 +3440,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-008",
                 "C-038"
-              ]
+              ],
+              "subtitle": "余計な摩擦を防ぐ"
             },
             {
               "id": "P-250",
@@ -3204,7 +3453,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-057",
                 "B-055"
-              ]
+              ],
+              "subtitle": "自信と安定を取り戻す"
             },
             {
               "id": "P-251",
@@ -3216,7 +3466,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-054",
                 "C-035"
-              ]
+              ],
+              "subtitle": "自信と安定を取り戻す"
             },
             {
               "id": "P-252",
@@ -3228,7 +3479,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-054",
                 "W-008"
-              ]
+              ],
+              "subtitle": "自信と安定を取り戻す"
             },
             {
               "id": "P-253",
@@ -3240,7 +3492,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-054",
                 "B-018"
-              ]
+              ],
+              "subtitle": "自信と安定を取り戻す"
             },
             {
               "id": "P-254",
@@ -3252,7 +3505,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-003",
                 "B-056"
-              ]
+              ],
+              "subtitle": "自信と安定を取り戻す"
             }
           ]
         },
@@ -3269,7 +3523,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-062",
                 "C-063"
-              ]
+              ],
+              "subtitle": "衝動を抑えて判断を守る"
             },
             {
               "id": "P-256",
@@ -3281,7 +3536,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-062",
                 "B-059"
-              ]
+              ],
+              "subtitle": "衝動を抑えて判断を守る"
             },
             {
               "id": "P-257",
@@ -3293,7 +3549,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-057",
                 "S-183"
-              ]
+              ],
+              "subtitle": "衝動を抑えて判断を守る"
             },
             {
               "id": "P-258",
@@ -3305,7 +3562,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-052",
                 "W-063"
-              ]
+              ],
+              "subtitle": "荒れを収束させる"
             },
             {
               "id": "P-259",
@@ -3317,7 +3575,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-063",
                 "C-028"
-              ]
+              ],
+              "subtitle": "衝動を抑えて判断を守る"
             },
             {
               "id": "P-260",
@@ -3329,7 +3588,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-054",
                 "B-062"
-              ]
+              ],
+              "subtitle": "衝動を抑えて判断を守る"
             },
             {
               "id": "P-261",
@@ -3341,7 +3601,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-062",
                 "S-089"
-              ]
+              ],
+              "subtitle": "衝動を抑えて判断を守る"
             },
             {
               "id": "P-262",
@@ -3353,7 +3614,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-064",
                 "C-067"
-              ]
+              ],
+              "subtitle": "衝動を抑えて判断を守る"
             },
             {
               "id": "P-263",
@@ -3365,7 +3627,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-054",
                 "C-054"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             },
             {
               "id": "P-264",
@@ -3377,7 +3640,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-003",
                 "W-063"
-              ]
+              ],
+              "subtitle": "状態を整えて判断を守る"
             },
             {
               "id": "P-265",
@@ -3389,7 +3653,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-054",
                 "B-059"
-              ]
+              ],
+              "subtitle": "衝動を抑えて判断を守る"
             },
             {
               "id": "P-266",
@@ -3401,7 +3666,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-066",
                 "S-183"
-              ]
+              ],
+              "subtitle": "衝動を抑えて判断を守る"
             }
           ]
         },
@@ -3418,7 +3684,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-054",
                 "C-053"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             },
             {
               "id": "P-268",
@@ -3430,7 +3697,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-054",
                 "C-041"
-              ]
+              ],
+              "subtitle": "回復速度を上げる"
             },
             {
               "id": "P-269",
@@ -3442,7 +3710,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-073",
                 "C-053"
-              ]
+              ],
+              "subtitle": "回復速度を上げる"
             },
             {
               "id": "P-270",
@@ -3454,7 +3723,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-040",
                 "C-054"
-              ]
+              ],
+              "subtitle": "状態を整えて判断を守る"
             },
             {
               "id": "P-271",
@@ -3466,7 +3736,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-036",
                 "C-042"
-              ]
+              ],
+              "subtitle": "回復速度を上げる"
             },
             {
               "id": "P-272",
@@ -3478,7 +3749,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-044",
                 "C-045"
-              ]
+              ],
+              "subtitle": "回復速度を上げる"
             },
             {
               "id": "P-273",
@@ -3490,7 +3762,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-054",
                 "C-054"
-              ]
+              ],
+              "subtitle": "回復速度を上げる"
             },
             {
               "id": "P-274",
@@ -3502,7 +3775,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-041",
                 "C-054"
-              ]
+              ],
+              "subtitle": "回復速度を上げる"
             },
             {
               "id": "P-275",
@@ -3514,7 +3788,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-048",
                 "W-040"
-              ]
+              ],
+              "subtitle": "回復速度を上げる"
             },
             {
               "id": "P-276",
@@ -3526,7 +3801,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-063",
                 "C-051"
-              ]
+              ],
+              "subtitle": "回復速度を上げる"
             },
             {
               "id": "P-277",
@@ -3538,7 +3814,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-070",
                 "C-039"
-              ]
+              ],
+              "subtitle": "状態を整えて判断を守る"
             },
             {
               "id": "P-278",
@@ -3550,7 +3827,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-054",
                 "B-045"
-              ]
+              ],
+              "subtitle": "回復速度を上げる"
             }
           ]
         },
@@ -3567,7 +3845,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-037",
                 "C-071"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-280",
@@ -3579,7 +3858,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-024",
                 "C-057"
-              ]
+              ],
+              "subtitle": "対人の緊張を下げる"
             },
             {
               "id": "P-281",
@@ -3591,7 +3871,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-038",
                 "B-024"
-              ]
+              ],
+              "subtitle": "対人の緊張を下げる"
             },
             {
               "id": "P-282",
@@ -3603,7 +3884,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-063",
                 "C-041"
-              ]
+              ],
+              "subtitle": "状態を整えて判断を守る"
             },
             {
               "id": "P-283",
@@ -3615,7 +3897,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-057",
                 "C-058"
-              ]
+              ],
+              "subtitle": "対人の緊張を下げる"
             },
             {
               "id": "P-284",
@@ -3627,7 +3910,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-074",
                 "C-075"
-              ]
+              ],
+              "subtitle": "対人の緊張を下げる"
             },
             {
               "id": "P-285",
@@ -3639,7 +3923,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-056",
                 "C-057"
-              ]
+              ],
+              "subtitle": "自信の根拠を増やす"
             },
             {
               "id": "P-286",
@@ -3651,7 +3936,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-076",
                 "B-059"
-              ]
+              ],
+              "subtitle": "リソースを守って継続する"
             },
             {
               "id": "P-287",
@@ -3663,7 +3949,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-135",
                 "C-047"
-              ]
+              ],
+              "subtitle": "対人の緊張を下げる"
             },
             {
               "id": "P-288",
@@ -3675,7 +3962,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-008",
                 "S-183"
-              ]
+              ],
+              "subtitle": "破滅を避けて挑戦を続ける"
             },
             {
               "id": "P-289",
@@ -3687,7 +3975,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-071",
                 "B-054"
-              ]
+              ],
+              "subtitle": "対人の緊張を下げる"
             },
             {
               "id": "P-290",
@@ -3699,7 +3988,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-071",
                 "B-056"
-              ]
+              ],
+              "subtitle": "対人の緊張を下げる"
             }
           ]
         },
@@ -3716,7 +4006,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-003",
                 "B-015"
-              ]
+              ],
+              "subtitle": "やる気に頼らず動ける形にする"
             },
             {
               "id": "P-292",
@@ -3728,7 +4019,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-045",
                 "B-024"
-              ]
+              ],
+              "subtitle": "やる気に頼らず動ける形にする"
             },
             {
               "id": "P-293",
@@ -3740,7 +4032,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-043",
                 "B-054"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-294",
@@ -3752,7 +4045,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-036",
                 "B-018"
-              ]
+              ],
+              "subtitle": "やる気に頼らず動ける形にする"
             },
             {
               "id": "P-295",
@@ -3764,7 +4058,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-046",
                 "S-199"
-              ]
+              ],
+              "subtitle": "安心感を積んで信頼を守る"
             },
             {
               "id": "P-296",
@@ -3776,7 +4071,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-038",
                 "B-023"
-              ]
+              ],
+              "subtitle": "やる気に頼らず動ける形にする"
             },
             {
               "id": "P-297",
@@ -3788,7 +4084,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-053",
                 "B-056"
-              ]
+              ],
+              "subtitle": "やる気に頼らず動ける形にする"
             },
             {
               "id": "P-298",
@@ -3800,7 +4097,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-005",
                 "B-051"
-              ]
+              ],
+              "subtitle": "やる気に頼らず動ける形にする"
             },
             {
               "id": "P-299",
@@ -3812,7 +4110,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-021",
                 "B-054"
-              ]
+              ],
+              "subtitle": "やる気に頼らず動ける形にする"
             },
             {
               "id": "P-300",
@@ -3824,7 +4123,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-057",
                 "B-068"
-              ]
+              ],
+              "subtitle": "やる気に頼らず動ける形にする"
             },
             {
               "id": "P-301",
@@ -3836,7 +4136,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-071",
                 "S-184"
-              ]
+              ],
+              "subtitle": "やる気に頼らず動ける形にする"
             },
             {
               "id": "P-302",
@@ -3848,7 +4149,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-054",
                 "B-072"
-              ]
+              ],
+              "subtitle": "やる気に頼らず動ける形にする"
             }
           ]
         }
@@ -3873,7 +4175,8 @@ export const techniqueCards = {
                 "W-028",
                 "B-057",
                 "W-002"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             },
             {
               "id": "P-304",
@@ -3885,7 +4188,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-025",
                 "W-002"
-              ]
+              ],
+              "subtitle": "迷いを減らし選択を強くする"
             },
             {
               "id": "P-305",
@@ -3897,7 +4201,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-072",
                 "W-040"
-              ]
+              ],
+              "subtitle": "迷いを減らし選択を強くする"
             },
             {
               "id": "P-306",
@@ -3909,7 +4214,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-012",
                 "W-049"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-307",
@@ -3921,7 +4227,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-003",
                 "B-041"
-              ]
+              ],
+              "subtitle": "迷いを減らし選択を強くする"
             },
             {
               "id": "P-308",
@@ -3933,7 +4240,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-050",
                 "W-015"
-              ]
+              ],
+              "subtitle": "迷いを減らし選択を強くする"
             },
             {
               "id": "P-309",
@@ -3945,7 +4253,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-059",
                 "C-028"
-              ]
+              ],
+              "subtitle": "迷いを減らし選択を強くする"
             },
             {
               "id": "P-310",
@@ -3957,7 +4266,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-044",
                 "W-065"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             },
             {
               "id": "P-311",
@@ -3969,7 +4279,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-017",
                 "B-008"
-              ]
+              ],
+              "subtitle": "手遅れを防ぐ"
             },
             {
               "id": "P-312",
@@ -3981,7 +4292,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-028",
                 "W-033"
-              ]
+              ],
+              "subtitle": "後悔を減らす"
             },
             {
               "id": "P-313",
@@ -3993,7 +4305,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-042",
                 "W-020"
-              ]
+              ],
+              "subtitle": "安全に話を広げる"
             },
             {
               "id": "P-314",
@@ -4005,7 +4318,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-040",
                 "W-068"
-              ]
+              ],
+              "subtitle": "迷いを減らし選択を強くする"
             }
           ]
         },
@@ -4022,7 +4336,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-085",
                 "W-035"
-              ]
+              ],
+              "subtitle": "選択肢と市場価値を上げる"
             },
             {
               "id": "P-316",
@@ -4034,7 +4349,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-007",
                 "W-027"
-              ]
+              ],
+              "subtitle": "選択肢と市場価値を上げる"
             },
             {
               "id": "P-317",
@@ -4046,7 +4362,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "T-017",
                 "T-042"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-318",
@@ -4058,7 +4375,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-158",
                 "W-039"
-              ]
+              ],
+              "subtitle": "選択肢と市場価値を上げる"
             },
             {
               "id": "P-319",
@@ -4070,7 +4388,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-064",
                 "W-053"
-              ]
+              ],
+              "subtitle": "安全に話を広げる"
             },
             {
               "id": "P-320",
@@ -4082,7 +4401,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-005",
                 "W-020"
-              ]
+              ],
+              "subtitle": "破滅を避けて挑戦を続ける"
             },
             {
               "id": "P-321",
@@ -4094,7 +4414,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-006",
                 "W-013"
-              ]
+              ],
+              "subtitle": "交渉の土俵を作る"
             },
             {
               "id": "P-322",
@@ -4106,7 +4427,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-052",
                 "S-090"
-              ]
+              ],
+              "subtitle": "選択肢と市場価値を上げる"
             },
             {
               "id": "P-323",
@@ -4118,7 +4440,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-017",
                 "W-021"
-              ]
+              ],
+              "subtitle": "選択肢と市場価値を上げる"
             },
             {
               "id": "P-324",
@@ -4130,7 +4453,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-139",
                 "B-056"
-              ]
+              ],
+              "subtitle": "次の接点を作る"
             },
             {
               "id": "P-325",
@@ -4142,7 +4466,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-021",
                 "B-009"
-              ]
+              ],
+              "subtitle": "選択肢と市場価値を上げる"
             },
             {
               "id": "P-326",
@@ -4154,7 +4479,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-004",
                 "W-002"
-              ]
+              ],
+              "subtitle": "選択肢と市場価値を上げる"
             }
           ]
         },
@@ -4171,7 +4497,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-019",
                 "W-057"
-              ]
+              ],
+              "subtitle": "金の不安を減らす"
             },
             {
               "id": "P-328",
@@ -4183,7 +4510,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-034",
                 "B-017"
-              ]
+              ],
+              "subtitle": "金の不安を減らす"
             },
             {
               "id": "P-329",
@@ -4195,7 +4523,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-008",
                 "W-047"
-              ]
+              ],
+              "subtitle": "金の不安を減らす"
             },
             {
               "id": "P-330",
@@ -4207,7 +4536,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-005",
                 "W-054"
-              ]
+              ],
+              "subtitle": "金の不安を減らす"
             },
             {
               "id": "P-331",
@@ -4219,7 +4549,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-030",
                 "B-041"
-              ]
+              ],
+              "subtitle": "金の不安を減らす"
             },
             {
               "id": "P-332",
@@ -4231,7 +4562,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-024",
                 "W-046"
-              ]
+              ],
+              "subtitle": "状況を読み違えず当たりを取る"
             },
             {
               "id": "P-333",
@@ -4243,7 +4575,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "T-029",
                 "B-036"
-              ]
+              ],
+              "subtitle": "交渉の土俵を作る"
             },
             {
               "id": "P-334",
@@ -4255,7 +4588,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-067",
                 "W-056"
-              ]
+              ],
+              "subtitle": "金の不安を減らす"
             },
             {
               "id": "P-335",
@@ -4267,7 +4601,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-027",
                 "W-018"
-              ]
+              ],
+              "subtitle": "金の不安を減らす"
             },
             {
               "id": "P-336",
@@ -4279,7 +4614,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-008",
                 "W-010"
-              ]
+              ],
+              "subtitle": "金の不安を減らす"
             },
             {
               "id": "P-337",
@@ -4291,7 +4627,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-056",
                 "C-057"
-              ]
+              ],
+              "subtitle": "交渉の土俵を作る"
             },
             {
               "id": "P-338",
@@ -4303,7 +4640,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-057",
                 "W-051"
-              ]
+              ],
+              "subtitle": "金の不安を減らす"
             }
           ]
         },
@@ -4320,7 +4658,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-031",
                 "B-057"
-              ]
+              ],
+              "subtitle": "後悔コストを下げる"
             },
             {
               "id": "P-340",
@@ -4332,7 +4671,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-029",
                 "B-057"
-              ]
+              ],
+              "subtitle": "後悔コストを下げる"
             },
             {
               "id": "P-341",
@@ -4344,7 +4684,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-067",
                 "W-062"
-              ]
+              ],
+              "subtitle": "後悔コストを下げる"
             },
             {
               "id": "P-342",
@@ -4356,7 +4697,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-022",
                 "W-020"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             },
             {
               "id": "P-343",
@@ -4368,7 +4710,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-028",
                 "B-061"
-              ]
+              ],
+              "subtitle": "後悔を減らす"
             },
             {
               "id": "P-344",
@@ -4380,7 +4723,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-064",
                 "B-057"
-              ]
+              ],
+              "subtitle": "後悔コストを下げる"
             },
             {
               "id": "P-345",
@@ -4392,7 +4736,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-028",
                 "W-032"
-              ]
+              ],
+              "subtitle": "後悔コストを下げる"
             },
             {
               "id": "P-346",
@@ -4404,7 +4749,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-040",
                 "W-016"
-              ]
+              ],
+              "subtitle": "後悔コストを下げる"
             },
             {
               "id": "P-347",
@@ -4416,7 +4762,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-008",
                 "B-029"
-              ]
+              ],
+              "subtitle": "後悔コストを下げる"
             },
             {
               "id": "P-348",
@@ -4428,7 +4775,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-002",
                 "B-057"
-              ]
+              ],
+              "subtitle": "後悔コストを下げる"
             },
             {
               "id": "P-349",
@@ -4440,7 +4788,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-042",
                 "W-020"
-              ]
+              ],
+              "subtitle": "安全に話を広げる"
             },
             {
               "id": "P-350",
@@ -4452,7 +4801,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-028",
                 "W-038"
-              ]
+              ],
+              "subtitle": "後悔コストを下げる"
             }
           ]
         },
@@ -4469,7 +4819,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-026",
                 "W-045"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             },
             {
               "id": "P-352",
@@ -4481,7 +4832,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-054",
                 "C-073"
-              ]
+              ],
+              "subtitle": "状態を整えて判断を守る"
             },
             {
               "id": "P-353",
@@ -4493,7 +4845,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-057",
                 "B-054"
-              ]
+              ],
+              "subtitle": "健康寿命を伸ばす"
             },
             {
               "id": "P-354",
@@ -4505,7 +4858,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-072",
                 "B-018"
-              ]
+              ],
+              "subtitle": "健康寿命を伸ばす"
             },
             {
               "id": "P-355",
@@ -4517,7 +4871,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-038",
                 "C-044"
-              ]
+              ],
+              "subtitle": "健康寿命を伸ばす"
             },
             {
               "id": "P-356",
@@ -4529,7 +4884,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-044",
                 "S-100"
-              ]
+              ],
+              "subtitle": "健康寿命を伸ばす"
             },
             {
               "id": "P-357",
@@ -4541,7 +4897,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-066",
                 "W-063"
-              ]
+              ],
+              "subtitle": "健康寿命を伸ばす"
             },
             {
               "id": "P-358",
@@ -4553,7 +4910,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-054",
                 "W-011"
-              ]
+              ],
+              "subtitle": "健康寿命を伸ばす"
             },
             {
               "id": "P-359",
@@ -4565,7 +4923,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-057",
                 "W-023"
-              ]
+              ],
+              "subtitle": "自信の根拠を増やす"
             },
             {
               "id": "P-360",
@@ -4577,7 +4936,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-043",
                 "C-007"
-              ]
+              ],
+              "subtitle": "健康寿命を伸ばす"
             },
             {
               "id": "P-361",
@@ -4589,7 +4949,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-053",
                 "B-069"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             },
             {
               "id": "P-362",
@@ -4601,7 +4962,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-012",
                 "B-054"
-              ]
+              ],
+              "subtitle": "健康寿命を伸ばす"
             }
           ]
         },
@@ -4618,7 +4980,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-061",
                 "B-032"
-              ]
+              ],
+              "subtitle": "運の波に強くなる"
             },
             {
               "id": "P-364",
@@ -4630,7 +4993,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-020",
                 "B-050"
-              ]
+              ],
+              "subtitle": "運の波に強くなる"
             },
             {
               "id": "P-365",
@@ -4642,7 +5006,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-026",
                 "W-041"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-366",
@@ -4654,7 +5019,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-059",
                 "W-048"
-              ]
+              ],
+              "subtitle": "運の波に強くなる"
             },
             {
               "id": "P-367",
@@ -4666,7 +5032,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-008",
                 "B-006"
-              ]
+              ],
+              "subtitle": "運の波に強くなる"
             },
             {
               "id": "P-368",
@@ -4678,7 +5045,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-090",
                 "W-060"
-              ]
+              ],
+              "subtitle": "運の波に強くなる"
             },
             {
               "id": "P-369",
@@ -4690,7 +5058,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-020",
                 "W-037"
-              ]
+              ],
+              "subtitle": "運の波に強くなる"
             },
             {
               "id": "P-370",
@@ -4702,7 +5071,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-030",
                 "B-047"
-              ]
+              ],
+              "subtitle": "運の波に強くなる"
             },
             {
               "id": "P-371",
@@ -4714,7 +5084,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-058",
                 "W-055"
-              ]
+              ],
+              "subtitle": "運の波に強くなる"
             },
             {
               "id": "P-372",
@@ -4726,7 +5097,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-014",
                 "B-041"
-              ]
+              ],
+              "subtitle": "運の波に強くなる"
             },
             {
               "id": "P-373",
@@ -4738,7 +5110,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-069",
                 "W-036"
-              ]
+              ],
+              "subtitle": "運の波に強くなる"
             },
             {
               "id": "P-374",
@@ -4750,7 +5123,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-059",
                 "W-042"
-              ]
+              ],
+              "subtitle": "運の波に強くなる"
             }
           ]
         }
@@ -4775,7 +5149,8 @@ export const techniqueCards = {
                 "W-028",
                 "B-057",
                 "W-002"
-              ]
+              ],
+              "subtitle": "方向性を固める"
             },
             {
               "id": "P-376",
@@ -4787,7 +5162,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-158",
                 "B-002"
-              ]
+              ],
+              "subtitle": "方向性を固める"
             },
             {
               "id": "P-377",
@@ -4799,7 +5175,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-057",
                 "B-042"
-              ]
+              ],
+              "subtitle": "方向性を固める"
             },
             {
               "id": "P-378",
@@ -4813,7 +5190,8 @@ export const techniqueCards = {
                 "B-024",
                 "B-066",
                 "W-009"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             },
             {
               "id": "P-379",
@@ -4825,7 +5203,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-049",
                 "B-057"
-              ]
+              ],
+              "subtitle": "方向性を固める"
             },
             {
               "id": "P-380",
@@ -4837,7 +5216,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-042",
                 "B-022"
-              ]
+              ],
+              "subtitle": "方向性を固める"
             },
             {
               "id": "P-381",
@@ -4849,7 +5229,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-048",
                 "B-063"
-              ]
+              ],
+              "subtitle": "方向性を固める"
             },
             {
               "id": "P-382",
@@ -4861,7 +5242,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-023",
                 "W-020"
-              ]
+              ],
+              "subtitle": "方向性を固める"
             },
             {
               "id": "P-383",
@@ -4873,7 +5255,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-012",
                 "B-069"
-              ]
+              ],
+              "subtitle": "方向性を固める"
             },
             {
               "id": "P-384",
@@ -4885,7 +5268,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-052",
                 "B-065"
-              ]
+              ],
+              "subtitle": "方向性を固める"
             },
             {
               "id": "P-385",
@@ -4897,7 +5281,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-055",
                 "W-002"
-              ]
+              ],
+              "subtitle": "方向性を固める"
             },
             {
               "id": "P-386",
@@ -4909,7 +5294,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-027",
                 "B-030"
-              ]
+              ],
+              "subtitle": "方向性を固める"
             }
           ]
         },
@@ -4926,7 +5312,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-003",
                 "B-024"
-              ]
+              ],
+              "subtitle": "初動の抵抗を下げる"
             },
             {
               "id": "P-388",
@@ -4938,7 +5325,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-013",
                 "B-015"
-              ]
+              ],
+              "subtitle": "初動の抵抗を下げる"
             },
             {
               "id": "P-389",
@@ -4950,7 +5338,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-040",
                 "B-054"
-              ]
+              ],
+              "subtitle": "初動の抵抗を下げる"
             },
             {
               "id": "P-390",
@@ -4962,7 +5351,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-040",
                 "B-039"
-              ]
+              ],
+              "subtitle": "次の接点を作る"
             },
             {
               "id": "P-391",
@@ -4974,7 +5364,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-036",
                 "B-045"
-              ]
+              ],
+              "subtitle": "初動の抵抗を下げる"
             },
             {
               "id": "P-392",
@@ -4986,7 +5377,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-023",
                 "B-025"
-              ]
+              ],
+              "subtitle": "初動の抵抗を下げる"
             },
             {
               "id": "P-393",
@@ -4998,7 +5390,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-024",
                 "W-009"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             },
             {
               "id": "P-394",
@@ -5010,7 +5403,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-055",
                 "C-063"
-              ]
+              ],
+              "subtitle": "初動の抵抗を下げる"
             },
             {
               "id": "P-395",
@@ -5022,7 +5416,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-010",
                 "B-004"
-              ]
+              ],
+              "subtitle": "初動の抵抗を下げる"
             },
             {
               "id": "P-396",
@@ -5034,7 +5429,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-020",
                 "B-030"
-              ]
+              ],
+              "subtitle": "初動の抵抗を下げる"
             },
             {
               "id": "P-397",
@@ -5046,7 +5442,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-005",
                 "B-051"
-              ]
+              ],
+              "subtitle": "初動の抵抗を下げる"
             },
             {
               "id": "P-398",
@@ -5058,7 +5455,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-003",
                 "B-056"
-              ]
+              ],
+              "subtitle": "初動の抵抗を下げる"
             }
           ]
         },
@@ -5075,7 +5473,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-054",
                 "B-059"
-              ]
+              ],
+              "subtitle": "習慣化で積み上げる"
             },
             {
               "id": "P-400",
@@ -5087,7 +5486,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "S-100",
                 "B-046"
-              ]
+              ],
+              "subtitle": "自信の根拠を増やす"
             },
             {
               "id": "P-401",
@@ -5099,7 +5499,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-038",
                 "B-056"
-              ]
+              ],
+              "subtitle": "習慣化で積み上げる"
             },
             {
               "id": "P-402",
@@ -5111,7 +5512,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-021",
                 "B-054"
-              ]
+              ],
+              "subtitle": "習慣化で積み上げる"
             },
             {
               "id": "P-403",
@@ -5123,7 +5525,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-017",
                 "B-070"
-              ]
+              ],
+              "subtitle": "習慣化で積み上げる"
             },
             {
               "id": "P-404",
@@ -5135,7 +5538,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-072",
                 "B-018"
-              ]
+              ],
+              "subtitle": "場が回る役割を取りにいく"
             },
             {
               "id": "P-405",
@@ -5147,7 +5551,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-002",
                 "B-058"
-              ]
+              ],
+              "subtitle": "習慣化で積み上げる"
             },
             {
               "id": "P-406",
@@ -5159,7 +5564,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-003",
                 "S-199"
-              ]
+              ],
+              "subtitle": "安心感を積んで信頼を守る"
             },
             {
               "id": "P-407",
@@ -5171,7 +5577,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-050",
                 "B-001"
-              ]
+              ],
+              "subtitle": "習慣化で積み上げる"
             },
             {
               "id": "P-408",
@@ -5183,7 +5590,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-037",
                 "B-052"
-              ]
+              ],
+              "subtitle": "安全に話を広げる"
             },
             {
               "id": "P-409",
@@ -5195,7 +5603,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-053",
                 "C-039"
-              ]
+              ],
+              "subtitle": "習慣化で積み上げる"
             },
             {
               "id": "P-410",
@@ -5207,7 +5616,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-060",
                 "B-059"
-              ]
+              ],
+              "subtitle": "習慣化で積み上げる"
             }
           ]
         },
@@ -5224,7 +5634,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-059",
                 "C-068"
-              ]
+              ],
+              "subtitle": "折れずに学習する"
             },
             {
               "id": "P-412",
@@ -5236,7 +5647,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-069",
                 "B-024"
-              ]
+              ],
+              "subtitle": "次の接点を作る"
             },
             {
               "id": "P-413",
@@ -5248,7 +5660,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-016",
                 "C-063"
-              ]
+              ],
+              "subtitle": "折れずに学習する"
             },
             {
               "id": "P-414",
@@ -5260,7 +5673,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-008",
                 "C-049"
-              ]
+              ],
+              "subtitle": "折れずに学習する"
             },
             {
               "id": "P-415",
@@ -5272,7 +5686,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-023",
                 "S-123"
-              ]
+              ],
+              "subtitle": "折れずに学習する"
             },
             {
               "id": "P-416",
@@ -5284,7 +5699,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-072",
                 "W-023"
-              ]
+              ],
+              "subtitle": "折れずに学習する"
             },
             {
               "id": "P-417",
@@ -5296,7 +5712,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "C-050",
                 "C-075"
-              ]
+              ],
+              "subtitle": "折れずに学習する"
             },
             {
               "id": "P-418",
@@ -5308,7 +5725,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "T-036",
                 "C-068"
-              ]
+              ],
+              "subtitle": "荒れを収束させる"
             },
             {
               "id": "P-419",
@@ -5320,7 +5738,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-028",
                 "B-059"
-              ]
+              ],
+              "subtitle": "折れずに学習する"
             },
             {
               "id": "P-420",
@@ -5332,7 +5751,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-002",
                 "C-065"
-              ]
+              ],
+              "subtitle": "折れずに学習する"
             },
             {
               "id": "P-421",
@@ -5344,7 +5764,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-020",
                 "B-028"
-              ]
+              ],
+              "subtitle": "破滅を避けて挑戦を続ける"
             },
             {
               "id": "P-422",
@@ -5356,7 +5777,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-069",
                 "C-053"
-              ]
+              ],
+              "subtitle": "折れずに学習する"
             }
           ]
         },
@@ -5373,7 +5795,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-047",
                 "B-008"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             },
             {
               "id": "P-424",
@@ -5385,7 +5808,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-011",
                 "B-019"
-              ]
+              ],
+              "subtitle": "破滅を避けて挑戦を続ける"
             },
             {
               "id": "P-425",
@@ -5397,7 +5821,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-020",
                 "B-035"
-              ]
+              ],
+              "subtitle": "破滅を避けて挑戦を続ける"
             },
             {
               "id": "P-426",
@@ -5409,7 +5834,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "W-023",
                 "W-020"
-              ]
+              ],
+              "subtitle": "継続と成功確率を上げる"
             },
             {
               "id": "P-427",
@@ -5421,7 +5847,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-069",
                 "B-041"
-              ]
+              ],
+              "subtitle": "破滅を避けて挑戦を続ける"
             },
             {
               "id": "P-428",
@@ -5433,7 +5860,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-030",
                 "B-033"
-              ]
+              ],
+              "subtitle": "破滅を避けて挑戦を続ける"
             },
             {
               "id": "P-429",
@@ -5445,7 +5873,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-032",
                 "B-041"
-              ]
+              ],
+              "subtitle": "期待値を揃えて炎上を防ぐ"
             },
             {
               "id": "P-430",
@@ -5457,7 +5886,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-026",
                 "B-016"
-              ]
+              ],
+              "subtitle": "破滅を避けて挑戦を続ける"
             },
             {
               "id": "P-431",
@@ -5469,7 +5899,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-008",
                 "B-014"
-              ]
+              ],
+              "subtitle": "リソースを守って継続する"
             },
             {
               "id": "P-432",
@@ -5481,7 +5912,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-044",
                 "B-062"
-              ]
+              ],
+              "subtitle": "継続と成功確率を上げる"
             },
             {
               "id": "P-433",
@@ -5493,7 +5925,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-069",
                 "B-073"
-              ]
+              ],
+              "subtitle": "継続と成功確率を上げる"
             },
             {
               "id": "P-434",
@@ -5505,7 +5938,8 @@ export const techniqueCards = {
               "theoryTagIds": [
                 "B-009",
                 "B-031"
-              ]
+              ],
+              "subtitle": "安全に話を広げる"
             }
           ]
         }
