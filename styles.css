@@ -4,7 +4,7 @@
   background-color: #f6f1e8;
   color: #1f2937;
   --paper-bg-color: #f6f1e8;
-  --paper-texture-url: url("assets/paper/paper-texture.png");
+  --paper-texture-url: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='none'/%3E%3Ccircle cx='6' cy='8' r='1' fill='black' fill-opacity='0.12'/%3E%3Ccircle cx='28' cy='20' r='1' fill='black' fill-opacity='0.1'/%3E%3Ccircle cx='50' cy='12' r='1' fill='black' fill-opacity='0.08'/%3E%3Ccircle cx='14' cy='38' r='1' fill='black' fill-opacity='0.1'/%3E%3Ccircle cx='40' cy='44' r='1' fill='black' fill-opacity='0.12'/%3E%3Ccircle cx='58' cy='50' r='1' fill='black' fill-opacity='0.08'/%3E%3C/svg%3E");
   --paper-texture-opacity: 0.05;
   --paper-texture-size: 640px 640px;
   --paper: var(--paper-bg-color);
