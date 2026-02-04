@@ -24,6 +24,15 @@ const resultCount = document.getElementById("technique-result-count");
 const resultList = document.getElementById("technique-index-results");
 const emptyState = document.getElementById("technique-index-empty");
 
+const foundationTitleMap = new Map();
+for (const category of Object.values(shoseijutsuData.foundation)) {
+  for (const card of category.items) {
+    foundationTitleMap.set(card.tagId, card.title);
+  }
+}
+
+const findFoundationTitle = (tagId) => foundationTitleMap.get(tagId) ?? null;
+
 const groupOptions = areaOrder.flatMap((areaKey) => {
   const section = getCategoryByKey(areaKey);
   if (!section) {
@@ -192,27 +201,30 @@ const tagOptions = [
   },
 ];
 
-const buildIndexItems = () =>
-  areaOrder.flatMap((areaKey) => {
+const buildIndexItems = () => {
+  let index = 1;
+  return areaOrder.flatMap((areaKey) => {
     const section = getCategoryByKey(areaKey);
     if (!section) {
       return [];
     }
-    return section.subcategories.flatMap((group, groupIndex) =>
-      group.items.map((item, itemIndex) => ({
+    return section.subcategories.flatMap((group) =>
+      group.items.map((item) => ({
         areaKey,
         areaLabel: areaLabels[areaKey] ?? section.name ?? areaKey,
         groupName: group.name,
-        id: itemIndex + 1,
+        id: index++,
         title: item.title,
-        searchText: `${group.name} ${item.title} ${item.theoryTagIds?.join(" ") ?? ""} ${
-          areaLabels[areaKey] ?? section.name ?? areaKey
-        }`,
+        subtitle: item.subtitle ?? "",
+        searchText: `${group.name} ${item.title} ${item.subtitle ?? ""} ${
+          item.theoryTagIds?.join(" ") ?? ""
+        } ${areaLabels[areaKey] ?? section.name ?? areaKey}`,
         groupKey: `${areaKey}:${group.name}`,
         theoryTagIds: item.theoryTagIds ?? [],
       }))
     );
   });
+};
 
 const indexItems = buildIndexItems();
 const activeTags = new Set();
@@ -253,6 +265,13 @@ const matchesTags = (item) => {
   });
 };
 
+const renderFoundationLink = (tagId, backTarget) => {
+  const encodedTag = encodeURIComponent(tagId);
+  const title = findFoundationTitle(tagId);
+  const displayText = title ? `${tagId}（${title}）` : tagId;
+  return `<a class="foundation-link" href="theory-card.html?tag=${encodedTag}&back=${backTarget}">${displayText}</a>`;
+};
+
 const renderTags = () => {
   if (!tagList) {
     return;
@@ -286,14 +305,32 @@ const renderIndex = () => {
     (item) => matchesSearch(item, query) && matchesTags(item)
   );
   resultCount.textContent = `該当件数：${filtered.length}件`;
+  const backTarget = encodeURIComponent(window.location.href);
   resultList.innerHTML = filtered
     .map(
-      (item) => `
+      (item) => {
+        const theoryTags = item.theoryTagIds ?? [];
+        const theoryMarkup = theoryTags.length
+          ? `
+            <div class="entry-meta">
+              <span>関連理論：</span>
+              ${theoryTags
+                .map((tagId) => renderFoundationLink(tagId, backTarget))
+                .join(", ")}
+            </div>
+          `
+          : "";
+        const subtitleMarkup = item.subtitle
+          ? `<p class="index-result-summary">${item.subtitle}</p>`
+          : "";
+        return `
         <li class="index-result-card">
           <div class="index-result-header">
             <span class="badge">No.${item.id}</span>
             <h3 class="index-result-title">${item.title}</h3>
           </div>
+          ${subtitleMarkup}
+          ${theoryMarkup}
           <div class="tag-list tag-list--compact">
             <span class="tag tag--compact">${item.areaLabel}</span>
             <a class="tag tag--compact" href="group.html?group=${encodeURIComponent(
@@ -303,7 +340,8 @@ const renderIndex = () => {
             </a>
           </div>
         </li>
-      `
+      `;
+      }
     )
     .join("");
   emptyState.classList.toggle("is-hidden", filtered.length > 0);
