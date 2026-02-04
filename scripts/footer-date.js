@@ -1,3 +1,24 @@
+const ignoredRejectionMessages = [
+  "A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received",
+];
+
+const shouldIgnoreRejection = (reason) => {
+  if (!reason) {
+    return false;
+  }
+  const message = typeof reason === "string" ? reason : reason.message;
+  if (!message) {
+    return false;
+  }
+  return ignoredRejectionMessages.some((text) => message.includes(text));
+};
+
+window.addEventListener("unhandledrejection", (event) => {
+  if (shouldIgnoreRejection(event.reason)) {
+    event.preventDefault();
+  }
+});
+
 const updateFooterDate = () => {
   const elements = document.querySelectorAll(".js-last-updated");
   if (!elements.length) {
