@@ -550,7 +550,7 @@ main {
   position: relative;
   overflow: hidden;
   background: transparent;
-  padding: 24px 0 32px;
+  padding: 12px 0 16px;
 }
 
 .page-hero--collection::before {
@@ -571,7 +571,7 @@ main {
 
 .page-hero-content {
   display: grid;
-  gap: 12px;
+  gap: 8px;
 }
 
 .page-hero-badge {
@@ -1634,8 +1634,8 @@ main {
 .tabs-toolbar {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  margin-bottom: 20px;
+  gap: 10px;
+  margin-bottom: 12px;
 }
 
 .tabs-toolbar--dual {
@@ -1648,7 +1648,7 @@ main {
 .theory-toolbar {
   background: rgba(255, 255, 255, 0.75);
   border-radius: 28px;
-  padding: 16px 18px 20px;
+  padding: 12px 18px 14px;
   border: 1px solid #e3e8f3;
   box-shadow: 0 16px 30px rgba(33, 40, 56, 0.08);
   backdrop-filter: blur(6px);
@@ -1698,7 +1698,7 @@ main {
 }
 
 .helper-text {
-  margin: 8px 0 0;
+  margin: 4px 0 0;
   font-size: 14px;
   color: #6c7385;
 }
