@@ -112,11 +112,15 @@ const renderDetails = (group) => {
           </div>
         `
         : "";
+      const subtitleMarkup = item.subtitle
+        ? `<p class="entry-summary">${item.subtitle}</p>`
+        : "";
 
       return `
         <article class="shoseijutsu-entry">
           <div class="entry-index">§${index + 1}</div>
           <h3 class="entry-title">${item.title}</h3>
+          ${subtitleMarkup}
           ${foundationsMarkup}
         </article>
       `;
