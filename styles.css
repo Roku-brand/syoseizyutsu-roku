@@ -260,7 +260,7 @@ main {
 
 .hero {
   background: var(--paper);
-  padding: 52px 0 40px;
+  padding: 52px 0 20px;
   color: var(--ink);
 }
 
@@ -437,7 +437,7 @@ main {
 }
 
 .elements-section {
-  margin-top: 32px;
+  margin-top: 8px;
   padding: 0 24px;
 }
 
