@@ -12,7 +12,7 @@ const searchInput = document.getElementById("global-search-input");
 const countLabel = document.getElementById("global-search-count");
 const emptyState = document.getElementById("global-search-empty");
 const panels = document.querySelectorAll("[data-search-panel]");
-const buttons = document.querySelectorAll("[data-search-type]");
+const buttons = Array.from(document.querySelectorAll("[data-search-type]"));
 const techniqueResults = document.getElementById("global-technique-results");
 const theoryResults = document.getElementById("global-theory-results");
 
@@ -161,6 +161,8 @@ const updatePanels = () => {
   buttons.forEach((button) => {
     const isSelected = button.dataset.searchType === activeType;
     button.setAttribute("aria-pressed", isSelected ? "true" : "false");
+    button.setAttribute("aria-selected", isSelected ? "true" : "false");
+    button.setAttribute("tabindex", isSelected ? "0" : "-1");
   });
   const placeholder = searchConfig[activeType]?.placeholder ?? "";
   if (searchInput) {
@@ -219,8 +221,13 @@ const initQueryFromUrl = () => {
 };
 
 buttons.forEach((button) => {
-  button.addEventListener("click", () => {
-    setActiveType(button.dataset.searchType);
+  const activate = () => setActiveType(button.dataset.searchType);
+  button.addEventListener("click", activate);
+  button.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      activate();
+    }
   });
 });
 
