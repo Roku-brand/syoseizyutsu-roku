@@ -29,23 +29,43 @@ const normalizeText = (value) => value.toLowerCase();
 const normalize = (value) => value.toLowerCase().trim();
 
 const buildTechniqueItems = () =>
-  Object.entries(shoseijutsuData.techniques).flatMap(([areaKey, section]) =>
-    section.items.flatMap((group) =>
-      group.details.map((detail) => ({
-        type: "technique",
-        areaKey,
-        areaLabel: areaLabels[areaKey] ?? section.title ?? areaKey,
-        groupName: group.name,
-        groupKey: `${areaKey}:${group.name}`,
-        id: detail.id,
-        title: detail.title,
-        subtitle: detail.subtitle,
-        searchText: `${group.name} ${detail.title} ${detail.subtitle} ${
-          areaLabels[areaKey] ?? section.title ?? areaKey
-        }`,
-      }))
-    )
-  );
+  // New schema (data/techniques/all-techniques.js)
+  Array.isArray(shoseijutsuData.techniques?.categories)
+    ? shoseijutsuData.techniques.categories.flatMap((category) =>
+        (category.subcategories ?? []).flatMap((group) =>
+          (group.items ?? []).map((item, index) => ({
+            type: "technique",
+            areaKey: category.key,
+            areaLabel: areaLabels[category.key] ?? category.name ?? category.key,
+            groupName: group.name,
+            groupKey: `${category.key}:${group.name}`,
+            id: item.id ?? `${category.key}-${index + 1}`,
+            title: item.title,
+            subtitle: item.subtitle ?? "",
+            searchText: `${group.name} ${item.title} ${item.subtitle ?? ""} ${
+              areaLabels[category.key] ?? category.name ?? category.key
+            } ${item.theoryTagIds?.join(" ") ?? ""}`,
+          }))
+        )
+      )
+    : // Legacy schema fallback
+      Object.entries(shoseijutsuData.techniques).flatMap(([areaKey, section]) =>
+        (section.items ?? []).flatMap((group) =>
+          (group.details ?? []).map((detail) => ({
+            type: "technique",
+            areaKey,
+            areaLabel: areaLabels[areaKey] ?? section.title ?? areaKey,
+            groupName: group.name,
+            groupKey: `${areaKey}:${group.name}`,
+            id: detail.id,
+            title: detail.title,
+            subtitle: detail.subtitle,
+            searchText: `${group.name} ${detail.title} ${detail.subtitle} ${
+              areaLabels[areaKey] ?? section.title ?? areaKey
+            }`,
+          }))
+        )
+      );
 
 const categoryMap = new Map(
   Object.values(shoseijutsuData.foundation).map((category) => [category.id, category])
