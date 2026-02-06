@@ -503,11 +503,17 @@ main {
   border-radius: var(--card-radius);
   padding: 28px 24px;
   text-align: center;
-  box-shadow: var(--card-shadow);
+  box-shadow: 0 8px 22px rgba(31, 41, 55, 0.08);
   border: 1px solid var(--card-border);
   display: grid;
   gap: 12px;
   position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.elements-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px rgba(31, 41, 55, 0.12);
 }
 
 .elements-volume {
@@ -2510,10 +2516,16 @@ main {
   position: relative;
   overflow: hidden;
   border: 1px solid var(--card-border);
-  box-shadow: var(--card-shadow);
+  box-shadow: 0 10px 24px rgba(31, 41, 55, 0.09);
   padding: 20px 20px 20px 28px;
   gap: 12px;
   background: var(--card-bg);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.theory-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 30px rgba(31, 41, 55, 0.14);
 }
 
 .theory-card::before {
