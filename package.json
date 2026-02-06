@@ -1,0 +1,10 @@
+{
+  "name": "syoseizyutsu-roku",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "処世術禄 - 人生・仕事・人間関係のための処世術辞典",
+  "scripts": {
+    "build": "node build.js"
+  }
+}
