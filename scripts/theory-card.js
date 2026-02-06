@@ -1,5 +1,13 @@
 import { shoseijutsuData } from "../data/index.js";
 
+// 旧URL (theory-card.html?tag=XXX) から静的版 (theory/XXX/) へリダイレクト
+const redirectParams = new URLSearchParams(window.location.search);
+const redirectTagId = redirectParams.get("tag");
+if (redirectTagId) {
+  window.location.replace(`theory/${encodeURIComponent(redirectTagId)}/`);
+  // リダイレクト後は以降の処理を実行しない
+}
+
 const detailContainer = document.getElementById("theory-detail");
 const emptyState = document.getElementById("theory-empty");
 const backLink = document.getElementById("theory-back-link");
@@ -23,6 +31,15 @@ const listSection = (title, entries) => {
 
 const params = new URLSearchParams(window.location.search);
 const tagId = params.get("tag");
+
+// canonical タグを動的に挿入
+if (tagId) {
+  const canonical = document.createElement("link");
+  canonical.rel = "canonical";
+  canonical.href = `https://roku-brand.github.io/syoseizyutsu-roku/theory/${encodeURIComponent(tagId)}/`;
+  document.head.appendChild(canonical);
+}
+
 const backTarget = params.get("back");
 
 if (backLink && backTarget) {

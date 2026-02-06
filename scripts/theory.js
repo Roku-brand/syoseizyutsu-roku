@@ -110,9 +110,8 @@ const renderCards = () => {
     .map((item) => {
       const encodedTag = encodeURIComponent(item.tagId);
       const shortTitle = compactTitle(item.title);
-      const backTarget = encodeURIComponent(`theory.html?tab=${encodeURIComponent(activeCategory)}`);
       return `
-        <a class="detail-card link-card theory-card theory-card--${item.categoryId}" href="theory-card.html?tag=${encodedTag}&back=${backTarget}">
+        <a class="detail-card link-card theory-card theory-card--${item.categoryId}" href="theory/${encodedTag}/">
           <div class="theory-card-head">
             <span class="theory-card-tag">${item.tagId}</span>
             <span class="theory-card-title">${shortTitle}</span>
@@ -135,12 +134,7 @@ resultsContainer.addEventListener("click", (event) => {
   if (!link) {
     return;
   }
-  const url = new URL(link.href, window.location.origin);
-  const backParam = url.searchParams.get("back");
-  if (!backParam) {
-    return;
-  }
-  const storageKey = `${scrollStoragePrefix}${backParam}`;
+  const storageKey = `${scrollStoragePrefix}${currentScrollTarget()}`;
   sessionStorage.setItem(storageKey, String(window.scrollY));
 });
 

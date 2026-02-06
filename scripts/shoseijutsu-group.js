@@ -92,10 +92,9 @@ const parseGroupParam = () => {
 
 const renderFoundationLink = (tag) => {
   const encodedTag = encodeURIComponent(tag);
-  const backTarget = encodeURIComponent(`group.html?group=${encodeURIComponent(groupParam ?? "")}`);
   const title = findFoundationTitle(tag);
   const displayText = title ? `${tag}（${title}）` : tag;
-  return `<a class="foundation-link" href="theory-card.html?tag=${encodedTag}&back=${backTarget}">${displayText}</a>`;
+  return `<a class="foundation-link" href="theory/${encodedTag}/">${displayText}</a>`;
 };
 
 const renderDetails = (group) => {
