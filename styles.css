@@ -253,14 +253,26 @@ header {
   }
 
   .nav-links {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     position: fixed;
-    inset: 0;
-    padding: 96px 24px 24px;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100dvh;
+    max-width: none;
+    margin: 0;
+    padding: calc(96px + env(safe-area-inset-top)) 24px calc(24px + env(safe-area-inset-bottom));
     background: rgba(11, 15, 20, 0.98);
     backdrop-filter: blur(12px);
     z-index: 20;
     overflow-y: auto;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
   }
 
   .nav-link {
@@ -275,7 +287,14 @@ header {
   }
 
   .nav-toggle:checked ~ .nav-links {
-    display: block;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  body:has(.nav-toggle:checked) {
+    overflow: hidden;
   }
 }
 
