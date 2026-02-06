@@ -1847,8 +1847,7 @@ main {
   appearance: none;
   overflow: visible;
   min-height: 170px;
-  margin-top: 14px;
-  margin-bottom: 14px;
+  margin: 14px 0;
 }
 
 .group-card:hover {
