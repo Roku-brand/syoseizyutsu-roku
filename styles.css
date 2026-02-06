@@ -631,7 +631,7 @@ main {
   justify-content: center;
   padding: 6px 16px;
   border-radius: 999px;
-  background: #6a7ea3;
+  background: #7f7f7f;
   color: #ffffff;
   font-size: 12px;
   font-weight: 600;
@@ -745,7 +745,7 @@ main {
   gap: 12px;
   padding: 14px 26px;
   border-radius: 999px;
-  background: #6c88b6;
+  background: #7d7d7d;
   color: #ffffff;
   font-weight: 600;
   box-shadow: 0 14px 28px rgba(47, 61, 92, 0.2);
@@ -1374,7 +1374,7 @@ main {
   border: none;
   border-radius: 999px;
   padding: 6px 14px;
-  background: #2f3b52;
+  background: #5f5f5f;
   color: #ffffff;
   font-size: 12px;
   cursor: pointer;
@@ -1727,9 +1727,9 @@ main {
 }
 
 .tab-button[aria-pressed="true"] {
-  background: #5d6f90;
+  background: #727272;
   color: #ffffff;
-  border-color: #5d6f90;
+  border-color: #727272;
 }
 
 .search-box {
@@ -2430,7 +2430,7 @@ main {
   font-weight: 700;
   font-size: 13px;
   color: #ffffff;
-  background: #5f728f;
+  background: #777777;
   padding: 4px 10px;
   border-radius: 3px;
   letter-spacing: 0.02em;
