@@ -541,11 +541,11 @@ main {
   gap: 8px;
   padding: 10px 22px;
   border-radius: 999px;
-  background: var(--accent);
-  color: #f7f4ee;
+  background: var(--brand-gold);
+  color: var(--brand-dark);
   font-size: 14px;
   font-weight: 600;
-  box-shadow: 0 6px 14px rgba(47, 58, 74, 0.2);
+  box-shadow: 0 6px 14px rgba(184, 150, 62, 0.28);
   transition: background 0.2s ease;
 }
 
@@ -554,7 +554,7 @@ main {
 }
 
 .elements-button:hover {
-  background: #364357;
+  background: var(--brand-gold-light);
 }
 
 .section {
@@ -726,16 +726,17 @@ main {
   gap: 12px;
   padding: 14px 26px;
   border-radius: 999px;
-  background: #6c88b6;
-  color: #ffffff;
+  background: var(--brand-gold);
+  color: var(--brand-dark);
   font-weight: 600;
-  box-shadow: 0 14px 28px rgba(47, 61, 92, 0.2);
+  box-shadow: 0 14px 28px rgba(184, 150, 62, 0.24);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .hub-hero-button:hover {
+  background: var(--brand-gold-light);
   transform: translateY(-1px);
-  box-shadow: 0 18px 34px rgba(47, 61, 92, 0.24);
+  box-shadow: 0 18px 34px rgba(184, 150, 62, 0.28);
 }
 
 .hub-hero-button-icon {
@@ -926,13 +927,13 @@ main {
 }
 
 .cta-button {
-  background: var(--muted-blue-gray);
-  color: #ffffff;
+  background: var(--brand-gold);
+  color: var(--brand-dark);
   box-shadow: 0 12px 24px rgba(31, 36, 48, 0.12);
 }
 
 .cta-button:hover {
-  background: #3f4d67;
+  background: var(--brand-gold-light);
 }
 
 .ghost-button {
@@ -1281,8 +1282,8 @@ main {
   gap: 6px;
   padding: 6px 12px;
   border-radius: 999px;
-  background: #1f232d;
-  color: #ffffff;
+  background: var(--brand-gold);
+  color: var(--brand-dark);
   font-size: 12px;
   letter-spacing: 0.02em;
   border: none;
@@ -1355,8 +1356,8 @@ main {
   border: none;
   border-radius: 999px;
   padding: 6px 14px;
-  background: #2f3b52;
-  color: #ffffff;
+  background: var(--brand-gold);
+  color: var(--brand-dark);
   font-size: 12px;
   cursor: pointer;
 }
@@ -1708,9 +1709,9 @@ main {
 }
 
 .tab-button[aria-pressed="true"] {
-  background: #5d6f90;
-  color: #ffffff;
-  border-color: #5d6f90;
+  background: var(--brand-gold);
+  color: var(--brand-dark);
+  border-color: var(--brand-gold);
 }
 
 .search-box {
@@ -2020,9 +2021,9 @@ main {
 }
 
 .tag-button[aria-pressed="true"] {
-  background: var(--muted-blue-gray);
-  color: #ffffff;
-  border-color: var(--muted-blue-gray);
+  background: var(--brand-gold);
+  color: var(--brand-dark);
+  border-color: var(--brand-gold);
 }
 
 .tag--small {
