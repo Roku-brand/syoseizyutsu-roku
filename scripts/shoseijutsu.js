@@ -265,11 +265,11 @@ const matchesTags = (item) => {
   });
 };
 
-const renderFoundationLink = (tagId, backTarget) => {
+const renderFoundationLink = (tagId) => {
   const encodedTag = encodeURIComponent(tagId);
   const title = findFoundationTitle(tagId);
   const displayText = title ? `${tagId}（${title}）` : tagId;
-  return `<a class="foundation-link" href="theory-card.html?tag=${encodedTag}&back=${backTarget}">${displayText}</a>`;
+  return `<a class="foundation-link" href="theory/${encodedTag}/">${displayText}</a>`;
 };
 
 const renderTags = () => {
@@ -305,7 +305,6 @@ const renderIndex = () => {
     (item) => matchesSearch(item, query) && matchesTags(item)
   );
   resultCount.textContent = `該当件数：${filtered.length}件`;
-  const backTarget = encodeURIComponent(window.location.href);
   resultList.innerHTML = filtered
     .map(
       (item) => {
@@ -315,7 +314,7 @@ const renderIndex = () => {
             <div class="entry-meta">
               <span>関連理論：</span>
               ${theoryTags
-                .map((tagId) => renderFoundationLink(tagId, backTarget))
+                .map((tagId) => renderFoundationLink(tagId))
                 .join(", ")}
             </div>
           `

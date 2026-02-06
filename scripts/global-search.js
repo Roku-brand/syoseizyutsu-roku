@@ -156,10 +156,9 @@ const renderTheoryResults = (items) => {
   theoryResults.innerHTML = items
     .map((item) => {
       const encodedTag = encodeURIComponent(item.tagId);
-      const backTarget = encodeURIComponent("search.html?type=theory");
       const shortTitle = compactTitle(item.title);
       return `
-        <a class="detail-card link-card theory-card theory-card--${item.categoryId}" href="theory-card.html?tag=${encodedTag}&back=${backTarget}">
+        <a class="detail-card link-card theory-card theory-card--${item.categoryId}" href="theory/${encodedTag}/">
           <div class="theory-card-head">
             <span class="theory-card-tag">${item.tagId}</span>
             <span class="theory-card-title">${shortTitle}</span>
