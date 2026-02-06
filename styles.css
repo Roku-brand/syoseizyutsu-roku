@@ -142,10 +142,19 @@ header {
 }
 
 .brand {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-weight: 700;
   font-size: 22px;
   letter-spacing: 0.08em;
   color: var(--brand-gold);
+}
+
+.brand-icon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
 }
 
 .nav-links {
