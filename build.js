@@ -283,22 +283,15 @@ const generateJsWrappers = () => {
     wisdom: "wisdomData",
   };
 
-  for (const name of foundationFiles) {
-    const json = readFileSync(
-      join(__dirname, `data/foundation/${name}.json`),
-      "utf-8"
-    );
-    const js = `export const ${varNames[name]} = ${json.trimEnd()};\n`;
+  for (const [i, name] of foundationFiles.entries()) {
+    const data = foundationCategories[i];
+    const js = `export const ${varNames[name]} = ${JSON.stringify(data, null, 2)};\n`;
     writeFileSync(join(__dirname, `data/foundation/${name}.js`), js);
   }
 
-  const techJson = readFileSync(
-    join(__dirname, "data/techniques/all-techniques.json"),
-    "utf-8"
-  );
   writeFileSync(
     join(__dirname, "data/techniques/all-techniques.js"),
-    `export const techniqueCards = ${techJson.trimEnd()};\n`
+    `export const techniqueCards = ${JSON.stringify(techniqueData, null, 2)};\n`
   );
 
   console.log("  JS wrappers generated");
