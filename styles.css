@@ -291,14 +291,14 @@ main {
 
 .hero {
   background: transparent;
-  padding: 52px 0 20px;
+  padding: 46px 0 18px;
   color: var(--ink);
 }
 
 .hero-card {
   text-align: center;
   display: grid;
-  gap: 24px;
+  gap: 22px;
   align-items: center;
 }
 
@@ -313,7 +313,7 @@ main {
 
 .hero-search {
   display: grid;
-  gap: 10px;
+  gap: 8px;
   justify-items: center;
 }
 
@@ -431,7 +431,7 @@ main {
 
 .hero-subtitle {
   display: block;
-  margin-top: 14px;
+  margin-top: 12px;
   font-size: clamp(13px, 1.5vw, 18px);
   font-weight: 600;
   color: rgba(38, 42, 46, 0.88);
