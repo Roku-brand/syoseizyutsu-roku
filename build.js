@@ -116,6 +116,7 @@ const theoryCardHtml = (card, categoryId) => {
   <link rel="icon" href="../../assets/icons/favicon.png" type="image/png" />
   <title>${pageTitle}</title>
   <meta name="description" content="${pageDescription}" />
+  <link rel="canonical" href="https://roku-brand.github.io/syoseizyutsu-roku/theory/${encodeURIComponent(card.tagId)}" />
   <link rel="stylesheet" href="../../styles.css" />
 </head>
 <body>
@@ -210,6 +211,7 @@ const techniqueCardHtml = (item, categoryName, subcategoryName) => {
   <link rel="icon" href="../../assets/icons/favicon.png" type="image/png" />
   <title>${pageTitle}</title>
   <meta name="description" content="${pageDescription}" />
+  <link rel="canonical" href="https://roku-brand.github.io/syoseizyutsu-roku/technique/${encodeURIComponent(item.id)}" />
   <link rel="stylesheet" href="../../styles.css" />
 </head>
 <body>
