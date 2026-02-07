@@ -2516,6 +2516,53 @@ main {
 .theory-detail {
   display: grid;
   gap: 16px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.detail-card--page .detail-body {
+  gap: 2px;
+  line-height: 1.65;
+}
+
+.detail-card--page .detail-body section {
+  padding-bottom: 14px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid rgba(180, 170, 148, 0.3);
+}
+
+.detail-card--page .detail-body section:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.detail-card--page .detail-body h4 {
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  padding: 4px 0 4px 10px;
+  border-left: 3px solid var(--theory-card-accent, #6b7a8d);
+  background: rgba(180, 170, 148, 0.08);
+  margin-bottom: 8px;
+}
+
+.detail-card--page .detail-body ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.detail-card--page .detail-body li {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.detail-card--page .detail-body > p {
+  font-size: 14px;
+  line-height: 1.65;
+  margin: 0 0 8px;
 }
 
 .is-hidden {
