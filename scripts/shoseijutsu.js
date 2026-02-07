@@ -106,8 +106,7 @@ const renderGroupBoard = () => {
       );
       const subtitle = document.createElement("div");
       subtitle.className = "group-card-subtitle";
-      // Use first item's title as subtitle since new structure doesn't have subtitle
-      subtitle.textContent = detail?.items?.[0]?.title ?? "迷いを解くための視点を整理する";
+      subtitle.textContent = detail?.articleTitle ?? "迷いを解くための視点を整理する";
 
       content.appendChild(name);
       content.appendChild(subtitle);
