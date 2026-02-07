@@ -2513,6 +2513,11 @@ main {
   margin-bottom: 16px;
 }
 
+.back-link--center {
+  display: block;
+  text-align: center;
+}
+
 .theory-detail {
   display: grid;
   gap: 16px;

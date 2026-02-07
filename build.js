@@ -149,7 +149,7 @@ const theoryCardHtml = (card, categoryId) => {
 
   <main class="container">
     <section class="section">
-      <a class="back-link" href="../../theory.html">← 理論集に戻る</a>
+      <a class="back-link back-link--center" href="../../theory.html" onclick="history.back();return false;">← 前のページに戻る</a>
       <div class="theory-detail" id="theory-detail">
         <div class="detail-card detail-card--page theory-card theory-card--${escapeHtml(categoryId)}">
           <div class="detail-header">
