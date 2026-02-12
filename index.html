@@ -18,7 +18,7 @@
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
   <meta name="theme-color" content="#0b0f14" />
 
-  <!-- Canonical (FIXED: syoseizyutsu) -->
+  <!-- Canonical -->
   <link rel="canonical" href="https://roku-brand.github.io/syoseizyutsu-roku/" />
 
   <!-- OGP -->
@@ -58,7 +58,8 @@
         <span class="nav-toggle-text">メニュー</span>
       </label>
       <nav class="nav-links">
-        <a class="nav-link active" href="index.html">トップ</a>
+        <!-- FIX: index.html ではなく canonical（末尾/）に寄せる -->
+        <a class="nav-link active" href="./">トップ</a>
         <a class="nav-link" href="shoseijutsu.html">処世術集</a>
         <a class="nav-link" href="theory.html">理論集</a>
         <a class="nav-link" href="hub.html">みんなの処世術</a>
