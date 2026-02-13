@@ -2250,6 +2250,208 @@ main {
   border-bottom-color: rgba(57, 71, 106, 0.6);
 }
 
+.group-page {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+}
+
+.group-page h1,
+.group-page h2,
+.group-page h3,
+.group-page h4 {
+  font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+}
+
+.group-main-layout {
+  position: relative;
+}
+
+.group-main-shell {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.group-page .group-header-main h2 {
+  margin-bottom: 32px;
+  font-size: clamp(30px, 3.8vw, 40px);
+  color: #161616;
+}
+
+.group-page .helper-text {
+  line-height: 1.8;
+}
+
+.group-meta-badges {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.group-meta-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 14px;
+  border-radius: 20px;
+  background: #111;
+  color: #c6a85a;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.group-quicklist {
+  margin-bottom: 80px;
+  background: #f8f6f2;
+  border: 1px solid #d8cbb4;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.group-quicklist-label {
+  margin-bottom: 14px;
+}
+
+.group-quicklist-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.group-quick-card {
+  display: grid;
+  gap: 8px;
+  align-content: start;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  border: 1px solid #d8cbb4;
+  border-radius: 8px;
+  background: #f8f6f2;
+  padding: 14px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.group-quick-card:hover {
+  border-color: #c6a85a;
+  box-shadow: 0 0 0 1px rgba(198, 168, 90, 0.28);
+}
+
+.group-quick-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  background: #111;
+  color: #c6a85a;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.group-quick-title {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1f242d;
+  line-height: 1.6;
+}
+
+.group-divider {
+  border: none;
+  border-top: 1px solid #d8cbb4;
+  margin: 0 0 18px;
+}
+
+.shoseijutsu-entry-list {
+  max-width: 900px;
+}
+
+.shoseijutsu-entry {
+  margin-top: 96px;
+  border-top: 2px solid #c6a85a;
+  border-bottom: 2px solid #c6a85a;
+  padding: 18px 0 24px;
+  gap: 12px;
+}
+
+.shoseijutsu-entry:first-child {
+  margin-top: 0;
+}
+
+.entry-index {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #111;
+  color: #c6a85a;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.entry-title {
+  margin-bottom: 32px;
+  font-size: 24px;
+}
+
+.entry-summary,
+.entry-meta {
+  line-height: 1.8;
+}
+
+.group-side-toc {
+  position: fixed;
+  right: 40px;
+  top: 120px;
+  z-index: 6;
+  width: 60px;
+  padding: 12px 8px;
+  border-radius: 10px;
+  border: 1px solid #d8cbb4;
+  background: rgba(248, 246, 242, 0.95);
+}
+
+.group-side-toc-label {
+  margin: 0 0 8px;
+  font-size: 11px;
+  text-align: center;
+  color: #655e52;
+}
+
+.group-side-toc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.group-side-toc-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 999px;
+  border: 1px solid #d8cbb4;
+  padding: 4px 0;
+  font-size: 12px;
+  color: #555;
+  background: #f8f6f2;
+  transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.group-side-toc-link.is-active {
+  color: #111;
+  border-color: #c6a85a;
+  background: rgba(198, 168, 90, 0.18);
+  font-weight: 700;
+}
+
 .detail-grid--two {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
@@ -2625,6 +2827,14 @@ footer.container {
   .group-card-grid {
     grid-template-columns: repeat(2, minmax(180px, 1fr));
   }
+
+  .group-quicklist-list {
+    grid-template-columns: 1fr;
+  }
+
+  .group-side-toc {
+    display: none;
+  }
 }
 
 @media (max-width: 700px) {
@@ -2673,5 +2883,13 @@ footer.container {
 
   .group-card {
     width: 100%;
+  }
+
+  .group-meta-badges {
+    gap: 8px;
+  }
+
+  .group-meta-badge {
+    font-size: 12px;
   }
 }

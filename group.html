@@ -3,13 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;700&display=swap" rel="stylesheet" />
   <link rel="icon" href="assets/icons/favicon.png" type="image/png" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon-180x180.png" />
   <title>処世術禄 | 処世術群</title>
   <meta name="description" content="" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body class="group-page">
   <header>
     <div class="container nav">
       <div class="brand"><img src="assets/icons/brand-icon.png" alt="" class="brand-icon">処世術禄</div>
@@ -36,22 +39,31 @@
     </div>
   </header>
 
-  <main class="container">
-    <section class="section">
+  <main class="container group-main-layout">
+    <aside class="group-side-toc is-hidden" id="group-side-toc" aria-label="処世術セクション目次">
+      <p class="group-side-toc-label">目次</p>
+      <ol class="group-side-toc-list" id="group-side-toc-list"></ol>
+    </aside>
+
+    <section class="section group-main-shell">
       <a class="tag tag-button" id="group-back-link" href="shoseijutsu.html">← 処世術群へ戻る</a>
       <div class="group-header">
         <div class="group-header-main">
           <h2 id="group-title">処世術群</h2>
           <p class="helper-text" id="group-subtitle"></p>
+          <div class="group-meta-badges" id="group-meta-badges">
+            <span class="group-meta-badge" id="group-technique-count">全0術</span>
+            <span class="group-meta-badge">推奨読了時間：6分</span>
+            <span class="group-meta-badge">難易度：★☆☆</span>
+          </div>
         </div>
         <aside class="group-quicklist" id="group-quicklist-card" aria-label="処世術の早見表">
           <p class="group-quicklist-label">処世術早見表</p>
-          <ol class="group-quicklist-list" id="group-quicklist"></ol>
+          <div class="group-quicklist-list" id="group-quicklist"></div>
         </aside>
       </div>
-    </section>
 
-    <section class="section">
+      <hr class="group-divider" />
       <div class="detail-grid shoseijutsu-entry-list" id="group-details"></div>
       <p class="notice is-hidden" id="group-empty">処世術群が見つかりませんでした。</p>
     </section>
