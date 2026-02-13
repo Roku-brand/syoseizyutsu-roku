@@ -2319,16 +2319,16 @@ main {
 }
 
 .group-quick-card {
-  display: grid;
-  gap: 8px;
-  align-content: start;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   width: 100%;
   text-align: left;
   cursor: pointer;
   border: 1px solid #d8cbb4;
   border-radius: 8px;
   background: #f8f6f2;
-  padding: 14px;
+  padding: 10px 12px;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -2341,21 +2341,26 @@ main {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
+  flex: 0 0 32px;
+  width: 32px;
+  height: 32px;
   border-radius: 999px;
   background: #111;
   color: #c6a85a;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
 }
 
 .group-quick-title {
   margin: 0;
-  font-size: 15px;
+  min-width: 0;
+  font-size: 14px;
   font-weight: 700;
   color: #1f242d;
-  line-height: 1.6;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .group-divider {
