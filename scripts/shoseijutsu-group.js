@@ -17,7 +17,6 @@ const areaLabels = {
   challenge: "挑戦",
 };
 
-// Helper function to get category by key from the new structure
 const getCategoryByKey = (key) => {
   return shoseijutsuData.techniques.categories?.find((c) => c.key === key);
 };
@@ -29,6 +28,9 @@ const emptyState = document.getElementById("group-empty");
 const backLink = document.getElementById("group-back-link");
 const quickListCard = document.getElementById("group-quicklist-card");
 const quickList = document.getElementById("group-quicklist");
+const sideToc = document.getElementById("group-side-toc");
+const sideTocList = document.getElementById("group-side-toc-list");
+const techniqueCountEl = document.getElementById("group-technique-count");
 const descriptionMeta = document.querySelector('meta[name="description"]');
 
 const chooseByLength = (candidates, min, max) => {
@@ -97,6 +99,21 @@ const renderFoundationLink = (tag) => {
   return `<a class="foundation-link" href="theory/${encodedTag}/">${displayText}</a>`;
 };
 
+const toSectionNumber = (index) => String(index + 1).padStart(2, "0");
+
+const renderQuickList = (items) => {
+  quickList.innerHTML = items
+    .map(
+      (item, index) => `
+      <button class="group-quick-card" type="button" data-scroll-target="group-section-${index + 1}">
+        <span class="group-quick-number">${toSectionNumber(index)}</span>
+        <p class="group-quick-title">${item.title}</p>
+      </button>
+    `,
+    )
+    .join("");
+};
+
 const renderDetails = (group) => {
   detailsContainer.innerHTML = group.items
     .map((item, index) => {
@@ -116,8 +133,8 @@ const renderDetails = (group) => {
         : "";
 
       return `
-        <article class="shoseijutsu-entry">
-          <div class="entry-index">§${index + 1}</div>
+        <article class="shoseijutsu-entry" id="group-section-${index + 1}" data-section-index="${index + 1}">
+          <div class="entry-index">§${toSectionNumber(index)}</div>
           <h3 class="entry-title">${item.title}</h3>
           ${subtitleMarkup}
           ${foundationsMarkup}
@@ -127,14 +144,91 @@ const renderDetails = (group) => {
     .join("");
 };
 
+const setupSmoothScroll = () => {
+  const links = document.querySelectorAll("[data-scroll-target]");
+  for (const link of links) {
+    link.addEventListener("click", () => {
+      const targetId = link.getAttribute("data-scroll-target");
+      const target = targetId ? document.getElementById(targetId) : null;
+      if (!target) {
+        return;
+      }
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+};
+
+const renderSideToc = (items) => {
+  sideTocList.innerHTML = items
+    .map(
+      (_item, index) => `
+        <li>
+          <a class="group-side-toc-link" href="#group-section-${index + 1}" data-scroll-target="group-section-${index + 1}" data-toc-link="group-section-${index + 1}">${toSectionNumber(index)}</a>
+        </li>
+      `,
+    )
+    .join("");
+};
+
+const setupSideTocObserver = () => {
+  if (!sideToc || !sideTocList || window.innerWidth <= 980) {
+    return;
+  }
+
+  const sections = document.querySelectorAll(".shoseijutsu-entry");
+  const tocLinks = new Map();
+  for (const link of sideTocList.querySelectorAll("[data-toc-link]")) {
+    tocLinks.set(link.getAttribute("data-toc-link"), link);
+  }
+
+  const setActive = (id) => {
+    for (const link of tocLinks.values()) {
+      link.classList.remove("is-active");
+    }
+    const activeLink = tocLinks.get(id);
+    if (activeLink) {
+      activeLink.classList.add("is-active");
+    }
+  };
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      const visibleEntries = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+      if (visibleEntries.length > 0) {
+        setActive(visibleEntries[0].target.id);
+      }
+    },
+    {
+      root: null,
+      rootMargin: "-30% 0px -55% 0px",
+      threshold: [0.15, 0.35, 0.6],
+    },
+  );
+
+  for (const section of sections) {
+    observer.observe(section);
+  }
+
+  if (sections[0]) {
+    setActive(sections[0].id);
+  }
+};
+
+const showNotFound = (message) => {
+  titleEl.textContent = "処世術群";
+  subtitleEl.textContent = message;
+  detailsContainer.classList.add("is-hidden");
+  quickListCard.classList.add("is-hidden");
+  sideToc?.classList.add("is-hidden");
+  emptyState.classList.remove("is-hidden");
+};
+
 const renderGroup = () => {
   const parsed = parseGroupParam();
   if (!parsed) {
-    titleEl.textContent = "処世術群";
-    subtitleEl.textContent = "グループ指定がありません。";
-    detailsContainer.classList.add("is-hidden");
-    quickListCard.classList.add("is-hidden");
-    emptyState.classList.remove("is-hidden");
+    showNotFound("グループ指定がありません。");
     return;
   }
 
@@ -143,11 +237,7 @@ const renderGroup = () => {
   const group = areaSection?.subcategories.find((item) => item.name === groupName);
 
   if (!areaSection || !group) {
-    titleEl.textContent = "処世術群";
-    subtitleEl.textContent = "該当するグループが見つかりません。";
-    detailsContainer.classList.add("is-hidden");
-    quickListCard.classList.add("is-hidden");
-    emptyState.classList.remove("is-hidden");
+    showNotFound("該当するグループが見つかりません。");
     return;
   }
 
@@ -163,10 +253,23 @@ const renderGroup = () => {
   emptyState.classList.add("is-hidden");
   detailsContainer.classList.remove("is-hidden");
   quickListCard.classList.remove("is-hidden");
-  quickList.innerHTML = group.items
-    .map((item) => `<li>${item.title}</li>`)
-    .join("");
+
+  renderQuickList(group.items);
   renderDetails(group);
+  renderSideToc(group.items);
+
+  if (techniqueCountEl) {
+    techniqueCountEl.textContent = `全${group.items.length}術`;
+  }
+
+  if (window.innerWidth > 980 && group.items.length > 0) {
+    sideToc?.classList.remove("is-hidden");
+  } else {
+    sideToc?.classList.add("is-hidden");
+  }
+
+  setupSmoothScroll();
+  setupSideTocObserver();
 };
 
 renderGroup();
