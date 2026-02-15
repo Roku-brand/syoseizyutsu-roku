@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <link rel="icon" href="/syoseizyutsu-roku/favicon.ico" />
   <link rel="icon" type="image/png" sizes="32x32" href="/syoseizyutsu-roku/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/syoseizyutsu-roku/favicon-16x16.png" />
@@ -18,15 +19,16 @@
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
   <meta name="theme-color" content="#0b0f14" />
 
-  <!-- Canonical -->
-  <link rel="canonical" href="https://roku-brand.github.io/syoseizyutsu-roku/" />
+  <!-- ✅ Canonical（index.html を“正”にしたいなら、ここを index.html に固定） -->
+  <link rel="canonical" href="https://roku-brand.github.io/syoseizyutsu-roku/index.html" />
 
   <!-- OGP -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="処世術禄" />
   <meta property="og:title" content="処世術禄｜人生・仕事・人間関係のための処世術辞典" />
   <meta property="og:description" content="心理学・行動科学・経験則に基づいて、人生・仕事・人間関係の判断に使える処世術を体系化した辞典型アーカイブ。" />
-  <meta property="og:url" content="https://roku-brand.github.io/syoseizyutsu-roku/" />
+  <!-- ✅ og:url も canonical と一致させる -->
+  <meta property="og:url" content="https://roku-brand.github.io/syoseizyutsu-roku/index.html" />
   <meta property="og:locale" content="ja_JP" />
   <meta property="og:image" content="https://roku-brand.github.io/syoseizyutsu-roku/assets/icons/brand-icon.png" />
 
@@ -36,12 +38,13 @@
   <meta name="twitter:description" content="心理学・行動科学・経験則を手がかりに、場面ごとの判断を助ける処世術を辞書的に整理。" />
 
   <!-- Structured Data -->
+  <!-- ✅ url も canonical と一致させる -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "処世術禄",
-    "url": "https://roku-brand.github.io/syoseizyutsu-roku/"
+    "url": "https://roku-brand.github.io/syoseizyutsu-roku/index.html"
   }
   </script>
 
@@ -58,8 +61,8 @@
         <span class="nav-toggle-text">メニュー</span>
       </label>
       <nav class="nav-links">
-        <!-- FIX: index.html ではなく canonical（末尾/）に寄せる -->
-        <a class="nav-link active" href="./">トップ</a>
+        <!-- ✅ トップ導線も index.html に寄せる（./ だと / に解決されやすい） -->
+        <a class="nav-link active" href="index.html">トップ</a>
         <a class="nav-link" href="shoseijutsu.html">処世術集</a>
         <a class="nav-link" href="theory.html">理論集</a>
         <a class="nav-link" href="hub.html">みんなの処世術</a>
@@ -87,7 +90,6 @@
             </span>
           </h1>
 
-          <!-- SEO: ホームページで何ができるかを“HTML”で明示（JS無しでも残る） -->
           <p style="margin: 8px 0 0; line-height: 1.75; color: #111827; font-weight: 500;">
             心理学・行動科学・経験則に立脚した、再現性ある体系処世術。<br />
             迷いが生じた瞬間に、いつでも手元で参照できる座右。
