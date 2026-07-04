@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://roku-brand.github.io/syoseizyutsu-roku/sitemap.xml
+Sitemap: https://syoseizyutsu-roku.vercel.app/sitemap.xml

@@ -1,8 +1,17 @@
+import { createHubPost } from './hub-api.js';
+
 const form = document.querySelector('#hub-create-form');
 const bulletList = document.querySelector('[data-bullet-list]');
 const addBulletButton = document.querySelector('[data-add-bullet]');
+const submitButton = form?.querySelector('button[type="submit"]');
 
-const storageKey = 'hubUserPosts';
+const statusMessage = document.createElement('p');
+statusMessage.className = 'helper-text hub-form-status';
+form?.querySelector('.hub-form-actions')?.prepend(statusMessage);
+
+const setStatus = (message) => {
+  statusMessage.textContent = message;
+};
 
 const createBulletRow = (value = '') => {
   const row = document.createElement('div');
@@ -60,23 +69,6 @@ const normalizeTags = (value) =>
     .map((tag) => tag.trim())
     .filter((tag) => tag.length > 0);
 
-const loadPosts = () => {
-  const raw = window.localStorage.getItem(storageKey);
-  if (!raw) {
-    return [];
-  }
-  try {
-    const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed : [];
-  } catch (error) {
-    return [];
-  }
-};
-
-const savePosts = (posts) => {
-  window.localStorage.setItem(storageKey, JSON.stringify(posts));
-};
-
 if (bulletList && addBulletButton) {
   bulletList.addEventListener('click', (event) => {
     const target = event.target;
@@ -100,31 +92,28 @@ if (bulletList && addBulletButton) {
   updateRemoveButtons();
 }
 
-form?.addEventListener('submit', (event) => {
+form?.addEventListener('submit', async (event) => {
   event.preventDefault();
 
   const formData = new FormData(form);
-  const creator = formData.get('creator')?.toString().trim() ?? '';
-  const title = formData.get('title')?.toString().trim() ?? '';
-  const bullets = Array.from(form.querySelectorAll('input[name="bullets[]"]'))
-    .map((input) => input.value.trim())
-    .filter((value) => value.length > 0);
-  const tags = normalizeTags(formData.get('tags')?.toString() ?? '');
-  const note = formData.get('note')?.toString().trim() ?? '';
-
-  const newPost = {
-    id: Date.now().toString(36),
-    creator,
-    title,
-    bullets,
-    tags,
-    note,
-    createdAt: new Date().toISOString(),
+  const payload = {
+    creator: formData.get('creator')?.toString().trim() ?? '',
+    title: formData.get('title')?.toString().trim() ?? '',
+    bullets: Array.from(form.querySelectorAll('input[name="bullets[]"]'))
+      .map((input) => input.value.trim())
+      .filter((value) => value.length > 0),
+    tags: normalizeTags(formData.get('tags')?.toString() ?? ''),
+    note: formData.get('note')?.toString().trim() ?? '',
   };
 
-  const posts = loadPosts();
-  posts.unshift(newPost);
-  savePosts(posts);
+  submitButton.disabled = true;
+  setStatus('投稿を保存しています。');
 
-  window.location.href = 'hub.html#hub-list';
+  try {
+    const post = await createHubPost(payload);
+    window.location.href = `hub-detail.html?id=${encodeURIComponent(post.id)}`;
+  } catch (error) {
+    setStatus(error.message);
+    submitButton.disabled = false;
+  }
 });

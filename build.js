@@ -3,6 +3,10 @@ import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
+const SITE_ORIGIN = (process.env.SITE_ORIGIN ?? "https://syoseizyutsu-roku.vercel.app").replace(
+  /\/$/,
+  ""
+);
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -117,7 +121,7 @@ const theoryCardHtml = (card, categoryId) => {
   <link rel="apple-touch-icon" sizes="180x180" href="../../assets/icons/apple-touch-icon-180x180.png" />
   <title>${pageTitle}</title>
   <meta name="description" content="${pageDescription}" />
-  <link rel="canonical" href="https://roku-brand.github.io/syoseizyutsu-roku/theory/${encodeURIComponent(card.tagId)}" />
+  <link rel="canonical" href="${SITE_ORIGIN}/theory/${encodeURIComponent(card.tagId)}/" />
   <link rel="stylesheet" href="../../styles.css" />
 </head>
 <body>
@@ -213,7 +217,7 @@ const techniqueCardHtml = (item, categoryName, subcategoryName) => {
   <link rel="apple-touch-icon" sizes="180x180" href="../../assets/icons/apple-touch-icon-180x180.png" />
   <title>${pageTitle}</title>
   <meta name="description" content="${pageDescription}" />
-  <link rel="canonical" href="https://roku-brand.github.io/syoseizyutsu-roku/technique/${encodeURIComponent(item.id)}" />
+  <link rel="canonical" href="${SITE_ORIGIN}/technique/${encodeURIComponent(item.id)}/" />
   <link rel="stylesheet" href="../../styles.css" />
 </head>
 <body>

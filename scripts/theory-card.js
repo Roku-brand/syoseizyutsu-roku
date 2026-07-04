@@ -36,7 +36,7 @@ const tagId = params.get("tag");
 if (tagId) {
   const canonical = document.createElement("link");
   canonical.rel = "canonical";
-  canonical.href = `https://roku-brand.github.io/syoseizyutsu-roku/theory/${encodeURIComponent(tagId)}/`;
+  canonical.href = `${window.location.origin}/theory/${encodeURIComponent(tagId)}/`;
   document.head.appendChild(canonical);
 }
 

@@ -1,4 +1,5 @@
 import { hubDefaultPosts } from './hub-data.js';
+import { fetchHubState, getPostKey } from './hub-api.js';
 
 const storageKey = 'hubUserPosts';
 const reactionKey = 'hubReactions';
@@ -22,18 +23,35 @@ const formatDate = (value) => {
   ).padStart(2, '0')}`;
 };
 
-const loadPosts = () => {
+const loadLocalPosts = () => {
   const raw = window.localStorage.getItem(storageKey);
   if (!raw) {
     return [];
   }
   try {
     const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed : [];
-  } catch (error) {
+    return Array.isArray(parsed) ? parsed.map((post) => ({ ...post, source: 'user' })) : [];
+  } catch {
     return [];
   }
 };
+
+const loadLocalReactions = () => {
+  const raw = window.localStorage.getItem(reactionKey);
+  if (!raw) {
+    return {};
+  }
+  try {
+    const parsed = JSON.parse(raw);
+    return parsed && typeof parsed === 'object' ? parsed : {};
+  } catch {
+    return {};
+  }
+};
+
+let userPosts = [];
+let reactions = {};
+let loadError = '';
 
 const buildTagList = (tags) => {
   const tagList = document.createElement('div');
@@ -47,47 +65,26 @@ const buildTagList = (tags) => {
   return tagList;
 };
 
-const loadReactions = () => {
-  const raw = window.localStorage.getItem(reactionKey);
-  if (!raw) {
-    return {};
-  }
-  try {
-    const parsed = JSON.parse(raw);
-    return parsed && typeof parsed === 'object' ? parsed : {};
-  } catch (error) {
-    return {};
-  }
-};
-
-const getPostKey = (post) => `${post.source}-${post.id}`;
-
-const buildCardReactions = (post, reactions) => {
+const buildCardReactions = (post) => {
   const postKey = getPostKey(post);
   const state = reactions[postKey] ?? { likes: 0, comments: [] };
-  reactions[postKey] = state;
 
   const reactionRow = document.createElement('div');
   reactionRow.className = 'hub-card-reactions hub-card-reactions--inline';
 
   const likeCount = document.createElement('span');
   likeCount.className = 'hub-reaction';
+  likeCount.textContent = `いいね ${state.likes ?? 0}`;
 
   const commentCount = document.createElement('span');
   commentCount.className = 'hub-reaction';
+  commentCount.textContent = `コメント ${state.comments?.length ?? 0}`;
 
   reactionRow.append(likeCount, commentCount);
-
-  const updateReactions = () => {
-    likeCount.textContent = `いいね ${state.likes}`;
-    commentCount.textContent = `コメント ${state.comments.length}`;
-  };
-
-  updateReactions();
   return reactionRow;
 };
 
-const buildCard = (post, reactions) => {
+const buildCard = (post) => {
   const card = document.createElement('div');
   card.className = 'card hub-card';
   if (post.source === 'user') {
@@ -118,8 +115,7 @@ const buildCard = (post, reactions) => {
     meta.textContent = post.meta || 'みんなの処世術';
   }
 
-  const reactionsRow = buildCardReactions(post, reactions);
-  metaRow.append(meta, reactionsRow);
+  metaRow.append(meta, buildCardReactions(post));
   link.append(title, summary, metaRow);
 
   if (post.tags?.length) {
@@ -127,7 +123,6 @@ const buildCard = (post, reactions) => {
   }
 
   card.append(link);
-
   return card;
 };
 
@@ -143,14 +138,11 @@ const buildSearchText = (post) =>
     .filter(Boolean)
     .join(' ');
 
-const getLikes = (post, reactions) => {
-  const key = getPostKey(post);
-  return reactions[key]?.likes ?? 0;
-};
+const getLikes = (post) => reactions[getPostKey(post)]?.likes ?? 0;
 
-const sortPosts = (posts, reactions, mode) => {
+const sortPosts = (posts, mode) => {
   if (mode === 'likes') {
-    return [...posts].sort((a, b) => getLikes(b, reactions) - getLikes(a, reactions));
+    return [...posts].sort((a, b) => getLikes(b) - getLikes(a));
   }
   return [...posts].sort((a, b) => {
     const aTime = Date.parse(a.createdAt ?? '') || 0;
@@ -164,10 +156,8 @@ const renderPosts = () => {
     return;
   }
 
-  const userPosts = loadPosts().map((post) => ({ ...post, source: 'user' }));
   const defaultPosts = hubDefaultPosts.map((post) => ({ ...post, source: 'default' }));
   const posts = [...userPosts, ...defaultPosts];
-  const reactions = loadReactions();
   const query = searchInput?.value.trim().toLowerCase() ?? '';
   const filteredPosts = posts.filter((post) => {
     if (!query) {
@@ -175,28 +165,40 @@ const renderPosts = () => {
     }
     return buildSearchText(post).toLowerCase().includes(query);
   });
-  const sortMode = sortSelect?.value ?? 'new';
-  const sortedPosts = sortPosts(filteredPosts, reactions, sortMode);
+  const sortedPosts = sortPosts(filteredPosts, sortSelect?.value ?? 'new');
 
   list.innerHTML = '';
   sortedPosts.forEach((post) => {
-    list.append(buildCard(post, reactions));
+    list.append(buildCard(post));
   });
 
-  if (emptyState) {
-    emptyState.classList.toggle('is-hidden', posts.length > 0);
-  }
-  if (filteredEmptyState) {
-    filteredEmptyState.classList.toggle('is-hidden', posts.length === 0 || filteredPosts.length > 0);
-  }
+  emptyState?.classList.toggle('is-hidden', posts.length > 0);
+  filteredEmptyState?.classList.toggle('is-hidden', posts.length === 0 || filteredPosts.length > 0);
+
   if (resultCount) {
-    resultCount.textContent = posts.length > 0 ? `${filteredPosts.length}件の処世術が見つかりました。` : '';
+    const suffix = loadError ? `（${loadError}）` : '';
+    resultCount.textContent = posts.length > 0 ? `${filteredPosts.length}件の処世術が見つかりました。${suffix}` : suffix;
   }
 };
 
-const refreshOnInput = () => renderPosts();
+const loadHub = async () => {
+  if (resultCount) {
+    resultCount.textContent = '投稿を読み込み中です。';
+  }
+  try {
+    const state = await fetchHubState();
+    userPosts = state.posts;
+    reactions = state.reactions;
+    loadError = '';
+  } catch (error) {
+    userPosts = loadLocalPosts();
+    reactions = loadLocalReactions();
+    loadError = `サーバー接続不可: ${error.message}`;
+  }
+  renderPosts();
+};
 
-searchInput?.addEventListener('input', refreshOnInput);
-sortSelect?.addEventListener('change', refreshOnInput);
+searchInput?.addEventListener('input', renderPosts);
+sortSelect?.addEventListener('change', renderPosts);
 
-renderPosts();
+loadHub();

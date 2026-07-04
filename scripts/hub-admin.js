@@ -1,9 +1,27 @@
-const storageKey = 'hubUserPosts';
-const reactionKey = 'hubReactions';
+import { clearHubPosts, deleteHubPost, fetchHubState } from './hub-api.js';
 
 const list = document.querySelector('#admin-card-list');
 const emptyState = document.querySelector('#admin-empty');
 const clearButton = document.querySelector('#admin-clear');
+const tokenStorageKey = 'hubAdminToken';
+
+let posts = [];
+
+const getAdminToken = () => {
+  const stored = window.sessionStorage.getItem(tokenStorageKey);
+  if (stored) {
+    return stored;
+  }
+  const token = window.prompt('管理者トークンを入力してください。')?.trim() ?? '';
+  if (token) {
+    window.sessionStorage.setItem(tokenStorageKey, token);
+  }
+  return token;
+};
+
+const resetAdminToken = () => {
+  window.sessionStorage.removeItem(tokenStorageKey);
+};
 
 const formatDate = (value) => {
   if (!value) {
@@ -16,51 +34,6 @@ const formatDate = (value) => {
   return `${date.getFullYear()}/${String(date.getMonth() + 1).padStart(2, '0')}/${String(
     date.getDate(),
   ).padStart(2, '0')}`;
-};
-
-const loadPosts = () => {
-  const raw = window.localStorage.getItem(storageKey);
-  if (!raw) {
-    return [];
-  }
-  try {
-    const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed : [];
-  } catch (error) {
-    return [];
-  }
-};
-
-const savePosts = (posts) => {
-  window.localStorage.setItem(storageKey, JSON.stringify(posts));
-};
-
-const loadReactions = () => {
-  const raw = window.localStorage.getItem(reactionKey);
-  if (!raw) {
-    return {};
-  }
-  try {
-    const parsed = JSON.parse(raw);
-    return parsed && typeof parsed === 'object' ? parsed : {};
-  } catch (error) {
-    return {};
-  }
-};
-
-const saveReactions = (reactions) => {
-  window.localStorage.setItem(reactionKey, JSON.stringify(reactions));
-};
-
-const getReactionKey = (postId) => `user-${postId}`;
-
-const removeReactionForPost = (postId) => {
-  const reactions = loadReactions();
-  const key = getReactionKey(postId);
-  if (key in reactions) {
-    delete reactions[key];
-    saveReactions(reactions);
-  }
 };
 
 const buildTagList = (tags) => {
@@ -130,31 +103,50 @@ const renderPosts = () => {
     return;
   }
 
-  const posts = loadPosts();
   list.innerHTML = '';
-
   posts.forEach((post) => {
     list.append(buildCard(post));
   });
 
-  if (emptyState) {
-    emptyState.classList.toggle('is-hidden', posts.length > 0);
-  }
+  emptyState?.classList.toggle('is-hidden', posts.length > 0);
   if (clearButton) {
     clearButton.disabled = posts.length === 0;
   }
 };
 
-const deletePost = (postId) => {
-  const posts = loadPosts();
-  const nextPosts = posts.filter((post) => post.id !== postId);
-  savePosts(nextPosts);
-  removeReactionForPost(postId);
+const loadPosts = async () => {
+  if (list) {
+    list.innerHTML = '<p class="notice">投稿を読み込み中です。</p>';
+  }
+  try {
+    const state = await fetchHubState();
+    posts = state.posts;
+  } catch (error) {
+    posts = [];
+    if (list) {
+      list.innerHTML = `<p class="notice">${error.message}</p>`;
+    }
+    return;
+  }
   renderPosts();
 };
 
+const withAdminAction = async (action) => {
+  const token = getAdminToken();
+  if (!token) {
+    return;
+  }
+  try {
+    await action(token);
+  } catch (error) {
+    resetAdminToken();
+    window.alert(error.message);
+    throw error;
+  }
+};
+
 if (list) {
-  list.addEventListener('click', (event) => {
+  list.addEventListener('click', async (event) => {
     const target = event.target;
     if (!(target instanceof HTMLElement)) {
       return;
@@ -170,13 +162,19 @@ if (list) {
     if (!confirmed) {
       return;
     }
-    deletePost(postId);
+    target.disabled = true;
+    try {
+      await withAdminAction((token) => deleteHubPost(postId, token));
+      posts = posts.filter((post) => post.id !== postId);
+      renderPosts();
+    } finally {
+      target.disabled = false;
+    }
   });
 }
 
 if (clearButton) {
-  clearButton.addEventListener('click', () => {
-    const posts = loadPosts();
+  clearButton.addEventListener('click', async () => {
     if (posts.length === 0) {
       return;
     }
@@ -184,10 +182,15 @@ if (clearButton) {
     if (!confirmed) {
       return;
     }
-    savePosts([]);
-    saveReactions({});
-    renderPosts();
+    clearButton.disabled = true;
+    try {
+      await withAdminAction((token) => clearHubPosts(token));
+      posts = [];
+      renderPosts();
+    } finally {
+      clearButton.disabled = false;
+    }
   });
 }
 
-renderPosts();
+loadPosts();
