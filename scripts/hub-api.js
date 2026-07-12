@@ -41,16 +41,16 @@ export const createHubPost = async (post) => {
   return data.post;
 };
 
-export const deleteHubPost = async (id, adminToken) =>
+export const deleteHubPost = async (id, accessToken) =>
   requestJson(`/api/hub/posts?id=${encodeURIComponent(id)}`, {
     method: 'DELETE',
-    headers: { 'x-admin-token': adminToken },
+    headers: { authorization: `Bearer ${accessToken}` },
   });
 
-export const clearHubPosts = async (adminToken) =>
+export const clearHubPosts = async (accessToken) =>
   requestJson('/api/hub/posts', {
     method: 'DELETE',
-    headers: { 'x-admin-token': adminToken },
+    headers: { authorization: `Bearer ${accessToken}` },
   });
 
 export const fetchReaction = async (key) => {
