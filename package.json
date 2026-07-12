@@ -5,7 +5,7 @@
   "private": true,
   "description": "処世術禄 - 人生・仕事・人間関係のための処世術辞典",
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js && node seo-build.js"
   },
   "dependencies": {
     "@vercel/blob": "latest"
