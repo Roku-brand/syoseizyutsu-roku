@@ -14,7 +14,8 @@ let accessToken = '';
 const requireAdmin = async () => {
   const { data: { session } } = await supabase.auth.getSession();
   if (!session) {
-    window.location.replace('/app.html?login=required');
+    document.querySelector('#admin-login')?.classList.remove('is-hidden');
+    document.querySelector('#admin-content')?.classList.add('is-hidden');
     return false;
   }
   const { data: profile, error } = await supabase
@@ -200,6 +201,25 @@ if (clearButton) {
   });
 }
 
+const loginForm = document.querySelector('#admin-login-form');
+loginForm?.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  const email = document.querySelector('#admin-email')?.value.trim();
+  const message = document.querySelector('#admin-login-message');
+  const { error } = await supabase.auth.signInWithOtp({
+    email,
+    options: { emailRedirectTo: window.location.origin + '/hub-admin.html' },
+  });
+  if (message) {
+    message.classList.remove('is-hidden');
+    message.textContent = error
+      ? error.message
+      : 'ログイン用メールを送信しました。メール内のリンクを開いてください。';
+  }
+});
+
 if (await requireAdmin()) {
+  document.querySelector('#admin-login')?.classList.add('is-hidden');
+  document.querySelector('#admin-content')?.classList.remove('is-hidden');
   await loadPosts();
 }
