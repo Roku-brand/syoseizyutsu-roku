@@ -1,5 +1,5 @@
 import {
-  assertAdminRequest,
+  assertSupabaseAdminRequest,
   clearPosts,
   createPost,
   deletePost,
@@ -41,7 +41,7 @@ export async function POST(request) {
 
 export async function DELETE(request) {
   try {
-    assertAdminRequest(request);
+    await assertSupabaseAdminRequest(request);
     const { searchParams } = new URL(request.url);
     const id = searchParams.get('id');
     if (id) {
