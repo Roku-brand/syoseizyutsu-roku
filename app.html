@@ -1,0 +1,20 @@
+<!doctype html><html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>処世術禄 App｜知恵を集め、試し、育てる</title>
+<meta name="description" content="処世術を投稿・保存・議論できる処世術禄のコミュニティ。">
+<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="styles/app.css">
+<script type="module" src="scripts/app.js"></script></head>
+<body>
+<header class="app-header"><a class="app-brand" href="/">処世術禄</a>
+<nav><a href="/shoseijutsu.html">処世術集</a><a href="/theory.html">理論集</a><button id="auth-button">ログイン</button></nav></header>
+<main class="app-shell">
+<section class="app-hero"><div><span class="eyebrow">SHOSEIJUTSU LAB</span><h1>知恵を、集めて<br>使える形に。</h1><p>経験から生まれた処世術を投稿し、保存し、対話によって磨く場所。</p></div>
+<div class="hero-stats"><div><b id="post-count">—</b><span>投稿</span></div><div><b id="member-state">Guest</b><span>ステータス</span></div></div></section>
+<section class="toolbar"><input id="search" type="search" placeholder="投稿を検索"><select id="category"><option value="">すべての領域</option><option>人生</option><option>人間関係</option><option>仕事</option><option>メンタル</option><option>挑戦</option></select><select id="sort"><option value="new">新着順</option><option value="popular">人気順</option></select><button id="new-post" class="primary">＋ 投稿する</button></section>
+<div id="notice" class="notice-bar" hidden></div>
+<section id="composer" class="composer" hidden><h2>新しい処世術</h2><form id="post-form"><input name="title" required maxlength="100" placeholder="タイトル"><textarea name="body" required maxlength="3000" placeholder="どんな場面で、どう使う処世術ですか"></textarea><div class="form-row"><select name="category"><option>人生</option><option>人間関係</option><option>仕事</option><option>メンタル</option><option>挑戦</option></select><input name="tags" placeholder="タグ（カンマ区切り）"></div><button class="primary">公開する</button><button type="button" id="cancel-post">閉じる</button></form></section>
+<section><div class="section-heading"><h2>みんなの処世術</h2><span id="result-count"></span></div><div id="feed" class="feed"><p>読み込み中…</p></div></section>
+</main>
+<dialog id="auth-dialog"><form method="dialog" class="auth-card"><button class="dialog-close">×</button><h2>ログイン / 新規登録</h2><p>メールに届くリンクから安全にログインします。</p><input id="email" type="email" required placeholder="you@example.com"><input id="display-name" placeholder="表示名（新規登録時）"><button type="button" id="send-magic" class="primary">ログインリンクを送る</button><button type="button" id="sign-out" hidden>ログアウト</button><small id="auth-message"></small></form></dialog>
+<dialog id="comments-dialog"><div class="comments-card"><button class="dialog-close" onclick="this.closest('dialog').close()">×</button><h2>コメント</h2><div id="comments-list"></div><form id="comment-form"><input name="body" maxlength="500" required placeholder="コメントを書く"><button class="primary">送信</button></form></div></dialog>
+</body></html>
