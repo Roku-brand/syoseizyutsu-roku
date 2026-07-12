@@ -1,26 +1,34 @@
+import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm';
 import { clearHubPosts, deleteHubPost, fetchHubState } from './hub-api.js';
+
+const supabase = createClient(
+  'https://otwnmfoubxdenqkrkxmx.supabase.co',
+  'sb_publishable_cEI9jtk6n0S01-2dGaPn3A_MLT28InS',
+);
 
 const list = document.querySelector('#admin-card-list');
 const emptyState = document.querySelector('#admin-empty');
 const clearButton = document.querySelector('#admin-clear');
-const tokenStorageKey = 'hubAdminToken';
+let accessToken = '';
 
-let posts = [];
-
-const getAdminToken = () => {
-  const stored = window.sessionStorage.getItem(tokenStorageKey);
-  if (stored) {
-    return stored;
+const requireAdmin = async () => {
+  const { data: { session } } = await supabase.auth.getSession();
+  if (!session) {
+    window.location.replace('/app.html?login=required');
+    return false;
   }
-  const token = window.prompt('管理者トークンを入力してください。')?.trim() ?? '';
-  if (token) {
-    window.sessionStorage.setItem(tokenStorageKey, token);
+  const { data: profile, error } = await supabase
+    .from('profiles')
+    .select('role')
+    .eq('id', session.user.id)
+    .single();
+  if (error || profile?.role !== 'admin') {
+    document.body.innerHTML =
+      '<main class="container section"><h1>アクセスできません</h1><p>このページは管理者本人のみ利用できます。</p><a href="/">トップへ戻る</a></main>';
+    return false;
   }
-  return token;
-};
-
-const resetAdminToken = () => {
-  window.sessionStorage.removeItem(tokenStorageKey);
+  accessToken = session.access_token;
+  return true;
 };
 
 const formatDate = (value) => {
@@ -132,14 +140,13 @@ const loadPosts = async () => {
 };
 
 const withAdminAction = async (action) => {
-  const token = getAdminToken();
-  if (!token) {
+  if (!accessToken) {
+    window.location.replace('/app.html?login=required');
     return;
   }
   try {
-    await action(token);
+    await action(accessToken);
   } catch (error) {
-    resetAdminToken();
     window.alert(error.message);
     throw error;
   }
@@ -164,7 +171,7 @@ if (list) {
     }
     target.disabled = true;
     try {
-      await withAdminAction((token) => deleteHubPost(postId, token));
+      await withAdminAction((accessToken) => deleteHubPost(postId, accessToken));
       posts = posts.filter((post) => post.id !== postId);
       renderPosts();
     } finally {
@@ -184,7 +191,7 @@ if (clearButton) {
     }
     clearButton.disabled = true;
     try {
-      await withAdminAction((token) => clearHubPosts(token));
+      await withAdminAction((accessToken) => clearHubPosts(accessToken));
       posts = [];
       renderPosts();
     } finally {
@@ -193,4 +200,6 @@ if (clearButton) {
   });
 }
 
-loadPosts();
+if (await requireAdmin()) {
+  await loadPosts();
+}
