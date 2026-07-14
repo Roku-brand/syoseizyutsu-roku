@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/icons/favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon-180x180.png" />
+  <title>処世術禄 | マイページ</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="mypage.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand"><img src="assets/icons/brand-icon.png" alt="" class="brand-icon">処世術禄</div>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="メニューを開閉">
+      <label for="nav-toggle" class="nav-toggle-button">
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+        <span class="nav-toggle-text">メニュー</span>
+      </label>
+      <nav class="nav-links">
+        <a class="nav-link" href="index.html">トップ</a>
+        <a class="nav-link" href="shoseijutsu.html">処世術集</a>
+        <a class="nav-link" href="theory.html">理論集</a>
+        <a class="nav-link" href="hub.html">みんなの処世術</a>
+        <a class="nav-link" href="about.html">処世術禄とは</a>
+        <a class="nav-link active" href="mypage.html">マイページ</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="nav-icon-button" href="search.html" aria-label="総合検索">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2" />
+            <path d="M16.5 16.5L21 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <p class="eyebrow">ACCOUNT</p>
+        <h1 class="page-hero-title">マイページ</h1>
+        <p class="page-hero-lead">メールアドレスで安全にログインし、あなたのアカウントを確認できます。</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container mypage-shell">
+        <section class="mypage-card" id="mypage-login">
+          <p class="eyebrow">SIGN IN</p>
+          <h2>ログイン</h2>
+          <p>入力したメールアドレスへログインリンクを送ります。パスワードは不要です。</p>
+          <form class="mypage-form" id="mypage-login-form">
+            <label for="mypage-email">メールアドレス</label>
+            <input id="mypage-email" type="email" required autocomplete="email" placeholder="name@example.com">
+            <button class="primary-button" type="submit">ログインリンクを送る</button>
+          </form>
+          <p class="notice is-hidden" id="mypage-message" role="status"></p>
+        </section>
+
+        <section class="mypage-card is-hidden" id="mypage-account">
+          <p class="eyebrow">MY ACCOUNT</p>
+          <h2>ログイン中</h2>
+          <dl class="mypage-details">
+            <div><dt>メールアドレス</dt><dd id="mypage-user-email"></dd></div>
+          </dl>
+          <div class="mypage-actions">
+            <button class="ghost-button" type="button" id="mypage-logout">ログアウト</button>
+          </div>
+        </section>
+
+        <section class="mypage-card mypage-admin is-hidden" id="mypage-admin">
+          <p class="eyebrow">ADMIN</p>
+          <h2>管理者メニュー</h2>
+          <p>管理者として投稿内容の確認・整理ができます。</p>
+          <a class="primary-button" href="hub-admin.html">管理者ページを開く</a>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>処世術禄を、あなたの日々の判断に役立ててください。</p>
+    <p>©禄ブランド</p>
+    <p>最終更新日: <time class="js-last-updated"></time></p>
+  </footer>
+  <script src="scripts/footer-date.js"></script>
+  <script type="module" src="scripts/mypage.js"></script>
+</body>
+</html>
