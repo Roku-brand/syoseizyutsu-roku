@@ -6,16 +6,24 @@ const supabase = createClient(
   'sb_publishable_cEI9jtk6n0S01-2dGaPn3A_MLT28InS',
 );
 
+const ADMIN_EMAIL = 'tsubasa00928@gmail.com';
+
 const list = document.querySelector('#admin-card-list');
 const emptyState = document.querySelector('#admin-empty');
 const clearButton = document.querySelector('#admin-clear');
 let accessToken = '';
+let posts = [];
 
 const requireAdmin = async () => {
   const { data: { session } } = await supabase.auth.getSession();
   if (!session) {
     document.querySelector('#admin-login')?.classList.remove('is-hidden');
     document.querySelector('#admin-content')?.classList.add('is-hidden');
+    return false;
+  }
+  if ((session.user.email || '').trim().toLowerCase() !== ADMIN_EMAIL) {
+    document.body.innerHTML =
+      '<main class="container section"><h1>アクセスできません</h1><p>このページは管理者本人のみ利用できます。</p><a href="mypage.html">マイページへ戻る</a></main>';
     return false;
   }
   const { data: profile, error } = await supabase
@@ -25,7 +33,7 @@ const requireAdmin = async () => {
     .single();
   if (error || profile?.role !== 'admin') {
     document.body.innerHTML =
-      '<main class="container section"><h1>アクセスできません</h1><p>このページは管理者本人のみ利用できます。</p><a href="/">トップへ戻る</a></main>';
+      '<main class="container section"><h1>アクセスできません</h1><p>このページは管理者本人のみ利用できます。</p><a href="mypage.html">マイページへ戻る</a></main>';
     return false;
   }
   accessToken = session.access_token;
@@ -208,7 +216,7 @@ loginForm?.addEventListener('submit', async (event) => {
   const message = document.querySelector('#admin-login-message');
   const { error } = await supabase.auth.signInWithOtp({
     email,
-    options: { emailRedirectTo: window.location.origin + '/hub-admin.html' },
+    options: { emailRedirectTo: new URL('hub-admin.html', window.location.href).href },
   });
   if (message) {
     message.classList.remove('is-hidden');
