@@ -1,0 +1,90 @@
+.mypage-shell {
+  display: grid;
+  gap: 24px;
+  max-width: 760px;
+}
+
+.mypage-card {
+  padding: clamp(24px, 5vw, 44px);
+  border: 1px solid #ded8cc;
+  border-radius: 18px;
+  background: #fffdf9;
+  box-shadow: 0 18px 50px rgba(20, 31, 29, 0.07);
+}
+
+.mypage-card h2 {
+  margin: 6px 0 12px;
+}
+
+.mypage-form {
+  display: grid;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.mypage-form label,
+.mypage-details dt {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.mypage-form input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #cfc7b8;
+  border-radius: 9px;
+  background: #fff;
+  color: inherit;
+  font: inherit;
+}
+
+.mypage-form input:focus {
+  outline: 2px solid #1e5b48;
+  outline-offset: 2px;
+}
+
+.mypage-form .primary-button {
+  justify-self: start;
+  margin-top: 6px;
+}
+
+.mypage-details {
+  margin: 24px 0;
+}
+
+.mypage-details div {
+  display: grid;
+  gap: 5px;
+  padding: 16px 0;
+  border-top: 1px solid #e3ddd2;
+}
+
+.mypage-details dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.mypage-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.mypage-admin {
+  border-color: #b69a48;
+  background: #fffaf0;
+}
+
+.mypage-admin .primary-button {
+  display: inline-flex;
+  margin-top: 12px;
+}
+
+@media (max-width: 640px) {
+  .mypage-form .primary-button,
+  .mypage-admin .primary-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
